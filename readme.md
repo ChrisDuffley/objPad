@@ -1,8 +1,8 @@
- # Object Arrows #
+# ObjPad #
 
 * Author: Joseph Lee
 
-This allows you to use arrow keys to move between objects.
+This allows you to use arrow keys to move between objects and inspect them.
 
 ## Commands
 
