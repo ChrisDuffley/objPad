@@ -21,13 +21,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_toggleObjArrows(self, gesture):
 		if self.objArrowMode == 0:
 			self.objArrowMode = 1
-			ui.message("Arrows will move between objects")
+			ui.message("Object nav mode")
 		elif self.objArrowMode == 1:
 			self.objArrowMode = 2
 			ui.message("Scan mode")
 		else:
 			self.objArrowMode = 0
-			ui.message("Traditional object navigation mode")
+			ui.message("Normal mode")
 		if 0 < self.objArrowMode <= 2:
 			self.bindGesture("kb:rightarrow", "rightArrow")
 			self.bindGesture("kb:leftarrow", "leftArrow")
