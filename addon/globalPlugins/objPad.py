@@ -34,6 +34,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			self.bindGesture("kb:downarrow", "downArrow")
 			self.bindGesture("kb:uparrow", "upArrow")
 			self.bindGesture("kb:space", "objActivate")
+		if self.objArrowMode == 2:
+			self.bindGesture("kb:control+rightArrow", "controlRightArrow")
+			self.bindGesture("kb:control+leftArrow", "controlLeftArrow")
 		else:
 			self.clearGestureBindings()
 			self.bindGestures(self.__gestures)
@@ -49,6 +52,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			commands.script_navigatorObject_previous(gesture)
 		elif self.objArrowMode == 2:
 			commands.script_review_previousCharacter(gesture)
+
+	def script_controlRightArrow(self, gesture):
+		commands.script_review_nextWord(gesture)
+
+	def script_controlLeftArrow(self, gesture):
+		commands.script_review_previousWord(gesture)
 
 	# Modified global commands implementation to restrict movement to foreground elements.
 
