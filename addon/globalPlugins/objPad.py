@@ -134,5 +134,5 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		commands.script_review_activate(gesture)
 
 	__gestures={
-		"kb:control+NvDA+tab":"toggleObjArrows",
+		"kb:control+NvDA+tab":"toggleObjPad",
 	}
