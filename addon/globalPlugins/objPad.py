@@ -9,7 +9,7 @@
 
 import globalPluginHandler
 import ui
-from globalCommands import commands
+from globalCommands import commands, SCRCAT_OBJECTNAVIGATION
 import api
 import textInfos
 import speech
@@ -19,7 +19,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	objArrowMode = 0
 
-	def script_toggleObjArrows(self, gesture):
+	def script_toggleObjPad(self, gesture):
 		if self.objArrowMode == 0:
 			self.objArrowMode = 1
 			ui.message("Object nav mode")
@@ -41,6 +41,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		else:
 			self.clearGestureBindings()
 			self.bindGestures(self.__gestures)
+	# Translators: input help mode message for ObjPad toggle command.
+	script_toggleObjPad.__doc__=_("Toggles ObjPad mode between normal, object nav and scan modes")
+	script_toggleObjPad.category = SCRCAT_OBJECTNAVIGATION
 
 	def script_rightArrow(self, gesture):
 		if self.objArrowMode == 1:
