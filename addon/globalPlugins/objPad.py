@@ -35,9 +35,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			self.bindGesture("kb:downarrow", "downArrow")
 			self.bindGesture("kb:uparrow", "upArrow")
 			self.bindGesture("kb:space", "objActivate")
-		if self.objArrowMode == 2:
-			self.bindGesture("kb:control+rightArrow", "controlRightArrow")
-			self.bindGesture("kb:control+leftArrow", "controlLeftArrow")
+			if self.objArrowMode == 2:
+				self.bindGesture("kb:control+rightArrow", "controlRightArrow")
+				self.bindGesture("kb:control+leftArrow", "controlLeftArrow")
 		else:
 			self.clearGestureBindings()
 			self.bindGestures(self.__gestures)
