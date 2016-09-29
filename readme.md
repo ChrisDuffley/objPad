@@ -1,6 +1,8 @@
 # ObjPad #
 
-* Author: Joseph Lee
+* Author: Joseph Lee, Cleverson Uliana and others
+* Download [stable version][1]
+* Download [development version][2]
 
 This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
 
@@ -31,3 +33,6 @@ With scan mode active:
 * Left arrow: previous character.
 * SPACE: activate.
 
+[1]: http://addons.nvda-project.org/files/get.php?file=objPad
+
+[2]: http://addons.nvda-project.org/files/get.php?file=objPad-dev

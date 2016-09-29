@@ -1,14 +1,15 @@
 ﻿# ObjPad
 # A global plugin for NVDA
-# Copyright 2016 Joseph Lee, released under GPL
+# Copyright 2016 Joseph Lee and others, released under GPL
 
 # Allows obj nav commands via arrow keys.
 # Arrow key handling comes from Easy Table Navigator.
 # Scan mode comes from ideas in Narrator in Windows 10 Version 1607.
+# Parts of source code are enhanced implementations of NVDA Core commands (copyright NV Access).
 
 import globalPluginHandler
 import ui
-from globalCommands import commands
+from globalCommands import commands, SCRCAT_OBJECTNAVIGATION
 import api
 import textInfos
 import speech
@@ -42,6 +43,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		else:
 			self.clearGestureBindings()
 			self.bindGestures(self.__gestures)
+	# Translators: input help mode message for ObjPad toggle command.
+	script_toggleObjPad.__doc__=_("Toggles ObjPad mode between normal, object nav and scan modes")
+	script_toggleObjPad.category = SCRCAT_OBJECTNAVIGATION
 
 	def script_rightArrow(self, gesture):
 		if self.objArrowMode == MODE_OBJNAV:
@@ -67,50 +71,72 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if self.objArrowMode == MODE_OBJNAV:
 			commands.script_navigatorObject_firstChild(gesture)
 		elif self.objArrowMode == MODE_SCANMODE:
-			curObject=api.getNavigatorObject()
-			newObject=None
-			if curObject.simpleFirstChild:
-				newObject=curObject.simpleFirstChild
-			elif curObject.simpleNext:
-				newObject=curObject.simpleNext
-			elif curObject.simpleParent:
-				parent=curObject.simpleParent
-				while parent and not parent.simpleNext:
-					parent=parent.simpleParent
-				# As long as one is on current foreground object...
-				if parent and parent.simpleParent != api.getDesktopObject():
-					newObject=parent.simpleNext
-			if newObject:
-				api.setNavigatorObject(newObject)
-				speech.speakObject(newObject,reason=controlTypes.REASON_FOCUS)
+			# Navigate to next line if possible.
+			info=api.getReviewPosition().copy()
+			info.expand(textInfos.UNIT_LINE)
+			info.collapse()
+			res=info.move(textInfos.UNIT_LINE,1)
+			if res!=0:
+				api.setReviewPosition(info)
+				info.expand(textInfos.UNIT_LINE)
+				speech.speakTextInfo(info,unit=textInfos.UNIT_LINE,reason=controlTypes.REASON_CARET)
 			else:
-				# Translators: a message when there is no next object when navigating
-				ui.reviewMessage(_("No next"))
+				curObject=api.getNavigatorObject()
+				newObject=None
+				if curObject.simpleFirstChild:
+					newObject=curObject.simpleFirstChild
+				elif curObject.simpleNext:
+					newObject=curObject.simpleNext
+				elif curObject.simpleParent:
+					parent=curObject.simpleParent
+					while parent and not parent.simpleNext:
+						parent=parent.simpleParent
+					# As long as one is on current foreground object...
+					#Stay within the current top-level window.
+					if parent and parent.simpleParent != api.getDesktopObject():
+						newObject=parent.simpleNext
+				if newObject:
+					api.setNavigatorObject(newObject)
+					speech.speakObject(newObject,reason=controlTypes.REASON_FOCUS)
+				else:
+					# Translators: a message when there is no next object when navigating
+					ui.reviewMessage(_("No next"))
 
 	def script_upArrow(self, gesture):
 		if self.objArrowMode == MODE_OBJNAV:
 			commands.script_navigatorObject_parent(gesture)
 		elif self.objArrowMode == MODE_SCANMODE:
-			# Do not move outside of the current window.
-			curObject=api.getNavigatorObject()
-			newObject=None
-			if curObject.parent != api.getDesktopObject():
-				newObject=curObject.simplePrevious
-				if newObject:
-					while newObject.simpleLastChild:
-						newObject=newObject.simpleLastChild
-				else:
-					newObject=curObject.simpleParent
-			if newObject:
-				api.setNavigatorObject(newObject)
-				speech.speakObject(newObject,reason=controlTypes.REASON_FOCUS)
+			# Move to previous line first so text can be reviewed before resorting to a new object.
+			info=api.getReviewPosition().copy()
+			info.expand(textInfos.UNIT_LINE)
+			info.collapse()
+			res=info.move(textInfos.UNIT_LINE,-1)
+			if res!=0:
+				api.setReviewPosition(info)
+				info.expand(textInfos.UNIT_LINE)
+				speech.speakTextInfo(info,unit=textInfos.UNIT_LINE,reason=controlTypes.REASON_CARET)
 			else:
-				# Translators: a message when there is no previous object when navigating
-				ui.reviewMessage(_("No previous"))
+				# Do not move outside of the current window.
+				curObject=api.getNavigatorObject()
+				newObject=None
+				if curObject.parent != api.getDesktopObject():
+					newObject=curObject.simplePrevious
+					if newObject:
+						while newObject.simpleLastChild:
+							newObject=newObject.simpleLastChild
+					else:
+						newObject=curObject.simpleParent
+>>>>>>> 904bf0f9c2254426487638150c62a1eee6602b9c
+				if newObject:
+					api.setNavigatorObject(newObject)
+					speech.speakObject(newObject,reason=controlTypes.REASON_FOCUS)
+				else:
+					# Translators: a message when there is no previous object when navigating
+					ui.reviewMessage(_("No previous"))
 
 	def script_objActivate(self, gesture):
 		commands.script_review_activate(gesture)
 
 	__gestures={
-		"kb:control+NvDA+tab":"toggleObjArrows",
+		"kb:control+NvDA+tab":"toggleObjPad",
 	}
