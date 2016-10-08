@@ -23,7 +23,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	objArrowMode = 0
 
-	def script_toggleObjArrows(self, gesture):
+	def script_toggleObjPad(self, gesture):
 		if self.objArrowMode == MODE_NORMAL:
 			self.objArrowMode = MODE_OBJNAV
 			ui.message("Object nav mode")
