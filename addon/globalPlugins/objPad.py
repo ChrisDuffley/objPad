@@ -14,9 +14,11 @@ import api
 import textInfos
 import speech
 import controlTypes
+
 MODE_NORMAL = 0
 MODE_OBJNAV = 1
 MODE_SCANMODE = 2
+
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	objArrowMode = 0
@@ -126,7 +128,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 							newObject=newObject.simpleLastChild
 					else:
 						newObject=curObject.simpleParent
->>>>>>> 904bf0f9c2254426487638150c62a1eee6602b9c
 				if newObject:
 					api.setNavigatorObject(newObject)
 					speech.speakObject(newObject,reason=controlTypes.REASON_FOCUS)
