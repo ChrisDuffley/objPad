@@ -5,11 +5,13 @@
 # Allows obj nav commands via arrow keys.
 # Arrow key handling comes from Easy Table Navigator.
 # Scan mode comes from ideas in Narrator in Windows 10 Version 1607.
+# Web mode comes from Enhanced Touch Gestures.
 # Parts of source code are enhanced implementations of NVDA Core commands (copyright NV Access).
 
 import globalPluginHandler
 import ui
 from globalCommands import commands, SCRCAT_OBJECTNAVIGATION
+import browseMode
 import api
 import textInfos
 import speech
@@ -17,7 +19,8 @@ import controlTypes
 
 MODE_NORMAL = 0
 MODE_OBJNAV = 1
-MODE_SCANMODE = 2
+MODE_WEB = 2
+MODE_SCANMODE = 3
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
@@ -28,6 +31,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			self.objArrowMode = MODE_OBJNAV
 			ui.message("Object nav mode")
 		elif self.objArrowMode == MODE_OBJNAV:
+			self.objArrowMode = MODE_WEB
+			ui.message("Web mode")
+		elif self.objArrowMode == MODE_WEB:
 			self.objArrowMode = MODE_SCANMODE
 			ui.message("Scan mode")
 		else:
@@ -49,15 +55,45 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	script_toggleObjPad.__doc__=_("Toggles ObjPad mode between normal, object nav and scan modes")
 	script_toggleObjPad.category = SCRCAT_OBJECTNAVIGATION
 
+	#Web navigation:
+
+	# Web elements list:
+	webBrowseElements=("normal", "Link", "Form field", "Heading", "Frame", "Table", "List", "Landmark")
+	webBrowseMode = 0
+
+	# The actual navigation gestures:
+	# Look up the needed commands for readability purposes.
+	browseModeCommands=(
+		(browseMode.BrowseModeTreeInterceptor.script_nextLink, browseMode.BrowseModeTreeInterceptor.script_previousLink),
+		(browseMode.BrowseModeTreeInterceptor.script_nextFormField, browseMode.BrowseModeTreeInterceptor.script_previousFormField),
+		(browseMode.BrowseModeTreeInterceptor.script_nextHeading, browseMode.BrowseModeTreeInterceptor.script_previousHeading),
+		(browseMode.BrowseModeTreeInterceptor.script_nextFrame, browseMode.BrowseModeTreeInterceptor.script_previousFrame),
+		(browseMode.BrowseModeTreeInterceptor.script_nextTable, browseMode.BrowseModeTreeInterceptor.script_previousTable),
+		(browseMode.BrowseModeTreeInterceptor.script_nextList, browseMode.BrowseModeTreeInterceptor.script_previousList),
+		(browseMode.BrowseModeTreeInterceptor.script_nextLandmark, browseMode.BrowseModeTreeInterceptor.script_previousLandmark),
+	)
+
 	def script_rightArrow(self, gesture):
 		if self.objArrowMode == MODE_OBJNAV:
 			commands.script_navigatorObject_next(gesture)
+		elif self.objArrowMode == MODE_WEB:
+			obj = api.getNavigatorObject().treeInterceptor
+			if isinstance(obj, browseMode.BrowseModeTreeInterceptor):
+				if self.webBrowseMode == 0: commands.script_navigatorObject_nextInFlow(gesture)
+				else: self.browseModeCommands[self.webBrowseMode-1][0](obj, gesture)
+			else: commands.script_navigatorObject_nextInFlow(gesture)
 		elif self.objArrowMode == MODE_SCANMODE:
 			commands.script_review_nextCharacter(gesture)
 
 	def script_leftArrow(self, gesture):
 		if self.objArrowMode == MODE_OBJNAV:
 			commands.script_navigatorObject_previous(gesture)
+		elif self.objArrowMode == MODE_WEB:
+			obj = api.getNavigatorObject().treeInterceptor
+			if isinstance(obj, browseMode.BrowseModeTreeInterceptor):
+				if self.webBrowseMode == 0: commands.script_navigatorObject_previousInFlow(gesture)
+				else: self.browseModeCommands[self.webBrowseMode-1][1](obj, gesture)
+			else: commands.script_navigatorObject_previousInFlow(gesture)
 		elif self.objArrowMode == MODE_SCANMODE:
 			commands.script_review_previousCharacter(gesture)
 
@@ -72,6 +108,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_downArrow(self, gesture):
 		if self.objArrowMode == MODE_OBJNAV:
 			commands.script_navigatorObject_firstChild(gesture)
+		elif self.objArrowMode == MODE_WEB:
+			self.webBrowseMode = (self.webBrowseMode+1) % len(self.webBrowseElements)
+			ui.message(self.webBrowseElements[self.webBrowseMode])
 		elif self.objArrowMode == MODE_SCANMODE:
 			# Navigate to next line if possible.
 			info=api.getReviewPosition().copy()
@@ -107,6 +146,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_upArrow(self, gesture):
 		if self.objArrowMode == MODE_OBJNAV:
 			commands.script_navigatorObject_parent(gesture)
+		elif self.objArrowMode == MODE_WEB:
+			self.webBrowseMode = (self.webBrowseMode-1) % len(self.webBrowseElements)
+			ui.message(self.webBrowseElements[self.webBrowseMode])
 		elif self.objArrowMode == MODE_SCANMODE:
 			# Move to previous line first so text can be reviewed before resorting to a new object.
 			info=api.getReviewPosition().copy()
