@@ -1,10 +1,10 @@
 ﻿# ObjPad
 # A global plugin for NVDA
-# Copyright 2016 Joseph Lee and others, released under GPL
+# Copyright 2016-2018 Joseph Lee and others, released under GPL
 
 # Allows obj nav commands via arrow keys.
 # Arrow key handling comes from Easy Table Navigator.
-# Scan mode comes from ideas in Narrator in Windows 10 Version 1607.
+# Scan mode comes from ideas in Narrator in Windows 10 Version 1607 and later.
 # Web mode comes from Enhanced Touch Gestures.
 # Parts of source code are enhanced implementations of NVDA Core commands (copyright NV Access).
 
@@ -16,6 +16,8 @@ import api
 import textInfos
 import speech
 import controlTypes
+import addonHandler
+addonHandler.initTranslation()
 
 MODE_NORMAL = 0
 MODE_OBJNAV = 1
@@ -29,16 +31,20 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_toggleObjPad(self, gesture):
 		if self.objArrowMode == MODE_NORMAL:
 			self.objArrowMode = MODE_OBJNAV
-			ui.message("Object nav mode")
+			# Translators: one of the object arrow modes.
+			ui.message(_("Object nav mode"))
 		elif self.objArrowMode == MODE_OBJNAV:
 			self.objArrowMode = MODE_WEB
-			ui.message("Web mode")
+			# Translators: one of the object arrow modes.
+			ui.message(_("Web mode"))
 		elif self.objArrowMode == MODE_WEB:
 			self.objArrowMode = MODE_SCANMODE
-			ui.message("Scan mode")
+			# Translators: one of the object arrow modes.
+			ui.message(_("Scan mode"))
 		else:
 			self.objArrowMode = MODE_NORMAL
-			ui.message("Normal mode")
+			# Translators: one of the object arrow modes.
+			ui.message(_("Normal mode"))
 		if MODE_NORMAL < self.objArrowMode <= MODE_SCANMODE:
 			self.bindGesture("kb:rightarrow", "rightArrow")
 			self.bindGesture("kb:leftarrow", "leftArrow")
