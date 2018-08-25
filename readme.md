@@ -12,11 +12,11 @@ This add-on provides quick commands to manage objects on screen, including navig
 
 ## Arrow key modes
 
-The add-on provides three ways to use arrow keys:
+The add-on provides four ways to use arrow keys:
 
 * Classic (or normal mode): use arrow keys to move cursor.
 * Object nav: use arrow keys to move to next/previous/parent/first child objects.
-* Web mode: use arrow keys to move between various elements.
+* Web: use arrow keys to cycle through elements and move between them.
 * Scan mode: use arrow keys to move through objects on screen regardless of hierarchy.
 
 The following commands are available with arrow keys set to object nav:
@@ -27,11 +27,13 @@ The following commands are available with arrow keys set to object nav:
 * Down arrow: first child object.
 * SPACE: activate.
 
-With web mode active:
+With web mode active (elements are normal or moving by object, link, form field, heading, frame, table, list, landmark):
 
 * Right arrow: next element.
 * Left arrow: previous element.
-* Up or down arrow: cycle through available web elements.
+* Up arrow: previous element type.
+* Down arrow: next element type.
+* SPACE: activate.
 
 With scan mode active:
 
@@ -39,10 +41,20 @@ With scan mode active:
 * Up arrow: previous object.
 * Right arrow: review next character.
 * Left arrow: previous character.
-* Control+right arrow: next word.
-* Control+left arrow: previous word.
 * SPACE: activate.
 
-[1]: http://addons.nvda-project.org/files/get.php?file=objPad
+## Version 18.03
 
-[2]: http://addons.nvda-project.org/files/get.php?file=objPad-dev
+* Better compatibility with NVDA 2018.1.
+
+## Version 16.12
+
+* Added web mode.
+
+## Version 16.10
+
+* Initial stable version.
+
+[1]: https://addons.nvda-project.org/files/get.php?file=objPad
+
+[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
