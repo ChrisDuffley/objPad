@@ -19,15 +19,15 @@ Le module complémentaire offre quatre façons d’utiliser les touches fléché
 
 * Classique (ou mode normal) : utiliser les touches fléchées pour déplacer
   le curseur.
-* Object nav : utiliser les touches fléchées pour se déplacer aux objets
-  suivant/précédent/parent/premier enfant.
+* Navigation par objet : utiliser les touches fléchées pour se déplacer aux
+  objets suivant/précédent/parent/premier enfant.
 * Web : utilisez les touches fléchées pour parcourir les éléments et vous
   déplacer entre eux.
-* Mode scan : utiliser les touches fléchées pour naviguer dans les objets à
-  l’écran quelle que soit la hiérarchie.
+* Mode balayage : utiliser les touches fléchées pour naviguer dans les
+  objets à l’écran quelle que soit la hiérarchie.
 
 Les commandes suivantes sont disponibles avec les touches fléchées définie
-par object nav :
+par navigation par objet :
 
 * Flèche droite : objet suivant.
 * Flèche gauche : objet précédent.
@@ -44,7 +44,7 @@ lien, champ de formulaire, titre, cadre, tableau, liste, région) :
 * Flèche bas : type d'élément suivant.
 * ESPACE : activer.
 
-Avec le mode scan actif :
+Avec le mode balayage actif :
 
 * Flèche bas : objet suivant.
 * Flèche haut : objet précédent.

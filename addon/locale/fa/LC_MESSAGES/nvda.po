@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the objPad package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: objPad 18.03\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2018-08-25 15:05+1000\n"
+"PO-Revision-Date: 2018-08-25 23:45+0330\n"
+"Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
+"Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. Translators: one of the object arrow modes.
+msgid "Object nav mode"
+msgstr "حالتِ پیمایشِ اشیا"
+
+#. Translators: one of the object arrow modes.
+msgid "Web mode"
+msgstr "حالتِ وب"
+
+#. Translators: one of the object arrow modes.
+msgid "Scan mode"
+msgstr "حالتِ پویش"
+
+#. Translators: one of the object arrow modes.
+msgid "Normal mode"
+msgstr "حالتِ معمولی"
+
+#. Translators: input help mode message for ObjPad toggle command.
+msgid "Toggles ObjPad mode between normal, object nav and scan modes"
+msgstr "حالت‌های ObjPad را بین معمولی، پیمایش شیء و پویش تغییر میدهد."
+
+#. Translators: a message when there is no next object when navigating
+msgid "No next"
+msgstr "موردِ بعدی نیست"
+
+#. Translators: a message when there is no previous object when navigating
+msgid "No previous"
+msgstr "موردِ قبلی نیست"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+msgid "ObjPad"
+msgstr "ObjPad"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Perform various object commands by pressing a single key, including "
+"navigation and more"
+msgstr ""
+"فرمان‌های گوناگونی مربوط به اشیا را، مشتمل بر پیمایش و غیره، با زدنِ یک کلید "
+"اجرا میکند"

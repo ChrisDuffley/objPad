@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the objPad package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: objPad 18.03\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2018-08-25 15:05+1000\n"
+"PO-Revision-Date: 2018-08-25 15:00+0100\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
+"Language-Team: Equipa Portuguesa do NVDA <ampa4374@gmail.com; rui."
+"fontes@tiflotecnia.com>\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Translators: one of the object arrow modes.
+msgid "Object nav mode"
+msgstr "Modo de navegação por objectos"
+
+#. Translators: one of the object arrow modes.
+msgid "Web mode"
+msgstr "Modo WEB"
+
+#. Translators: one of the object arrow modes.
+msgid "Scan mode"
+msgstr "Modo de varrimento"
+
+#. Translators: one of the object arrow modes.
+msgid "Normal mode"
+msgstr "modo normal"
+
+#. Translators: input help mode message for ObjPad toggle command.
+msgid "Toggles ObjPad mode between normal, object nav and scan modes"
+msgstr ""
+"Alterna entre modo de navegação por objectos, normal e modo de "
+"varrimento"
+
+#. Translators: a message when there is no next object when navigating
+msgid "No next"
+msgstr "Sem próximo"
+
+#. Translators: a message when there is no previous object when navigating
+msgid "No previous"
+msgstr "Sem anterior"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+msgid "ObjPad"
+msgstr "ObjPad"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Perform various object commands by pressing a single key, including "
+"navigation and more"
+msgstr ""
+"Execute vários comandos de objeto pressionando uma única tecla, "
+"incluindo navegação e maisPerform various object commands by "
+"pressing a single key, including navigation and more"
