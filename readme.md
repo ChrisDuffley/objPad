@@ -25,7 +25,7 @@ The following commands are available with arrow keys set to object nav:
 * Left arrow: previous object.
 * Up arrow: parent object.
 * Down arrow: first child object.
-* SPACE: activate.
+* SPACE or ENTER: activate.
 
 With web mode active (elements are normal or moving by object, link, form field, heading, frame, table, list, landmark):
 
@@ -33,15 +33,22 @@ With web mode active (elements are normal or moving by object, link, form field,
 * Left arrow: previous element.
 * Up arrow: previous element type.
 * Down arrow: next element type.
-* SPACE: activate.
+* SPACE or ENTER: activate.
 
 With scan mode active:
 
-* Down arrow: next object.
-* Up arrow: previous object.
+* Down arrow: next object or the next line.
+* Up arrow: previous object or previous line.
 * Right arrow: review next character.
 * Left arrow: previous character.
-* SPACE: activate.
+* Control+right arrow: next word.
+* Control+left arrow: previous word.
+* SPACE or ENTER: activate.
+
+## Version 18.09
+
+* Added localizations.
+* Enter key (regular and Numpad) can be used to activate objects.
 
 ## Version 18.03
 
