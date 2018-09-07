@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the objPad package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: objPad 18.03\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2018-08-25 15:05+1000\n"
+"PO-Revision-Date: 2018-09-03 02:11+0100\n"
+"Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. Translators: one of the object arrow modes.
+msgid "Object nav mode"
+msgstr "Režim objektne navigacije"
+
+#. Translators: one of the object arrow modes.
+msgid "Web mode"
+msgstr "Web režim"
+
+#. Translators: one of the object arrow modes.
+msgid "Scan mode"
+msgstr "Režim skeniranja"
+
+#. Translators: one of the object arrow modes.
+msgid "Normal mode"
+msgstr "Standardan režim"
+
+#. Translators: input help mode message for ObjPad toggle command.
+msgid "Toggles ObjPad mode between normal, object nav and scan modes"
+msgstr ""
+"Menja OBJ pad režime između standardnog, objektne navigacije, skeniranja ili "
+"web režima."
+
+#. Translators: a message when there is no next object when navigating
+msgid "No next"
+msgstr "Nema sledećeg"
+
+#. Translators: a message when there is no previous object when navigating
+msgid "No previous"
+msgstr "Nema prethodnog"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+msgid "ObjPad"
+msgstr "ObjPad"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Perform various object commands by pressing a single key, including "
+"navigation and more"
+msgstr ""
+"Izvršavanje različitih komandi vezane za objekte korišćenjem jednog tastera, "
+"uključujući navigaciju i dodatne karakteristike."
