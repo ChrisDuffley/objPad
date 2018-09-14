@@ -28,27 +28,35 @@ Următoarele comenzi sunt valabile cu săgețile setate în navigatorul
 obiectului:
 
 * Săgeată dreapta: Următorul obiect.
-* Săgeată stânga: Obiectul anterior
-* Săgeată sus: Obiectul mare
-* Săgeată jos: Primul obiect mic
-* Spațiu: Activare.
+* Săgeată stânga: Obiectul anterior.
+* Săgeată sus: Obiectul mare.
+* Săgeată jos: Primul obiect mic.
+* Spațiu sau Enter: activează.
 
 Cu modul web activ, (elementele sunt normale sau care se deplasează prin
 obiect, link, câmp formular, rubrică, cadru, tabel, listă, regiune):
 
 * Săgeată dreapta: Următorul element.
-* Săgeată stânga: Elementul anterior
+* Săgeată stânga: Elementul anterior.
 * Săgeată sus: Tipul de element anterior.
 * Săgeată jos: Tipul de element următor.
-* Spațiu: Activare.
+* Spațiu sau Enter: activează.
 
 Cu modul de scanare activ:
 
-* Săgeată jos: Următorul obiect.
-* Săgeată sus: Obiectul anterior.
+* Săgeată jos: Următorul obiect sau linia următoare.
+* Săgeată sus: Obiectul anterior sau linia anterioară.
 * Săgeată dreapta: Examinează caracterul următor.
 * Săgeată stânga: caracterul anterior.
-* Spațiu: Activare.
+* Control+săgeată dreapta: Următorul cuvânt.
+* Control+săgeată stânga: cuvântul anterior.
+* Spațiu sau Enter: activează.
+
+## Versiunea 18.09
+
+* S-au adăugat traduceri.
+* Tasta Enter (obișnuită sau cea de pe blocul numeric) poate fi folosită
+  pentru a activa obiecte.
 
 ## Versiunea 18.03
 

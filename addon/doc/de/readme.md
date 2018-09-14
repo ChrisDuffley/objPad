@@ -33,7 +33,7 @@ Objektnavigation eingestellt sind:
 * Linkspfeil: vorheriges Objekt.
 * Pfeil nach oben: Hauptobjekt für die aktuelle Region.
 * Pfeil nach unten: erstes Unterobjekt des Hauptobjektes.
-* Leertaste: Objekt aktivieren.
+* SPACE or ENTER: activate.
 
 Elemente können im Webmodus normal eingestellt werden. Sie können aber auch
 zwischen den Elementtypen Objekte, Links, Formularfelder, Überschriften,
@@ -43,15 +43,22 @@ Rahmen, Tabellen, Listen, Sprungmarken navigieren:
 * Linkspfeil: vorheriges Element
 * Pfeil nach oben: vorheriges Elementtyp.
 * Pfeil nach unten: nächstes Elementtyp.
-* Leertaste: Objekt aktivieren.
+* SPACE or ENTER: activate.
 
 Bei aktiviertem Scan-Modus:
 
-* Pfeil nach unten: nächstes Objekt.
-* Pfeil nach oben: vorheriges Objekt.
+* Down arrow: next object or the next line.
+* Up arrow: previous object or previous line.
 * Rechtspfeil: nächster Buchstabe.
 * Linkspfeil: vorheriger Buchstabe.
-* Leertaste: Objekt aktivieren.
+* Control+right arrow: next word.
+* Control+left arrow: previous word.
+* SPACE or ENTER: activate.
+
+## Version 18.09
+
+* Added localizations.
+* Enter key (regular and Numpad) can be used to activate objects.
 
 ## Version 18.03
 

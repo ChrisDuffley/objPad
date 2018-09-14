@@ -31,7 +31,7 @@ objektinavigointi:
 * Nuoli vasemmalle: edellinen objekti.
 * Nuoli ylös: ylemmän tason objekti.
 * Nuoli alas: ensimmäinen alemman tason objekti.
-* Väli: aktivoi.
+* Väli tai Enter: aktivoi.
 
 Kun verkkotila on aktiivisena (elementit ovat normaaleja tai niiden välillä
 liikutaan objekti, linkki, lomakekenttä, otsikko, kehys, taulukko, luettelo
@@ -41,15 +41,23 @@ ja kiintopiste kerrallaan):
 * Nuoli vasemmalle: edellinen elementti.
 * Nuoli ylös: edellinen elementtityyppi.
 * Nuoli alas: seuraava elementtityyppi.
-* Väli: aktivoi.
+* Väli tai Enter: aktivoi.
 
 Skannaustilan ollessa aktiivisena:
 
-* Nuoli alas: seuraava objekti.
-* Nuoli ylös: edellinen objekti.
+* Nuoli alas: seuraava objekti tai rivi.
+* Nuoli ylös: edellinen objekti tai rivi.
 * Nuoli oikealle: seuraava merkki.
 * Nuoli vasemmalle: edellinen merkki.
-* Väli: aktivoi.
+* Ctrl+Nuoli oikealle: seuraava sana.
+* Ctrl+Nuoli vasemmalle: edellinen sana.
+* Väli tai Enter: aktivoi.
+
+## Versio 18.09
+
+* Lokalisointeja lisätty.
+* Tavallista ja laskinnäppäimistön Enter-näppäintä voi käyttää objektien
+  aktivoimiseen.
 
 ## Versio 18.03
 

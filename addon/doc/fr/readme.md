@@ -23,17 +23,17 @@ Le module complémentaire offre quatre façons d’utiliser les touches fléché
   objets suivant/précédent/parent/premier enfant.
 * Web : utilisez les touches fléchées pour parcourir les éléments et vous
   déplacer entre eux.
-* Mode balayage : utiliser les touches fléchées pour naviguer dans les
-  objets à l’écran quelle que soit la hiérarchie.
+* Mode balayage : utiliser les touches fléchées pour naviguer parmi les
+  objets à l’écran indépendamment de la hiérarchie.
 
 Les commandes suivantes sont disponibles avec les touches fléchées définie
-par navigation par objet :
+pour navigation par objet :
 
 * Flèche droite : objet suivant.
 * Flèche gauche : objet précédent.
 * Flèche haut : objet parent.
 * Flèche bas : premier objet enfant.
-* ESPACE : activer.
+* ESPACE ou entrer : activer.
 
 Avec le mode Web actif (les éléments sont normal ou se déplacent par objet,
 lien, champ de formulaire, titre, cadre, tableau, liste, région) :
@@ -42,15 +42,23 @@ lien, champ de formulaire, titre, cadre, tableau, liste, région) :
 * Flèche gauche : élément précédent.
 * Flèche haut : type d'élément précédent.
 * Flèche bas : type d'élément suivant.
-* ESPACE : activer.
+* ESPACE ou entrer : activer.
 
 Avec le mode balayage actif :
 
-* Flèche bas : objet suivant.
-* Flèche haut : objet précédent.
+* Flèche bas : objet suivant ou ligne suivante.
+* Flèche haut : objet précédent ou ligne précédente.
 * Flèche droite : visualiser le caractère suivant.
 * Flèche gauche : caractère précédent.
-* ESPACE : activer.
+* Contrôle + flèche droite : mot suivant.
+* Contrôle + flèche gauche : mot précédent.
+* ESPACE ou entrer : activer.
+
+## Version 18.09
+
+* Ajout des traductions.
+* La touche Entrer (normale et du pavé numérique) peut être utilisée pour
+  activer les objets.
 
 ## Version 18.03
 

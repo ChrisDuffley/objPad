@@ -30,7 +30,7 @@ Komendy trybu nawigacji:
 * Strzałka w lewo: poprzedni obiekt.
 * Strzałka w górę: obiekt nadrzędny.
 * Strzałka w dół: pierwszy obiekt podrzędny.
-* SPACJA: uaktywnij.
+* SPACE or ENTER: activate.
 
 W aktywnym trybie sieciowym, można przemieszczać się po elementach
 standardowo lub poruszać się po obiektach, linkach, polach formularza,
@@ -40,15 +40,22 @@ nagłówkach, ramkach, tabelach, listach, punktach orientacyjnych:
 * Strzałka w lewo: poprzedni element.
 * Strzałka w górę: poprzedni typ elementu.
 * Strzałka w dół: następny typ elementu.
-* SPACJA: uaktywnij.
+* SPACE or ENTER: activate.
 
 W aktywnym trybie skanowania:
 
-* Strzałka w dół: następny obiekt.
-* Strzałka w górę: poprzedni obiekt.
+* Down arrow: next object or the next line.
+* Up arrow: previous object or previous line.
 * Strzałka w prawo: odczytaj następny znak.
 * Strzałka w lewo: odczytaj poprzedni znak.
-* SPACJA: uaktywnij.
+* Control+right arrow: next word.
+* Control+left arrow: previous word.
+* SPACE or ENTER: activate.
+
+## Version 18.09
+
+* Added localizations.
+* Enter key (regular and Numpad) can be used to activate objects.
 
 ## Wersja 18.03
 
