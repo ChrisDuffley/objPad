@@ -66,7 +66,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	#Web navigation:
 
 	# Web elements list:
-	webBrowseElements=("normal", "Link", "Form field", "Heading", "Frame", "Table", "List", "Landmark")
+	webBrowseElements=(_("normal"), _("Link"), _("Form field"), _("Heading"), _("Frame"), _("Table"), _("List"), _("Landmark"))
 	webBrowseMode = 0
 
 	# The actual navigation gestures:
