@@ -30,7 +30,7 @@ a navegação por objectos:
 * Seta para a esquerda: objecto anterior.
 * Seta para cima: objecto pai.
 * Seta para baixo: primeiro objecto filho.
-* ESPAÇO: activar.
+* SPACE or ENTER: activate.
 
 Com o modo web activo (os elementos são normais ou em movimento por objecto,
 link, campo do formulário, título, quadro, tabela, lista, marcador):
@@ -39,15 +39,22 @@ link, campo do formulário, título, quadro, tabela, lista, marcador):
 * Seta para a esquerda: elemento anterior.
 * Seta para cima: tipo de elemento anterior.
 * Seta para baixo: próximo tipo de elemento.
-* ESPAÇO: activar.
+* SPACE or ENTER: activate.
 
 Com o modo de varredura activo:
 
-* Seta para baixo: próximo objecto.
-* Seta para cima: objecto anterior.
+* Down arrow: next object or the next line.
+* Up arrow: previous object or previous line.
 * Seta para a direita: ver o próximo caracter.
 * Left arrow: caracter anterior.
-* ESPAÇO: activar.
+* Control+right arrow: next word.
+* Control+left arrow: previous word.
+* SPACE or ENTER: activate.
+
+## Version 18.09
+
+* Added localizations.
+* Enter key (regular and Numpad) can be used to activate objects.
 
 ## Versão 18.03
 

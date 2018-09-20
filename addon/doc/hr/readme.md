@@ -32,7 +32,7 @@ objektne navigacije:
 * Strelica lijevo: prethodni objekt.
 * Strelica gore: objekt više razine.
 * Strelica dolje: prvi objekt niže razine.
-* RAZMAK: aktiviranje.
+* SPACE or ENTER: activate.
 
 Ako je aktivan način rada u web okruženju (elementi su uobičajeni ili se
 kreću prema objektu, linku, polju obrasca, naslovu, okviru, tablici, popisu,
@@ -42,15 +42,22 @@ orijentiru):
 * Strelica lijevo: prethodni element.
 * Strelica gore: tip prethodnog elementa.
 * Strelica dolje: tip sljedećeg elementa.
-* RAZMAK: aktiviranje.
+* SPACE or ENTER: activate.
 
 Ako je aktivan način skeniranja:
 
-* Strelica dolje: sljedeći objekt.
-* Strelica gore: prethodni objekt.
+* Down arrow: next object or the next line.
+* Up arrow: previous object or previous line.
 * Strelica desno: pregled sljedećeg znaka.
 * Strelica lijevo: prethodni znak.
-* RAZMAK: aktiviranje.
+* Control+right arrow: next word.
+* Control+left arrow: previous word.
+* SPACE or ENTER: activate.
+
+## Version 18.09
+
+* Added localizations.
+* Enter key (regular and Numpad) can be used to activate objects.
 
 ## Inačica 18.03
 
