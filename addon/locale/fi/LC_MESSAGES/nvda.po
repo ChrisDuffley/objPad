@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: objPad\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2018-08-25 15:05+1000\n"
-"PO-Revision-Date: 2018-08-25 11:45+0200\n"
+"PO-Revision-Date: 2018-09-21 11:12+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -38,6 +38,32 @@ msgstr "Normaali tila"
 #. Translators: input help mode message for ObjPad toggle command.
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr "Vaihtaa normaalin, objektinavigointi- ja skannaustilan välillä."
+
+#. Web navigation:
+#. Web elements list:
+msgid "normal"
+msgstr "normaali"
+
+msgid "Link"
+msgstr "Linkki"
+
+msgid "Form field"
+msgstr "Lomakekenttä"
+
+msgid "Heading"
+msgstr "Otsikko"
+
+msgid "Frame"
+msgstr "Kehys"
+
+msgid "Table"
+msgstr "Taulukko"
+
+msgid "List"
+msgstr "Luettelo"
+
+msgid "Landmark"
+msgstr "Kiintopiste"
 
 #. Translators: a message when there is no next object when navigating
 msgid "No next"

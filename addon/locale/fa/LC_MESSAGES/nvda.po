@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: objPad 18.03\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2018-08-25 15:05+1000\n"
-"PO-Revision-Date: 2018-08-25 23:45+0330\n"
+"PO-Revision-Date: 2018-09-21 12:18+0330\n"
 "Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
 "Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
 "Language: fa\n"
@@ -36,6 +36,32 @@ msgstr "حالتِ معمولی"
 #. Translators: input help mode message for ObjPad toggle command.
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr "حالت‌های ObjPad را بین معمولی، پیمایش شیء و پویش تغییر میدهد."
+
+#. Web navigation:
+#. Web elements list:
+msgid "normal"
+msgstr "معمولی"
+
+msgid "Link"
+msgstr "لینک"
+
+msgid "Form field"
+msgstr "فرم فیلد"
+
+msgid "Heading"
+msgstr "سرنوشتار"
+
+msgid "Frame"
+msgstr "قاب"
+
+msgid "Table"
+msgstr "جدول"
+
+msgid "List"
+msgstr "فهرست"
+
+msgid "Landmark"
+msgstr "بخش"
 
 #. Translators: a message when there is no next object when navigating
 msgid "No next"
