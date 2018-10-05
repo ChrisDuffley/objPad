@@ -1,7 +1,7 @@
 # ObjPad #
 
 * Autoren: Joseph Lee, Cleverson Uliana und andere
-* [stabile version][1] herunterladen
+* [Stabile Version herunterladen][1]
 * [Testversion herunterladen][2]
 
 Dieses Add-on bietet schnelle Befehle zur Verwaltung von Objekten auf dem
@@ -9,7 +9,7 @@ Bildschirm, einschließlich Navigation und anderer Möglichkeiten.
 
 ## Befehle
 
-* STRG+NVDA+TAB: wechselt zwischen den Navigationsarten auf dem Bildschirm
+* Strg+NVDA+Tab: Wechselt zwischen den Navigationsarten auf dem Bildschirm
   (Details siehe unten).
 
 ## Navigationsarten
@@ -29,28 +29,28 @@ Die Erweiterung bietet vier Möglichkeiten der Navigation mit Pfeiltasten:
 Die folgenden Befehle sind verfügbar, wenn die Pfeiltasten auf
 Objektnavigation eingestellt sind:
 
-* Rechtspfeil: nächstes Objekt.
-* Linkspfeil: vorheriges Objekt.
-* Pfeil nach oben: Hauptobjekt für die aktuelle Region.
-* Pfeil nach unten: erstes Unterobjekt des Hauptobjektes.
+* Pfeiltaste nach rechts: Nächstes Objekt.
+* Pfeiltaste nach links: Vorheriges Objekt.
+* Pfeiltaste nach oben: Hauptobjekt für die aktuelle Region.
+* Pfeiltaste nach unten: Erstes Unterobjekt des Hauptobjekts.
 * Leertaste or Eingabetaste: Aktivieren.
 
 Elemente können im Webmodus normal eingestellt werden. Sie können aber auch
 zwischen den Elementtypen Objekte, Links, Formularfelder, Überschriften,
 Rahmen, Tabellen, Listen, Sprungmarken navigieren:
 
-* Rechtspfeil: nächstes Element.
-* Linkspfeil: vorheriges Element
-* Pfeil nach oben: vorheriges Elementtyp.
-* Pfeil nach unten: nächstes Elementtyp.
+* Pfeiltaste nach rechts: Nächstes Element.
+* Pfeiltaste nach links: Vorheriges Element
+* Pfeiltaste nach oben: Vorheriges Elementtyp.
+* Pfeiltaste nach unten: Nächstes Elementtyp.
 * Leertaste or Eingabetaste: Aktivieren.
 
 Bei aktiviertem Scan-Modus:
 
-* Pfeil nach unten: Nächstes Objekt oder nächste Zeile.
-* Pfeil nach oben: Vorheriges Objekt oder vorherige Zeile.
-* Rechtspfeil: nächster Buchstabe.
-* Linkspfeil: vorheriger Buchstabe.
+* Pfeiltaste nach unten: Nächstes Objekt oder nächste Zeile.
+* Pfeiltaste nach oben: Vorheriges Objekt oder vorherige Zeile.
+* Pfeiltaste nach rechts: Nächster Buchstabe.
+* Pfeiltaste nach links: Vorheriger Buchstabe.
 * Strg+Pfeil nach rechts: Nächstes Wort.
 * Strg+Pfeil nach links: Vorheriges Wort.
 * Leertaste or Eingabetaste: Aktivieren.
@@ -71,7 +71,7 @@ Bei aktiviertem Scan-Modus:
 
 ## Version 16.10
 
-* Ehrstveröffentlichung der stabilen Version.
+* Erstveröffentlichung.
 
 [[!tag dev stable]]
 
