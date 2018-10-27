@@ -19,13 +19,15 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description" : _("""Perform various object commands by pressing a single key, including navigation and more"""),
 	# version
-	"addon_version" : "18.10",
+	"addon_version" : "18.11",
 	# Author(s)
 	"addon_author" : "Joseph Lee <joseph.lee22590@gmail.com>",
 	# URL for the add-on documentation support
 	"addon_url" : "https://addons.nvda-project.org",
 	# File name for the add-on help file.
-	"addon_docFileName" : "readme.html"
+	"addon_docFileName" : "readme.html",
+	# Minimum NVDA version supported
+	"addon_minimumNVDAVersion" : "2017.3",
 }
 
 
