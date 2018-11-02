@@ -2,7 +2,7 @@
 
 * Autoren: Joseph Lee, Cleverson Uliana und andere
 * [Stabile Version herunterladen][1]
-* [Testversion herunterladen][2]
+* [Entwicklungsversion herunterladen][2]
 
 Dieses Add-on bietet schnelle Befehle zur Verwaltung von Objekten auf dem
 Bildschirm, einschließlich Navigation und anderer Möglichkeiten.
@@ -23,8 +23,8 @@ Die Erweiterung bietet vier Möglichkeiten der Navigation mit Pfeiltasten:
   Unterobjekten zu gelangen.
 * Web: Benutzen Sie die Pfeiltasten, um durch die Elementtypen zu blättern
   und sich zwischen elementen zu bewegen.
-* Scan-Modus: Benutzen Sie die Pfeiltasten, um unabhängig von der Hierarchie
-  durch die Objekte auf dem Bildschirm zu navigieren.
+* Erkundungsmodus: Benutzen Sie die Pfeiltasten, um unabhängig von der
+  Hierarchie durch die Objekte auf dem Bildschirm zu navigieren.
 
 Die folgenden Befehle sind verfügbar, wenn die Pfeiltasten auf
 Objektnavigation eingestellt sind:
