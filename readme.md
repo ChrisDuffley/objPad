@@ -45,6 +45,10 @@ With scan mode active:
 * Control+left arrow: previous word.
 * SPACE or ENTER: activate.
 
+## Version 18.12
+
+* Internal changes to support future NVDA releases.
+
 ## Version 18.09
 
 * Added localizations.
