@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: objPad 18.03\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2018-08-25 15:05+1000\n"
-"PO-Revision-Date: 2018-08-25 09:37+0100\n"
+"PO-Revision-Date: 2018-11-25 19:02+0100\n"
 "Last-Translator: Zvonimir Stanečić <zvonimirek222@webczatnet.pl>\n"
 "Language-Team: hr <zvonimirek222@yandex.com>\n"
 "Language: hr\n"
@@ -38,6 +38,32 @@ msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr ""
 "Prebacuje OBJ pad između načina isključeno, objektnog načina načina "
 "skeniranja i web načina"
+
+#. Web navigation:
+#. Web elements list:
+msgid "normal"
+msgstr "Normalan"
+
+msgid "Link"
+msgstr "Veza"
+
+msgid "Form field"
+msgstr "Polja formulara"
+
+msgid "Heading"
+msgstr "Naslov"
+
+msgid "Frame"
+msgstr "Okvir"
+
+msgid "Table"
+msgstr "Tablica"
+
+msgid "List"
+msgstr "Popis"
+
+msgid "Landmark"
+msgstr "Orjentir"
 
 #. Translators: a message when there is no next object when navigating
 msgid "No next"
