@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the objPad package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: objPad 18.12\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2018-11-30 15:00+1000\n"
+"PO-Revision-Date: 2018-12-10 18:06+0200\n"
+"Last-Translator: Ecaterina Jivaga <notka@gozaltech.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.8\n"
+
+#. Translators: one of the object arrow modes.
+msgid "Object nav mode"
+msgstr "Режим объектной навигации"
+
+#. Translators: one of the object arrow modes.
+msgid "Web mode"
+msgstr "Веб режим"
+
+#. Translators: one of the object arrow modes.
+msgid "Scan mode"
+msgstr "Режим сканирования"
+
+#. Translators: one of the object arrow modes.
+msgid "Normal mode"
+msgstr "Стандартный режим"
+
+#. Translators: input help mode message for ObjPad toggle command.
+msgid "Toggles ObjPad mode between normal, object nav and scan modes"
+msgstr ""
+"Переключает режимы ObjPad между  стандартным, режимом объектной навигации и "
+"режимом сканирования"
+
+#. Web navigation:
+#. Web elements list:
+msgid "normal"
+msgstr "стандартный"
+
+msgid "Link"
+msgstr "Ссылка"
+
+msgid "Form field"
+msgstr "Поле формы"
+
+msgid "Heading"
+msgstr "Заголовок"
+
+msgid "Frame"
+msgstr "Фрейм"
+
+msgid "Table"
+msgstr "Таблица"
+
+msgid "List"
+msgstr "Список"
+
+msgid "Landmark"
+msgstr "Ориентир"
+
+#. Translators: a message when there is no next object when navigating
+msgid "No next"
+msgstr "Нет следующего"
+
+#. Translators: a message when there is no previous object when navigating
+msgid "No previous"
+msgstr "Нет предыдущего"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+msgid "ObjPad"
+msgstr "ObjPad"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Perform various object commands by pressing a single key, including "
+"navigation and more"
+msgstr ""
+"При нажатии клавиши выполняет различные команды объектной навигации, такие "
+"как: навигация и другие"

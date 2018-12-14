@@ -3,6 +3,7 @@
 * Autores: Joseph Lee, Cleverson Uliana y otros
 * Descargar [versión estable][2]
 * Descargar [versión de desarrollo][2]
+* Compatibilidad con NVDA: de 2017.3 a 2019.1
 
 Este complemento proporciona órdenes rápidas para gestionar objetos en
 pantalla, incluyendo la navegación y otras posibilidades.
@@ -14,7 +15,7 @@ pantalla, incluyendo la navegación y otras posibilidades.
 
 ## Modos de teclas de flechas
 
-El complemento proporciona cuatro formas de utilizar las flechas: 
+El complemento proporciona cuatro formas de utilizar las flechas:
 
 * Clássico (o modo normal): utiliza las flechas para mover el cursor.
 * Navegación de objetos: utiliza las flechas para mover a los objetos
@@ -50,7 +51,7 @@ Con el modo escanear activo:
 * Flecha derecha: revisar carácter siguiente.
 * Flecha izquierda: revisar carácter anterior.
 * Control+Flecha derecha: palabra siguiente.
-* control+Flecha izquierda: palabra anterior.
+* Control+Flecha izquierda: palabra anterior.
 * Espacio o intro: activar.
 
 ## Versión 18.09

@@ -3,6 +3,7 @@
 * Autorzy: Joseph Lee, Cleverson Uliana and others
 * Pobierz [wersja stabilna][1]
 * Pobierz [wersja rozwojowa][2]
+* NVDA compatibility: 2017.3 to 2019.1
 
 Ta wtyczka dodaje szybkie komendy służące do zarządzania obiektami na
 ekranie, między innymi nawigację i inne udogodnienia.

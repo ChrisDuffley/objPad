@@ -3,6 +3,7 @@
 * Autores: Joseph Lee, Cleverson Uliana e outros
 * Descargar [versión estable][2]
 * Descargar [versión de desenvolvemento][2]
+* Compatibilidade con NVDA: da 2017.3 á 2019.1
 
 Este complemento proporciona ordes rápidas para xestionar obxectos na
 pantalla, incluindo a navegación e outras posibilidades.

@@ -3,6 +3,7 @@
 * Auteur : Joseph Lee, Cleverson Uliana et autres
 * Télécharger [version stable][1]
 * Télécharger [version de développement][2]
+* Compatibilité NVDA: 2017.3 à 2019.1
 
 Ce module complémentaire fournit des commandes rapides pour gérer les objets
 sur l'écran, y compris la navigation et autres possibilités.

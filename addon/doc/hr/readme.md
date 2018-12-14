@@ -3,6 +3,7 @@
 * Autori: Joseph Lee, Cleverson Uliana i drugi
 * Preuzmi [stable version][1]
 * Preuzmi [development version][2]
+* NVDA compatibility: 2017.3 to 2019.1
 
 Ovaj dodatak pruža brze naredbe za upravljanje objektima na zaslonu,
 uključujući navigaciju i druge mogućnosti. 
