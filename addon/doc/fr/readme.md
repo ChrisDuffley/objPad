@@ -5,8 +5,8 @@
 * Télécharger [version de développement][2]
 * Compatibilité NVDA: 2017.3 à 2019.1
 
-Ce module complémentaire fournit des commandes rapides pour gérer les objets
-sur l'écran, y compris la navigation et autres possibilités.
+Cette extension fournit des commandes rapides pour gérer les objets sur
+l'écran, incluant la navigation et d'autres possibilités.
 
 ## Commandes
 
@@ -15,8 +15,7 @@ sur l'écran, y compris la navigation et autres possibilités.
 
 ## Modes touche fléchée
 
-Le module complémentaire offre quatre façons d’utiliser les touches fléchées
-:
+L'extension offre quatre façons d’utiliser les touches fléchées :
 
 * Classique (ou mode normal) : utiliser les touches fléchées pour déplacer
   le curseur.
