@@ -2,7 +2,7 @@
 
 * Autoren: Joseph Lee, Cleverson Uliana und andere
 * [Stabile Version herunterladen][1]
-* [Entwicklungsversion herunterladen][2]
+* [Entwicklerversion herunterladen][2]
 * NVDA-Kompatibilität: 2017.3 bis 2019.1
 
 Dieses Add-on bietet schnelle Befehle zur Verwaltung von Objekten auf dem
