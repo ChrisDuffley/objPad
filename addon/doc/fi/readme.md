@@ -3,7 +3,7 @@
 * Tekijät: Joseph Lee, Cleverson Uliana sekä muut
 * Lataa [vakaa versio][1]
 * Lataa [kehitysversio][2]
-* NVDA-yhteensopivuus: 2017.3-2019.1
+* NVDA compatibility: 2017.3 to 2019.2
 
 Tämä lisäosa tarjoaa pikakomentoja ruudulla olevien objektien hallintaan,
 navigointi ja muut mahdollisuudet mukaan lukien.

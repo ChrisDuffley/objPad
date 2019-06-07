@@ -3,7 +3,7 @@
 * 作者: Joseph Lee, Cleverson Uliana and others
 * 下载 [稳定版][1]
 * 下载 [开发板][2]
-* NVDA兼容版本: 2017.3至2019.1
+* NVDA compatibility: 2017.3 to 2019.2
 
 此插件提供快捷键来管理屏幕上的对象，包括导航和其他可能性。
 

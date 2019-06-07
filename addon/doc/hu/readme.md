@@ -3,7 +3,7 @@
 * Szerzők: Joseph Lee, Cleverson Uliana és mások 
 * Letöltés [stabil verzió][1]
 * Letöltés [fejlesztői verzió][2]
-* NVDA compatibility: 2017.3 to 2019.1
+* NVDA compatibility: 2017.3 to 2019.2
 
 Ez a bővítmény lehetővé teszi, hogy gyorsparancsokat végezzen a képernyőn
 lévő elemekkel, beleértve a navigációt és egyéb lehetőségeket is. 
