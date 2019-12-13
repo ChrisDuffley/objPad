@@ -5,39 +5,38 @@
 * Preuzmi [razvojnu verziju][2]
 * NVDA kompatibilnost: 2017.3 do 2019.2
 
-Ovaj dodatak pruža brze naredbe za upravljanje objektima na zaslonu,
-uključujući navigaciju i druge mogućnosti.
+Ovaj dodatak pruža brze naredbe za upravljanje objektima na ekranu,
+uključujući kretanje i druge mogućnosti.
 
 ## Naredbe
 
-* Control+NVDA+TAB: Izgovara različite načine korištenja tipki sa strelicama
-  (vidi dolje za detalje).
+* Kontrol+NVDA+TAB: Prolazi kroz različite moduse za upotrebu tipki sa
+  strelicama (vidi dolje za detalje).
 
-## Načini korištenja tipki sa strelicama
+## Modusi za upotrebu tipki sa strelicama
 
-Dodatak nudi četiri načina korištenja tipki sa strelicama:
+Dodatak nudi četiri modusa za upotrebu tipki sa strelicama:
 
-* Klasični (ili uobičajeni način): koristite tipke sa strelicama za
-  pomicanje kursora.
-* Način navigacije po objektima: koristite tipke sa strelicama za pomak na
-  prethodni/sljedeći objekt.
+* Klasični (ili uobičajeni modus): koristite tipke sa strelicama za
+  premještanje kursora.
+* Kretanje po objektima: koristite tipke sa strelicama za premještanje na
+  prethodne, sljedeće, nadređene i podređene objekte.
 * Web: Pomoću tipki sa strelicama kružite kroz elemente i krećite se između
   njih.
-* Način skeniranja: koristite tipke sa strelicama za kretanje između
-  objekata na zaslonu bez obzira na hijerarhiju.
+* Modus skeniranja: koristite tipke sa strelicama za kretanje između
+  objekata na ekranu bez obzira na hijerarhiju.
 
 Sljedeće naredbe su dostupne, ako su tipke sa strelicama postavljene na
-način navigacije po objektima:
+kretanje po objektima:
 
 * Strelica desno: sljedeći objekt.
 * Strelica lijevo: prethodni objekt.
-* Strelica gore: objekt više razine.
-* Strelica dolje: prvi objekt niže razine.
+* Strelica gore: nadređeni objekt.
+* Strelica dolje: podređeni objekt.
 * RAZMAKNICA ili ENTER: aktiviranje.
 
-Ako je web način rada aktivan (elementi su uobičajeni ili se kreću prema
-objektu, poveznici, polju obrasca, naslovu, okviru, tablici, popisu,
-orijentiru):
+Kad je web modus aktivan (elementi su uobičajeni ili se kreću po objektu,
+poveznici, polju obrasca, naslovu, okviru, tablici, popisu, orijentiru):
 
 * Strelica desno: sljedeći element.
 * Strelica lijevo: prethodni element.
@@ -45,14 +44,14 @@ orijentiru):
 * Strelica dolje: sljedeća vrsta elementa.
 * RAZMAKNICA ili ENTER: aktiviranje.
 
-Ako je aktivan način skeniranja:
+Kad je modus skeniranja aktivan:
 
 * Strelica dolje: sljedeći objekt ili sljedeći redak.
 * Strelica gore: prethodni objekt ili prethodni redak.
 * Strelica desno: pregled sljedećeg znaka.
 * Strelica lijevo: prethodni znak.
-* Control+Strelica desno: sljedeća riječ.
-* Control+Strelica lijevo: prethodna riječ.
+* Kontrol+Strelica desno: sljedeća riječ.
+* Kontrol+Strelica lijevo: prethodna riječ.
 * RAZMAKNICA ili ENTER: aktiviranje.
 
 ## Verzija 18.09
@@ -67,7 +66,7 @@ Ako je aktivan način skeniranja:
 
 ## Verzija 16.12
 
-* Dodan način rada u web okruženju.
+* Dodan web modus.
 
 ## Verzija 16.10
 

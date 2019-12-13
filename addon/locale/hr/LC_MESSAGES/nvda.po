@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: objPad 18.03\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2018-08-25 15:05+1000\n"
-"PO-Revision-Date: 2019-11-15 23:30+0100\n"
+"PO-Revision-Date: 2019-12-08 17:56+0100\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: hr <zvonimirek222@yandex.com>\n"
 "Language: hr\n"
@@ -20,25 +20,25 @@ msgstr ""
 
 #. Translators: one of the object arrow modes.
 msgid "Object nav mode"
-msgstr "Način navigacije po objektima"
+msgstr "Modus kretanja po objektima"
 
 #. Translators: one of the object arrow modes.
 msgid "Web mode"
-msgstr "Web način"
+msgstr "Web modus"
 
 #. Translators: one of the object arrow modes.
 msgid "Scan mode"
-msgstr "Način skeniranja"
+msgstr "Modus skeniranja"
 
 #. Translators: one of the object arrow modes.
 msgid "Normal mode"
-msgstr "Normalni način"
+msgstr "Normalni modus"
 
 #. Translators: input help mode message for ObjPad toggle command.
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr ""
-"Prebacuje način upravljanja strelicama između normalnog načina, "
-"načina navigacije po objektima, načina skeniranja i web načina"
+"Prebacuje moduse upravljanja strelicama između normalnog modusa, "
+"modusa kretanja po objektima, modusa skeniranja i web modusa"
 
 #. Web navigation:
 #. Web elements list:
@@ -86,4 +86,4 @@ msgid ""
 "navigation and more"
 msgstr ""
 "Izvodi razne naredbe nad objektima pritiskom jedne tipke, "
-"uključujući navigaciju i razne druge radnje"
+"uključujući kretanje i razne druge radnje"
