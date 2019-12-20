@@ -3,6 +3,7 @@
 * Author: Joseph Lee, Cleverson Uliana and others
 * Download [stable version][1]
 * Download [development version][2]
+* NVDA compatibility: 2019.3 and beyond
 
 This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
 
@@ -44,6 +45,10 @@ With scan mode active:
 * Control+right arrow: next word.
 * Control+left arrow: previous word.
 * SPACE or ENTER: activate.
+
+## Version 20.01
+
+* Requires NVDA 2019.3 or later.
 
 ## Version 18.12
 
