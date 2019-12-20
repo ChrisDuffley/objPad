@@ -3,7 +3,7 @@
 * Autori: Joseph Lee, Cleverson Uliana i drugi
 * Preuzmi [stabilnu verziju][1]
 * Preuzmi [razvojnu verziju][2]
-* NVDA kompatibilnost: 2017.3 do 2019.2
+* NVDA compatibility: 2017.3 to 2019.3
 
 Ovaj dodatak pruža brze naredbe za upravljanje objektima na ekranu,
 uključujući kretanje i druge mogućnosti.

@@ -3,7 +3,7 @@
 * Autores: Joseph Lee, Cleverson Uliana and others
 * Baixar [versão estável][1]
 * Baixar [versão de desenvolvimento][2]
-* NVDA compatibility: 2017.3 to 2019.2
+* NVDA compatibility: 2017.3 to 2019.3
 
 Este extra fornece comandos rápidos para gerir objetos no ecrã, incluindo
 navegação e outras possibilidades.

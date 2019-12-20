@@ -3,7 +3,7 @@
 * Auteur : Joseph Lee, Cleverson Uliana et autres
 * Télécharger [version stable][1]
 * Télécharger [version de développement][2]
-* NVDA compatibility: 2017.3 to 2019.2
+* NVDA compatibility: 2017.3 to 2019.3
 
 Cette extension fournit des commandes rapides pour gérer les objets sur
 l'écran, incluant la navigation et d'autres possibilités.

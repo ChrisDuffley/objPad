@@ -3,7 +3,7 @@
 * Forfattere: Joseph Lee, Cleverson Uliana og andre
 * Download [stabil version][1]
 * Download [udviklingsversion][2]
-* NVDA-kompatibilitet: 2017.3 til 2019.2
+* NVDA compatibility: 2017.3 to 2019.3
 
 Denne tilføjelse giver hurtige kommandoer til at styre objekter på skærmen,
 herunder navigation og andre muligheder.
