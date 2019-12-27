@@ -3,7 +3,8 @@
 * Autori: Joseph Lee, Cleverson Uliana și alții
 * Descărcați [versiunea stabilă][1]
 * Descărcați [versiunea în dezvoltare][2]
-* NVDA compatibility: 2017.3 to 2019.3
+* NVDA compatibility: 2019.3 and beyond
+* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
 Acest supliment furnizează comenzi rapide pentru a gestiona obiectele pe
 ecran, incluzând navigarea și alte posibilități.
@@ -53,6 +54,14 @@ Cu modul de scanare activ:
 * Control+săgeată stânga: cuvântul anterior.
 * Spațiu sau Enter: activează.
 
+## Version 20.01
+
+* Requires NVDA 2019.3 or later.
+
+## Version 18.12
+
+* Internal changes to support future NVDA releases.
+
 ## Versiunea 18.09
 
 * S-au adăugat traduceri.
@@ -76,3 +85,5 @@ Cu modul de scanare activ:
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
+
+[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019

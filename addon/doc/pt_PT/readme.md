@@ -3,7 +3,8 @@
 * Autores: Joseph Lee, Cleverson Uliana and others
 * Baixar [versão estável][1]
 * Baixar [versão de desenvolvimento][2]
-* NVDA compatibility: 2017.3 to 2019.3
+* NVDA compatibility: 2019.3 and beyond
+* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
 Este extra fornece comandos rápidos para gerir objetos no ecrã, incluindo
 navegação e outras possibilidades.
@@ -52,6 +53,14 @@ Com o modo de varredura activo:
 * CTRL+seta para a esquerda: palavra anterior.
 * ESPAÇO ou enter: activar.
 
+## Version 20.01
+
+* Requires NVDA 2019.3 or later.
+
+## Version 18.12
+
+* Internal changes to support future NVDA releases.
+
 ## Versão 18.09
 
 * Adicionado localizações.
@@ -75,3 +84,5 @@ Com o modo de varredura activo:
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
+
+[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019

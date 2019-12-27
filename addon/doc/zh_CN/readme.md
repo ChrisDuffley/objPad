@@ -3,7 +3,8 @@
 * 作者: Joseph Lee, Cleverson Uliana and others
 * 下载 [稳定版][1]
 * 下载 [开发板][2]
-* NVDA兼容版本: 2017.3至2019.3
+* NVDA compatibility: 2019.3 and beyond
+* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
 此插件提供快捷键来管理屏幕上的对象，包括导航和其他可能性。
 
@@ -46,6 +47,14 @@
 * Ctrl+左光标: 上一个单词。
 * 空格或回车：激活。
 
+## Version 20.01
+
+* Requires NVDA 2019.3 or later.
+
+## Version 18.12
+
+* Internal changes to support future NVDA releases.
+
 ## 版本18.09
 
 * 添加本地化。
@@ -68,3 +77,5 @@
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
+
+[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019

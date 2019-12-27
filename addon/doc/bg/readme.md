@@ -3,7 +3,8 @@
 * Автори: Joseph Lee, Cleverson Uliana и други
 * Изтегляне на [стабилна версия][1]
 * Изтегляне на [тестова версия][2]
-* NVDA compatibility: 2017.3 to 2019.3
+* NVDA compatibility: 2019.3 and beyond
+* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
 Тази добавка предоставя бързи команди за управление на обектите по екрана,
 включително навигация между тях и други възможности.
@@ -54,6 +55,14 @@
 * Control+Стрелка наляво: предишна дума.
 * Клавиш интервал или ENTER: задействане.
 
+## Version 20.01
+
+* Requires NVDA 2019.3 or later.
+
+## Version 18.12
+
+* Internal changes to support future NVDA releases.
+
 ## Версия 18.09
 
 * Добавени преводи.
@@ -77,3 +86,5 @@
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
+
+[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019

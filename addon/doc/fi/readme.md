@@ -3,7 +3,8 @@
 * Tekijät: Joseph Lee, Cleverson Uliana sekä muut
 * Lataa [vakaa versio][1]
 * Lataa [kehitysversio][2]
-* NVDA compatibility: 2017.3 to 2019.3
+* NVDA compatibility: 2019.3 and beyond
+* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
 Tämä lisäosa tarjoaa pikakomentoja ruudulla olevien objektien hallintaan,
 navigointi ja muut mahdollisuudet mukaan lukien.
@@ -54,6 +55,14 @@ Skannaustilan ollessa aktiivisena:
 * Ctrl+Nuoli vasemmalle: edellinen sana.
 * Väli tai Enter: aktivoi.
 
+## Version 20.01
+
+* Requires NVDA 2019.3 or later.
+
+## Version 18.12
+
+* Internal changes to support future NVDA releases.
+
 ## Versio 18.09
 
 * Lokalisointeja lisätty.
@@ -77,3 +86,5 @@ Skannaustilan ollessa aktiivisena:
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
+
+[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019

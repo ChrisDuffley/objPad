@@ -3,7 +3,8 @@
 * Forfattere: Joseph Lee, Cleverson Uliana og andre
 * Download [stabil version][1]
 * Download [udviklingsversion][2]
-* NVDA compatibility: 2017.3 to 2019.3
+* NVDA compatibility: 2019.3 and beyond
+* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
 Denne tilføjelse giver hurtige kommandoer til at styre objekter på skærmen,
 herunder navigation og andre muligheder.
@@ -54,6 +55,14 @@ Med scanningstilstand aktiv:
 * Control+venstre pil: Forrige ord.
 * Mellemrum eller ENTER: Aktivér.
 
+## Version 20.01
+
+* Requires NVDA 2019.3 or later.
+
+## Version 18.12
+
+* Internal changes to support future NVDA releases.
+
 ## Version 18.09
 
 * Tilføjede oversættelser.
@@ -77,3 +86,5 @@ Med scanningstilstand aktiv:
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
+
+[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019

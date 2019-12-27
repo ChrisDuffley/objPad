@@ -3,7 +3,8 @@
 * Szerzők: Joseph Lee, Cleverson Uliana és mások 
 * Letöltés [stabil verzió][1]
 * Letöltés [fejlesztői verzió][2]
-* NVDA compatibility: 2017.3 to 2019.3
+* NVDA compatibility: 2019.3 and beyond
+* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
 Ez a bővítmény lehetővé teszi, hogy gyorsparancsokat végezzen a képernyőn
 lévő elemekkel, beleértve a navigációt és egyéb lehetőségeket is. 
@@ -54,6 +55,14 @@ elemek: hivatkozás, űrlapmező, címsor, keret, táblázat, lista, jelzőpont.
 * Control+left arrow: previous word.
 * SPACE or ENTER: activate.
 
+## Version 20.01
+
+* Requires NVDA 2019.3 or later.
+
+## Version 18.12
+
+* Internal changes to support future NVDA releases.
+
 ## Version 18.09
 
 * Added localizations.
@@ -76,3 +85,5 @@ elemek: hivatkozás, űrlapmező, címsor, keret, táblázat, lista, jelzőpont.
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
+
+[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019

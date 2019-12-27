@@ -3,7 +3,8 @@
 * Autores: Joseph Lee, Cleverson Uliana e outros
 * Descargar [versión estable][2]
 * Descargar [versión de desenvolvemento][2]
-* NVDA compatibility: 2017.3 to 2019.3
+* NVDA compatibility: 2019.3 and beyond
+* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
 Este complemento proporciona ordes rápidas para xestionar obxectos na
 pantalla, incluindo a navegación e outras posibilidades.
@@ -53,6 +54,14 @@ Co modo escanear activo:
 * Control+Frecha esquerda: palabra anterior.
 * Espazo ou intro: activar.
 
+## Version 20.01
+
+* Requires NVDA 2019.3 or later.
+
+## Version 18.12
+
+* Internal changes to support future NVDA releases.
+
 ## Versión 18.09
 
 * Engadidas traducións.
@@ -75,3 +84,5 @@ Co modo escanear activo:
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
+
+[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019
