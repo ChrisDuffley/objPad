@@ -3,8 +3,8 @@
 * Autorzy: Joseph Lee, Cleverson Uliana and others
 * Pobierz [wersja stabilna][1]
 * Pobierz [wersja rozwojowa][2]
-* NVDA compatibility: 2019.3 and beyond
-* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
+* Zgodność z wersjami NVDA: 2019.3 i nowszymi
+* Pobierz [starszą wersję][3] zgodną z NVDA 2019.2.1 lub starszej
 
 Ta wtyczka dodaje szybkie komendy służące do zarządzania obiektami na
 ekranie, między innymi nawigację i inne udogodnienia.
@@ -32,7 +32,7 @@ Komendy trybu nawigacji:
 * Strzałka w lewo: poprzedni obiekt.
 * Strzałka w górę: obiekt nadrzędny.
 * Strzałka w dół: pierwszy obiekt podrzędny.
-* SPACE or ENTER: activate.
+* spacja lub enter: uaktywnij.
 
 W aktywnym trybie sieciowym, można przemieszczać się po elementach
 standardowo lub poruszać się po obiektach, linkach, polach formularza,
@@ -42,30 +42,31 @@ nagłówkach, ramkach, tabelach, listach, punktach orientacyjnych:
 * Strzałka w lewo: poprzedni element.
 * Strzałka w górę: poprzedni typ elementu.
 * Strzałka w dół: następny typ elementu.
-* SPACE or ENTER: activate.
+* spacja lub enter: uaktywnij.
 
 W aktywnym trybie skanowania:
 
-* Down arrow: next object or the next line.
-* Up arrow: previous object or previous line.
+* Strzałka w dół: następny obiekt lub następna linia.
+* strzałka w gorę: poprzedni obiekt lub poprzednia linia.
 * Strzałka w prawo: odczytaj następny znak.
 * Strzałka w lewo: odczytaj poprzedni znak.
-* Control+right arrow: next word.
-* Control+left arrow: previous word.
-* SPACE or ENTER: activate.
+* Control+strzałka w prawo: następne słowo.
+* Control+strzałka w lewo: Poprzednie słowo.
+* spacja lub enter: uaktywnij.
 
-## Version 20.01
+## Wersja 20.01
 
-* Requires NVDA 2019.3 or later.
+* Wymaga NVDA 2019.3 lub nowszej.
 
-## Version 18.12
+## Wersja 18.12
 
-* Internal changes to support future NVDA releases.
+* Zmiany wewnętrzne dla wsparcia nowszych wersji NVDA.
 
-## Version 18.09
+## Wersja 18.09
 
-* Added localizations.
-* Enter key (regular and Numpad) can be used to activate objects.
+* Dodano tłumaczenia.
+* Normalny klawisz enter lub numeryczny może być użyty do aktywownia
+  obiektu.
 
 ## Wersja 18.03
 

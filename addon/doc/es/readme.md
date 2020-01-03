@@ -3,8 +3,9 @@
 * Autores: Joseph Lee, Cleverson Uliana y otros
 * Descargar [versión estable][2]
 * Descargar [versión de desarrollo][2]
-* NVDA compatibility: 2019.3 and beyond
-* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
+* Compatibilidad con NVDA: 2019.3 y versiones posteriores
+* Descargar [versión más antigua][3] compatible con NVDA 2019.2.1 y
+  versiones anteriores
 
 Este complemento proporciona órdenes rápidas para gestionar objetos en
 pantalla, incluyendo la navegación y otras posibilidades.
@@ -55,13 +56,13 @@ Con el modo escanear activo:
 * Control+Flecha izquierda: palabra anterior.
 * Espacio o intro: activar.
 
-## Version 20.01
+## Versión 20.01
 
-* Requires NVDA 2019.3 or later.
+* Se requiere NVDA 2019.3 o posterior.
 
-## Version 18.12
+## Versión 18.12
 
-* Internal changes to support future NVDA releases.
+* Cambios internos para dar soporte a versiones futuras de NVDA.
 
 ## Versión 18.09
 
