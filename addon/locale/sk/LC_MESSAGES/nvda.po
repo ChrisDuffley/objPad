@@ -8,53 +8,53 @@ msgstr ""
 "Project-Id-Version: objPad 18.12\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2018-12-14 15:00+1000\n"
-"PO-Revision-Date: 2019-01-31 20:57+0100\n"
+"PO-Revision-Date: 2020-01-13 14:17+0100\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Ján Kulik <johny.kulik452@gmail.com>\n"
+"Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: \n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. Translators: one of the object arrow modes.
 msgid "Object nav mode"
-msgstr "Režimový mód"
+msgstr "Objektový režim"
 
 #. Translators: one of the object arrow modes.
 msgid "Web mode"
-msgstr "Webový mód"
+msgstr "Webový režim"
 
 #. Translators: one of the object arrow modes.
 msgid "Scan mode"
-msgstr "Skenovací mód"
+msgstr "Prezerací režim"
 
 #. Translators: one of the object arrow modes.
 msgid "Normal mode"
-msgstr "Normálny mód"
+msgstr "Predvolený režim"
 
 #. Translators: input help mode message for ObjPad toggle command.
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr ""
-"Prechádza medzi objektívnymi režimami normálny, navštívený objekt a "
-"skenovací mód."
+"Prechádza medzi jednotlivými režimami: Prezeranie po objektoch, webových "
+"prvkoch, skenovaním obrazovky alebo normálnym správaním NVDA."
 
 #. Web navigation:
 #. Web elements list:
 msgid "normal"
-msgstr "Normálne"
+msgstr "Predvolené"
 
 msgid "Link"
 msgstr "Odkaz"
 
 msgid "Form field"
-msgstr "Formulár"
+msgstr "Prvok formulára"
 
 msgid "Heading"
 msgstr "Nadpis"
 
 msgid "Frame"
-msgstr "Rám"
+msgstr "Rámik"
 
 msgid "Table"
 msgstr "Tabuľka"
@@ -67,11 +67,11 @@ msgstr "Oblasť"
 
 #. Translators: a message when there is no next object when navigating
 msgid "No next"
-msgstr "Žiadny nasledujúci objekt"
+msgstr "Žiadny nasledujúci prvok"
 
 #. Translators: a message when there is no previous object when navigating
 msgid "No previous"
-msgstr "Žiadny predchádzajúci objekt"
+msgstr "Žiadny predchádzajúci prvok"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
@@ -84,5 +84,4 @@ msgid ""
 "Perform various object commands by pressing a single key, including "
 "navigation and more"
 msgstr ""
-"Vykonáva rôzne príkazy objektov stlačeným na jedinej klávesnice, "
-"vrátane navigácie a ďalších objektov."
+"Zjednodušuje navigáciu po objektoch a prvkoch pomocou kurzorových kláves"
