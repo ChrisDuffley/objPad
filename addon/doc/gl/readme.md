@@ -1,10 +1,11 @@
 # ObjPad #
 
 * Autores: Joseph Lee, Cleverson Uliana e outros
-* Descargar [versión estable][2]
+* Descargar [versión estable][1]
 * Descargar [versión de desenvolvemento][2]
-* NVDA compatibility: 2019.3 and beyond
-* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
+* Compatibilidade con NVDA: 2019.3 en diante
+* Descargar [versión máis antiga][3] compatible con NVDA 2019.2.1 e
+  anteriores
 
 Este complemento proporciona ordes rápidas para xestionar obxectos na
 pantalla, incluindo a navegación e outras posibilidades.
@@ -16,7 +17,7 @@ pantalla, incluindo a navegación e outras posibilidades.
 
 ## Modos de teclas de frechas
 
-O complemento proporciona catro xeitos de usar as frechas: 
+O complemento proporciona catro xeitos de usar as frechas:
 
 * Clássico (ou modo normal): usa as frechas para mover o cursor.
 * Navegación de obxectos: usa as frechas para mover cara os obxectos
@@ -54,13 +55,13 @@ Co modo escanear activo:
 * Control+Frecha esquerda: palabra anterior.
 * Espazo ou intro: activar.
 
-## Version 20.01
+## Versión 20.01
 
-* Requires NVDA 2019.3 or later.
+* Require NVDA 2019.3 ou posterior
 
-## Version 18.12
+## Versión 18.12
 
-* Internal changes to support future NVDA releases.
+* Trocos internos para soportar versións futuras de NVDA
 
 ## Versión 18.09
 
