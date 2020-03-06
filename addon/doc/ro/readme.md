@@ -4,8 +4,6 @@
 * Descărcați [versiunea stabilă][1]
 * Descărcați [versiunea în dezvoltare][2]
 * Compatibilitate NVDA: 2019.3 și mai nou
-* Descărcați [versiunea mai veche][3], compatibilă cu NVDA 2019.2.1 și cu
-  versiunile mai vechi ale acestuia
 
 Acest supliment furnizează comenzi rapide pentru a gestiona obiectele pe
 ecran, incluzând navigarea și alte posibilități.
@@ -87,5 +85,3 @@ Cu modul de scanare activ:
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019

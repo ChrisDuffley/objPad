@@ -4,7 +4,6 @@
 * Загрузить [стабильную версию][1]
 * Загрузить [разрабатываемую версию][2]
 * NVDA compatibility: 2019.3 and beyond
-* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
 Данное дополнение обеспечивает горячие клавиши для управления объектами на
 экране, включая навигацию и другие возможности.
@@ -85,5 +84,3 @@
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019

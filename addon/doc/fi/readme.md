@@ -4,8 +4,6 @@
 * Lataa [vakaa versio][1]
 * Lataa [kehitysversio][2]
 * Yhteensopivuus: NVDA 2019.3 ja uudemmat
-* Lataa [vanhempi versio,][3] joka on yhteensopiva NVDA 2019.2.1:n ja sitä
-  vanhempien kanssa
 
 Tämä lisäosa tarjoaa pikakomentoja ruudulla olevien objektien hallintaan,
 navigointi ja muut mahdollisuudet mukaan lukien.
@@ -87,5 +85,3 @@ Skannaustilan ollessa aktiivisena:
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019

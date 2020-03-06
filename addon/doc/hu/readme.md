@@ -4,7 +4,6 @@
 * Letöltés [stabil verzió][1]
 * Letöltés [fejlesztői verzió][2]
 * NVDA compatibility: 2019.3 and beyond
-* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
 Ez a bővítmény lehetővé teszi, hogy gyorsparancsokat végezzen a képernyőn
 lévő elemekkel, beleértve a navigációt és egyéb lehetőségeket is. 
@@ -85,5 +84,3 @@ elemek: hivatkozás, űrlapmező, címsor, keret, táblázat, lista, jelzőpont.
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019

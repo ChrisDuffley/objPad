@@ -4,7 +4,6 @@
 * Preuzmi [stabilnu verziju][1]
 * Preuzmi [razvojnu verziju][2]
 * NVDA compatibility: 2019.3 and beyond
-* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
 Ovaj dodatak pruža brze naredbe za upravljanje objektima na ekranu,
 uključujući kretanje i druge mogućnosti.
@@ -86,5 +85,3 @@ Kad je modus skeniranja aktivan:
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019

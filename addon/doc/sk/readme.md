@@ -4,7 +4,6 @@
 * Stiahnuť [stabilnú verziu][1]
 * Stiahnuť [vývojovú verziu][2]
 * Funguje s NVDA od verzie 2019.3
-* Stiahnuť [staršiu verziu][3] pre NVDA do verzie 2019.2.1.
 
 Pridáva klávesové skratky  na navigáciu a prácu s prvkami.
 
@@ -79,5 +78,3 @@ Skenovací režím:
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019

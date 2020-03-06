@@ -4,8 +4,6 @@
 * Descargar [versión estable][1]
 * Descargar [versión de desenvolvemento][2]
 * Compatibilidade con NVDA: 2019.3 en diante
-* Descargar [versión máis antiga][3] compatible con NVDA 2019.2.1 e
-  anteriores
 
 Este complemento proporciona ordes rápidas para xestionar obxectos na
 pantalla, incluindo a navegación e outras posibilidades.
@@ -85,5 +83,3 @@ Co modo escanear activo:
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019

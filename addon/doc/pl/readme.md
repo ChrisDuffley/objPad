@@ -4,7 +4,6 @@
 * Pobierz [wersja stabilna][1]
 * Pobierz [wersja rozwojowa][2]
 * Zgodność z wersjami NVDA: 2019.3 i nowszymi
-* Pobierz [starszą wersję][3] zgodną z NVDA 2019.2.1 lub starszej
 
 Ta wtyczka dodaje szybkie komendy służące do zarządzania obiektami na
 ekranie, między innymi nawigację i inne udogodnienia.
@@ -85,5 +84,3 @@ W aktywnym trybie skanowania:
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
 [2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019
