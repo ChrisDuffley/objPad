@@ -3,7 +3,7 @@
 * Autoren: Joseph Lee, Cleverson Uliana und andere
 * [Stabile Version herunterladen][1]
 * [Entwicklerversion herunterladen][2]
-* NVDA compatibility: 2019.3 and beyond
+* NVDA-Kompatibilität: 2019.3 und neuer
 
 Dieses Add-on bietet schnelle Befehle zur Verwaltung von Objekten auf dem
 Bildschirm, einschließlich Navigation und anderer Möglichkeiten.
@@ -41,7 +41,7 @@ zwischen den Elementtypen Objekte, Links, Formularfelder, Überschriften,
 Rahmen, Tabellen, Listen, Sprungmarken navigieren:
 
 * Pfeiltaste nach rechts: Nächstes Element.
-* Pfeiltaste nach links: Vorheriges Element
+* Pfeiltaste nach links: Vorheriges Element.
 * Pfeiltaste nach oben: Vorheriges Elementtyp.
 * Pfeiltaste nach unten: Nächstes Elementtyp.
 * Leertaste or Eingabetaste: Aktivieren.
@@ -58,11 +58,11 @@ Bei aktiviertem Scan-Modus:
 
 ## Version 20.01
 
-* Requires NVDA 2019.3 or later.
+* Erfordert NVDA 2019.3 oder höher.
 
 ## Version 18.12
 
-* Internal changes to support future NVDA releases.
+* Interne Änderungen zur Unterstützung zukünftiger NVDA-Versionen.
 
 ## Version 18.09
 
