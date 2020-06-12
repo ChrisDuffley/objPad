@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: objPad\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2020-01-03 15:00+1000\n"
-"PO-Revision-Date: 2020-05-15 19:52-0300\n"
+"PO-Revision-Date: 2020-06-06 16:45-0300\n"
 "Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: NVDA Brazilian Portuguese translation team (Equipe de "
 "tradução do NVDA para Português Brasileiro) <clever97@gmail.com>\n"
@@ -30,7 +30,7 @@ msgstr "Modo web"
 
 #. Translators: one of the object arrow modes.
 msgid "Scan mode"
-msgstr "Modo de verificação"
+msgstr "Modo de esquadrinhamento"
 
 #. Translators: one of the object arrow modes.
 msgid "Normal mode"
@@ -40,7 +40,7 @@ msgstr "Modo normal"
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr ""
 "Alterna o modo ObjPad entre os modos normal, navegação por objeto e "
-"verificação"
+"esquadrinhamento"
 
 #. Web navigation:
 #. Web elements list:
