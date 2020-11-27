@@ -3,7 +3,7 @@
 * Auteur : Joseph Lee, Cleverson Uliana et autres
 * Télécharger [version stable][1]
 * Télécharger [version de développement][2]
-* NVDA compatibility: 2019.3 and beyond
+* Compatibilité NVDA: 2019.3 et au-delà
 
 Cette extension fournit des commandes rapides pour gérer les objets sur
 l'écran, incluant la navigation et d'autres possibilités.
@@ -56,11 +56,11 @@ Avec le mode balayage actif :
 
 ## Version 20.01
 
-* Requires NVDA 2019.3 or later.
+* Requiert NVDA 2019.3 ou au-delà.
 
 ## Version 18.12
 
-* Internal changes to support future NVDA releases.
+* Changements internes pour supporter de futures versions de NVDA.
 
 ## Version 18.09
 
