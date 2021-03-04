@@ -1,6 +1,6 @@
 # ObjPad
 # A global plugin for NVDA
-# Copyright 2016-2020 Joseph Lee and others, released under GPL
+# Copyright 2016-2021 Joseph Lee and others, released under GPL
 
 # Allows obj nav commands via arrow keys.
 # Arrow key handling comes from Easy Table Navigator.
