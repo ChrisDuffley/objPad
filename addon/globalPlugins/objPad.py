@@ -16,6 +16,7 @@ import api
 import textInfos
 import speech
 import controlTypes
+from scriptHandler import script
 import addonHandler
 addonHandler.initTranslation()
 
@@ -28,6 +29,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	objArrowMode = 0
 
+	@script(
+		# Translators: input help mode message for ObjPad toggle command.
+		description=_("Toggles ObjPad mode between normal, object nav and scan modes"),
+		category=SCRCAT_OBJECTNAVIGATION,
+		gesture="kb:control+NvDA+tab"
+	)
 	def script_toggleObjPad(self, gesture):
 		if self.objArrowMode == MODE_NORMAL:
 			self.objArrowMode = MODE_OBJNAV
@@ -59,9 +66,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		else:
 			self.clearGestureBindings()
 			self.bindGestures(self.__gestures)
-	# Translators: input help mode message for ObjPad toggle command.
-	script_toggleObjPad.__doc__=_("Toggles ObjPad mode between normal, object nav and scan modes")
-	script_toggleObjPad.category = SCRCAT_OBJECTNAVIGATION
 
 	#Web navigation:
 
@@ -187,7 +191,3 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def script_objActivate(self, gesture):
 		commands.script_review_activate(gesture)
-
-	__gestures={
-		"kb:control+NvDA+tab":"toggleObjPad",
-	}
