@@ -132,7 +132,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			if res!=0:
 				api.setReviewPosition(info)
 				info.expand(textInfos.UNIT_LINE)
-				speech.speakTextInfo(info,unit=textInfos.UNIT_LINE,reason=controlTypes.REASON_CARET)
+				speech.speakTextInfo(info,unit=textInfos.UNIT_LINE,reason=controlTypes.OutputReason.CARET)
 			else:
 				curObject=api.getNavigatorObject()
 				newObject=None
@@ -150,7 +150,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 						newObject=parent.simpleNext
 				if newObject:
 					api.setNavigatorObject(newObject)
-					speech.speakObject(newObject,reason=controlTypes.REASON_FOCUS)
+					speech.speakObject(newObject,reason=controlTypes.OutputReason.FOCUS)
 				else:
 					# Translators: a message when there is no next object when navigating
 					ui.reviewMessage(_("No next"))
@@ -170,7 +170,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			if res!=0:
 				api.setReviewPosition(info)
 				info.expand(textInfos.UNIT_LINE)
-				speech.speakTextInfo(info,unit=textInfos.UNIT_LINE,reason=controlTypes.REASON_CARET)
+				speech.speakTextInfo(info,unit=textInfos.UNIT_LINE,reason=controlTypes.OutputReason.CARET)
 			else:
 				# Do not move outside of the current window.
 				curObject=api.getNavigatorObject()
@@ -184,7 +184,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 						newObject=curObject.simpleParent
 				if newObject:
 					api.setNavigatorObject(newObject)
-					speech.speakObject(newObject,reason=controlTypes.REASON_FOCUS)
+					speech.speakObject(newObject,reason=controlTypes.OutputReason.FOCUS)
 				else:
 					# Translators: a message when there is no previous object when navigating
 					ui.reviewMessage(_("No previous"))
