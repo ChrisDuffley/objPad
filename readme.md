@@ -3,7 +3,7 @@
 * Author: Joseph Lee, Cleverson Uliana and others
 * Download [stable version][1]
 * Download [development version][2]
-* NVDA compatibility: 2020.1 and beyond
+* NVDA compatibility: 2020.1 to 2020.4
 
 This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
 
