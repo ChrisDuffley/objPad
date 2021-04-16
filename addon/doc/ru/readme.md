@@ -3,7 +3,7 @@
 * Авторы: Joseph Lee, Cleverson Uliana и другие
 * Загрузить [стабильную версию][1]
 * Загрузить [разрабатываемую версию][2]
-* NVDA compatibility: 2019.3 and beyond
+* NVDA compatibility: 2020.1 to 2020.4
 
 Данное дополнение обеспечивает горячие клавиши для управления объектами на
 экране, включая навигацию и другие возможности.
@@ -53,6 +53,10 @@
 * Control+right arrow: next word.
 * Control+left arrow: previous word.
 * SPACE or ENTER: activate.
+
+## Version 21.04
+
+* Requires NVDA 2020.1 or later.
 
 ## Version 20.01
 

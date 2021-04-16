@@ -3,7 +3,7 @@
 * Szerzők: Joseph Lee, Cleverson Uliana és mások 
 * [stabil verzió][1] letöltése
 * [fejlesztői verzió][2] letöltése
-* Támogatott NVDA kiadások: 2019.3 és újabb
+* NVDA compatibility: 2020.1 to 2020.4
 
 Ez a bővítmény alternatívát nyújt az NVDA különböző navigációs módjainak
 kezelésére. Az NVDA különböző kurzorainak mozgatását mind a nyílbillentyűkre
@@ -55,6 +55,10 @@ elemek: hivatkozás, űrlapmező, címsor, keret, táblázat, lista, jelzőpont.
 * Ctrl+Jobbnyíl: következő szó.
 * Ctrl+balnyíl: előző szó.
 * Szóköz vagy enter: elem aktiválása
+
+## Version 21.04
+
+* Requires NVDA 2020.1 or later.
 
 ## A 20.01 verzió változásai:
 

@@ -3,7 +3,7 @@
 * Autori: Joseph Lee, Cleverson Uliana i drugi
 * Preuzmi [stabilnu verziju][1]
 * Preuzmi [razvojnu verziju][2]
-* NVDA kompatibilnost: 2019.3 i novija
+* NVDA compatibility: 2020.1 to 2020.4
 
 Ovaj dodatak pruža brze naredbe za upravljanje objektima na ekranu,
 uključujući kretanje i druge mogućnosti.
@@ -53,6 +53,10 @@ Kad je modus skeniranja aktivan:
 * Kontrol+Strelica desno: sljedeća riječ.
 * Kontrol+Strelica lijevo: prethodna riječ.
 * RAZMAKNICA ili ENTER: aktiviranje.
+
+## Version 21.04
+
+* Requires NVDA 2020.1 or later.
 
 ## Verzija 20.01
 

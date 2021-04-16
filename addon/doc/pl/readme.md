@@ -3,7 +3,7 @@
 * Autorzy: Joseph Lee, Cleverson Uliana and others
 * Pobierz [wersja stabilna][1]
 * Pobierz [wersja rozwojowa][2]
-* Zgodność z wersjami NVDA: 2019.3 i nowszymi
+* NVDA compatibility: 2020.1 to 2020.4
 
 Ta wtyczka dodaje szybkie komendy służące do zarządzania obiektami na
 ekranie, między innymi nawigację i inne udogodnienia.
@@ -52,6 +52,10 @@ W aktywnym trybie skanowania:
 * Control+strzałka w prawo: następne słowo.
 * Control+strzałka w lewo: Poprzednie słowo.
 * spacja lub enter: uaktywnij.
+
+## Version 21.04
+
+* Requires NVDA 2020.1 or later.
 
 ## Wersja 20.01
 

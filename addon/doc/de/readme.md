@@ -3,7 +3,7 @@
 * Autoren: Joseph Lee, Cleverson Uliana und andere
 * [Stabile Version herunterladen][1]
 * [Entwicklerversion herunterladen][2]
-* NVDA-Kompatibilität: 2019.3 und neuer
+* NVDA compatibility: 2020.1 to 2020.4
 
 Dieses Add-on bietet schnelle Befehle zur Verwaltung von Objekten auf dem
 Bildschirm, einschließlich Navigation und anderer Möglichkeiten.
@@ -55,6 +55,10 @@ Bei aktiviertem Scan-Modus:
 * Strg+Pfeil nach rechts: Nächstes Wort.
 * Strg+Pfeil nach links: Vorheriges Wort.
 * Leertaste or Eingabetaste: Aktivieren.
+
+## Version 21.04
+
+* Requires NVDA 2020.1 or later.
 
 ## Version 20.01
 

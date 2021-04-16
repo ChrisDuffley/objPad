@@ -3,7 +3,7 @@
 * Autor: Joseph Lee, Cleverson Uliana a ďalší
 * Stiahnuť [stabilnú verziu][1]
 * Stiahnuť [vývojovú verziu][2]
-* Funguje s NVDA od verzie 2019.3
+* NVDA compatibility: 2020.1 to 2020.4
 
 Pridáva klávesové skratky  na navigáciu a prácu s prvkami.
 
@@ -47,6 +47,10 @@ Skenovací režím:
 * Ctrl+pravá šípka: Nasledujúce slovo.
 * Ctrl+ľavá šípka: Predchádzajúce slovo.
 * Medzera alebo enter: Aktivovať.
+
+## Version 21.04
+
+* Requires NVDA 2020.1 or later.
 
 ## Verzia 20.01
 

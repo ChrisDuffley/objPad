@@ -3,7 +3,7 @@
 * Autori: Joseph Lee, Cleverson Uliana și alții
 * Descărcați [versiunea stabilă][1]
 * Descărcați [versiunea în dezvoltare][2]
-* Compatibilitate NVDA: 2019.3 și mai nou
+* NVDA compatibility: 2020.1 to 2020.4
 
 Acest supliment furnizează comenzi rapide pentru a gestiona obiectele pe
 ecran, incluzând navigarea și alte posibilități.
@@ -52,6 +52,10 @@ Cu modul de scanare activ:
 * Control+săgeată dreapta: Următorul cuvânt.
 * Control+săgeată stânga: cuvântul anterior.
 * Spațiu sau Enter: activează.
+
+## Version 21.04
+
+* Requires NVDA 2020.1 or later.
 
 ## Versiunea 20.01
 

@@ -3,7 +3,7 @@
 * Autores: Joseph Lee, Cleverson Uliana y otros
 * Descargar [versión estable][2]
 * Descargar [versión de desarrollo][2]
-* Compatibilidad con NVDA: 2019.3 y versiones posteriores
+* NVDA compatibility: 2020.1 to 2020.4
 
 Este complemento proporciona órdenes rápidas para gestionar objetos en
 pantalla, incluyendo la navegación y otras posibilidades.
@@ -53,6 +53,10 @@ Con el modo escanear activo:
 * Control+Flecha derecha: palabra siguiente.
 * Control+Flecha izquierda: palabra anterior.
 * Espacio o intro: activar.
+
+## Version 21.04
+
+* Requires NVDA 2020.1 or later.
 
 ## Versión 20.01
 

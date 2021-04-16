@@ -3,7 +3,7 @@
 * Autor: Joseph Lee, Cleverson Uliana e outros
 * Baixe a [versão estável][1]
 * Baixe a [versão em desenvolvimento][2]
-* Compatibilidade com NVDA: 2019.3 e além
+* NVDA compatibility: 2020.1 to 2020.4
 
 Esse complemento fornece comandos rápidos para gerenciar objetos na tela,
 incluindo navegação e outras possibilidades.
@@ -51,6 +51,10 @@ Com o modo de esquadrinhamento ativo:
 * CTRL+seta para direita: próxima palavra.
 * CTRL+seta para esquerda: palavra anterior.
 * ESPAÇO ou ENTER: ativar.
+
+## Version 21.04
+
+* Requires NVDA 2020.1 or later.
 
 ## Versão 20.01
 
