@@ -3,7 +3,7 @@
 * Tekijät: Joseph Lee, Cleverson Uliana sekä muut
 * Lataa [vakaa versio][1]
 * Lataa [kehitysversio][2]
-* NVDA compatibility: 2020.1 to 2020.4
+* Yhteensopivuus: NVDA 2020.1-2020.4
 
 Tämä lisäosa tarjoaa pikakomentoja ruudulla olevien objektien hallintaan,
 navigointi ja muut mahdollisuudet mukaan lukien.
@@ -54,9 +54,9 @@ Skannaustilan ollessa aktiivisena:
 * Ctrl+Nuoli vasemmalle: edellinen sana.
 * Väli tai Enter: aktivoi.
 
-## Version 21.04
+## Versio 21.04
 
-* Requires NVDA 2020.1 or later.
+* Edellyttää NVDA 2020.1:tä tai uudempaa.
 
 ## Versio 20.01
 

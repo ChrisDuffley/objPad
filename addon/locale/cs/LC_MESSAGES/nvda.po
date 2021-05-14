@@ -5,71 +5,73 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: objPad 18.03\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2018-08-25 15:05+1000\n"
-"PO-Revision-Date: 2018-09-21 11:05+0300\n"
-"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
-"Language-Team: \n"
-"Language: ro\n"
+"Project-Id-Version: objPad 18.12\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2018-12-14 15:00+1000\n"
+"PO-Revision-Date: 2021-05-12 21:00+0200\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"Last-Translator: Radek Žalud <radek.zalud@seznam.cz>\n"
+"Language-Team: cs\n"
+"X-Generator: Poedit 2.4.3\n"
 
 #. Translators: one of the object arrow modes.
 msgid "Object nav mode"
-msgstr "Mod navigare obiect"
+msgstr "Objektový režim"
 
 #. Translators: one of the object arrow modes.
 msgid "Web mode"
-msgstr "Mod web"
+msgstr "Webový režim"
 
 #. Translators: one of the object arrow modes.
 msgid "Scan mode"
-msgstr "Mod scanare"
+msgstr "Virtualizační režim"
 
 #. Translators: one of the object arrow modes.
 msgid "Normal mode"
-msgstr "Mod normal"
+msgstr "Výchozí režim"
 
 #. Translators: input help mode message for ObjPad toggle command.
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
-msgstr "Comută între modurile normal, scanare și navigare obiect"
+msgstr ""
+"Přepíná mezi jednotlivými režimi: Prohlížení po objektech, webových "
+"prvcích, virtualizací obrazovky nebo výchozím režimem NVDA."
 
 #. Web navigation:
 #. Web elements list:
 msgid "normal"
-msgstr "normal"
+msgstr "Výchozí režim"
 
 msgid "Link"
-msgstr "Link"
+msgstr "Odkaz"
 
 msgid "Form field"
-msgstr "Câmp formular"
+msgstr "Formulářový prvek"
 
 msgid "Heading"
-msgstr "Rubrică"
+msgstr "Nadpis"
 
 msgid "Frame"
-msgstr "Cadru"
+msgstr "Rámec"
 
 msgid "Table"
-msgstr "Tabel"
+msgstr "Tabulka"
 
 msgid "List"
-msgstr "Listă"
+msgstr "Seznam"
 
 msgid "Landmark"
-msgstr "Reper"
+msgstr "Oblast"
 
 #. Translators: a message when there is no next object when navigating
 msgid "No next"
-msgstr "Nu există următor"
+msgstr "Žádný další prvek"
 
 #. Translators: a message when there is no previous object when navigating
 msgid "No previous"
-msgstr "Nu există anterior"
+msgstr "Žádný předchozí prvek"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
@@ -82,5 +84,4 @@ msgid ""
 "Perform various object commands by pressing a single key, including "
 "navigation and more"
 msgstr ""
-"Efectuează diverse comenzi al obiectului apăsând o singură tastă, incluzând "
-"navigarea și multe altele"
+"Zjednodušuje navigaci po objektech a prvcích pomocí kurzorových kláves"

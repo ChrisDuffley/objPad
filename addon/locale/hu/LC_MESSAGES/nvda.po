@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: objPad 19.02\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2019-02-01 15:00+1000\n"
 "PO-Revision-Date: 2020-07-30 15:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
