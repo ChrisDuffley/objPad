@@ -3,7 +3,7 @@
 * Autoren: Joseph Lee, Cleverson Uliana und andere
 * [Stabile Version herunterladen][1]
 * [Entwicklerversion herunterladen][2]
-* NVDA compatibility: 2020.1 to 2020.4
+* NVDA-Kompatibilität: 2020.1 bis 2020.4
 
 Dieses Add-on bietet schnelle Befehle zur Verwaltung von Objekten auf dem
 Bildschirm, einschließlich Navigation und anderer Möglichkeiten.
@@ -58,7 +58,7 @@ Bei aktiviertem Scan-Modus:
 
 ## Version 21.04
 
-* Requires NVDA 2020.1 or later.
+* Erfordert NVDA 2020.1 oder höher.
 
 ## Version 20.01
 
