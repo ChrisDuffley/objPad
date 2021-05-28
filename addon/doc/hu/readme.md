@@ -1,39 +1,41 @@
 # Nyílmódok #
 
 * Szerzők: Joseph Lee, Cleverson Uliana és mások 
-* Letöltés [stabil verzió][1]
-* Letöltés [fejlesztői verzió][2]
-* NVDA compatibility: 2017.3 to 2019.3
+* [stabil verzió][1] letöltése
+* [fejlesztői verzió][2] letöltése
+* NVDA compatibility: 2020.1 to 2020.4
 
-Ez a bővítmény lehetővé teszi, hogy gyorsparancsokat végezzen a képernyőn
-lévő elemekkel, beleértve a navigációt és egyéb lehetőségeket is. 
+Ez a bővítmény alternatívát nyújt az NVDA különböző navigációs módjainak
+kezelésére. Az NVDA különböző kurzorainak mozgatását mind a nyílbillentyűkre
+koncentrálja. Hogy a nyílbillentyűk mikor melyik kurzort, hogy s mint
+mozgatják attól függ, hogy a felhasználó egy billentyűparanccsal melyik
+navigációs módra vált.
 
 ## Parancsok
 
 * Ctrl+NVDA+Tab: Vált a nyílbillentyűk kezelésének módjai (a továbbiakban:
-  nyílmód) között, lásd alább.
+  nyílmódok) között, lásd alább.
 
 ## Nyílmódok
 
-A bővítmény négy módot tesz lehetővé a nyíl billentyűk használatakor.
+A bővítmény használatával a nyílbillentyűk viselkedése az alábbi módon
+változtatható:
 
-* Klasszikus (vagy normál) mód: használja a nyíl billentyűket a kurzor
-  mozgatására.
-* Elemnavigáció: használja a nyíl billentyűket az előző vagy következő,
-  illetve a szülő- vagy gyermekelem eléréséhez.
-* Web: használja a nyíl billentyűket az elemtípusok váltogatására és a
-  közöttük való mozgásra. 
-* áttekintőmód: használja a nyíl billentyűket a képernyőn az elemeken való
-  mozgáshoz függetlenül attól, hogy azok milyen kapcsolatban vannak
-  egymással. 
+* Normál: a nyílbillentyűk a kurzort mozgatják.
+* Elemnavigáció: a nyílbillentyűkkel az előző vagy következő elemre, illetve
+  a szülő- vagy gyermekelemre lehet lépni.
+* Webmód: a nyílbillentyűkkel lehet váltogatni a webes elemtípusokat és az
+  egyes elemek közt navigálni.
+* áttekintőmód: a nyílbillentyűkkel lehet az egyes képernyőelemeken mozogni
+  a köztük fennálló kapcsolattól függetlenül.
 
 Elemnavigációs módban a következő parancsok érhetők el:
 
-* Jobbra nyíl: következő elem.
-* Balra nyíl: előző elem.
+* Jobbnyíl: következő elem.
+* Balnyíl: előző elem.
 * Felnyíl: szülőelem.
 * Lenyíl: az első gyermekelem.
-* SPACE or ENTER: activate.
+* Szóköz vagy enter: elem aktiválása
 
 Webmódban elérhető a normál és az elemenkénti navigáció. A választható
 elemek: hivatkozás, űrlapmező, címsor, keret, táblázat, lista, jelzőpont.
@@ -42,34 +44,47 @@ elemek: hivatkozás, űrlapmező, címsor, keret, táblázat, lista, jelzőpont.
 * Balra nyíl: előző webes elem.
 * Felnyíl: előző webes elemtípus.
 * Lenyíl: következő webes elemtípus.
-* SPACE or ENTER: activate.
+* Szóköz vagy enter: elem aktiválása
 
 Áttekintőmód:
 
-* Down arrow: next object or the next line.
-* Up arrow: previous object or previous line.
-* Jobbranyíl: következő karakter.
+* lenyíl: következő elem vagy következő sor.
+* felnyíl: előző elem vagy előző sor.
+* Jobbnyíl: következő karakter.
 * Balnyíl: előző karakter.
-* Control+right arrow: next word.
-* Control+left arrow: previous word.
-* SPACE or ENTER: activate.
+* Ctrl+Jobbnyíl: következő szó.
+* Ctrl+balnyíl: előző szó.
+* Szóköz vagy enter: elem aktiválása
 
-## Version 18.09
+## Version 21.04
 
-* Added localizations.
-* Enter key (regular and Numpad) can be used to activate objects.
+* Requires NVDA 2020.1 or later.
 
-## Version 18.03
+## A 20.01 verzió változásai:
 
-* Better compatibility with NVDA 2018.1.
+* Az NVDA 2019.3 vagy újabb kiadására van szükség.
+
+## A 18.12 verzió változásai:
+
+* Belső változások, hogy a bővítmény kompatibilis legyen a későbbi NVDA
+  kiadásokkal.
+
+## A 18.09 verzió változásai:
+
+* Fordításokat adtak hozzá.
+* Az Enterrel vagy a Numpad billentyűivel lehet az elemeket aktiválni.
+
+## A 18.03 verzió változásai:
+
+* Jobb együttműködés az NVDA 2018.1 verziójával.
 
 ## A 16.12 verzió változásai:
 
 * Hozzáadták a webmódot.
 
-## 16.10-es verzió:
+## A 16.10 verzió változásai:
 
-* Eredeti stabil verzió.
+* Első stabil verzió.
 
 [[!tag dev stable]]
 

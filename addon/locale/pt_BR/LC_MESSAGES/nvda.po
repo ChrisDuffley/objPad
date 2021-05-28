@@ -1,41 +1,46 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the objPad package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Brazilian Portuguese translation of objPad.
+# Copyright (C) 2020 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Ângelo Abrantes <ampa4374@gmail.com>, 2018.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: objPad 18.03\n"
+"Project-Id-Version: objPad\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2018-08-25 15:05+1000\n"
-"PO-Revision-Date: 2018-09-21 11:05+0300\n"
-"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
-"Language-Team: \n"
-"Language: ro\n"
+"POT-Creation-Date: 2020-01-03 15:00+1000\n"
+"PO-Revision-Date: 2020-06-06 16:45-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
+"Language-Team: NVDA Brazilian Portuguese translation team (Equipe de "
+"tradução do NVDA para Português Brasileiro) <clever97@gmail.com>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: one of the object arrow modes.
 msgid "Object nav mode"
-msgstr "Mod navigare obiect"
+msgstr "Modo de navegação por objeto"
 
 #. Translators: one of the object arrow modes.
 msgid "Web mode"
-msgstr "Mod web"
+msgstr "Modo web"
 
 #. Translators: one of the object arrow modes.
 msgid "Scan mode"
-msgstr "Mod scanare"
+msgstr "Modo de esquadrinhamento"
 
 #. Translators: one of the object arrow modes.
 msgid "Normal mode"
-msgstr "Mod normal"
+msgstr "Modo normal"
 
 #. Translators: input help mode message for ObjPad toggle command.
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
-msgstr "Comută între modurile normal, scanare și navigare obiect"
+msgstr ""
+"Alterna o modo ObjPad entre os modos normal, navegação por objeto e "
+"esquadrinhamento"
 
 #. Web navigation:
 #. Web elements list:
@@ -46,30 +51,30 @@ msgid "Link"
 msgstr "Link"
 
 msgid "Form field"
-msgstr "Câmp formular"
+msgstr "Campo de formulário"
 
 msgid "Heading"
-msgstr "Rubrică"
+msgstr "Título"
 
 msgid "Frame"
-msgstr "Cadru"
+msgstr "Frame"
 
 msgid "Table"
-msgstr "Tabel"
+msgstr "Tabela"
 
 msgid "List"
-msgstr "Listă"
+msgstr "Lista"
 
 msgid "Landmark"
-msgstr "Reper"
+msgstr "Marco"
 
 #. Translators: a message when there is no next object when navigating
 msgid "No next"
-msgstr "Nu există următor"
+msgstr "Sem próximo"
 
 #. Translators: a message when there is no previous object when navigating
 msgid "No previous"
-msgstr "Nu există anterior"
+msgstr "Sem anterior"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
@@ -82,5 +87,5 @@ msgid ""
 "Perform various object commands by pressing a single key, including "
 "navigation and more"
 msgstr ""
-"Efectuează diverse comenzi al obiectului apăsând o singură tastă, incluzând "
-"navigarea și multe altele"
+"Execute vários comandos de objeto pressionando uma única tecla, incluindo "
+"navegação e mais"
