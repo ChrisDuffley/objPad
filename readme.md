@@ -2,8 +2,7 @@
 
 * Author: Joseph Lee, Cleverson Uliana and others
 * Download [stable version][1]
-* Download [development version][2]
-* NVDA compatibility: 2020.1 to 2020.4
+* NVDA compatibility: 2020.1 and beyond
 
 This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
 
@@ -76,5 +75,3 @@ With scan mode active:
 * Initial stable version.
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
