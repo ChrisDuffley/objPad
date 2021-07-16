@@ -1,7 +1,7 @@
 # ObjPad #
 
 * Autores: Joseph Lee, Cleverson Uliana y otros
-* Descargar [versión estable][2]
+* Descargar [versión estable][1]
 * Descargar [versión de desarrollo][2]
 * Compatibilidad con NVDA: de 2020.1 a 2020.4
 
