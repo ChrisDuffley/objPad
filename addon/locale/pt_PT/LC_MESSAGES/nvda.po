@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: objPad 18.03\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2018-08-25 15:05+1000\n"
-"PO-Revision-Date: 2018-09-21 11:50+0100\n"
-"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
+"PO-Revision-Date: 2021-10-30 22:27+0100\n"
+"Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <ampa4374@gmail.com; rui."
 "fontes@tiflotecnia.com>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 3.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: one of the object arrow modes.
@@ -33,7 +33,7 @@ msgstr "Modo de varrimento"
 
 #. Translators: one of the object arrow modes.
 msgid "Normal mode"
-msgstr "modo normal"
+msgstr "Modo normal"
 
 #. Translators: input help mode message for ObjPad toggle command.
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
