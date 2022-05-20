@@ -1,8 +1,8 @@
-# ObjPad #
+# ObjPad
 
 * Author: Joseph Lee, Cleverson Uliana and others
 * Download [stable version][1]
-* NVDA compatibility: 2020.1 and beyond
+* NVDA compatibility: 2021.3 and later
 
 This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
 
@@ -44,6 +44,10 @@ With scan mode active:
 * Control+right arrow: next word.
 * Control+left arrow: previous word.
 * SPACE or ENTER: activate.
+
+## Version 22.06
+
+* Requires NVDA 2021.3 or later.
 
 ## Version 21.04
 
