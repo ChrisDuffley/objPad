@@ -3,7 +3,7 @@
 * Autorzy: Joseph Lee, Cleverson Uliana and others
 * Pobierz [wersja stabilna][1]
 * Pobierz [wersja rozwojowa][2]
-* NVDA compatibility: 2020.1 to 2020.4
+* Zgodność z NVDA: od 2020.1 do 2020.4
 
 Ta wtyczka dodaje szybkie komendy służące do zarządzania obiektami na
 ekranie, między innymi nawigację i inne udogodnienia.
@@ -31,7 +31,7 @@ Komendy trybu nawigacji:
 * Strzałka w lewo: poprzedni obiekt.
 * Strzałka w górę: obiekt nadrzędny.
 * Strzałka w dół: pierwszy obiekt podrzędny.
-* spacja lub enter: uaktywnij.
+* SPACJA lub ENTER: aktywuj.
 
 W aktywnym trybie sieciowym, można przemieszczać się po elementach
 standardowo lub poruszać się po obiektach, linkach, polach formularza,
@@ -41,21 +41,21 @@ nagłówkach, ramkach, tabelach, listach, punktach orientacyjnych:
 * Strzałka w lewo: poprzedni element.
 * Strzałka w górę: poprzedni typ elementu.
 * Strzałka w dół: następny typ elementu.
-* spacja lub enter: uaktywnij.
+* SPACJA lub ENTER: aktywuj.
 
 W aktywnym trybie skanowania:
 
 * Strzałka w dół: następny obiekt lub następna linia.
-* strzałka w gorę: poprzedni obiekt lub poprzednia linia.
+* Strzałka w górę: poprzedni obiekt lub poprzedni wiersz.
 * Strzałka w prawo: odczytaj następny znak.
 * Strzałka w lewo: odczytaj poprzedni znak.
 * Control+strzałka w prawo: następne słowo.
 * Control+strzałka w lewo: Poprzednie słowo.
-* spacja lub enter: uaktywnij.
+* SPACJA lub ENTER: aktywuj.
 
-## Version 21.04
+## Wersja 21.04
 
-* Requires NVDA 2020.1 or later.
+* Wymaga NVDA 2020.1 lub nowszego.
 
 ## Wersja 20.01
 
@@ -79,9 +79,9 @@ W aktywnym trybie skanowania:
 
 * Dodano tryb sieciowy.
 
-## wersja 16.10
+## Wersja 16.10
 
-* Pierwsza wersja stabilna
+* Pierwsza wersja stabilna.
 
 [[!tag dev stable]]
 
