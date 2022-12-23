@@ -3,7 +3,7 @@
 * Autores: Joseph Lee, Cleverson Uliana and others
 * Baixar [versão estável][1]
 * Baixar [versão de desenvolvimento][2]
-* Compatibilidade com o NVDA: 2020.1 a 2020.4
+* NVDA compatibility: 2022.3 and later
 
 Este extra fornece comandos rápidos para gerir objetos no ecrã, incluindo
 navegação e outras possibilidades.
@@ -51,6 +51,12 @@ Com o modo de varredura activo:
 * CTRL+seta para a direita: próxima palavra.
 * CTRL+seta para a esquerda: palavra anterior.
 * ESPAÇO ou enter: activar.
+
+## Version 23.01
+
+* NVDA 2022.3 or later is required.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
+  supported by Microsoft as of January 2023.
 
 ## Versão 21.04
 

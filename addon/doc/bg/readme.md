@@ -3,7 +3,7 @@
 * Автори: Joseph Lee, Cleverson Uliana и други
 * Изтегляне на [стабилна версия][1]
 * Изтегляне на [тестова версия][2]
-* Съвместимост с NVDA: от 2020.1 до 2020.4
+* NVDA compatibility: 2022.3 and later
 
 Тази добавка предоставя бързи команди за управление на обектите по екрана,
 включително навигация между тях и други възможности.
@@ -53,6 +53,12 @@
 * Control+Стрелка надясно: следваща дума.
 * Control+Стрелка наляво: предишна дума.
 * Клавиш интервал или ENTER: задействане.
+
+## Version 23.01
+
+* NVDA 2022.3 or later is required.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
+  supported by Microsoft as of January 2023.
 
 ## Версия 21.04
 

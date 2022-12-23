@@ -3,7 +3,7 @@
 * Autor: Joseph Lee, Cleverson Uliana e outros
 * Baixe a [versão estável][1]
 * Baixe a [versão em desenvolvimento][2]
-* Compatibilidade com NVDA: 2020.1 a 2020.4
+* NVDA compatibility: 2022.3 and later
 
 Esse complemento fornece comandos rápidos para gerenciar objetos na tela,
 incluindo navegação e outras possibilidades.
@@ -51,6 +51,12 @@ Com o modo de esquadrinhamento ativo:
 * CTRL+seta para direita: próxima palavra.
 * CTRL+seta para esquerda: palavra anterior.
 * ESPAÇO ou ENTER: ativar.
+
+## Version 23.01
+
+* NVDA 2022.3 or later is required.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
+  supported by Microsoft as of January 2023.
 
 ## Versão 21.04
 

@@ -3,7 +3,7 @@
 * Autor: Joseph Lee, Cleverson Uliana a ďalší
 * Stiahnuť [stabilnú verziu][1]
 * Stiahnuť [vývojovú verziu][2]
-* NVDA compatibility: 2020.1 to 2020.4
+* NVDA compatibility: 2022.3 and later
 
 Pridáva klávesové skratky  na navigáciu a prácu s prvkami.
 
@@ -47,6 +47,12 @@ Skenovací režím:
 * Ctrl+pravá šípka: Nasledujúce slovo.
 * Ctrl+ľavá šípka: Predchádzajúce slovo.
 * Medzera alebo enter: Aktivovať.
+
+## Version 23.01
+
+* NVDA 2022.3 or later is required.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
+  supported by Microsoft as of January 2023.
 
 ## Version 21.04
 

@@ -3,7 +3,7 @@
 * Autori: Joseph Lee, Cleverson Uliana e altri
 * Scarica la [versione stabile][1]
 * Scarica la [versione in sviluppo][2]
-* Compatibilità NVDAcon : dalla versione 2020.1 alla 2020.4
+* NVDA compatibility: 2022.3 and later
 
 Questo add-on fornisce comandi rapidi per gestire gli oggetti sullo schermo,
 compresa la navigazione e le altre possibilità.
@@ -54,6 +54,12 @@ Con la modalità scansione attiva:
 * Control+freccia destra: parola successiva.
 * Control+freccia sinistra: parola precedente.
 * Spazio o invio: attiva.
+
+## Version 23.01
+
+* NVDA 2022.3 or later is required.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
+  supported by Microsoft as of January 2023.
 
 ## Novità nella versione 21.04
 

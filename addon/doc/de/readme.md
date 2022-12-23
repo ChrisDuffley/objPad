@@ -3,7 +3,7 @@
 * Autoren: Joseph Lee, Cleverson Uliana und andere
 * [Stabile Version herunterladen][1]
 * [Entwicklerversion herunterladen][2]
-* NVDA-Kompatibilität: 2020.1 bis 2020.4
+* NVDA compatibility: 2022.3 and later
 
 Dieses Add-on bietet schnelle Befehle zur Verwaltung von Objekten auf dem
 Bildschirm, einschließlich Navigation und anderer Möglichkeiten.
@@ -55,6 +55,12 @@ Bei aktiviertem Scan-Modus:
 * Strg+Pfeil nach rechts: Nächstes Wort.
 * Strg+Pfeil nach links: Vorheriges Wort.
 * Leertaste or Eingabetaste: Aktivieren.
+
+## Version 23.01
+
+* NVDA 2022.3 or later is required.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
+  supported by Microsoft as of January 2023.
 
 ## Version 21.04
 

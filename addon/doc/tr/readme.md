@@ -3,7 +3,7 @@
 * Yazar: Joseph Lee, Cleverson Uliana ve diğerleri
 * [Kararlı sürüm][1]ü indir
 * [Geliştirme sürümü][2]nü indir
-* NVDA uyumluluğu: 2020.1 - 2020.4
+* NVDA compatibility: 2022.3 and later
 
 Bu eklenti, navigasyon ve diğer özellikler dahil ekrandaki nesneleri
 yönetmek için hızlı komutlar sağlar
@@ -51,6 +51,12 @@ Tarama modu etkinken:
 * Control+sağ ok: sonraki kelime.
 * Control+sol ok: önceki kelime.
 * SPACE veya ENTER: etkinleştir.
+
+## Version 23.01
+
+* NVDA 2022.3 or later is required.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
+  supported by Microsoft as of January 2023.
 
 ## Sürüm 21.04
 

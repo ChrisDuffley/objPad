@@ -3,7 +3,7 @@
 * Auteur : Joseph Lee, Cleverson Uliana et autres
 * Télécharger [version stable][1]
 * Télécharger [version de développement][2]
-* Compatibilité NVDA : 2020.1 à 2020.4
+* NVDA compatibility: 2022.3 and later
 
 Cette extension fournit des commandes rapides pour gérer les objets sur
 l'écran, incluant la navigation et d'autres possibilités.
@@ -53,6 +53,12 @@ Avec le mode balayage actif :
 * Contrôle + flèche droite : mot suivant.
 * Contrôle + flèche gauche : mot précédent.
 * ESPACE ou entrer : activer.
+
+## Version 23.01
+
+* NVDA 2022.3 or later is required.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
+  supported by Microsoft as of January 2023.
 
 ## Version 21.04
 

@@ -3,7 +3,7 @@
 * Forfattere: Joseph Lee, Cleverson Uliana og andre
 * Download [stabil version][1]
 * Download [udviklingsversion][2]
-* NVDA compatibility: 2020.1 to 2020.4
+* NVDA compatibility: 2022.3 and later
 
 Denne tilføjelse giver hurtige kommandoer til at styre objekter på skærmen,
 herunder navigation og andre muligheder.
@@ -53,6 +53,12 @@ Med scanningstilstand aktiv:
 * Control+højre pil: Næste ord.
 * Control+venstre pil: Forrige ord.
 * Mellemrum eller ENTER: Aktivér.
+
+## Version 23.01
+
+* NVDA 2022.3 or later is required.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
+  supported by Microsoft as of January 2023.
 
 ## Version 21.04
 

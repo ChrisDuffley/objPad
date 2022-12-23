@@ -3,7 +3,7 @@
 * 作者: Joseph Lee, Cleverson Uliana and others
 * 下载 [稳定版][1]
 * 下载 [开发板][2]
-* NVDA兼容版本: 2020.1 到 2020.4
+* NVDA compatibility: 2022.3 and later
 
 此插件提供快捷键来管理屏幕上的对象，包括导航和其他可能性。
 
@@ -45,6 +45,12 @@
 * Ctrl + 右光标: 下一个单词。
 * Ctrl+左光标: 上一个单词。
 * 空格或回车：激活。
+
+## Version 23.01
+
+* NVDA 2022.3 or later is required.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
+  supported by Microsoft as of January 2023.
 
 ## 版本21.04
 
