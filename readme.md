@@ -2,7 +2,7 @@
 
 * Author: Joseph Lee, Cleverson Uliana and others
 * Download [stable version][1]
-* NVDA compatibility: 2021.3 and later
+* NVDA compatibility: 2022.3 and later
 
 This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
 
