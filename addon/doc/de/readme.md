@@ -3,7 +3,7 @@
 * Autoren: Joseph Lee, Cleverson Uliana und andere
 * [Stabile Version herunterladen][1]
 * [Entwicklerversion herunterladen][2]
-* NVDA compatibility: 2022.3 and later
+* NVDA-Kompatibilität: 2022.3 und neuer
 
 Dieses Add-on bietet schnelle Befehle zur Verwaltung von Objekten auf dem
 Bildschirm, einschließlich Navigation und anderer Möglichkeiten.
@@ -58,9 +58,13 @@ Bei aktiviertem Scan-Modus:
 
 ## Version 23.01
 
-* NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
-  supported by Microsoft as of January 2023.
+* NVDA 2022.3 oder neuer ist erforderlich.
+* Windows 10 oder neuer ist erforderlich, da Windows 7, 8 und 8.1 ab Januar
+  2023 nicht mehr von Microsoft unterstützt werden.
+
+## Version 22.06
+
+* Benötigt NVDA 2021.3 oder neuer.
 
 ## Version 21.04
 

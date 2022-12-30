@@ -3,7 +3,7 @@
 * Autores: Joseph Lee, Cleverson Uliana e outros
 * Descargar [versión estable][1]
 * Descargar [versión de desenvolvemento][2]
-* NVDA compatibility: 2022.3 and later
+* Compatibilidade con NVDA: 2022.2 en diante
 
 Este complemento proporciona ordes rápidas para xestionar obxectos na
 pantalla, incluindo a navegación e outras posibilidades.
@@ -53,11 +53,15 @@ Co modo escanear activo:
 * Control+Frecha esquerda: palabra anterior.
 * Espazo ou intro: activar.
 
-## Version 23.01
+## Versión 23.01
 
-* NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
-  supported by Microsoft as of January 2023.
+* Require NVDA 2022.3 ou posterior.
+* Requírese Windows 10 ou posterior xa que Windows 7, 8, e 8.1 xa non se
+  soportan dende Microsoft dende xaneiro do 2023.
+
+## Versión 22.06
+
+* Require NVDA 2021.3 ou posterior.
 
 ## Versión 21.04
 

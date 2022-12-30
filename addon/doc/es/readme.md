@@ -60,6 +60,10 @@ Con el modo escanear activo:
 * Se requiere Windows 10 o posterior, ya que Microsoft no soporta Windows 7,
   8 y 8.1 a partir de enero de 2023.
 
+## Versión 22.06
+
+* Se requiere NVDA 2021.3 o posterior.
+
 ## Versión 21.04
 
 * Se requiere NVDA 2020.1 o posterior.

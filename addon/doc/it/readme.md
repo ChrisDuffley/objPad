@@ -61,6 +61,10 @@ Con la modalità scansione attiva:
 * Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
   supported by Microsoft as of January 2023.
 
+## Version 22.06
+
+* Requires NVDA 2021.3 or later.
+
 ## Novità nella versione 21.04
 
 * Richiede NVDA 2020.1 o superiore.

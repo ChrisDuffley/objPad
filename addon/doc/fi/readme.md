@@ -60,6 +60,10 @@ Skannaustilan ollessa aktiivisena:
 * Windows 10 tai uudempi vaaditaan, koska Microsoft ei enää tue Windows
   7:ää, 8:aa tai 8.1:tä tammikuusta 2023 alkaen.
 
+## Versio 22.06
+
+* Vaatii NVDA 2021.3:n tai uudemman.
+
 ## Versio 21.04
 
 * Edellyttää NVDA 2020.1:tä tai uudempaa.
