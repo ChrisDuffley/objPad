@@ -2,14 +2,13 @@
 
 * 作者: Joseph Lee, Cleverson Uliana and others
 * 下载 [稳定版][1]
-* 下载 [开发板][2]
-* NVDA 兼容性：2022.3 及更高版本
+* NVDA 兼容性：2022.4 及更高版本
 
 此插件提供了一组快捷键来处理屏幕上的对象，包括导航和其他可能性。
 
 ## 快捷键
 
-* Control + NVDA + TAB 切换以下模式（详见下文）：
+* Control + NVDA + TAB 切换以下模式（详见下文）。
 
 ## 光标键模式
 
@@ -87,5 +86,3 @@
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev

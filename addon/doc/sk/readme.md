@@ -2,8 +2,7 @@
 
 * Autor: Joseph Lee, Cleverson Uliana a ďalší
 * Stiahnuť [stabilnú verziu][1]
-* Stiahnuť [vývojovú verziu][2]
-* NVDA compatibility: 2022.3 and later
+* NVDA compatibility: 2022.4 and later
 
 Pridáva klávesové skratky  na navigáciu a prácu s prvkami.
 
@@ -90,5 +89,3 @@ Skenovací režím:
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev

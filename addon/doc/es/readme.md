@@ -2,8 +2,7 @@
 
 * Autores: Joseph Lee, Cleverson Uliana y otros
 * Descargar [versión estable][1]
-* Descargar [versión de desarrollo][2]
-* Compatibilidad con NVDA: de 2022.3 en adelante
+* Compatibilidad con NVDA: de 2022.4 en adelante
 
 Este complemento proporciona órdenes rápidas para gestionar objetos en
 pantalla, incluyendo la navegación y otras posibilidades.
@@ -96,5 +95,3 @@ Con el modo escanear activo:
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev

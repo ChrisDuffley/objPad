@@ -2,8 +2,7 @@
 
 * Autori: Joseph Lee, Cleverson Uliana și alții
 * Descărcați [versiunea stabilă][1]
-* Descărcați [versiunea în dezvoltare][2]
-* NVDA compatibility: 2022.3 and later
+* NVDA compatibility: 2022.4 and later
 
 Acest supliment furnizează comenzi rapide pentru a gestiona obiectele pe
 ecran, incluzând navigarea și alte posibilități.
@@ -97,5 +96,3 @@ Cu modul de scanare activ:
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev

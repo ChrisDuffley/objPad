@@ -2,8 +2,7 @@
 
 * Autori: Joseph Lee, Cleverson Uliana e altri
 * Scarica la [versione stabile][1]
-* Scarica la [versione in sviluppo][2]
-* NVDA compatibility: 2022.3 and later
+* NVDA compatibility: 2022.4 and later
 
 Questo add-on fornisce comandi rapidi per gestire gli oggetti sullo schermo,
 compresa la navigazione e le altre possibilità.
@@ -98,5 +97,3 @@ Con la modalità scansione attiva:
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev

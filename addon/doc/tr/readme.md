@@ -2,8 +2,7 @@
 
 * Yazar: Joseph Lee, Cleverson Uliana ve diğerleri
 * [Kararlı sürüm][1]ü indir
-* [Geliştirme sürümü][2]nü indir
-* NVDA compatibility: 2022.3 and later
+* NVDA compatibility: 2022.4 and later
 
 Bu eklenti, navigasyon ve diğer özellikler dahil ekrandaki nesneleri
 yönetmek için hızlı komutlar sağlar
@@ -95,5 +94,3 @@ Tarama modu etkinken:
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev

@@ -2,8 +2,7 @@
 
 * Autores: Joseph Lee, Cleverson Uliana and others
 * Baixar [versão estável][1]
-* Baixar [versão de desenvolvimento][2]
-* NVDA compatibility: 2022.3 and later
+* NVDA compatibility: 2022.4 and later
 
 Este extra fornece comandos rápidos para gerir objetos no ecrã, incluindo
 navegação e outras possibilidades.
@@ -95,5 +94,3 @@ Com o modo de varredura activo:
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev

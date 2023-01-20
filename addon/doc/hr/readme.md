@@ -2,8 +2,7 @@
 
 * Autori: Joseph Lee, Cleverson Uliana i drugi
 * Preuzmi [stabilnu verziju][1]
-* Preuzmi [razvojnu verziju][2]
-* NVDA compatibility: 2022.3 and later
+* NVDA kompatibilnost: 2022.4 i novije verzije
 
 Ovaj dodatak pruža brze naredbe za upravljanje objektima na ekranu,
 uključujući kretanje i druge mogućnosti.
@@ -54,15 +53,15 @@ Kad je modus skeniranja aktivan:
 * Kontrol+Strelica lijevo: prethodna riječ.
 * RAZMAKNICA ili ENTER: aktiviranje.
 
-## Version 23.01
+## Verzija 23.01
 
-* NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
-  supported by Microsoft as of January 2023.
+* Zahtijeva NVDA 2022.3 ili noviju verziju.
+* Zahtijeva Windows 10 ili noviju verziju, jer od siječnja 2023. Microsoft
+  više ne pordržava Windows 7, 8 i 8.1.
 
-## Version 22.06
+## Verzija 22.06
 
-* Requires NVDA 2021.3 or later.
+* Zahtijeva NVDA 2021.3 ili noviju verziju.
 
 ## Verzija 21.04
 
@@ -97,5 +96,3 @@ Kad je modus skeniranja aktivan:
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev

@@ -2,8 +2,7 @@
 
 * Autorzy: Joseph Lee, Cleverson Uliana and others
 * Pobierz [wersja stabilna][1]
-* Pobierz [wersja rozwojowa][2]
-* NVDA compatibility: 2022.3 and later
+* NVDA compatibility: 2022.4 and later
 
 Ta wtyczka dodaje szybkie komendy służące do zarządzania obiektami na
 ekranie, między innymi nawigację i inne udogodnienia.
@@ -96,5 +95,3 @@ W aktywnym trybie skanowania:
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev

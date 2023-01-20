@@ -2,8 +2,7 @@
 
 * Tekijät: Joseph Lee, Cleverson Uliana sekä muut
 * Lataa [vakaa versio][1]
-* Lataa [kehitysversio][2]
-* Yhteensopivuus: NVDA 2022.3 ja uudemmat
+* Yhteensopivuus: NVDA 2022.4 ja uudemmat
 
 Tämä lisäosa tarjoaa pikakomentoja ruudulla olevien objektien hallintaan,
 navigointi ja muut mahdollisuudet mukaan lukien.
@@ -97,5 +96,3 @@ Skannaustilan ollessa aktiivisena:
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev

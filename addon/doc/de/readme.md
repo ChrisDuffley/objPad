@@ -2,8 +2,7 @@
 
 * Autoren: Joseph Lee, Cleverson Uliana und andere
 * [Stabile Version herunterladen][1]
-* [Entwicklerversion herunterladen][2]
-* NVDA-Kompatibilität: 2022.3 und neuer
+* NVDA-Kompatibilität: 2022.4 und neuer
 
 Dieses Add-on bietet schnelle Befehle zur Verwaltung von Objekten auf dem
 Bildschirm, einschließlich Navigation und anderer Möglichkeiten.
@@ -99,5 +98,3 @@ Bei aktiviertem Scan-Modus:
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev

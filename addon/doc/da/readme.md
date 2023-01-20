@@ -2,8 +2,7 @@
 
 * Forfattere: Joseph Lee, Cleverson Uliana og andre
 * Download [stabil version][1]
-* Download [udviklingsversion][2]
-* NVDA compatibility: 2022.3 and later
+* NVDA compatibility: 2022.4 and later
 
 Denne tilføjelse giver hurtige kommandoer til at styre objekter på skærmen,
 herunder navigation og andre muligheder.
@@ -98,5 +97,3 @@ Med scanningstilstand aktiv:
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev

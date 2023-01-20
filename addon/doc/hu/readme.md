@@ -2,8 +2,7 @@
 
 * Szerzők: Joseph Lee, Cleverson Uliana és mások 
 * [stabil verzió][1] letöltése
-* [fejlesztői verzió][2] letöltése
-* NVDA compatibility: 2022.3 and later
+* NVDA compatibility: 2022.4 and later
 
 Ez a bővítmény alternatívát nyújt az NVDA különböző navigációs módjainak
 kezelésére. Az NVDA különböző kurzorainak mozgatását mind a nyílbillentyűkre
@@ -99,5 +98,3 @@ elemek: hivatkozás, űrlapmező, címsor, keret, táblázat, lista, jelzőpont.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev

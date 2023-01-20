@@ -2,8 +2,7 @@
 
 * Auteur : Joseph Lee, Cleverson Uliana et autres
 * Télécharger [version stable][1]
-* Télécharger [version de développement][2]
-* NVDA compatibility: 2022.3 and later
+* NVDA compatibility: 2022.4 and later
 
 Cette extension fournit des commandes rapides pour gérer les objets sur
 l'écran, incluant la navigation et d'autres possibilités.
@@ -97,5 +96,3 @@ Avec le mode balayage actif :
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=objPad
-
-[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev
