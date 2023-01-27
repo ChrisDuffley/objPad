@@ -53,6 +53,12 @@ Skannaustilan ollessa aktiivisena:
 * Ctrl+Nuoli vasemmalle: edellinen sana.
 * Väli tai Enter: aktivoi.
 
+## Versio 23.02
+
+* Edellyttää NVDA 2022.4:ää tai uudempaa.
+* Windows 10 21H2 (marraskuun 2021 päivitys/koontiversio 19044) tai uudempi
+  vaaditaan.
+
 ## Versio 23.01
 
 * Vaatii NVDA 2022.3:n tai uudemman.

@@ -53,6 +53,12 @@ Con el modo escanear activo:
 * Control+Flecha izquierda: palabra anterior.
 * Espacio o intro: activar.
 
+## Versión 23.02
+
+* Se requiere NVDA 2022.4 o posterior.
+* Se requiere Windows 10 21H2 (actualización de noviembre de 2021 /
+  compilación 19044) o posterior.
+
 ## Versión 23.01
 
 * Se requiere NVDA 2022.3 o posterior.
