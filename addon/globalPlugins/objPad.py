@@ -25,6 +25,7 @@ MODE_OBJNAV = 1
 MODE_WEB = 2
 MODE_SCANMODE = 3
 
+
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	objArrowMode = 0
