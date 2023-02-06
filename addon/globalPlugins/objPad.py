@@ -91,9 +91,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		elif self.objArrowMode == MODE_WEB:
 			obj = api.getNavigatorObject().treeInterceptor
 			if isinstance(obj, browseMode.BrowseModeTreeInterceptor):
-				if self.webBrowseMode == 0: commands.script_navigatorObject_nextInFlow(gesture)
-				else: self.browseModeCommands[self.webBrowseMode-1][0](obj, gesture)
-			else: commands.script_navigatorObject_nextInFlow(gesture)
+				if self.webBrowseMode == 0:
+					commands.script_navigatorObject_nextInFlow(gesture)
+				else:
+					self.browseModeCommands[self.webBrowseMode-1][0](obj, gesture)
+			else:
+				commands.script_navigatorObject_nextInFlow(gesture)
 		elif self.objArrowMode == MODE_SCANMODE:
 			commands.script_review_nextCharacter(gesture)
 
@@ -103,9 +106,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		elif self.objArrowMode == MODE_WEB:
 			obj = api.getNavigatorObject().treeInterceptor
 			if isinstance(obj, browseMode.BrowseModeTreeInterceptor):
-				if self.webBrowseMode == 0: commands.script_navigatorObject_previousInFlow(gesture)
-				else: self.browseModeCommands[self.webBrowseMode-1][1](obj, gesture)
-			else: commands.script_navigatorObject_previousInFlow(gesture)
+				if self.webBrowseMode == 0:
+					commands.script_navigatorObject_previousInFlow(gesture)
+				else:
+					self.browseModeCommands[self.webBrowseMode-1][1](obj, gesture)
+			else:
+				commands.script_navigatorObject_previousInFlow(gesture)
 		elif self.objArrowMode == MODE_SCANMODE:
 			commands.script_review_previousCharacter(gesture)
 
