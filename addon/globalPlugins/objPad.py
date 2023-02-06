@@ -70,12 +70,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	#Web navigation:
 
 	# Web elements list:
-	webBrowseElements=(_("normal"), _("Link"), _("Form field"), _("Heading"), _("Frame"), _("Table"), _("List"), _("Landmark"))
+	webBrowseElements = (_("normal"), _("Link"), _("Form field"), _("Heading"), _("Frame"), _("Table"), _("List"), _("Landmark"))
 	webBrowseMode = 0
 
 	# The actual navigation gestures:
 	# Look up the needed commands for readability purposes.
-	browseModeCommands=(
+	browseModeCommands = (
 		(browseMode.BrowseModeTreeInterceptor.script_nextLink, browseMode.BrowseModeTreeInterceptor.script_previousLink),
 		(browseMode.BrowseModeTreeInterceptor.script_nextFormField, browseMode.BrowseModeTreeInterceptor.script_previousFormField),
 		(browseMode.BrowseModeTreeInterceptor.script_nextHeading, browseMode.BrowseModeTreeInterceptor.script_previousHeading),
@@ -125,29 +125,29 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			ui.message(self.webBrowseElements[self.webBrowseMode])
 		elif self.objArrowMode == MODE_SCANMODE:
 			# Navigate to next line if possible.
-			info=api.getReviewPosition().copy()
+			info = api.getReviewPosition().copy()
 			info.expand(textInfos.UNIT_LINE)
 			info.collapse()
-			res=info.move(textInfos.UNIT_LINE,1)
-			if res!=0:
+			res = info.move(textInfos.UNIT_LINE,1)
+			if res != 0:
 				api.setReviewPosition(info)
 				info.expand(textInfos.UNIT_LINE)
 				speech.speakTextInfo(info,unit=textInfos.UNIT_LINE,reason=controlTypes.OutputReason.CARET)
 			else:
-				curObject=api.getNavigatorObject()
-				newObject=None
+				curObject = api.getNavigatorObject()
+				newObject = None
 				if curObject.simpleFirstChild:
-					newObject=curObject.simpleFirstChild
+					newObject = curObject.simpleFirstChild
 				elif curObject.simpleNext:
-					newObject=curObject.simpleNext
+					newObject = curObject.simpleNext
 				elif curObject.simpleParent:
-					parent=curObject.simpleParent
+					parent = curObject.simpleParent
 					while parent and not parent.simpleNext:
-						parent=parent.simpleParent
+						parent = parent.simpleParent
 					# As long as one is on current foreground object...
 					#Stay within the current top-level window.
 					if parent and parent.simpleParent != api.getDesktopObject():
-						newObject=parent.simpleNext
+						newObject = parent.simpleNext
 				if newObject:
 					api.setNavigatorObject(newObject)
 					speech.speakObject(newObject,reason=controlTypes.OutputReason.FOCUS)
@@ -163,25 +163,25 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			ui.message(self.webBrowseElements[self.webBrowseMode])
 		elif self.objArrowMode == MODE_SCANMODE:
 			# Move to previous line first so text can be reviewed before resorting to a new object.
-			info=api.getReviewPosition().copy()
+			info = api.getReviewPosition().copy()
 			info.expand(textInfos.UNIT_LINE)
 			info.collapse()
-			res=info.move(textInfos.UNIT_LINE,-1)
-			if res!=0:
+			res = info.move(textInfos.UNIT_LINE,-1)
+			if res != 0:
 				api.setReviewPosition(info)
 				info.expand(textInfos.UNIT_LINE)
 				speech.speakTextInfo(info,unit=textInfos.UNIT_LINE,reason=controlTypes.OutputReason.CARET)
 			else:
 				# Do not move outside of the current window.
-				curObject=api.getNavigatorObject()
-				newObject=None
+				curObject = api.getNavigatorObject()
+				newObject = None
 				if curObject.parent != api.getDesktopObject():
-					newObject=curObject.simplePrevious
+					newObject = curObject.simplePrevious
 					if newObject:
 						while newObject.simpleLastChild:
-							newObject=newObject.simpleLastChild
+							newObject = newObject.simpleLastChild
 					else:
-						newObject=curObject.simpleParent
+						newObject = curObject.simpleParent
 				if newObject:
 					api.setNavigatorObject(newObject)
 					speech.speakObject(newObject,reason=controlTypes.OutputReason.FOCUS)
