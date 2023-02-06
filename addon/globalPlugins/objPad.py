@@ -68,7 +68,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			self.clearGestureBindings()
 			self.bindGestures(self.__gestures)
 
-	#Web navigation:
+	# Web navigation:
 
 	# Web elements list:
 	webBrowseElements = (_("normal"), _("Link"), _("Form field"), _("Heading"), _("Frame"), _("Table"), _("List"), _("Landmark"))
@@ -152,7 +152,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					while parent and not parent.simpleNext:
 						parent = parent.simpleParent
 					# As long as one is on current foreground object...
-					#Stay within the current top-level window.
+					# Stay within the current top-level window.
 					if parent and parent.simpleParent != api.getDesktopObject():
 						newObject = parent.simpleNext
 				if newObject:
