@@ -95,7 +95,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				if self.webBrowseMode == 0:
 					commands.script_navigatorObject_nextInFlow(gesture)
 				else:
-					self.browseModeCommands[self.webBrowseMode-1][0](obj, gesture)
+					self.browseModeCommands[self.webBrowseMode - 1][0](obj, gesture)
 			else:
 				commands.script_navigatorObject_nextInFlow(gesture)
 		elif self.objArrowMode == MODE_SCANMODE:
@@ -110,7 +110,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				if self.webBrowseMode == 0:
 					commands.script_navigatorObject_previousInFlow(gesture)
 				else:
-					self.browseModeCommands[self.webBrowseMode-1][1](obj, gesture)
+					self.browseModeCommands[self.webBrowseMode - 1][1](obj, gesture)
 			else:
 				commands.script_navigatorObject_previousInFlow(gesture)
 		elif self.objArrowMode == MODE_SCANMODE:
@@ -128,7 +128,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if self.objArrowMode == MODE_OBJNAV:
 			commands.script_navigatorObject_firstChild(gesture)
 		elif self.objArrowMode == MODE_WEB:
-			self.webBrowseMode = (self.webBrowseMode+1) % len(self.webBrowseElements)
+			self.webBrowseMode = (self.webBrowseMode + 1) % len(self.webBrowseElements)
 			ui.message(self.webBrowseElements[self.webBrowseMode])
 		elif self.objArrowMode == MODE_SCANMODE:
 			# Navigate to next line if possible.
@@ -166,7 +166,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if self.objArrowMode == MODE_OBJNAV:
 			commands.script_navigatorObject_parent(gesture)
 		elif self.objArrowMode == MODE_WEB:
-			self.webBrowseMode = (self.webBrowseMode-1) % len(self.webBrowseElements)
+			self.webBrowseMode = (self.webBrowseMode - 1) % len(self.webBrowseElements)
 			ui.message(self.webBrowseElements[self.webBrowseMode])
 		elif self.objArrowMode == MODE_SCANMODE:
 			# Move to previous line first so text can be reviewed before resorting to a new object.
