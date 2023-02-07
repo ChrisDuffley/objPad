@@ -71,19 +71,42 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# Web navigation:
 
 	# Web elements list:
-	webBrowseElements = (_("normal"), _("Link"), _("Form field"), _("Heading"), _("Frame"), _("Table"), _("List"), _("Landmark"))
+	webBrowseElements = (
+		_("normal"), _("Link"), _("Form field"), _("Heading"), _("Frame"), _("Table"), _("List"), _("Landmark")
+	)
 	webBrowseMode = 0
 
 	# The actual navigation gestures:
 	# Look up the needed commands for readability purposes.
 	browseModeCommands = (
-		(browseMode.BrowseModeTreeInterceptor.script_nextLink, browseMode.BrowseModeTreeInterceptor.script_previousLink),
-		(browseMode.BrowseModeTreeInterceptor.script_nextFormField, browseMode.BrowseModeTreeInterceptor.script_previousFormField),
-		(browseMode.BrowseModeTreeInterceptor.script_nextHeading, browseMode.BrowseModeTreeInterceptor.script_previousHeading),
-		(browseMode.BrowseModeTreeInterceptor.script_nextFrame, browseMode.BrowseModeTreeInterceptor.script_previousFrame),
-		(browseMode.BrowseModeTreeInterceptor.script_nextTable, browseMode.BrowseModeTreeInterceptor.script_previousTable),
-		(browseMode.BrowseModeTreeInterceptor.script_nextList, browseMode.BrowseModeTreeInterceptor.script_previousList),
-		(browseMode.BrowseModeTreeInterceptor.script_nextLandmark, browseMode.BrowseModeTreeInterceptor.script_previousLandmark),
+		(
+			browseMode.BrowseModeTreeInterceptor.script_nextLink,
+			browseMode.BrowseModeTreeInterceptor.script_previousLink
+		),
+		(
+			browseMode.BrowseModeTreeInterceptor.script_nextFormField,
+			browseMode.BrowseModeTreeInterceptor.script_previousFormField
+		),
+		(
+			browseMode.BrowseModeTreeInterceptor.script_nextHeading,
+			browseMode.BrowseModeTreeInterceptor.script_previousHeading
+		),
+		(
+			browseMode.BrowseModeTreeInterceptor.script_nextFrame,
+			browseMode.BrowseModeTreeInterceptor.script_previousFrame
+		),
+		(
+			browseMode.BrowseModeTreeInterceptor.script_nextTable,
+			browseMode.BrowseModeTreeInterceptor.script_previousTable
+		),
+		(
+			browseMode.BrowseModeTreeInterceptor.script_nextList,
+			browseMode.BrowseModeTreeInterceptor.script_previousList
+		),
+		(
+			browseMode.BrowseModeTreeInterceptor.script_nextLandmark,
+			browseMode.BrowseModeTreeInterceptor.script_previousLandmark
+		),
 	)
 
 	def script_rightArrow(self, gesture):
