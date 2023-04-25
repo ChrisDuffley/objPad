@@ -25,13 +25,13 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""Perform various object commands by pressing a single key, including navigation and more"""),
 	# version
-	"addon_version": "23.04",
+	"addon_version": "23.05",
 	# Author(s)
-	"addon_author": "Joseph Lee <joseph.lee22590@gmail.com>",
+	"addon_author": "Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee <joseph.lee22590@gmail.com>",
 	# URL for the add-on documentation support
-	"addon_url": "https://addons.nvda-project.org/",
+	"addon_url": "https://github.com/ChrisDuffley/objPad",
 	# URL for the add-on repository where the source code can be found
-	"addon_sourceURL": "https://github.com/josephsl/objpad",
+	"addon_sourceURL": "https://github.com/ChrisDuffley/objpad",
 	# Documentation file name
 	"addon_docFileName": "readme.html",
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
