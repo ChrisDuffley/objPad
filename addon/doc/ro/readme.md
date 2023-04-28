@@ -1,6 +1,7 @@
 # ObjPad #
 
-* Autori: Joseph Lee, Cleverson Uliana și alții
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
+  Lee, Cleverson Uliana and others
 * Descărcați [versiunea stabilă][1]
 * NVDA compatibility: 2022.4 and later
 
@@ -51,6 +52,11 @@ Cu modul de scanare activ:
 * Control+săgeată dreapta: Următorul cuvânt.
 * Control+săgeată stânga: cuvântul anterior.
 * Spațiu sau Enter: activează.
+
+## Version 23.05
+
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
 ## Version 23.02
 

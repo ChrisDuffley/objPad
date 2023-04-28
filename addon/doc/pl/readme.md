@@ -1,6 +1,7 @@
 # ObjPad #
 
-* Autorzy: Joseph Lee, Cleverson Uliana and others
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
+  Lee, Cleverson Uliana and others
 * Pobierz [wersja stabilna][1]
 * NVDA compatibility: 2022.4 and later
 
@@ -51,6 +52,11 @@ W aktywnym trybie skanowania:
 * Control+strzałka w prawo: następne słowo.
 * Control+strzałka w lewo: Poprzednie słowo.
 * SPACJA lub ENTER: aktywuj.
+
+## Version 23.05
+
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
 ## Version 23.02
 

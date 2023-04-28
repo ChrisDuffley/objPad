@@ -1,6 +1,7 @@
 # Nyílmódok #
 
-* Szerzők: Joseph Lee, Cleverson Uliana és mások 
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
+  Lee, Cleverson Uliana and others
 * [stabil verzió][1] letöltése
 * NVDA compatibility: 2022.4 and later
 
@@ -54,6 +55,11 @@ elemek: hivatkozás, űrlapmező, címsor, keret, táblázat, lista, jelzőpont.
 * Ctrl+Jobbnyíl: következő szó.
 * Ctrl+balnyíl: előző szó.
 * Szóköz vagy enter: elem aktiválása
+
+## Version 23.05
+
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
 ## Version 23.02
 

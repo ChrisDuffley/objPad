@@ -1,6 +1,7 @@
 # Upravljaj objektima (ObjPad) #
 
-* Autori: Joseph Lee, Cleverson Uliana i drugi
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
+  Lee, Cleverson Uliana and others
 * Preuzmi [stabilnu verziju][1]
 * NVDA kompatibilnost: 2022.4 i novije verzije
 
@@ -52,6 +53,11 @@ Kad je modus skeniranja aktivan:
 * Kontrol+Strelica desno: sljedeća riječ.
 * Kontrol+Strelica lijevo: prethodna riječ.
 * RAZMAKNICA ili ENTER: aktiviranje.
+
+## Version 23.05
+
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
 ## Version 23.02
 

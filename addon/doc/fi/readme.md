@@ -1,6 +1,7 @@
 # ObjPad #
 
-* Tekijät: Joseph Lee, Cleverson Uliana sekä muut
+* Tekijät: Christopher Duffley <nvda@chrisduffley.com> (alkuperäiset tekijät
+  Joseph Lee, Cleverson Uliana sekä muut)
 * Lataa [vakaa versio][1]
 * Yhteensopivuus: NVDA 2022.4 ja uudemmat
 
@@ -52,6 +53,11 @@ Skannaustilan ollessa aktiivisena:
 * Ctrl+Nuoli oikealle: seuraava sana.
 * Ctrl+Nuoli vasemmalle: edellinen sana.
 * Väli tai Enter: aktivoi.
+
+## Versio 23.05
+
+* Ylläpitäjän vaihdos on huomioitu päivittämällä manifestitiedosto
+  asianmukaisesti.
 
 ## Versio 23.02
 

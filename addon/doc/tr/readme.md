@@ -1,6 +1,7 @@
 # ObjPad #
 
-* Yazar: Joseph Lee, Cleverson Uliana ve diğerleri
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
+  Lee, Cleverson Uliana and others
 * [Kararlı sürüm][1]ü indir
 * NVDA compatibility: 2022.4 and later
 
@@ -50,6 +51,11 @@ Tarama modu etkinken:
 * Control+sağ ok: sonraki kelime.
 * Control+sol ok: önceki kelime.
 * SPACE veya ENTER: etkinleştir.
+
+## Version 23.05
+
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
 ## Version 23.02
 

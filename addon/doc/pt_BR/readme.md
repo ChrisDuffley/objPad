@@ -1,6 +1,7 @@
 # ObjPad #
 
-* Autor: Joseph Lee, Cleverson Uliana e outros
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
+  Lee, Cleverson Uliana and others
 * Baixe a [versão estável][1]
 * NVDA compatibility: 2022.4 and later
 
@@ -50,6 +51,11 @@ Com o modo de esquadrinhamento ativo:
 * CTRL+seta para direita: próxima palavra.
 * CTRL+seta para esquerda: palavra anterior.
 * ESPAÇO ou ENTER: ativar.
+
+## Version 23.05
+
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
 ## Version 23.02
 

@@ -1,6 +1,7 @@
 # ObjPad #
 
-* Forfattere: Joseph Lee, Cleverson Uliana og andre
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
+  Lee, Cleverson Uliana and others
 * Download [stabil version][1]
 * NVDA compatibility: 2022.4 and later
 
@@ -52,6 +53,11 @@ Med scanningstilstand aktiv:
 * Control+højre pil: Næste ord.
 * Control+venstre pil: Forrige ord.
 * Mellemrum eller ENTER: Aktivér.
+
+## Version 23.05
+
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
 ## Version 23.02
 

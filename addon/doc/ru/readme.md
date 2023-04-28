@@ -1,6 +1,7 @@
 # ObjPad #
 
-* Авторы: Joseph Lee, Cleverson Uliana и другие
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
+  Lee, Cleverson Uliana and others
 * Загрузить [стабильную версию][1]
 * NVDA compatibility: 2022.4 and later
 
@@ -52,6 +53,11 @@
 * Control+right arrow: next word.
 * Control+left arrow: previous word.
 * SPACE or ENTER: activate.
+
+## Version 23.05
+
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
 ## Version 23.02
 

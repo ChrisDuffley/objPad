@@ -1,6 +1,7 @@
 # ObjPad #
 
-* Auteur : Joseph Lee, Cleverson Uliana et autres
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
+  Lee, Cleverson Uliana and others
 * Télécharger [version stable][1]
 * NVDA compatibility: 2022.4 and later
 
@@ -52,6 +53,11 @@ Avec le mode balayage actif :
 * Contrôle + flèche droite : mot suivant.
 * Contrôle + flèche gauche : mot précédent.
 * ESPACE ou entrer : activer.
+
+## Version 23.05
+
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
 ## Version 23.02
 

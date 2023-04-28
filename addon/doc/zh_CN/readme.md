@@ -1,6 +1,7 @@
 # ObjPad-NVDA简易导航器 #
 
-* 作者: Joseph Lee, Cleverson Uliana and others
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
+  Lee, Cleverson Uliana and others
 * 下载 [稳定版][1]
 * NVDA 兼容性：2022.4 及更高版本
 
@@ -44,6 +45,11 @@
 * Ctrl + 右光标: 下一个单词。
 * Ctrl+左光标: 上一个单词。
 * 空格或回车：激活。
+
+## Version 23.05
+
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
 ## 版本 23.02
 

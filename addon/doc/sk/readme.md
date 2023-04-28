@@ -1,6 +1,7 @@
 # ObjPad #
 
-* Autor: Joseph Lee, Cleverson Uliana a ďalší
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
+  Lee, Cleverson Uliana and others
 * Stiahnuť [stabilnú verziu][1]
 * NVDA compatibility: 2022.4 and later
 
@@ -46,6 +47,11 @@ Skenovací režím:
 * Ctrl+pravá šípka: Nasledujúce slovo.
 * Ctrl+ľavá šípka: Predchádzajúce slovo.
 * Medzera alebo enter: Aktivovať.
+
+## Version 23.05
+
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
 ## Version 23.02
 
