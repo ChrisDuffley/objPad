@@ -1,7 +1,7 @@
 # ObjPad #
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
-  Lee, Cleverson Uliana and others
+* Autor: Christopher Duffley <nvda@chrisduffley.com> (ursprünglich
+  geschrieben von Joseph Lee, Cleverson Uliana und weitere Entwickler)
 * [Stabile Version herunterladen][1]
 * NVDA-Kompatibilität: 2022.4 und neuer
 
@@ -58,8 +58,8 @@ Bei aktiviertem Scan-Modus:
 
 ## Version 23.05
 
-* To reflect the maintainer change, the manifest has been updated to
-  indicate as such.
+* Um die Änderung zur Wartung zu berücksichtigen, wurde das Manifest
+  aktualisiert, um dies anzuzeigen.
 
 ## Version 23.02
 

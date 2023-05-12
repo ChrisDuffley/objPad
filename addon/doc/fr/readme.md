@@ -1,9 +1,9 @@
 # ObjPad #
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
-  Lee, Cleverson Uliana and others
+* Auteur : Christopher Duffley <nvda@chrisduffley.com>, à l'origine par
+  Joseph Lee, Cleverson Uliana et autres
 * Télécharger [version stable][1]
-* NVDA compatibility: 2022.4 and later
+* Compatibilité NVDA : 2022.4 et plus
 
 Cette extension fournit des commandes rapides pour gérer les objets sur
 l'écran, incluant la navigation et d'autres possibilités.
@@ -56,23 +56,24 @@ Avec le mode balayage actif :
 
 ## Version 23.05
 
-* To reflect the maintainer change, the manifest has been updated to
-  indicate as such.
+* Pour refléter le changement du mainteneur, le manifeste a été mis à jour
+  pour indiquer en tant que tel.
 
 ## Version 23.02
 
-* NVDA 2022.4 or later is required.
-* Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
+* NVDA 2022.4 ou version ultérieure est requis.
+* Windows 10 21H2 (November 2021 Update/build 19044) ou ultérieure est
+  requis.
 
 ## Version 23.01
 
-* NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
-  supported by Microsoft as of January 2023.
+* NVDA 2022.3 ou version ultérieure est requis.
+* Windows 10 ou ultérieure est requis car Windows 7, 8 et 8.1 ne sont plus
+  pris en charge par Microsoft en janvier 2023.
 
 ## Version 22.06
 
-* Requires NVDA 2021.3 or later.
+* Nécessite NVDA 2021.3 ou version ultérieure.
 
 ## Version 21.04
 
