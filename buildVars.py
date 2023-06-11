@@ -25,7 +25,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""Perform various object commands by pressing a single key, including navigation and more"""),
 	# version
-	"addon_version": "23.05",
+	"addon_version": "23.06",
 	# Author(s)
 	"addon_author": "Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee <joseph.lee22590@gmail.com>",
 	# URL for the add-on documentation support

@@ -1,0 +1,29 @@
+{
+	"addonId": "objPad",
+	"displayName": "ObjPad",
+	"URL": "",
+	"description": "Perform various object commands by pressing a single key, including navigation and more",
+	"sha256": "a21646adce701d4573fa59150cd569763d34494a6622a877af40107bbbcf270c",
+	"homepage": "https://github.com/ChrisDuffley/objPad",
+	"addonVersionName": "23.05",
+	"addonVersionNumber": {
+		"major": 23,
+		"minor": 5,
+		"patch": 0
+	},
+	"minNVDAVersion": {
+		"major": 2022,
+		"minor": 4,
+		"patch": 0
+	},
+	"lastTestedVersion": {
+		"major": 2023,
+		"minor": 1,
+		"patch": 0
+	},
+	"channel": "stable",
+	"publisher": "",
+	"sourceURL": "https://github.com/ChrisDuffley/objpad",
+	"license": "GPL v2",
+	"licenseURL": "https://www.gnu.org/licenses/gpl-2.0.html"
+}
