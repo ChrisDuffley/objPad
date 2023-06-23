@@ -1,12 +1,12 @@
 # ObjPad #
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
-  Lee, Cleverson Uliana and others
+* Yazar: Christopher Duffley <nvda@chrisduffley.com>, aslen Joseph Lee,
+  Cleverson Uliana ve diğerleri tarafından yazılmıştır.
 * [Kararlı sürüm][1]ü indir
-* NVDA compatibility: 2022.4 and later
+* NVDA uyumluluğu: 2022.4 ve sonrası
 
 Bu eklenti, navigasyon ve diğer özellikler dahil ekrandaki nesneleri
-yönetmek için hızlı komutlar sağlar
+yönetmek için hızlı komutlar sağlar.
 
 ## Komutlar
 
@@ -15,7 +15,7 @@ yönetmek için hızlı komutlar sağlar
 
 ## Ok tuş modları
 
-Eklenti, ok  tuşlarını 4 yolla kullanmaanızıs sağlar.
+Eklenti, ok tuşlarını kullanmak için dört yol sağlar:
 
 * Klasik (veya normal mod): imleci hareket ettirmek için ok tuşlarını
   kullanın.
@@ -52,25 +52,26 @@ Tarama modu etkinken:
 * Control+sol ok: önceki kelime.
 * SPACE veya ENTER: etkinleştir.
 
-## Version 23.05
+## Sürüm 23.05
 
-* To reflect the maintainer change, the manifest has been updated to
-  indicate as such.
+* Sürdürücü değişikliğini yansıtmak için, bildirim bu şekilde belirtilecek
+  şekilde güncelleştirilmiştir.
 
-## Version 23.02
+## Sürüm 23.02
 
-* NVDA 2022.4 or later is required.
-* Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
+* NVDA 2022.4 veya sonraki bir sürümü gerektirir.
+* Windows 10 21H2 (Kasım 2021 Güncellemesi/derlemesi 19044) veya üstü
+  gereklidir.
 
-## Version 23.01
+## Sürüm 23.01
 
-* NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
-  supported by Microsoft as of January 2023.
+* NVDA 2022.3 veya sonraki bir sürümü gerektirir.
+* Ocak 2023 itibariyle Windows 7, 8 ve 8.1 artık Microsoft tarafından
+  desteklenmediğinden Windows 10 veya sonraki sürümleri gereklidir.
 
-## Version 22.06
+## Sürüm 22.06
 
-* Requires NVDA 2021.3 or later.
+* NVDA 2021.3 veya sonraki bir sürümü gerektirir.
 
 ## Sürüm 21.04
 
