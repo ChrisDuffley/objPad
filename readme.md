@@ -45,6 +45,10 @@ With scan mode active:
 * Control+left arrow: previous word.
 * SPACE or ENTER: activate.
 
+## Version 24.04
+
+* Compatibility with NVDA 2024.1.
+
 ## Version 23.05
 
 * To reflect the maintainer change, the manifest has been updated to indicate as such.
