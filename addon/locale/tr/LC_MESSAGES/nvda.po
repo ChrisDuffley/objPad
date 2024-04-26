@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: NesneDolaşımı\n"
+"Project-Id-Version: Nesne Dolaşımı\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2018-08-25 15:05+1000\n"
-"PO-Revision-Date: 2024-02-29 17:19+0300\n"
+"PO-Revision-Date: 2024-04-11 12:59+0300\n"
 "Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language-Team: Umut KORKMAZ <umutkork@gmail.com\n"
 "Language: tr_TR\n"
@@ -43,25 +43,25 @@ msgid "normal"
 msgstr "normal"
 
 msgid "Link"
-msgstr "link"
+msgstr "Link"
 
 msgid "Form field"
-msgstr "form alanı"
+msgstr "Form alanı"
 
 msgid "Heading"
-msgstr "başlık"
+msgstr "Başlık"
 
 msgid "Frame"
-msgstr "çerçeve"
+msgstr "Çerçeve"
 
 msgid "Table"
-msgstr "tablo"
+msgstr "Tablo"
 
 msgid "List"
-msgstr "liste"
+msgstr "Liste"
 
 msgid "Landmark"
-msgstr "sınır imi"
+msgstr "Sınır imi"
 
 #. Translators: a message when there is no next object when navigating
 msgid "No next"
@@ -74,7 +74,7 @@ msgstr "Başka yok"
 #. Add-on summary, usually the user visible name of the addon.
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 msgid "ObjPad"
-msgstr "NesneDolaşımı"
+msgstr "Nesne Dolaşımı"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager

@@ -1,7 +1,7 @@
-# ObjPad #
+# NesneDolaşımı #
 
 * Yazar: Christopher Duffley <nvda@chrisduffley.com>, aslen Joseph Lee,
-  Cleverson Uliana ve diğerleri tarafından yazılmıştır.
+  Cleverson Uliana ve diğerleri tarafından yazılmıştır
 * [Kararlı sürüm][1]ü indir
 * NVDA uyumluluğu: 2022.4 ve sonrası
 
