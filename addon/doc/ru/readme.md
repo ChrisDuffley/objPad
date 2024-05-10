@@ -1,9 +1,9 @@
 # ObjPad #
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
-  Lee, Cleverson Uliana and others
+* Автор: Christopher Duffley <nvda@chrisduffley.com>, первоначально Joseph
+  Lee, Cleverson Uliana и другие
 * Загрузить [стабильную версию][1]
-* NVDA compatibility: 2022.4 and later
+* Совместимость с NVDA: 2022.4 и позднее
 
 Данное дополнение обеспечивает горячие клавиши для управления объектами на
 экране, включая навигацию и другие возможности.
@@ -33,7 +33,7 @@
 * Стрелка влево: предыдущий объект.
 * Стрелка вверх: родительский объект.
 * Стрелка вниз: первый дочерний объект.
-* SPACE or ENTER: activate.
+* Пробел или ввод: активировать объект.
 
 При активном веб-режиме (элементы нормальные или передвижение по объектам,
 ссылка, форма, поле, заголовок, фрейм, таблица, список, ориентир):
@@ -42,54 +42,56 @@
 * Стрелка влево: предыдущий элемент.
 * Стрелка вверх: предыдущий тип элемента.
 * Стрелка вниз: следующий тип элемента.
-* SPACE or ENTER: activate.
+* Пробел или ввод: активировать объект.
 
 В режиме сканирования:
 
-* Down arrow: next object or the next line.
-* Up arrow: previous object or previous line.
+* Стрелка вниз: следующий объект или следующая строка.
+* Стрелка вверх: предыдущий объект или предыдущая строка.
 * Стрелка вправо: перейти к следующему символу на объекте.
 * Стрелка влево: перейти к предыдущему символу на объекте.
-* Control+right arrow: next word.
-* Control+left arrow: previous word.
-* SPACE or ENTER: activate.
+* Control+стрелка вправо: следующее слово.
+* Control+стрелка влево: предыдущее слово.
+* Пробел или ввод: активировать объект.
 
-## Version 23.05
+## Версия 23.05
 
-* To reflect the maintainer change, the manifest has been updated to
-  indicate as such.
+* Чтобы отразить смену сопровождающего, манифест был обновлен и указан как
+  таковой.
 
-## Version 23.02
+## Версия 23.02
 
-* NVDA 2022.4 or later is required.
-* Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
+* Требуется NVDA 2022.4 или позже.
+* Требуется Windows 10 21H2 (обновление от ноября 2021 года/сборка 19044)
+  или позже.
 
-## Version 23.01
+## Версия 23.01
 
-* NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
-  supported by Microsoft as of January 2023.
+* Требуется NVDA 2022.3 или позже.
+* Требуется Windows 10 или более поздняя версия, поскольку Windows 7, 8 и
+  8.1 больше не поддерживаются Корпорацией Майкрософт с января 2023 года.
 
-## Version 22.06
+## Версия 22.06
 
-* Requires NVDA 2021.3 or later.
+* Требуется NVDA 2021.3 или позже.
 
-## Version 21.04
+## Версия 21.04
 
-* Requires NVDA 2020.1 or later.
+* Требуется NVDA 2020.1 или позже.
 
-## Version 20.01
+## Версия 20.01
 
-* Requires NVDA 2019.3 or later.
+* Требуется NVDA 2019.3 или позже.
 
-## Version 18.12
+## Версия 18.12
 
-* Internal changes to support future NVDA releases.
+* Внутренние изменения для поддержки будущих выпусков NVDA.
 
-## Version 18.09
+## Версия 18.09
 
-* Added localizations.
-* Enter key (regular and Numpad) can be used to activate objects.
+* Добавлены локализации.
+* Клавишу enter (обычную и цифровую) можно использовать для активации
+  объектов.
 
 ## Версия 18.03
 
