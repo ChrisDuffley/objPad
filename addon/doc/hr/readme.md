@@ -1,7 +1,7 @@
 # Upravljaj objektima (ObjPad) #
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
-  Lee, Cleverson Uliana and others
+* Autori: Christopher Duffley <nvda@chrisduffley.com>, izvorno od Joseph
+  Lee, Cleverson Uliana i drugih
 * Preuzmi [stabilnu verziju][1]
 * NVDA kompatibilnost: 2022.4 i novije verzije
 
@@ -54,14 +54,14 @@ Kad je modus skeniranja aktivan:
 * Kontrol+Strelica lijevo: prethodna riječ.
 * RAZMAKNICA ili ENTER: aktiviranje.
 
-## Version 23.05
+## Verzija 23.05
 
 * To reflect the maintainer change, the manifest has been updated to
   indicate as such.
 
-## Version 23.02
+## Verzija 23.02
 
-* NVDA 2022.4 or later is required.
+* Zahtijeva NVDA 2022.4 ili noviju verziju.
 * Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
 
 ## Verzija 23.01
