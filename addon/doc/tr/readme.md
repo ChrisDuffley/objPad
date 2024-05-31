@@ -1,8 +1,8 @@
-# NesneDolaşımı #
+# Nesne Dolaşımı #
 
 * Yazar: Christopher Duffley <nvda@chrisduffley.com>, aslen Joseph Lee,
   Cleverson Uliana ve diğerleri tarafından yazılmıştır
-* [Kararlı sürüm][1]ü indir
+* [Kararlı sürümü indirin][1]
 * NVDA uyumluluğu: 2022.4 ve sonrası
 
 Bu eklenti, navigasyon ve diğer özellikler dahil ekrandaki nesneleri
