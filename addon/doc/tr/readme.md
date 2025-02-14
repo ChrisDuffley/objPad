@@ -19,7 +19,7 @@ Eklenti, ok tuşlarını kullanmak için dört yol sağlar:
 
 * Klasik (veya normal mod): imleci hareket ettirmek için ok tuşlarını
   kullanın.
-* Nesne sunucusu: sonraki/önceki/üst/ilk alt nesneye gitmek için ok
+* Nesne Dolaşımı: sonraki/önceki/üst/ilk alt nesneye gitmek için ok
   tuşlarını kullanın.
 * Web: öğeler arasında gezinmek için ok tuşlarını kullanın.
 * Tarama modu: sıralamadan bağımsız olarak ekrandaki nesneler arasında
@@ -31,7 +31,7 @@ Aşağıdaki komutlar, Nesne sunucusu modunda ok tuşlarıyla kullanılabilir:
 * Sol ok: önceki nesne.
 * Yukarı ok: ana nesne.
 * Aşağı ok: ilk alt nesne.
-* SPACE veya ENTER: etkinleştir.
+* Aralık veya ENTER: etkinleştir.
 
 Web modu etkinken (öğeler normaldir veya nesne, bağlantı, form alanı,
 başlık, çerçeve, tablo, liste, yer işaretine göre hareket eder):
@@ -40,7 +40,7 @@ başlık, çerçeve, tablo, liste, yer işaretine göre hareket eder):
 * Sol ok: önceki öğe.
 * Yukarı ok: önceki öğe türü.
 * Aşağı ok: sonraki öğe türü.
-* SPACE veya ENTER: etkinleştir.
+* Aralık veya ENTER: etkinleştir.
 
 Tarama modu etkinken:
 
@@ -50,7 +50,7 @@ Tarama modu etkinken:
 * Sol ok: önceki karakter.
 * Control+sağ ok: sonraki kelime.
 * Control+sol ok: önceki kelime.
-* SPACE veya ENTER: etkinleştir.
+* Aralık veya ENTER: etkinleştir.
 
 ## Sürüm 23.05
 
