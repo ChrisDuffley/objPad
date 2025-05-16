@@ -104,6 +104,4 @@ Cu modul de scanare activ:
 
 * Versiunea stabilă inițială.
 
-[[!tag dev stable]]
-
 [1]: https://www.nvaccess.org/addonStore/legacy?file=objPad

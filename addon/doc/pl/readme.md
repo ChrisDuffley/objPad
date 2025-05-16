@@ -103,6 +103,4 @@ W aktywnym trybie skanowania:
 
 * Pierwsza wersja stabilna.
 
-[[!tag dev stable]]
-
 [1]: https://www.nvaccess.org/addonStore/legacy?file=objPad

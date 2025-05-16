@@ -106,6 +106,4 @@ elemek: hivatkozás, űrlapmező, címsor, keret, táblázat, lista, jelzőpont.
 
 * Első stabil verzió.
 
-[[!tag dev stable]]
-
 [1]: https://www.nvaccess.org/addonStore/legacy?file=objPad
