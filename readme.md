@@ -1,7 +1,6 @@
 # ObjPad
 
 * Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
-* Download [stable version][1]
 * NVDA compatibility: 2022.4 and later
 
 This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
@@ -44,6 +43,11 @@ With scan mode active:
 * Control+right arrow: next word.
 * Control+left arrow: previous word.
 * SPACE or ENTER: activate.
+
+## Version 25.06
+
+* Compatible with NVDA 2025.1
+* The link to download the add-on is no longer present to encourage usage of the Add-On Store.
 
 ## Version 24.04
 
@@ -95,5 +99,3 @@ With scan mode active:
 ## Version 16.10
 
 * Initial stable version.
-
-[1]: https://addons.nvda-project.org/files/get.php?file=objPad
