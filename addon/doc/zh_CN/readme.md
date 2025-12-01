@@ -1,8 +1,6 @@
 # ObjPad-NVDA简易导航器 #
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
-  Lee, Cleverson Uliana and others
-* 下载 [稳定版][1]
+* 作者：Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
 * NVDA 兼容性：2022.4 及更高版本
 
 此插件提供了一组快捷键来处理屏幕上的对象，包括导航和其他可能性。
@@ -28,7 +26,7 @@
 * 下光标：第一个子对象。
 * 空格或回车：激活。
 
-光标键设置为网页模式时（元素正常或按对象，链接，表单字段，标题，框架，表格，列表，地标移动）：
+光标键设置为网页模式时（元素正常或按对象，链接，表单字段，标题，框架，表格，列表，路标移动）：
 
 * 右光标：下一个元素。
 * 左光标：上一个元素。
@@ -36,7 +34,7 @@
 * 下光标：下一个元素类型。
 * 空格或回车：激活。
 
-方向键设置为扫描模式时：
+光标键设置为扫描模式时：
 
 * 下光标：下一个对象或下一行。
 * 上光标：上一个对象或上一行。
@@ -46,10 +44,18 @@
 * Ctrl+左光标: 上一个单词。
 * 空格或回车：激活。
 
-## Version 23.05
+## 版本 25.06
 
-* To reflect the maintainer change, the manifest has been updated to
-  indicate as such.
+* 与 NVDA 2025.1 兼容
+* 不在包含下载插件的链接，以推荐使用插件商店。
+
+## 版本 24.04
+
+* 与 NVDA 2024.1 兼容。
+
+## 版本 23.05
+
+* 为体现维护者变更，清单文件已进行相应更新。
 
 ## 版本 23.02
 
@@ -93,5 +99,3 @@
 ## 版本16.10
 
 * 发布初始版本。
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad

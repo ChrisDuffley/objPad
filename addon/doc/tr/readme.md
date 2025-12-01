@@ -1,29 +1,22 @@
-# Nesne Dolaşımı #
+# Nesne Dolaşımı
 
-* Yazar: Christopher Duffley <nvda@chrisduffley.com>, aslen Joseph Lee,
-  Cleverson Uliana ve diğerleri tarafından yazılmıştır
-* [Kararlı sürümü indirin][1]
+* Yazar: Christopher Duffley <nvda@chrisduffley.com>, aslen Joseph Lee, Cleverson Uliana ve diğerleri tarafından yazılmıştır
 * NVDA uyumluluğu: 2022.4 ve sonrası
 
-Bu eklenti, navigasyon ve diğer özellikler dahil ekrandaki nesneleri
-yönetmek için hızlı komutlar sağlar.
+Bu eklenti, gezinme ve diğer olasılıklar da dahil olmak üzere ekrandaki nesneleri yönetmek için hızlı komutlar sağlar.
 
 ## Komutlar
 
-* Control+NVDA+TAB: Ok tuşu modlarında adım adım ilerler (ayrıntılar için
-  aşağıya bakın).
+* Kontrol+NVDA+TAB: Ok tuşu modlarında adım adım ilerler (ayrıntılar için aşağıya bakın).
 
 ## Ok tuş modları
 
 Eklenti, ok tuşlarını kullanmak için dört yol sağlar:
 
-* Klasik (veya normal mod): imleci hareket ettirmek için ok tuşlarını
-  kullanın.
-* Nesne Dolaşımı: sonraki/önceki/üst/ilk alt nesneye gitmek için ok
-  tuşlarını kullanın.
+* Klasik (veya normal mod): imleci hareket ettirmek için ok tuşlarını kullanın.
+* Nesne Dolaşımı: sonraki/önceki/üst/ilk alt nesneye gitmek için ok tuşlarını kullanın.
 * Web: öğeler arasında gezinmek için ok tuşlarını kullanın.
-* Tarama modu: sıralamadan bağımsız olarak ekrandaki nesneler arasında
-  hareket etmek için ok tuşlarını kullanın.
+* Tarama modu: sıralamadan bağımsız olarak ekrandaki nesneler arasında hareket etmek için ok tuşlarını kullanın.
 
 Aşağıdaki komutlar, Nesne sunucusu modunda ok tuşlarıyla kullanılabilir:
 
@@ -33,8 +26,7 @@ Aşağıdaki komutlar, Nesne sunucusu modunda ok tuşlarıyla kullanılabilir:
 * Aşağı ok: ilk alt nesne.
 * Aralık veya ENTER: etkinleştir.
 
-Web modu etkinken (öğeler normaldir veya nesne, bağlantı, form alanı,
-başlık, çerçeve, tablo, liste, yer işaretine göre hareket eder):
+Web modu etkinken (öğeler normaldir veya nesne, bağlantı, form alanı, başlık, çerçeve, tablo, liste, yer işaretine göre hareket eder):
 
 * Sağ ok: sonraki öğe.
 * Sol ok: önceki öğe.
@@ -48,26 +40,32 @@ Tarama modu etkinken:
 * Yukarı ok: önceki nesne veya önceki satır.
 * Sağ ok: sonraki karakteri gözden geçirin.
 * Sol ok: önceki karakter.
-* Control+sağ ok: sonraki kelime.
-* Control+sol ok: önceki kelime.
+* Kontrol+sağ ok: sonraki kelime.
+* Kontrol+sol ok: önceki kelime.
 * Aralık veya ENTER: etkinleştir.
+
+## Sürüm 25.06
+
+* NVDA 2025.1 ile uyumluluk
+* Eklenti Mağazası'nın kullanımını teşvik etmek için eklentiyi indirme bağlantısı artık mevcut değil.
+
+## Sürüm 24.04
+
+* NVDA 2024.1 ile uyumluluk.
 
 ## Sürüm 23.05
 
-* Sürdürücü değişikliğini yansıtmak için, bildirim bu şekilde belirtilecek
-  şekilde güncelleştirilmiştir.
+* Sürdürücü değişikliğini yansıtmak için, bildirim bu şekilde belirtilecek şekilde güncelleştirilmiştir.
 
 ## Sürüm 23.02
 
 * NVDA 2022.4 veya sonraki bir sürümü gerektirir.
-* Windows 10 21H2 (Kasım 2021 Güncellemesi/derlemesi 19044) veya üstü
-  gereklidir.
+* Windows 10 21H2 (Kasım 2021 Güncellemesi/derlemesi 19044) veya üstü gereklidir.
 
 ## Sürüm 23.01
 
 * NVDA 2022.3 veya sonraki bir sürümü gerektirir.
-* Ocak 2023 itibariyle Windows 7, 8 ve 8.1 artık Microsoft tarafından
-  desteklenmediğinden Windows 10 veya sonraki sürümleri gereklidir.
+* Ocak 2023 itibariyle Windows 7, 8 ve 8.1 artık Microsoft tarafından desteklenmediğinden Windows 10 veya sonraki sürümleri gereklidir.
 
 ## Sürüm 22.06
 
@@ -87,9 +85,8 @@ Tarama modu etkinken:
 
 ## Sürüm 18.09
 
-* Lokalizasyonlar eklendi.
-* Nesneleri etkinleştirmek için enter tuşu (normal ve Numpad)
-  kullanılabilir.
+* Yerelleştirmeler eklendi.
+* Nesneleri etkinleştirmek için enter tuşu (normal ve Numpad) kullanılabilir.
 
 ## Sürüm 18.03
 
@@ -102,5 +99,3 @@ Tarama modu etkinken:
 ## Sürüm 16.10
 
 * İlk kararlı sürüm.
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad
