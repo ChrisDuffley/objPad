@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-09-14 17:50+0000\n"
-"PO-Revision-Date: 2025-12-01 01:10\n"
+"POT-Creation-Date: 2025-12-08 03:07+0000\n"
+"PO-Revision-Date: 2025-12-15 01:03\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -84,16 +84,22 @@ msgstr "没有下一项"
 msgid "No previous"
 msgstr "没有上一项"
 
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on
-#. to be shown on installation and add-on information.
-#: buildVars.py:23
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:21
 msgid "ObjPad"
 msgstr "简易导航器"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#: buildVars.py:26
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
 msgid "Perform various object commands by pressing a single key, including navigation and more"
 msgstr "一键执行各种对象快捷键，包括导航等"
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:29
+msgid "Initial changelog."
+msgstr "初始更新日志。"
 
