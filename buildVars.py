@@ -26,7 +26,8 @@ addon_info = AddonInfo(
 	addon_version="25.06",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
-	addon_changelog=_("""Initial changelog."""),
+	addon_changelog=_("""* NVDA 2025.3.2 or later is required.
+* Added embedded object and text paragraph navigation to web mode."""),
 	# Author(s)
 	addon_author="Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee <joseph.lee22590@gmail.com>",
 	# URL for the add-on documentation support
