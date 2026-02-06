@@ -1,7 +1,6 @@
 # ObjPad
 
 * Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
-* NVDA compatibility: 2022.4 and later
 
 This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
 
@@ -26,7 +25,7 @@ The following commands are available with arrow keys set to object nav:
 * Down arrow: first child object.
 * SPACE or ENTER: activate.
 
-With web mode active (elements are normal or moving by object, link, form field, heading, frame, table, list, landmark):
+With web mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):
 
 * Right arrow: next element.
 * Left arrow: previous element.
@@ -43,6 +42,11 @@ With scan mode active:
 * Control+right arrow: next word.
 * Control+left arrow: previous word.
 * SPACE or ENTER: activate.
+
+## Version 26.02
+
+* NVDA 2025.3.2 or later is required.
+* Added embedded object and text paragraph navigation to web mode.
 
 ## Version 25.06
 
