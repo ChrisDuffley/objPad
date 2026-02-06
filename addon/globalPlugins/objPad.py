@@ -30,7 +30,7 @@ class ObjPadMode(enum.IntEnum):
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-
+	# Object navigation arrow key mode (normal mode/object nav by default)
 	objArrowMode = 0
 
 	@script(
