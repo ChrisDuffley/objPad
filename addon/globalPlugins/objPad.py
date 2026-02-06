@@ -75,7 +75,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	# Web elements list:
 	webBrowseElements = (
-		_("normal"), _("Link"), _("Form field"), _("Heading"), _("Frame"), _("Table"), _("List"), _("Landmark")
+		_("Default (all elements)"),
+		_("Links"),
+		_("Form fields"),
+		_("Headings"),
+		_("Frames"),
+		_("Tables"),
+		_("Lists"),
+		_("Landmarks"),
+		_("Embedded objects"),
+		_("Text paragraphs"),
 	)
 	webBrowseMode = 0
 
@@ -109,6 +118,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		(
 			browseMode.BrowseModeTreeInterceptor.script_nextLandmark,
 			browseMode.BrowseModeTreeInterceptor.script_previousLandmark
+		),
+		(
+			browseMode.BrowseModeTreeInterceptor.script_nextEmbeddedObject,
+			browseMode.BrowseModeTreeInterceptor.script_previousEmbeddedObject,
+		),
+		(
+			browseMode.BrowseModeTreeInterceptor.script_nextTextParagraph,
+			browseMode.BrowseModeTreeInterceptor.script_previousTextParagraph,
 		),
 	)
 
