@@ -16,14 +16,17 @@ import api
 import textInfos
 import speech
 import controlTypes
+import enum
 from scriptHandler import script
 import addonHandler
 addonHandler.initTranslation()
 
-MODE_NORMAL = 0
-MODE_OBJNAV = 1
-MODE_WEB = 2
-MODE_SCANMODE = 3
+# Object navigation modes enumeration
+class ObjPadMode(enum.IntEnum):
+	NORMAL = 0  # Arrow keys are passed through the aplication
+	OBJNAV = 1  # Arrow keys perform object navigation commands
+	WEB = 2  # Arrow keys move by web elements
+	SCANMODE = 3  # Arrow keys move through text across objects
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -37,23 +40,23 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		gesture="kb:control+NvDA+tab"
 	)
 	def script_toggleObjPad(self, gesture):
-		if self.objArrowMode == MODE_NORMAL:
-			self.objArrowMode = MODE_OBJNAV
+		if self.objArrowMode == ObjPadMode.NORMAL:
+			self.objArrowMode = ObjPadMode.OBJNAV
 			# Translators: one of the object arrow modes.
 			ui.message(_("Object nav mode"))
-		elif self.objArrowMode == MODE_OBJNAV:
-			self.objArrowMode = MODE_WEB
+		elif self.objArrowMode == ObjPadMode.OBJNAV:
+			self.objArrowMode = ObjPadMode.WEB
 			# Translators: one of the object arrow modes.
 			ui.message(_("Web mode"))
-		elif self.objArrowMode == MODE_WEB:
-			self.objArrowMode = MODE_SCANMODE
+		elif self.objArrowMode == ObjPadMode.WEB:
+			self.objArrowMode = ObjPadMode.SCANMODE
 			# Translators: one of the object arrow modes.
 			ui.message(_("Scan mode"))
 		else:
-			self.objArrowMode = MODE_NORMAL
+			self.objArrowMode = ObjPadMode.NORMAL
 			# Translators: one of the object arrow modes.
 			ui.message(_("Normal mode"))
-		if MODE_NORMAL < self.objArrowMode <= MODE_SCANMODE:
+		if ObjPadMode.NORMAL < self.objArrowMode <= ObjPadMode.SCANMODE:
 			self.bindGesture("kb:rightarrow", "rightArrow")
 			self.bindGesture("kb:leftarrow", "leftArrow")
 			self.bindGesture("kb:downarrow", "downArrow")
@@ -61,7 +64,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			self.bindGesture("kb:space", "objActivate")
 			self.bindGesture("kb:enter", "objActivate")
 			self.bindGesture("kb:numpadEnter", "objActivate")
-			if self.objArrowMode == MODE_SCANMODE:
+			if self.objArrowMode == ObjPadMode.SCANMODE:
 				self.bindGesture("kb:control+rightArrow", "controlRightArrow")
 				self.bindGesture("kb:control+leftArrow", "controlLeftArrow")
 		else:
@@ -110,9 +113,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	)
 
 	def script_rightArrow(self, gesture):
-		if self.objArrowMode == MODE_OBJNAV:
+		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_next(gesture)
-		elif self.objArrowMode == MODE_WEB:
+		elif self.objArrowMode == ObjPadMode.WEB:
 			obj = api.getNavigatorObject().treeInterceptor
 			if isinstance(obj, browseMode.BrowseModeTreeInterceptor):
 				if self.webBrowseMode == 0:
@@ -121,13 +124,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					self.browseModeCommands[self.webBrowseMode - 1][0](obj, gesture)
 			else:
 				commands.script_navigatorObject_nextInFlow(gesture)
-		elif self.objArrowMode == MODE_SCANMODE:
+		elif self.objArrowMode == ObjPadMode.SCANMODE:
 			commands.script_review_nextCharacter(gesture)
 
 	def script_leftArrow(self, gesture):
-		if self.objArrowMode == MODE_OBJNAV:
+		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_previous(gesture)
-		elif self.objArrowMode == MODE_WEB:
+		elif self.objArrowMode == ObjPadMode.WEB:
 			obj = api.getNavigatorObject().treeInterceptor
 			if isinstance(obj, browseMode.BrowseModeTreeInterceptor):
 				if self.webBrowseMode == 0:
@@ -136,7 +139,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					self.browseModeCommands[self.webBrowseMode - 1][1](obj, gesture)
 			else:
 				commands.script_navigatorObject_previousInFlow(gesture)
-		elif self.objArrowMode == MODE_SCANMODE:
+		elif self.objArrowMode == ObjPadMode.SCANMODE:
 			commands.script_review_previousCharacter(gesture)
 
 	def script_controlRightArrow(self, gesture):
@@ -148,12 +151,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# Modified global commands implementation to restrict movement to foreground elements.
 
 	def script_downArrow(self, gesture):
-		if self.objArrowMode == MODE_OBJNAV:
+		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_firstChild(gesture)
-		elif self.objArrowMode == MODE_WEB:
+		elif self.objArrowMode == ObjPadMode.WEB:
 			self.webBrowseMode = (self.webBrowseMode + 1) % len(self.webBrowseElements)
 			ui.message(self.webBrowseElements[self.webBrowseMode])
-		elif self.objArrowMode == MODE_SCANMODE:
+		elif self.objArrowMode == ObjPadMode.SCANMODE:
 			# Navigate to next line if possible.
 			info = api.getReviewPosition().copy()
 			info.expand(textInfos.UNIT_LINE)
@@ -186,12 +189,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					ui.reviewMessage(_("No next"))
 
 	def script_upArrow(self, gesture):
-		if self.objArrowMode == MODE_OBJNAV:
+		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_parent(gesture)
-		elif self.objArrowMode == MODE_WEB:
+		elif self.objArrowMode == ObjPadMode.WEB:
 			self.webBrowseMode = (self.webBrowseMode - 1) % len(self.webBrowseElements)
 			ui.message(self.webBrowseElements[self.webBrowseMode])
-		elif self.objArrowMode == MODE_SCANMODE:
+		elif self.objArrowMode == ObjPadMode.SCANMODE:
 			# Move to previous line first so text can be reviewed before resorting to a new object.
 			info = api.getReviewPosition().copy()
 			info.expand(textInfos.UNIT_LINE)
