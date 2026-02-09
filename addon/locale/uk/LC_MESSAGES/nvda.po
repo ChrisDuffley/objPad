@@ -6,83 +6,119 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: objPad 20.01\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2021-02-19 15:00+0000\n"
-"PO-Revision-Date: 2023-02-03 19:45+0200\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-02-09 09:56+0200\n"
+"PO-Revision-Date: 2026-02-09 10:00+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.8\n"
+
+#. Translators: input help mode message for ObjPad toggle command.
+#: addon\globalPlugins\objPad.py:38
+msgid "Toggles ObjPad mode between normal, object nav and scan modes"
+msgstr ""
+"Перемикає режими ObjPad між звичайним, об’єктною навігацією та скануванням"
 
 #. Translators: one of the object arrow modes.
+#: addon\globalPlugins\objPad.py:46
 msgid "Object nav mode"
 msgstr "Режим об’єктної навігації"
 
 #. Translators: one of the object arrow modes.
+#: addon\globalPlugins\objPad.py:50
 msgid "Web mode"
 msgstr "Режим «веб»"
 
 #. Translators: one of the object arrow modes.
+#: addon\globalPlugins\objPad.py:54
 msgid "Scan mode"
 msgstr "Режим сканування"
 
 #. Translators: one of the object arrow modes.
+#: addon\globalPlugins\objPad.py:58
 msgid "Normal mode"
 msgstr "Звичайний режим"
 
-#. Translators: input help mode message for ObjPad toggle command.
-msgid "Toggles ObjPad mode between normal, object nav and scan modes"
-msgstr ""
-"Перемикає режими ObjPad між звичайним, об’єктною навігацією та "
-"скануванням"
+#: addon\globalPlugins\objPad.py:78
+msgid "Default (all elements)"
+msgstr "Початково (усі елементи)"
 
-#. Web navigation:
-#. Web elements list:
-msgid "normal"
-msgstr "звичайний"
-
-msgid "Link"
+#: addon\globalPlugins\objPad.py:79
+msgid "Links"
 msgstr "Посилання"
 
-msgid "Form field"
-msgstr "Поле форми"
+#: addon\globalPlugins\objPad.py:80
+msgid "Form fields"
+msgstr "Поля форми"
 
-msgid "Heading"
-msgstr "Заголовок"
+#: addon\globalPlugins\objPad.py:81
+msgid "Headings"
+msgstr "Заголовки"
 
-msgid "Frame"
-msgstr "Фрейм"
+#: addon\globalPlugins\objPad.py:82
+msgid "Frames"
+msgstr "Фрейми"
 
-msgid "Table"
-msgstr "Таблиця"
+#: addon\globalPlugins\objPad.py:83
+msgid "Tables"
+msgstr "Таблиці"
 
-msgid "List"
-msgstr "Список"
+#: addon\globalPlugins\objPad.py:84
+msgid "Lists"
+msgstr "Списки"
 
-msgid "Landmark"
-msgstr "Орієнтир"
+#: addon\globalPlugins\objPad.py:85
+msgid "Landmarks"
+msgstr "Орієнтири"
+
+#: addon\globalPlugins\objPad.py:86
+msgid "Embedded objects"
+msgstr "Вбудовані об'єкти"
+
+#: addon\globalPlugins\objPad.py:87
+msgid "Text paragraphs"
+msgstr "Текстові абзаци"
 
 #. Translators: a message when there is no next object when navigating
+#: addon\globalPlugins\objPad.py:206
 msgid "No next"
 msgstr "Немає наступного"
 
 #. Translators: a message when there is no previous object when navigating
+#: addon\globalPlugins\objPad.py:240
 msgid "No previous"
 msgstr "Немає попереднього"
 
-#. Add-on summary, usually the user visible name of the addon.
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:21
 msgid "ObjPad"
 msgstr "ObjPad"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
 msgid ""
 "Perform various object commands by pressing a single key, including "
 "navigation and more"
 msgstr ""
-"Виконуйте різні команди об’єктів натисканням однієї клавіші, це "
-"включає навігацію тощо"
+"Виконуйте різні команди об’єктів натисканням однієї клавіші, це включає "
+"навігацію тощо"
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:29
+msgid ""
+"* NVDA 2025.3.2 or later is required.\n"
+"* Added embedded object and text paragraph navigation to web mode."
+msgstr ""
+"* Потрібна NVDA 2025.3.2 або новіша версія.\n"
+"* До веб-режиму додано навігацію вбудованих об’єктів і текстових абзаців."
+
+#~ msgid "normal"
+#~ msgstr "звичайний"
