@@ -14,7 +14,7 @@ The add-on provides four ways to use arrow keys:
 
 * Classic (or normal mode): use arrow keys to move cursor.
 * Object nav: use arrow keys to move to next/previous/parent/first child objects.
-* Web: use arrow keys to cycle through elements and move between them.
+* Browse mode: use arrow keys to cycle through browse mode elements (web included) and move between them.
 * Scan mode: use arrow keys to move through objects on screen regardless of hierarchy.
 
 The following commands are available with arrow keys set to object nav:
@@ -25,7 +25,7 @@ The following commands are available with arrow keys set to object nav:
 * Down arrow: first child object.
 * SPACE or ENTER: activate.
 
-With web mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):
+With browse mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):
 
 * Right arrow: next element.
 * Left arrow: previous element.
@@ -42,6 +42,10 @@ With scan mode active:
 * Control+right arrow: next word.
 * Control+left arrow: previous word.
 * SPACE or ENTER: activate.
+
+## Version 26.03
+
+* Renamed "web mode" to "browse mode" as this mode will cover additional situations including browse mode in Word 365.
 
 ## Version 26.02
 
