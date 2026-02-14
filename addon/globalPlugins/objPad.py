@@ -138,7 +138,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			commands.script_navigatorObject_firstChild(gesture)
 		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
 			self.webBrowseMode = (self.webBrowseMode + 1) % len(self.webBrowseElements)
-			ui.message(self.webBrowseElements[self.webBrowseMode])
+			ui.message(self.webBrowseElements[self.webBrowseMode].element)
 		elif self.objArrowMode == ObjPadMode.SCANMODE:
 			# Navigate to next line if possible.
 			info = api.getReviewPosition().copy()
@@ -176,7 +176,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			commands.script_navigatorObject_parent(gesture)
 		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
 			self.webBrowseMode = (self.webBrowseMode - 1) % len(self.webBrowseElements)
-			ui.message(self.webBrowseElements[self.webBrowseMode])
+			ui.message(self.webBrowseElements[self.webBrowseMode].element)
 		elif self.objArrowMode == ObjPadMode.SCANMODE:
 			# Move to previous line first so text can be reviewed before resorting to a new object.
 			info = api.getReviewPosition().copy()
