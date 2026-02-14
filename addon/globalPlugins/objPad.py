@@ -104,7 +104,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				if self.webBrowseMode == 0:
 					commands.script_navigatorObject_nextInFlow(gesture)
 				else:
-					self.browseModeCommands[self.webBrowseMode - 1][0](obj, gesture)
+					getattr(
+						obj,
+						f"script_next{self.webBrowseElements[self.webBrowseMode].script}"
+					)(gesture)
 			else:
 				commands.script_navigatorObject_nextInFlow(gesture)
 		elif self.objArrowMode == ObjPadMode.SCANMODE:
@@ -119,7 +122,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				if self.webBrowseMode == 0:
 					commands.script_navigatorObject_previousInFlow(gesture)
 				else:
-					self.browseModeCommands[self.webBrowseMode - 1][1](obj, gesture)
+					getattr(
+						obj,
+						f"script_previous{self.webBrowseElements[self.webBrowseMode].script}"
+					)(gesture)
 			else:
 				commands.script_navigatorObject_previousInFlow(gesture)
 		elif self.objArrowMode == ObjPadMode.SCANMODE:
