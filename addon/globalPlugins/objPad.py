@@ -8,6 +8,7 @@
 # Web mode comes from Enhanced Touch Gestures.
 # Parts of source code are enhanced implementations of NVDA Core commands (copyright NV Access).
 
+from typing import NamedTuple
 import globalPluginHandler
 import ui
 from globalCommands import commands, SCRCAT_OBJECTNAVIGATION
@@ -73,61 +74,26 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	# Web navigation:
 
-	# Web elements list:
+	# Web elements and associated scripts list:
+	WebBrowseElement = NamedTuple(
+		"WebBrowseElement", [
+			("script", str),
+			("element", str)
+		]
+	)
 	webBrowseElements = (
-		_("Default (all elements)"),
-		_("Links"),
-		_("Form fields"),
-		_("Headings"),
-		_("Frames"),
-		_("Tables"),
-		_("Lists"),
-		_("Landmarks"),
-		_("Embedded objects"),
-		_("Text paragraphs"),
+		WebBrowseElement("", _("Default (all elements)")),
+		WebBrowseElement("Link", _("Links")),
+		WebBrowseElement("FormField", _("Form fields")),
+		WebBrowseElement("Heading", _("Headings")),
+		WebBrowseElement("Frame", _("Frames")),
+		WebBrowseElement("Table", _("Tables")),
+		WebBrowseElement("List", _("Lists")),
+		WebBrowseElement("Landmark", _("Landmarks")),
+		WebBrowseElement("EmbeddedObject", _("Embedded objects")),
+		WebBrowseElement("TextParagraph", _("Text paragraphs")),
 	)
 	webBrowseMode = 0
-
-	# The actual navigation gestures:
-	# Look up the needed commands for readability purposes.
-	browseModeCommands = (
-		(
-			browseMode.BrowseModeTreeInterceptor.script_nextLink,
-			browseMode.BrowseModeTreeInterceptor.script_previousLink
-		),
-		(
-			browseMode.BrowseModeTreeInterceptor.script_nextFormField,
-			browseMode.BrowseModeTreeInterceptor.script_previousFormField
-		),
-		(
-			browseMode.BrowseModeTreeInterceptor.script_nextHeading,
-			browseMode.BrowseModeTreeInterceptor.script_previousHeading
-		),
-		(
-			browseMode.BrowseModeTreeInterceptor.script_nextFrame,
-			browseMode.BrowseModeTreeInterceptor.script_previousFrame
-		),
-		(
-			browseMode.BrowseModeTreeInterceptor.script_nextTable,
-			browseMode.BrowseModeTreeInterceptor.script_previousTable
-		),
-		(
-			browseMode.BrowseModeTreeInterceptor.script_nextList,
-			browseMode.BrowseModeTreeInterceptor.script_previousList
-		),
-		(
-			browseMode.BrowseModeTreeInterceptor.script_nextLandmark,
-			browseMode.BrowseModeTreeInterceptor.script_previousLandmark
-		),
-		(
-			browseMode.BrowseModeTreeInterceptor.script_nextEmbeddedObject,
-			browseMode.BrowseModeTreeInterceptor.script_previousEmbeddedObject,
-		),
-		(
-			browseMode.BrowseModeTreeInterceptor.script_nextTextParagraph,
-			browseMode.BrowseModeTreeInterceptor.script_previousTextParagraph,
-		),
-	)
 
 	def script_rightArrow(self, gesture):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
