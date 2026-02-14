@@ -25,7 +25,7 @@ addonHandler.initTranslation()
 class ObjPadMode(enum.IntEnum):
 	NORMAL = 0  # Arrow keys are passed through the aplication
 	OBJNAV = 1  # Arrow keys perform object navigation commands
-	WEB = 2  # Arrow keys move by web elements
+	WEBBROWSE = 2  # Arrow keys move by web (browse mode ) elements
 	SCANMODE = 3  # Arrow keys move through text across objects
 
 
@@ -45,10 +45,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Translators: one of the object arrow modes.
 			ui.message(_("Object nav mode"))
 		elif self.objArrowMode == ObjPadMode.OBJNAV:
-			self.objArrowMode = ObjPadMode.WEB
+			self.objArrowMode = ObjPadMode.WEBBROWSE
 			# Translators: one of the object arrow modes.
-			ui.message(_("Web mode"))
-		elif self.objArrowMode == ObjPadMode.WEB:
+			ui.message(_("Browse mode"))
+		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
 			self.objArrowMode = ObjPadMode.SCANMODE
 			# Translators: one of the object arrow modes.
 			ui.message(_("Scan mode"))
@@ -132,7 +132,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_rightArrow(self, gesture):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_next(gesture)
-		elif self.objArrowMode == ObjPadMode.WEB:
+		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
 			obj = api.getNavigatorObject().treeInterceptor
 			if isinstance(obj, browseMode.BrowseModeTreeInterceptor):
 				if self.webBrowseMode == 0:
@@ -147,7 +147,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_leftArrow(self, gesture):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_previous(gesture)
-		elif self.objArrowMode == ObjPadMode.WEB:
+		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
 			obj = api.getNavigatorObject().treeInterceptor
 			if isinstance(obj, browseMode.BrowseModeTreeInterceptor):
 				if self.webBrowseMode == 0:
@@ -170,7 +170,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_downArrow(self, gesture):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_firstChild(gesture)
-		elif self.objArrowMode == ObjPadMode.WEB:
+		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
 			self.webBrowseMode = (self.webBrowseMode + 1) % len(self.webBrowseElements)
 			ui.message(self.webBrowseElements[self.webBrowseMode])
 		elif self.objArrowMode == ObjPadMode.SCANMODE:
@@ -208,7 +208,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_upArrow(self, gesture):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_parent(gesture)
-		elif self.objArrowMode == ObjPadMode.WEB:
+		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
 			self.webBrowseMode = (self.webBrowseMode - 1) % len(self.webBrowseElements)
 			ui.message(self.webBrowseElements[self.webBrowseMode])
 		elif self.objArrowMode == ObjPadMode.SCANMODE:
