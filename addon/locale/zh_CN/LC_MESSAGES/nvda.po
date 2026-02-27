@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-12-08 03:07+0000\n"
-"PO-Revision-Date: 2026-01-26 00:34\n"
+"POT-Creation-Date: 2026-02-09 03:56+0000\n"
+"PO-Revision-Date: 2026-02-16 00:39\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -18,69 +18,77 @@ msgstr ""
 "X-Crowdin-File-ID: 356\n"
 
 #. Translators: input help mode message for ObjPad toggle command.
-#: addon/globalPlugins/objPad.py:35
+#: addon/globalPlugins/objPad.py:38
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr "简易导航切换（在正常模式、对象导航模式、网页模式和扫描模式之间切换）"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:43
+#: addon/globalPlugins/objPad.py:46
 msgid "Object nav mode"
 msgstr "对象导航模式"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:47
+#: addon/globalPlugins/objPad.py:50
 msgid "Web mode"
 msgstr "网页模式"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:51
+#: addon/globalPlugins/objPad.py:54
 msgid "Scan mode"
 msgstr "扫描模式"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:55
+#: addon/globalPlugins/objPad.py:58
 msgid "Normal mode"
 msgstr "正常模式"
 
-#: addon/globalPlugins/objPad.py:75
-msgid "normal"
-msgstr "正常"
+#: addon/globalPlugins/objPad.py:78
+msgid "Default (all elements)"
+msgstr "默认（所有元素）"
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Link"
+#: addon/globalPlugins/objPad.py:79
+msgid "Links"
 msgstr "链接"
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Form field"
-msgstr "表单"
+#: addon/globalPlugins/objPad.py:80
+msgid "Form fields"
+msgstr "表单字段"
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Heading"
+#: addon/globalPlugins/objPad.py:81
+msgid "Headings"
 msgstr "标题"
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Frame"
+#: addon/globalPlugins/objPad.py:82
+msgid "Frames"
 msgstr "框架"
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Table"
+#: addon/globalPlugins/objPad.py:83
+msgid "Tables"
 msgstr "表格"
 
-#: addon/globalPlugins/objPad.py:75
-msgid "List"
+#: addon/globalPlugins/objPad.py:84
+msgid "Lists"
 msgstr "列表"
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Landmark"
-msgstr "陆标"
+#: addon/globalPlugins/objPad.py:85
+msgid "Landmarks"
+msgstr "路标"
+
+#: addon/globalPlugins/objPad.py:86
+msgid "Embedded objects"
+msgstr "嵌入式对象 "
+
+#: addon/globalPlugins/objPad.py:87
+msgid "Text paragraphs"
+msgstr "文本段落"
 
 #. Translators: a message when there is no next object when navigating
-#: addon/globalPlugins/objPad.py:186
+#: addon/globalPlugins/objPad.py:206
 msgid "No next"
 msgstr "没有下一项"
 
 #. Translators: a message when there is no previous object when navigating
-#: addon/globalPlugins/objPad.py:220
+#: addon/globalPlugins/objPad.py:240
 msgid "No previous"
 msgstr "没有上一项"
 
@@ -100,6 +108,8 @@ msgstr "一键执行各种对象快捷键，包括导航等"
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid "Initial changelog."
-msgstr "初始更新日志。"
+msgid "* NVDA 2025.3.2 or later is required.\n"
+"* Added embedded object and text paragraph navigation to web mode."
+msgstr "* 需要 NVDA 2025.3.2 或更高版本。\n"
+"* 在 web 模式下添加了嵌入式对象和文本段落导航。"
 

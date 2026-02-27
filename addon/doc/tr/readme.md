@@ -1,7 +1,6 @@
 # Nesne Dolaşımı
 
 * Yazar: Christopher Duffley <nvda@chrisduffley.com>, aslen Joseph Lee, Cleverson Uliana ve diğerleri tarafından yazılmıştır
-* NVDA uyumluluğu: 2022.4 ve sonrası
 
 Bu eklenti, gezinme ve diğer olasılıklar da dahil olmak üzere ekrandaki nesneleri yönetmek için hızlı komutlar sağlar.
 
@@ -15,7 +14,7 @@ Eklenti, ok tuşlarını kullanmak için dört yol sağlar:
 
 * Klasik (veya normal mod): imleci hareket ettirmek için ok tuşlarını kullanın.
 * Nesne Dolaşımı: sonraki/önceki/üst/ilk alt nesneye gitmek için ok tuşlarını kullanın.
-* Web: öğeler arasında gezinmek için ok tuşlarını kullanın.
+* Gözatma modu: Gözatma modu öğeleri (web dahil) arasında geçiş yapmak ve bunlar arasında geçiş yapmak için ok tuşlarını kullanın.
 * Tarama modu: sıralamadan bağımsız olarak ekrandaki nesneler arasında hareket etmek için ok tuşlarını kullanın.
 
 Aşağıdaki komutlar, Nesne sunucusu modunda ok tuşlarıyla kullanılabilir:
@@ -26,7 +25,7 @@ Aşağıdaki komutlar, Nesne sunucusu modunda ok tuşlarıyla kullanılabilir:
 * Aşağı ok: ilk alt nesne.
 * Aralık veya ENTER: etkinleştir.
 
-Web modu etkinken (öğeler normaldir veya nesne, bağlantı, form alanı, başlık, çerçeve, tablo, liste, yer işaretine göre hareket eder):
+Gözatma modu etkinken (öğeler varsayılandır (nesneye/tüm öğelere göre hareket eder), bağlantı, form alanı, başlık, çerçeve, tablo, liste, yer işareti, gömülü nesne, metin paragrafı):
 
 * Sağ ok: sonraki öğe.
 * Sol ok: önceki öğe.
@@ -43,6 +42,15 @@ Tarama modu etkinken:
 * Kontrol+sağ ok: sonraki kelime.
 * Kontrol+sol ok: önceki kelime.
 * Aralık veya ENTER: etkinleştir.
+
+## Sürüm 26.03
+
+* Bu mod, Word 365'teki göz atma modu da dahil olmak üzere ek durumları kapsayacağı için "web modu", "gözatma modu" olarak yeniden adlandırıldı.
+
+## Sürüm 26.02
+
+* NVDA 2025.3.2 veya üzeri gereklidir.
+* Web moduna gömülü nesne ve metin paragrafında dolaşım eklendi.
 
 ## Sürüm 25.06
 
