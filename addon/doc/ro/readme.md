@@ -1,62 +1,69 @@
-# ObjPad #
+# ObjPad
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
-  Lee, Cleverson Uliana and others
-* Descărcați [versiunea stabilă][1]
-* NVDA compatibility: 2022.4 and later
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
 
-Acest supliment furnizează comenzi rapide pentru a gestiona obiectele pe
-ecran, incluzând navigarea și alte posibilități.
+This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
 
-## Comenzi
+## Commands
 
-* Control+NVDA+Tab: Navighează printre modurile săgeți (vezi mai jos pentru
-  detalii).
+* Control+NVDA+TAB: Steps through arrow key modes (see below for details).
 
-## Modurile săgeți
+## Arrow key modes
 
-Add-on-ul oferă patru posibilități de a utiliza săgețile:
+The add-on provides four ways to use arrow keys:
 
-* Clasic (sau modul normal): Folosește săgețile pentru a muta cursorul.
-* Navigarea obiectului: Folosește săgețile pentru a te muta la
-  următorul/anteriorul/marile/micile obiecte.
-* Web: utilizați săgețile pentru a parcurge elementele și pentru a vă
-  deplasa printre ele.
-* Modul de scanare: Folosește săgețile pentru a comuta printre obiectele de
-  pe ecran referitoare la modul erarhic.
+* Classic (or normal mode): use arrow keys to move cursor.
+* Object nav: use arrow keys to move to next/previous/parent/first child objects.
+* Browse mode: use arrow keys to cycle through browse mode elements (web included) and move between them.
+* Scan mode: use arrow keys to move through objects on screen regardless of hierarchy.
 
-Următoarele comenzi sunt valabile cu săgețile setate în navigatorul
-obiectului:
+The following commands are available with arrow keys set to object nav:
 
-* Săgeată dreapta: Următorul obiect.
-* Săgeată stânga: Obiectul anterior.
-* Săgeată sus: Obiectul mare.
-* Săgeată jos: Primul obiect mic.
-* Spațiu sau Enter: activează.
+* Right arrow: next object.
+* Left arrow: previous object.
+* Up arrow: parent object.
+* Down arrow: first child object.
+* SPACE or ENTER: activate.
 
-Cu modul web activ, (elementele sunt normale sau care se deplasează prin
-obiect, link, câmp formular, rubrică, cadru, tabel, listă, regiune):
+With browse mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):
 
-* Săgeată dreapta: Următorul element.
-* Săgeată stânga: Elementul anterior.
-* Săgeată sus: Tipul de element anterior.
-* Săgeată jos: Tipul de element următor.
-* Spațiu sau Enter: activează.
+* Right arrow: next element.
+* Left arrow: previous element.
+* Up arrow: previous element type.
+* Down arrow: next element type.
+* SPACE or ENTER: activate.
 
-Cu modul de scanare activ:
+With scan mode active:
 
-* Săgeată jos: Următorul obiect sau linia următoare.
-* Săgeată sus: Obiectul anterior sau linia anterioară.
-* Săgeată dreapta: Examinează caracterul următor.
-* Săgeată stânga: caracterul anterior.
-* Control+săgeată dreapta: Următorul cuvânt.
-* Control+săgeată stânga: cuvântul anterior.
-* Spațiu sau Enter: activează.
+* Down arrow: next object or the next line.
+* Up arrow: previous object or previous line.
+* Right arrow: review next character.
+* Left arrow: previous character.
+* Control+right arrow: next word.
+* Control+left arrow: previous word.
+* SPACE or ENTER: activate.
+
+## Version 26.03
+
+* Renamed "web mode" to "browse mode" as this mode will cover additional situations including browse mode in Word 365.
+
+## Version 26.02
+
+* NVDA 2025.3.2 or later is required.
+* Added embedded object and text paragraph navigation to web mode.
+
+## Version 25.06
+
+* Compatible with NVDA 2025.1
+* The link to download the add-on is no longer present to encourage usage of the Add-On Store.
+
+## Version 24.04
+
+* Compatibility with NVDA 2024.1.
 
 ## Version 23.05
 
-* To reflect the maintainer change, the manifest has been updated to
-  indicate as such.
+* To reflect the maintainer change, the manifest has been updated to indicate as such.
 
 ## Version 23.02
 
@@ -66,8 +73,7 @@ Cu modul de scanare activ:
 ## Version 23.01
 
 * NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
-  supported by Microsoft as of January 2023.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
 
 ## Version 22.06
 
@@ -77,31 +83,27 @@ Cu modul de scanare activ:
 
 * Requires NVDA 2020.1 or later.
 
-## Versiunea 20.01
+## Version 20.01
 
-* Necesită NVDA 2019.3 sau mai nou.
+* Requires NVDA 2019.3 or later.
 
-## Versiunea 18.12
+## Version 18.12
 
-* Au fost făcute modificări interne pentru ca viitoarele versiuni de NVDA să
-  fie suportate.
+* Internal changes to support future NVDA releases.
 
-## Versiunea 18.09
+## Version 18.09
 
-* S-au adăugat traduceri.
-* Tasta Enter (obișnuită sau cea de pe blocul numeric) poate fi folosită
-  pentru a activa obiecte.
+* Added localizations.
+* Enter key (regular and Numpad) can be used to activate objects.
 
-## Versiunea 18.03
+## Version 18.03
 
-* Compatibilitate mai bună cu NVDA 2018.1.
+* Better compatibility with NVDA 2018.1.
 
-## Versiunea 16.12
+## Version 16.12
 
-* A fost adăugat modul web.
+* Added web mode.
 
-## Versiunea 16.10
+## Version 16.10
 
-* Versiunea stabilă inițială.
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad
+* Initial stable version.

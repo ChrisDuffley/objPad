@@ -1,106 +1,109 @@
-# ObjPad #
+# ObjPad
 
-* Autor: Christopher Duffley <nvda@chrisduffley.com>, originalmente por
-  Joseph Lee, Cleverson Uliana e outros
-* Baixe a [versão estável][1]
-* Compatibilidade com NVDA: 2022.4 e posterior
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
 
-Esse complemento fornece comandos rápidos para gerenciar objetos na tela,
-incluindo navegação e outras possibilidades.
+This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
 
-## Comandos
+## Commands
 
-* Control+NVDA+TAB: Percorre os modos de teclas de seta (veja abaixo para
-  detalhes).
+* Control+NVDA+TAB: Steps through arrow key modes (see below for details).
 
-## Modos das teclas de seta
+## Arrow key modes
 
-O complemento apresenta quatro maneiras para usar as teclas de seta:
+The add-on provides four ways to use arrow keys:
 
-* Clássico (ou modo normal): usa as setas para mover o cursor.
-* Navegação por objeto: usa as teclas de seta para ir para os objetos
-  próximo/anterior/pai/primeiro filho.
-* Web: usa as setas para percorrer os elementos e mover-se entre eles.
-* Modo de esquadrinhamento: usa as teclas de seta para percorrer os objetos
-  na tela, independentemente da hierarquia.
+* Classic (or normal mode): use arrow keys to move cursor.
+* Object nav: use arrow keys to move to next/previous/parent/first child objects.
+* Browse mode: use arrow keys to cycle through browse mode elements (web included) and move between them.
+* Scan mode: use arrow keys to move through objects on screen regardless of hierarchy.
 
-Os seguintes comandos estão disponíveis com as teclas de seta configuradas
-para navegação por objeto:
+The following commands are available with arrow keys set to object nav:
 
-* Seta para direita: próximo objeto.
-* Seta para esquerda: objeto anterior.
-* Seta para cima: objeto pai.
-* Seta para baixo: primeiro objeto filho.
-* ESPAÇO ou ENTER: ativar.
+* Right arrow: next object.
+* Left arrow: previous object.
+* Up arrow: parent object.
+* Down arrow: first child object.
+* SPACE or ENTER: activate.
 
-Com o modo Web ativo (os elementos são normais ou movendo-se por objeto,
-link, campo de formulário, título, frame, tabela, lista, marco):
+With browse mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):
 
-* Seta para direita: próximo elemento.
-* Seta para esquerda: elemento anterior.
-* Seta para cima: tipo de elemento anterior.
-* Seta para baixo: próximo tipo de elemento.
-* ESPAÇO ou ENTER: ativar.
+* Right arrow: next element.
+* Left arrow: previous element.
+* Up arrow: previous element type.
+* Down arrow: next element type.
+* SPACE or ENTER: activate.
 
-Com o modo de esquadrinhamento ativo:
+With scan mode active:
 
-* Seta para baixo: próximo objeto ou próxima linha.
-* Seta para cima: objeto anterior ou linha anterior.
-* Seta para direita: explora próximo caractere.
-* Seta para esquerda: caractere anterior.
-* CTRL+seta para direita: próxima palavra.
-* CTRL+seta para esquerda: palavra anterior.
-* ESPAÇO ou ENTER: ativar.
+* Down arrow: next object or the next line.
+* Up arrow: previous object or previous line.
+* Right arrow: review next character.
+* Left arrow: previous character.
+* Control+right arrow: next word.
+* Control+left arrow: previous word.
+* SPACE or ENTER: activate.
 
-## Versão 23.05
+## Version 26.03
 
-* Para refletir a mudança do mantenedor, o manifest foi atualizado para
-  indicar isso.
+* Renamed "web mode" to "browse mode" as this mode will cover additional situations including browse mode in Word 365.
 
-## Versão 23.02
+## Version 26.02
 
-* Requer NVDA 2022.4 ou posterior.
-* É necessário o Windows 10 21H2 (atualização/compilação 19044 de novembro
-  de 2021) ou posterior.
+* NVDA 2025.3.2 or later is required.
+* Added embedded object and text paragraph navigation to web mode.
 
-## Versão 23.01
+## Version 25.06
 
-* Requer NVDA 2022.3 ou posterior.
-* É necessário ter o Windows 10 ou posterior, pois o Windows 7, 8 e 8.1 não
-  serão mais suportados pela Microsoft a partir de janeiro de 2023.
+* Compatible with NVDA 2025.1
+* The link to download the add-on is no longer present to encourage usage of the Add-On Store.
 
-## Versão 22.06
+## Version 24.04
 
-* Requer NVDA 2021.3 ou posterior.
+* Compatibility with NVDA 2024.1.
 
-## Versão 21.04
+## Version 23.05
 
-* Requer NVDA 2020.1 ou posterior.
+* To reflect the maintainer change, the manifest has been updated to indicate as such.
 
-## Versão 20.01
+## Version 23.02
 
-* Requer NVDA 2019.3 ou posterior.
+* NVDA 2022.4 or later is required.
+* Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
 
-## Versão 18.12
+## Version 23.01
 
-* Alterações internas para dar suporte a versões futuras do NVDA.
+* NVDA 2022.3 or later is required.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
 
-## Versão 18.09
+## Version 22.06
 
-* Adicionado localizações.
-* A tecla Enter (regular e bloco numérico) pode ser usada para ativar
-  objetos.
+* Requires NVDA 2021.3 or later.
 
-## Versão 18.03
+## Version 21.04
 
-* Melhor compatibilidade com o NVDA 2018.1.
+* Requires NVDA 2020.1 or later.
 
-## Versão 16.12
+## Version 20.01
 
-* Adicionado modo web.
+* Requires NVDA 2019.3 or later.
 
-## Versão 16.10
+## Version 18.12
 
-* Versão inicial estável.
+* Internal changes to support future NVDA releases.
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad
+## Version 18.09
+
+* Added localizations.
+* Enter key (regular and Numpad) can be used to activate objects.
+
+## Version 18.03
+
+* Better compatibility with NVDA 2018.1.
+
+## Version 16.12
+
+* Added web mode.
+
+## Version 16.10
+
+* Initial stable version.

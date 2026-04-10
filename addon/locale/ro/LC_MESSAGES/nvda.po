@@ -1,86 +1,113 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the objPad package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: objPad 18.03\n"
+"Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2018-08-25 15:05+1000\n"
-"PO-Revision-Date: 2018-09-21 11:05+0300\n"
-"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
-"Language-Team: \n"
-"Language: ro\n"
+"POT-Creation-Date: 2026-02-23 03:54+0000\n"
+"PO-Revision-Date: 2026-04-06 01:48\n"
+"Last-Translator: \n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: ro\n"
+"X-Crowdin-File: objPad.pot\n"
+"X-Crowdin-File-ID: 356\n"
+
+#. Translators: input help mode message for ObjPad toggle command.
+#: addon/globalPlugins/objPad.py:39
+msgid "Toggles ObjPad mode between normal, object nav and scan modes"
+msgstr "Comută între modurile normal, scanare și navigare obiect"
 
 #. Translators: one of the object arrow modes.
+#: addon/globalPlugins/objPad.py:47
 msgid "Object nav mode"
 msgstr "Mod navigare obiect"
 
 #. Translators: one of the object arrow modes.
-msgid "Web mode"
-msgstr "Mod web"
+#: addon/globalPlugins/objPad.py:51
+msgid "Browse mode"
+msgstr ""
 
 #. Translators: one of the object arrow modes.
+#: addon/globalPlugins/objPad.py:55
 msgid "Scan mode"
 msgstr "Mod scanare"
 
 #. Translators: one of the object arrow modes.
+#: addon/globalPlugins/objPad.py:59
 msgid "Normal mode"
 msgstr "Mod normal"
 
-#. Translators: input help mode message for ObjPad toggle command.
-msgid "Toggles ObjPad mode between normal, object nav and scan modes"
-msgstr "Comută între modurile normal, scanare și navigare obiect"
+#: addon/globalPlugins/objPad.py:85
+msgid "Default (all elements)"
+msgstr ""
 
-#. Web navigation:
-#. Web elements list:
-msgid "normal"
-msgstr "normal"
+#: addon/globalPlugins/objPad.py:86
+msgid "Links"
+msgstr ""
 
-msgid "Link"
-msgstr "Link"
+#: addon/globalPlugins/objPad.py:87
+msgid "Form fields"
+msgstr ""
 
-msgid "Form field"
-msgstr "Câmp formular"
+#: addon/globalPlugins/objPad.py:88
+msgid "Headings"
+msgstr ""
 
-msgid "Heading"
-msgstr "Rubrică"
+#: addon/globalPlugins/objPad.py:89
+msgid "Frames"
+msgstr ""
 
-msgid "Frame"
-msgstr "Cadru"
+#: addon/globalPlugins/objPad.py:90
+msgid "Tables"
+msgstr ""
 
-msgid "Table"
-msgstr "Tabel"
+#: addon/globalPlugins/objPad.py:91
+msgid "Lists"
+msgstr ""
 
-msgid "List"
-msgstr "Listă"
+#: addon/globalPlugins/objPad.py:92
+msgid "Landmarks"
+msgstr ""
 
-msgid "Landmark"
-msgstr "Reper"
+#: addon/globalPlugins/objPad.py:93
+msgid "Embedded objects"
+msgstr ""
+
+#: addon/globalPlugins/objPad.py:94
+msgid "Text paragraphs"
+msgstr ""
 
 #. Translators: a message when there is no next object when navigating
+#: addon/globalPlugins/objPad.py:180
 msgid "No next"
 msgstr "Nu există următor"
 
 #. Translators: a message when there is no previous object when navigating
+#: addon/globalPlugins/objPad.py:214
 msgid "No previous"
 msgstr "Nu există anterior"
 
-#. Add-on summary, usually the user visible name of the addon.
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:21
 msgid "ObjPad"
-msgstr "ObjPad"
+msgstr ""
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-msgid ""
-"Perform various object commands by pressing a single key, including "
-"navigation and more"
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
+msgid "Perform various object commands by pressing a single key, including navigation and more"
+msgstr "Efectuează diverse comenzi al obiectului apăsând o singură tastă, incluzând navigarea și multe altele"
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:29
+msgid "* Renamed \"web mode\" to \"browse mode\" as this mode will cover additional situations including browse mode in Word 365."
 msgstr ""
-"Efectuează diverse comenzi al obiectului apăsând o singură tastă, incluzând "
-"navigarea și multe altele"
+

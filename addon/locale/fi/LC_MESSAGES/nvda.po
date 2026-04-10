@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-09-14 17:50+0000\n"
-"PO-Revision-Date: 2025-12-01 01:10\n"
+"POT-Creation-Date: 2026-02-23 03:54+0000\n"
+"PO-Revision-Date: 2026-04-06 01:44\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
@@ -18,82 +18,96 @@ msgstr ""
 "X-Crowdin-File-ID: 356\n"
 
 #. Translators: input help mode message for ObjPad toggle command.
-#: addon/globalPlugins/objPad.py:35
+#: addon/globalPlugins/objPad.py:39
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr "Vaihtaa normaalin, objektinavigointi- ja skannaustilan välillä."
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:43
+#: addon/globalPlugins/objPad.py:47
 msgid "Object nav mode"
 msgstr "Objektinavigointitila"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:47
-msgid "Web mode"
-msgstr "Verkkotila"
+#: addon/globalPlugins/objPad.py:51
+msgid "Browse mode"
+msgstr "Selaustila"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:51
+#: addon/globalPlugins/objPad.py:55
 msgid "Scan mode"
 msgstr "Skannaustila"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:55
+#: addon/globalPlugins/objPad.py:59
 msgid "Normal mode"
 msgstr "Normaali tila"
 
-#: addon/globalPlugins/objPad.py:75
-msgid "normal"
-msgstr "normaali"
+#: addon/globalPlugins/objPad.py:85
+msgid "Default (all elements)"
+msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Link"
-msgstr "Linkki"
+#: addon/globalPlugins/objPad.py:86
+msgid "Links"
+msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Form field"
-msgstr "Lomakekenttä"
+#: addon/globalPlugins/objPad.py:87
+msgid "Form fields"
+msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Heading"
-msgstr "Otsikko"
+#: addon/globalPlugins/objPad.py:88
+msgid "Headings"
+msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Frame"
-msgstr "Kehys"
+#: addon/globalPlugins/objPad.py:89
+msgid "Frames"
+msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Table"
-msgstr "Taulukko"
+#: addon/globalPlugins/objPad.py:90
+msgid "Tables"
+msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "List"
-msgstr "Luettelo"
+#: addon/globalPlugins/objPad.py:91
+msgid "Lists"
+msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Landmark"
-msgstr "Kiintopiste"
+#: addon/globalPlugins/objPad.py:92
+msgid "Landmarks"
+msgstr ""
+
+#: addon/globalPlugins/objPad.py:93
+msgid "Embedded objects"
+msgstr ""
+
+#: addon/globalPlugins/objPad.py:94
+msgid "Text paragraphs"
+msgstr ""
 
 #. Translators: a message when there is no next object when navigating
-#: addon/globalPlugins/objPad.py:186
+#: addon/globalPlugins/objPad.py:180
 msgid "No next"
 msgstr "Ei seuraavaa"
 
 #. Translators: a message when there is no previous object when navigating
-#: addon/globalPlugins/objPad.py:220
+#: addon/globalPlugins/objPad.py:214
 msgid "No previous"
 msgstr "Ei edellistä"
 
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on
-#. to be shown on installation and add-on information.
-#: buildVars.py:23
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:21
 msgid "ObjPad"
 msgstr "ObjPad"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#: buildVars.py:26
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
 msgid "Perform various object commands by pressing a single key, including navigation and more"
 msgstr "Suorittaa objektille eri komentoja yksittäistä näppäintä painamalla, mukaan lukien objektinavigointi ja paljon muuta"
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:29
+msgid "* Renamed \"web mode\" to \"browse mode\" as this mode will cover additional situations including browse mode in Word 365."
+msgstr "* Uudelleennimetty \"verkkotila\" muotoon \"selaustila\", koska tämä tila kattaa myös muita tilanteita, mukaan lukien Word 365:n selaustilan."
 

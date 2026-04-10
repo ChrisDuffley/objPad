@@ -1,110 +1,109 @@
-# ObjPad #
+# ObjPad
 
-* Autor: Christopher Duffley <nvda@chrisduffley.com> (ursprünglich
-  geschrieben von Joseph Lee, Cleverson Uliana und weitere Entwickler)
-* [Stabile Version herunterladen][1]
-* NVDA-Kompatibilität: 2022.4 und neuer
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
 
-Dieses Add-on bietet schnelle Befehle zur Verwaltung von Objekten auf dem
-Bildschirm, einschließlich Navigation und anderer Möglichkeiten.
+This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
 
-## Befehle
+## Commands
 
-* Strg+NVDA+Tab: Wechselt zwischen den Navigationsarten auf dem Bildschirm
-  (Details siehe unten).
+* Control+NVDA+TAB: Steps through arrow key modes (see below for details).
 
-## Navigationsarten
+## Arrow key modes
 
-Die Erweiterung bietet vier Möglichkeiten der Navigation mit Pfeiltasten:
+The add-on provides four ways to use arrow keys:
 
-* Klassisch (oder Normalmodus): Verwenden Sie die Pfeiltasten, um den Cursor
-  zu steuern.
-* Objektnavigation: Benutzen Sie die Pfeiltasten, um zu den
-  nächsten/vorherigen Hauptobjekten bzw. ersten/vorherigen/nächsten
-  Unterobjekten zu gelangen.
-* Web: Benutzen Sie die Pfeiltasten, um durch die Elementtypen zu blättern
-  und sich zwischen elementen zu bewegen.
-* Erkundungsmodus: Benutzen Sie die Pfeiltasten, um unabhängig von der
-  Hierarchie durch die Objekte auf dem Bildschirm zu navigieren.
+* Classic (or normal mode): use arrow keys to move cursor.
+* Object nav: use arrow keys to move to next/previous/parent/first child objects.
+* Browse mode: use arrow keys to cycle through browse mode elements (web included) and move between them.
+* Scan mode: use arrow keys to move through objects on screen regardless of hierarchy.
 
-Die folgenden Befehle sind verfügbar, wenn die Pfeiltasten auf
-Objektnavigation eingestellt sind:
+The following commands are available with arrow keys set to object nav:
 
-* Pfeiltaste nach rechts: Nächstes Objekt.
-* Pfeiltaste nach links: Vorheriges Objekt.
-* Pfeiltaste nach oben: Hauptobjekt für die aktuelle Region.
-* Pfeiltaste nach unten: Erstes Unterobjekt des Hauptobjekts.
-* Leertaste or Eingabetaste: Aktivieren.
+* Right arrow: next object.
+* Left arrow: previous object.
+* Up arrow: parent object.
+* Down arrow: first child object.
+* SPACE or ENTER: activate.
 
-Elemente können im Webmodus normal eingestellt werden. Sie können aber auch
-zwischen den Elementtypen Objekte, Links, Formularfelder, Überschriften,
-Rahmen, Tabellen, Listen, Sprungmarken navigieren:
+With browse mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):
 
-* Pfeiltaste nach rechts: Nächstes Element.
-* Pfeiltaste nach links: Vorheriges Element.
-* Pfeiltaste nach oben: Vorheriges Elementtyp.
-* Pfeiltaste nach unten: Nächstes Elementtyp.
-* Leertaste or Eingabetaste: Aktivieren.
+* Right arrow: next element.
+* Left arrow: previous element.
+* Up arrow: previous element type.
+* Down arrow: next element type.
+* SPACE or ENTER: activate.
 
-Bei aktiviertem Scan-Modus:
+With scan mode active:
 
-* Pfeiltaste nach unten: Nächstes Objekt oder nächste Zeile.
-* Pfeiltaste nach oben: Vorheriges Objekt oder vorherige Zeile.
-* Pfeiltaste nach rechts: Nächster Buchstabe.
-* Pfeiltaste nach links: Vorheriger Buchstabe.
-* Strg+Pfeil nach rechts: Nächstes Wort.
-* Strg+Pfeil nach links: Vorheriges Wort.
-* Leertaste or Eingabetaste: Aktivieren.
+* Down arrow: next object or the next line.
+* Up arrow: previous object or previous line.
+* Right arrow: review next character.
+* Left arrow: previous character.
+* Control+right arrow: next word.
+* Control+left arrow: previous word.
+* SPACE or ENTER: activate.
+
+## Version 26.03
+
+* Renamed "web mode" to "browse mode" as this mode will cover additional situations including browse mode in Word 365.
+
+## Version 26.02
+
+* NVDA 2025.3.2 or later is required.
+* Added embedded object and text paragraph navigation to web mode.
+
+## Version 25.06
+
+* Compatible with NVDA 2025.1
+* The link to download the add-on is no longer present to encourage usage of the Add-On Store.
+
+## Version 24.04
+
+* Compatibility with NVDA 2024.1.
 
 ## Version 23.05
 
-* Um die Änderung zur Wartung zu berücksichtigen, wurde das Manifest
-  aktualisiert, um dies anzuzeigen.
+* To reflect the maintainer change, the manifest has been updated to indicate as such.
 
 ## Version 23.02
 
-* NVDA 2022.4 oder neuer wird benötigt.
-* Windows 10 Version 21H2 (November 2021 Update / Build 19044) oder neuer
-  wird benötigt.
+* NVDA 2022.4 or later is required.
+* Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
 
 ## Version 23.01
 
-* NVDA 2022.3 oder neuer ist erforderlich.
-* Windows 10 oder neuer ist erforderlich, da Windows 7, 8 und 8.1 ab Januar
-  2023 nicht mehr von Microsoft unterstützt werden.
+* NVDA 2022.3 or later is required.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
 
 ## Version 22.06
 
-* Benötigt NVDA 2021.3 oder neuer.
+* Requires NVDA 2021.3 or later.
 
 ## Version 21.04
 
-* Erfordert NVDA 2020.1 oder höher.
+* Requires NVDA 2020.1 or later.
 
 ## Version 20.01
 
-* Erfordert NVDA 2019.3 oder höher.
+* Requires NVDA 2019.3 or later.
 
 ## Version 18.12
 
-* Interne Änderungen zur Unterstützung zukünftiger NVDA-Versionen.
+* Internal changes to support future NVDA releases.
 
 ## Version 18.09
 
-* Lokalisierungen wurden hinzugefügt.
-* Eingabetaste (normal und Numpad) kann zum Aktivieren von Objekten
-  verwendet werden.
+* Added localizations.
+* Enter key (regular and Numpad) can be used to activate objects.
 
 ## Version 18.03
 
-* Bessere Kompatibilität mit NVDA 2018.1.
+* Better compatibility with NVDA 2018.1.
 
 ## Version 16.12
 
-* Web-Modus wurde hinzugefügt.
+* Added web mode.
 
 ## Version 16.10
 
-* Erstveröffentlichung.
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad
+* Initial stable version.
