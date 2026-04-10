@@ -1,69 +1,65 @@
-# ObjPad
+# Nyílmódok #
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
+  Lee, Cleverson Uliana and others
+* [stabil verzió][1] letöltése
+* NVDA compatibility: 2022.4 and later
 
-This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
+Ez a bővítmény alternatívát nyújt az NVDA különböző navigációs módjainak
+kezelésére. Az NVDA különböző kurzorainak mozgatását mind a nyílbillentyűkre
+koncentrálja. Hogy a nyílbillentyűk mikor melyik kurzort, hogy s mint
+mozgatják attól függ, hogy a felhasználó egy billentyűparanccsal melyik
+navigációs módra vált.
 
-## Commands
+## Parancsok
 
-* Control+NVDA+TAB: Steps through arrow key modes (see below for details).
+* Ctrl+NVDA+Tab: Vált a nyílbillentyűk kezelésének módjai (a továbbiakban:
+  nyílmódok) között, lásd alább.
 
-## Arrow key modes
+## Nyílmódok
 
-The add-on provides four ways to use arrow keys:
+A bővítmény használatával a nyílbillentyűk viselkedése az alábbi módon
+változtatható:
 
-* Classic (or normal mode): use arrow keys to move cursor.
-* Object nav: use arrow keys to move to next/previous/parent/first child objects.
-* Browse mode: use arrow keys to cycle through browse mode elements (web included) and move between them.
-* Scan mode: use arrow keys to move through objects on screen regardless of hierarchy.
+* Normál: a nyílbillentyűk a kurzort mozgatják.
+* Elemnavigáció: a nyílbillentyűkkel az előző vagy következő elemre, illetve
+  a szülő- vagy gyermekelemre lehet lépni.
+* Webmód: a nyílbillentyűkkel lehet váltogatni a webes elemtípusokat és az
+  egyes elemek közt navigálni.
+* áttekintőmód: a nyílbillentyűkkel lehet az egyes képernyőelemeken mozogni
+  a köztük fennálló kapcsolattól függetlenül.
 
-The following commands are available with arrow keys set to object nav:
+Elemnavigációs módban a következő parancsok érhetők el:
 
-* Right arrow: next object.
-* Left arrow: previous object.
-* Up arrow: parent object.
-* Down arrow: first child object.
-* SPACE or ENTER: activate.
+* Jobbnyíl: következő elem.
+* Balnyíl: előző elem.
+* Felnyíl: szülőelem.
+* Lenyíl: az első gyermekelem.
+* Szóköz vagy enter: elem aktiválása
 
-With browse mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):
+Webmódban elérhető a normál és az elemenkénti navigáció. A választható
+elemek: hivatkozás, űrlapmező, címsor, keret, táblázat, lista, jelzőpont.
 
-* Right arrow: next element.
-* Left arrow: previous element.
-* Up arrow: previous element type.
-* Down arrow: next element type.
-* SPACE or ENTER: activate.
+* Jobbra nyíl: következő webes elem.
+* Balra nyíl: előző webes elem.
+* Felnyíl: előző webes elemtípus.
+* Lenyíl: következő webes elemtípus.
+* Szóköz vagy enter: elem aktiválása
 
-With scan mode active:
+Áttekintőmód:
 
-* Down arrow: next object or the next line.
-* Up arrow: previous object or previous line.
-* Right arrow: review next character.
-* Left arrow: previous character.
-* Control+right arrow: next word.
-* Control+left arrow: previous word.
-* SPACE or ENTER: activate.
-
-## Version 26.03
-
-* Renamed "web mode" to "browse mode" as this mode will cover additional situations including browse mode in Word 365.
-
-## Version 26.02
-
-* NVDA 2025.3.2 or later is required.
-* Added embedded object and text paragraph navigation to web mode.
-
-## Version 25.06
-
-* Compatible with NVDA 2025.1
-* The link to download the add-on is no longer present to encourage usage of the Add-On Store.
-
-## Version 24.04
-
-* Compatibility with NVDA 2024.1.
+* lenyíl: következő elem vagy következő sor.
+* felnyíl: előző elem vagy előző sor.
+* Jobbnyíl: következő karakter.
+* Balnyíl: előző karakter.
+* Ctrl+Jobbnyíl: következő szó.
+* Ctrl+balnyíl: előző szó.
+* Szóköz vagy enter: elem aktiválása
 
 ## Version 23.05
 
-* To reflect the maintainer change, the manifest has been updated to indicate as such.
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
 ## Version 23.02
 
@@ -73,7 +69,8 @@ With scan mode active:
 ## Version 23.01
 
 * NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
+  supported by Microsoft as of January 2023.
 
 ## Version 22.06
 
@@ -83,27 +80,30 @@ With scan mode active:
 
 * Requires NVDA 2020.1 or later.
 
-## Version 20.01
+## A 20.01 verzió változásai:
 
-* Requires NVDA 2019.3 or later.
+* Az NVDA 2019.3 vagy újabb kiadására van szükség.
 
-## Version 18.12
+## A 18.12 verzió változásai:
 
-* Internal changes to support future NVDA releases.
+* Belső változások, hogy a bővítmény kompatibilis legyen a későbbi NVDA
+  kiadásokkal.
 
-## Version 18.09
+## A 18.09 verzió változásai:
 
-* Added localizations.
-* Enter key (regular and Numpad) can be used to activate objects.
+* Fordításokat adtak hozzá.
+* Az Enterrel vagy a Numpad billentyűivel lehet az elemeket aktiválni.
 
-## Version 18.03
+## A 18.03 verzió változásai:
 
-* Better compatibility with NVDA 2018.1.
+* Jobb együttműködés az NVDA 2018.1 verziójával.
 
-## Version 16.12
+## A 16.12 verzió változásai:
 
-* Added web mode.
+* Hozzáadták a webmódot.
 
-## Version 16.10
+## A 16.10 verzió változásai:
 
-* Initial stable version.
+* Első stabil verzió.
+
+[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad

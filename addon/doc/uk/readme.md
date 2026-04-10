@@ -1,109 +1,109 @@
-# ObjPad
+# ObjPad #
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
+  Lee, Cleverson Uliana and others
+* Завантажити [Стабільну версію][1]
+* Сумісність з NVDA: 2022.4 і новіші
 
-This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
+Цей додаток надає швидкі команди для керування об’єктами на екрані,
+включаючи навігацію та інші можливості.
 
-## Commands
+## Команди
 
-* Control+NVDA+TAB: Steps through arrow key modes (see below for details).
+* Control+NVDA+TAB: перемикає між режимами клавіш зі стрілками (для
+  подробиць дивіться нижче).
 
-## Arrow key modes
+## Режими клавіш зі стрілками
 
-The add-on provides four ways to use arrow keys:
+Додаток надає чотири способи використовувати клавіші стрілок:
 
-* Classic (or normal mode): use arrow keys to move cursor.
-* Object nav: use arrow keys to move to next/previous/parent/first child objects.
-* Browse mode: use arrow keys to cycle through browse mode elements (web included) and move between them.
-* Scan mode: use arrow keys to move through objects on screen regardless of hierarchy.
+* Класичний (чи звичайний режим): використовуйте клавіші стрілок для
+  переміщення курсора.
+* Об’єктна навігація: використовуйте клавіші стрілок для переходу до
+  наступного/попереднього/батьківського/першого дочірнього об’єкта.
+* Веб: використовуйте клавіші стрілок для перемикання між елементами й
+  переміщення між ними.
+* Режим сканування: використовуйте клавіші стрілок для переміщення між
+  об'єктами на екрані незалежно від ієрархії.
 
-The following commands are available with arrow keys set to object nav:
+Нижченаведені команди доступні за допомогою клавіш зі стрілками,
+встановлених на об’єктну навігацію:
 
-* Right arrow: next object.
-* Left arrow: previous object.
-* Up arrow: parent object.
-* Down arrow: first child object.
-* SPACE or ENTER: activate.
+* Стрілка вправо: наступний об’єкт.
+* Стрілка вліво: попередній об’єкт.
+* Стрілка вгору: батьківський об’єкт.
+* Стрілка вниз: першій дочірній об’єкт.
+* Пробіл або enter: активувати.
 
-With browse mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):
+В активному режимі «Веб» (елементи розміщені як зазвичай або відбувається
+переміщення між об’єктами, посиланнями, полями форм, заголовками, фреймами,
+таблицями, списками, орієнтирами):
 
-* Right arrow: next element.
-* Left arrow: previous element.
-* Up arrow: previous element type.
-* Down arrow: next element type.
-* SPACE or ENTER: activate.
+* Стрілка вправо: наступний елемент.
+* Стрілка вліво: попередній елемент.
+* Стрілка вгору: попередній тип елементів.
+* Стрілка вниз: наступний тип елементів.
+* Пробіл або enter: активувати.
 
-With scan mode active:
+В активному режимі сканування:
 
-* Down arrow: next object or the next line.
-* Up arrow: previous object or previous line.
-* Right arrow: review next character.
-* Left arrow: previous character.
-* Control+right arrow: next word.
-* Control+left arrow: previous word.
-* SPACE or ENTER: activate.
-
-## Version 26.03
-
-* Renamed "web mode" to "browse mode" as this mode will cover additional situations including browse mode in Word 365.
-
-## Version 26.02
-
-* NVDA 2025.3.2 or later is required.
-* Added embedded object and text paragraph navigation to web mode.
-
-## Version 25.06
-
-* Compatible with NVDA 2025.1
-* The link to download the add-on is no longer present to encourage usage of the Add-On Store.
-
-## Version 24.04
-
-* Compatibility with NVDA 2024.1.
+* Стрілка вниз: наступний об’єкт чи наступний рядок.
+* Стрілка вгору: попередній об’єкт або попередній рядок.
+* Стрілка вправо: наступний символ.
+* Стрілка вліво: попередній символ.
+* Control+стрілка вправо: наступне слово.
+* Control+стрілка вліво: попереднє слово.
+* Пробіл або enter: активувати.
 
 ## Version 23.05
 
-* To reflect the maintainer change, the manifest has been updated to indicate as such.
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
-## Version 23.02
+## Версія 23.02
 
-* NVDA 2022.4 or later is required.
-* Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
+* Вимагається NVDA 2022.4 Або пізніша.
+* Вимагається Windows 10 21H2 (оновлення від листопада 2021/збірка 19044)
+  або пізніша.
 
-## Version 23.01
+## Версія 23.01
 
-* NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
+* Вимагається NVDA 2022.3 Або пізніша.
+* Вимагається Windows 10 чи пізніша, оскільки з січня 2023 року Майкрософт
+  не підтримує Windows 7, 8 і 8.1.
 
-## Version 22.06
+## Версія 22.06
 
-* Requires NVDA 2021.3 or later.
+* Необхідна версія NVDA 2021.3 або пізніша.
 
-## Version 21.04
+## Версія 21.04
 
-* Requires NVDA 2020.1 or later.
+* Вимагає NVDA 2020.1 чи пізнішу.
 
-## Version 20.01
+## Версія 20.01
 
-* Requires NVDA 2019.3 or later.
+* Необхідна версія NVDA 2019.3 або пізніша.
 
-## Version 18.12
+## Версія 18.12
 
-* Internal changes to support future NVDA releases.
+* Внутрішні зміни для підтримки майбутніх версій NVDA.
 
-## Version 18.09
+## Версія 18.09
 
-* Added localizations.
-* Enter key (regular and Numpad) can be used to activate objects.
+* Додано локалізації.
+* Enter (звичайний і на цифровому блоці) можна використовувати для активації
+  об’єктів.
 
-## Version 18.03
+## Версія 18.03
 
-* Better compatibility with NVDA 2018.1.
+* Найкраща сумісність з NVDA 2018.1.
 
-## Version 16.12
+## Версія 16.12
 
-* Added web mode.
+* Додано режим «веб».
 
-## Version 16.10
+## Версія 16.10
 
-* Initial stable version.
+* Перша стабільна версія.
+
+[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad

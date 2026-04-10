@@ -1,109 +1,106 @@
-# ObjPad
+# ObjPad #
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
+  Lee, Cleverson Uliana and others
+* Descargar [versión estable][1]
+* Compatibilidade con NVDA: 2022.4 e posterior
 
-This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
+Este complemento proporciona ordes rápidas para xestionar obxectos na
+pantalla, incluindo a navegación e outras posibilidades.
 
-## Commands
+## Ordes
 
-* Control+NVDA+TAB: Steps through arrow key modes (see below for details).
+* Control+NVDA+TAB: pasos a través dos modos de teclas de frechas (consulta
+  abaixo para detalles).
 
-## Arrow key modes
+## Modos de teclas de frechas
 
-The add-on provides four ways to use arrow keys:
+O complemento proporciona catro xeitos de usar as frechas:
 
-* Classic (or normal mode): use arrow keys to move cursor.
-* Object nav: use arrow keys to move to next/previous/parent/first child objects.
-* Browse mode: use arrow keys to cycle through browse mode elements (web included) and move between them.
-* Scan mode: use arrow keys to move through objects on screen regardless of hierarchy.
+* Clássico (ou modo normal): usa as frechas para mover o cursor.
+* Navegación de obxectos: usa as frechas para mover cara os obxectos
+  seguinte/anterior/pai/primeiro fillo.
+* Web: usa as teclas de frechas para percorrer os elementos e moverse entre
+  eles.
+* Modo escanear: usa as frechas para moverte a través dos obxectos na
+  pantalla independentemente da xerarquía.
 
-The following commands are available with arrow keys set to object nav:
+As seguintes ordes están dispoñibles coas frechas postas en Navegación de
+obxectos:
 
-* Right arrow: next object.
-* Left arrow: previous object.
-* Up arrow: parent object.
-* Down arrow: first child object.
-* SPACE or ENTER: activate.
+* Frecha dereita: obxecto seguinte.
+* Frecha esquerda: obxecto anterior.
+* Frecha arriba: obxecto pai.
+* Frecha abaixo: primeiro obxecto fillo.
+* Espazo ou intro: activar.
 
-With browse mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):
+Co modo web activo (os elementos son normal ou mover por obxecto, liga,
+campo de formulario, cabeceira, marco, táboa, lista, ponto de referencia):
 
-* Right arrow: next element.
-* Left arrow: previous element.
-* Up arrow: previous element type.
-* Down arrow: next element type.
-* SPACE or ENTER: activate.
+* Frecha dereita: elemento seguinte.
+* Frecha esquerda: elemento anterior.
+* Frecha arriba: tipo de elemento anterior.
+* Frecha abaixo: tipo de elemento seguinte.
+* Espazo ou intro: activar.
 
-With scan mode active:
+Co modo escanear activo:
 
-* Down arrow: next object or the next line.
-* Up arrow: previous object or previous line.
-* Right arrow: review next character.
-* Left arrow: previous character.
-* Control+right arrow: next word.
-* Control+left arrow: previous word.
-* SPACE or ENTER: activate.
-
-## Version 26.03
-
-* Renamed "web mode" to "browse mode" as this mode will cover additional situations including browse mode in Word 365.
-
-## Version 26.02
-
-* NVDA 2025.3.2 or later is required.
-* Added embedded object and text paragraph navigation to web mode.
-
-## Version 25.06
-
-* Compatible with NVDA 2025.1
-* The link to download the add-on is no longer present to encourage usage of the Add-On Store.
-
-## Version 24.04
-
-* Compatibility with NVDA 2024.1.
+* Frecha abaixo: obxecto ou liña seguinte.
+* Frecha arriba: obxecto ou liña anterior.
+* Frecha dereita: revisar carácter seguinte.
+* Frecha esquerda: revisar carácter anterior.
+* Control+Frecha dereita: palabra seguinte.
+* Control+Frecha esquerda: palabra anterior.
+* Espazo ou intro: activar.
 
 ## Version 23.05
 
-* To reflect the maintainer change, the manifest has been updated to indicate as such.
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
-## Version 23.02
+## Versión 23.02
 
-* NVDA 2022.4 or later is required.
-* Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
+* Require NVDA 2022.4 ou posterior.
+* Requírese Windows 10 21H2 (Actualización de novembro de 2021/compilación
+  19044) ou posterior.
 
-## Version 23.01
+## Versión 23.01
 
-* NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
+* Require NVDA 2022.3 ou posterior.
+* Requírese Windows 10 ou posterior xa que Windows 7, 8, e 8.1 xa non se
+  soportan dende Microsoft dende xaneiro do 2023.
 
-## Version 22.06
+## Versión 22.06
 
-* Requires NVDA 2021.3 or later.
+* Require NVDA 2021.3 ou posterior.
 
-## Version 21.04
+## Versión 21.04
 
-* Requires NVDA 2020.1 or later.
+* Require NVDA 2020.1 ou posterior.
 
-## Version 20.01
+## Versión 20.01
 
-* Requires NVDA 2019.3 or later.
+* Require NVDA 2019.3 ou posterior.
 
-## Version 18.12
+## Versión 18.12
 
-* Internal changes to support future NVDA releases.
+* Trocos internos para soportar versións futuras de NVDA.
 
-## Version 18.09
+## Versión 18.09
 
-* Added localizations.
-* Enter key (regular and Numpad) can be used to activate objects.
+* Engadidas traducións.
+* A tecla intro (normal e numérica) pode usarse para activar obxectos.
 
-## Version 18.03
+## Versión 18.03
 
-* Better compatibility with NVDA 2018.1.
+* Mellor compatibilidade con NVDA 2018.1.
 
-## Version 16.12
+## Versión 16.12
 
-* Added web mode.
+* Engadido o modo web.
 
-## Version 16.10
+## Versión 16.10
 
-* Initial stable version.
+* Versión estable inicial.
+
+[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad

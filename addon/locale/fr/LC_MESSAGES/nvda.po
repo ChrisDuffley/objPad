@@ -1,113 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the objPad package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: nvdaaddons\n"
+"Project-Id-Version: objPad 18.09\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-02-23 03:54+0000\n"
-"PO-Revision-Date: 2026-04-06 01:44\n"
-"Last-Translator: \n"
-"Language-Team: French\n"
-"Language: fr_FR\n"
+"POT-Creation-Date: 2018-08-25 15:05+1000\n"
+"PO-Revision-Date: 2018-09-22 14:34+0200\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Crowdin-Project: nvdaaddons\n"
-"X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: fr\n"
-"X-Crowdin-File: objPad.pot\n"
-"X-Crowdin-File-ID: 356\n"
-
-#. Translators: input help mode message for ObjPad toggle command.
-#: addon/globalPlugins/objPad.py:39
-msgid "Toggles ObjPad mode between normal, object nav and scan modes"
-msgstr "Basculer Objpad entre mode normal, mode navigation par objet et mode balayage"
+"X-Generator: Poedit 1.8.12\n"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:47
 msgid "Object nav mode"
 msgstr "Mode navigation par objet"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:51
-msgid "Browse mode"
-msgstr ""
+msgid "Web mode"
+msgstr "Mode web"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:55
 msgid "Scan mode"
 msgstr "Mode balayage"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:59
 msgid "Normal mode"
 msgstr "Mode normal"
 
-#: addon/globalPlugins/objPad.py:85
-msgid "Default (all elements)"
+#. Translators: input help mode message for ObjPad toggle command.
+msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr ""
+"Basculer Objpad entre mode normal, mode navigation par objet et mode balayage"
 
-#: addon/globalPlugins/objPad.py:86
-msgid "Links"
-msgstr ""
+#. Web navigation:
+#. Web elements list:
+msgid "normal"
+msgstr "normal"
 
-#: addon/globalPlugins/objPad.py:87
-msgid "Form fields"
-msgstr ""
+msgid "Link"
+msgstr "Lien"
 
-#: addon/globalPlugins/objPad.py:88
-msgid "Headings"
-msgstr ""
+msgid "Form field"
+msgstr "Champ de formulaire"
 
-#: addon/globalPlugins/objPad.py:89
-msgid "Frames"
-msgstr ""
+msgid "Heading"
+msgstr "Titre "
 
-#: addon/globalPlugins/objPad.py:90
-msgid "Tables"
-msgstr ""
+msgid "Frame"
+msgstr "Cadre"
 
-#: addon/globalPlugins/objPad.py:91
-msgid "Lists"
-msgstr ""
+msgid "Table"
+msgstr "Tableau"
 
-#: addon/globalPlugins/objPad.py:92
-msgid "Landmarks"
-msgstr ""
+msgid "List"
+msgstr "Liste"
 
-#: addon/globalPlugins/objPad.py:93
-msgid "Embedded objects"
-msgstr ""
-
-#: addon/globalPlugins/objPad.py:94
-msgid "Text paragraphs"
-msgstr ""
+msgid "Landmark"
+msgstr "Région"
 
 #. Translators: a message when there is no next object when navigating
-#: addon/globalPlugins/objPad.py:180
 msgid "No next"
 msgstr "Pas de suivant"
 
 #. Translators: a message when there is no previous object when navigating
-#: addon/globalPlugins/objPad.py:214
 msgid "No previous"
 msgstr "Pas de précédent"
 
-#. Add-on summary/title, usually the user visible name of the add-on
-#. Translators: Summary/title for this add-on
-#. to be shown on installation and add-on information found in add-on store
-#: buildVars.py:21
+#. Add-on summary, usually the user visible name of the addon.
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 msgid "ObjPad"
-msgstr ""
+msgstr "ObjPad"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-on store
-#: buildVars.py:24
-msgid "Perform various object commands by pressing a single key, including navigation and more"
-msgstr "Exécuter diverses commandes sur les objets par simple appui d'une touche, incluant la navigation et plus "
-
-#. Brief changelog for this version
-#. Translators: what's new content for the add-on version to be shown in the add-on store
-#: buildVars.py:29
-msgid "* Renamed \"web mode\" to \"browse mode\" as this mode will cover additional situations including browse mode in Word 365."
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Perform various object commands by pressing a single key, including "
+"navigation and more"
 msgstr ""
-
+"Exécuter diverses commandes sur les objets par simple appui d'une touche, "
+"incluant la navigation et plus "

@@ -1,109 +1,108 @@
-# ObjPad
+# ObjPad #
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
+* Автори: Christopher Duffley <nvda@chrisduffley.com>, първоначална
+  разработка от Joseph Lee, Cleverson Uliana и други
+* Изтегляне на [стабилна версия][1]
+* Съвместимост с NVDA: от 2022.4 и по-нови версии
 
-This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
+Тази добавка предоставя бързи команди за управление на обектите по екрана,
+включително навигация между тях и други възможности.
 
-## Commands
+## Команди
 
-* Control+NVDA+TAB: Steps through arrow key modes (see below for details).
+* Control+NVDA+TAB: Превключва между режимите за стрелките (вижте по-долу за
+  подробности).
 
-## Arrow key modes
+## Режими за клавишите със стрелките
 
-The add-on provides four ways to use arrow keys:
+Добавката предоставя четири начина за използване на клавишите със стрелките:
 
-* Classic (or normal mode): use arrow keys to move cursor.
-* Object nav: use arrow keys to move to next/previous/parent/first child objects.
-* Browse mode: use arrow keys to cycle through browse mode elements (web included) and move between them.
-* Scan mode: use arrow keys to move through objects on screen regardless of hierarchy.
+* Класически (или нормален) режим: използвайте стрелките за преместване на
+  курсора.
+* Режим на обектна навигация: използвайте клавишите със стрелките, за да се
+  придвижвате към следващия/предишния/родителския/първия дъщерен обект.
+* Уеб: Използвайте стрелките за превключване между видовете елементи и за
+  тяхното обхождане.
+* Режим на сканиране (претърсване): използвайте клавишите със стрелките, за
+  да се придвижвате между обектите по екрана независимо от йерархията.
 
-The following commands are available with arrow keys set to object nav:
+При избран режим на обектна навигация за клавишите със стрелките, са налични
+следните команди:
 
-* Right arrow: next object.
-* Left arrow: previous object.
-* Up arrow: parent object.
-* Down arrow: first child object.
-* SPACE or ENTER: activate.
+* Стрелка надясно: следващ обект.
+* Стрелка наляво: предишен обект.
+* Стрелка нагоре: родителски обект.
+* Стрелка надолу: първи дъщерен обект.
+* Клавиш интервал или ENTER: задействане.
 
-With browse mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):
+С действащ режим за уеб (елементите са нормални или обхождане по обекти,
+връзки, полета за формуляри, заглавия, рамки, таблици, списъци, маркери):
 
-* Right arrow: next element.
-* Left arrow: previous element.
-* Up arrow: previous element type.
-* Down arrow: next element type.
-* SPACE or ENTER: activate.
+* Стрелка надясно: следващ елемент.
+* Стрелка наляво: предишен елемент.
+* Стрелка нагоре: предишен тип елемент.
+* Стрелка надолу: следващ тип елемент.
+* Клавиш интервал или ENTER: задействане.
 
-With scan mode active:
+При избран режим на сканиране:
 
-* Down arrow: next object or the next line.
-* Up arrow: previous object or previous line.
-* Right arrow: review next character.
-* Left arrow: previous character.
-* Control+right arrow: next word.
-* Control+left arrow: previous word.
-* SPACE or ENTER: activate.
+* Стрелка надолу: следващ обект или следващ ред.
+* Стрелка нагоре: предишен обект или предишен ред.
+* Стрелка надясно: преглед на следващия знак.
+* Стрелка наляво: преглед на предишния знак.
+* Control+Стрелка надясно: следваща дума.
+* Control+Стрелка наляво: предишна дума.
+* Клавиш интервал или ENTER: задействане.
 
-## Version 26.03
+## Версия 23.05
 
-* Renamed "web mode" to "browse mode" as this mode will cover additional situations including browse mode in Word 365.
+* За да се отрази промяната на разработчика, манифестният файл е
+  актуализиран с новата информация.
 
-## Version 26.02
+## Версия 23.02
 
-* NVDA 2025.3.2 or later is required.
-* Added embedded object and text paragraph navigation to web mode.
+* Изисква се NVDA 2022.4 или по-нова версия.
+* Изисква се Windows 10 21H2 (актуализация от месец ноември 2021
+  г./компилация 19044) или по-нова версия.
 
-## Version 25.06
+## Версия 23.01
 
-* Compatible with NVDA 2025.1
-* The link to download the add-on is no longer present to encourage usage of the Add-On Store.
+* Изисква се NVDA 2022.3 или по-нова версия.
+* Изисква се Windows 10 или по-нова версия, тъй като Windows 7, 8 и 8.1 вече
+  не се поддържат от Microsoft от януари 2023 г.
 
-## Version 24.04
+## Версия 22.06
 
-* Compatibility with NVDA 2024.1.
+* Изисква се NVDA 2021.3 или по-нова версия.
 
-## Version 23.05
+## Версия 21.04
 
-* To reflect the maintainer change, the manifest has been updated to indicate as such.
+* Изисква NVDA 2020.1 или по-нова версия.
 
-## Version 23.02
+## Версия 20.01
 
-* NVDA 2022.4 or later is required.
-* Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
+* Изисква NVDA 2019.3 или по-нова версия.
 
-## Version 23.01
+## Версия 18.12
 
-* NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
+* Вътрешни промени за поддръжка на бъдещите версии на NVDA.
 
-## Version 22.06
+## Версия 18.09
 
-* Requires NVDA 2021.3 or later.
+* Добавени преводи.
+* Клавишът Enter (както обикновения, така и този от цифровия блок) може да
+  се използват за задействане на обекти.
 
-## Version 21.04
+## Версия 18.03
 
-* Requires NVDA 2020.1 or later.
+* По-добра съвместимост с NVDA 2018.1.
 
-## Version 20.01
+## Версия 16.12
 
-* Requires NVDA 2019.3 or later.
+* Добавен е режим за уеб.
 
-## Version 18.12
+## Версия 16.10
 
-* Internal changes to support future NVDA releases.
+* Първа стабилна версия.
 
-## Version 18.09
-
-* Added localizations.
-* Enter key (regular and Numpad) can be used to activate objects.
-
-## Version 18.03
-
-* Better compatibility with NVDA 2018.1.
-
-## Version 16.12
-
-* Added web mode.
-
-## Version 16.10
-
-* Initial stable version.
+[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad

@@ -1,109 +1,108 @@
-# ObjPad
+# ObjPad #
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
+* Tekijät: Christopher Duffley <nvda@chrisduffley.com> (alkuperäiset tekijät
+  Joseph Lee, Cleverson Uliana sekä muut)
+* Lataa [vakaa versio][1]
+* Yhteensopivuus: NVDA 2022.4 ja uudemmat
 
-This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
+Tämä lisäosa tarjoaa pikakomentoja ruudulla olevien objektien hallintaan,
+navigointi ja muut mahdollisuudet mukaan lukien.
 
-## Commands
+## Komennot
 
-* Control+NVDA+TAB: Steps through arrow key modes (see below for details).
+* Control+NVDA+Sarkain: Vaihtaa nuolinäppäintilaa (katso lisätietoja alta).
 
-## Arrow key modes
+## Nuolinäppäintilat
 
-The add-on provides four ways to use arrow keys:
+Lisäosa tarjoaa neljä tapaa nuolinäppäinten käyttämiseen:
 
-* Classic (or normal mode): use arrow keys to move cursor.
-* Object nav: use arrow keys to move to next/previous/parent/first child objects.
-* Browse mode: use arrow keys to cycle through browse mode elements (web included) and move between them.
-* Scan mode: use arrow keys to move through objects on screen regardless of hierarchy.
+* Perinteinen (tai normaali tila): käytä nuolinäppäimiä kohdistimen
+  siirtämiseen.
+* Objektinavigointi: käytä nuolinäppäimiä seuraavaan/edelliseen/ylemmän
+  tason/ensimmäiseen alemman tason objektiin siirtymiseen.
+* Verkko: käytä nuolinäppäimiä elementtityypin vaihtamiseen ja niiden
+  välillä liikkumiseen.
+* Skannaustila: käytä nuolinäppäimiä ruudulla olevien objektien välillä
+  liikkumiseen niiden hierarkiasta riippumatta.
 
-The following commands are available with arrow keys set to object nav:
+Seuraavat komennot ovat käytettävissä, kun nuolinäppäinten tilana on
+objektinavigointi:
 
-* Right arrow: next object.
-* Left arrow: previous object.
-* Up arrow: parent object.
-* Down arrow: first child object.
-* SPACE or ENTER: activate.
+* Nuoli oikealle: seuraava objekti.
+* Nuoli vasemmalle: edellinen objekti.
+* Nuoli ylös: ylemmän tason objekti.
+* Nuoli alas: ensimmäinen alemman tason objekti.
+* Väli tai Enter: aktivoi.
 
-With browse mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):
+Kun verkkotila on aktiivisena (elementit ovat normaaleja tai niiden välillä
+liikutaan objekti, linkki, lomakekenttä, otsikko, kehys, taulukko, luettelo
+ja kiintopiste kerrallaan):
 
-* Right arrow: next element.
-* Left arrow: previous element.
-* Up arrow: previous element type.
-* Down arrow: next element type.
-* SPACE or ENTER: activate.
+* Nuoli oikealle: seuraava elementti.
+* Nuoli vasemmalle: edellinen elementti.
+* Nuoli ylös: edellinen elementtityyppi.
+* Nuoli alas: seuraava elementtityyppi.
+* Väli tai Enter: aktivoi.
 
-With scan mode active:
+Skannaustilan ollessa aktiivisena:
 
-* Down arrow: next object or the next line.
-* Up arrow: previous object or previous line.
-* Right arrow: review next character.
-* Left arrow: previous character.
-* Control+right arrow: next word.
-* Control+left arrow: previous word.
-* SPACE or ENTER: activate.
+* Nuoli alas: seuraava objekti tai rivi.
+* Nuoli ylös: edellinen objekti tai rivi.
+* Nuoli oikealle: seuraava merkki.
+* Nuoli vasemmalle: edellinen merkki.
+* Ctrl+Nuoli oikealle: seuraava sana.
+* Ctrl+Nuoli vasemmalle: edellinen sana.
+* Väli tai Enter: aktivoi.
 
-## Version 26.03
+## Versio 23.05
 
-* Renamed "web mode" to "browse mode" as this mode will cover additional situations including browse mode in Word 365.
+* Ylläpitäjän vaihdos on huomioitu päivittämällä manifestitiedosto
+  asianmukaisesti.
 
-## Version 26.02
+## Versio 23.02
 
-* NVDA 2025.3.2 or later is required.
-* Added embedded object and text paragraph navigation to web mode.
+* Edellyttää NVDA 2022.4:ää tai uudempaa.
+* Windows 10 21H2 (marraskuun 2021 päivitys/koontiversio 19044) tai uudempi
+  vaaditaan.
 
-## Version 25.06
+## Versio 23.01
 
-* Compatible with NVDA 2025.1
-* The link to download the add-on is no longer present to encourage usage of the Add-On Store.
+* Vaatii NVDA 2022.3:n tai uudemman.
+* Windows 10 tai uudempi vaaditaan, koska Microsoft ei enää tue Windows
+  7:ää, 8:aa tai 8.1:tä tammikuusta 2023 alkaen.
 
-## Version 24.04
+## Versio 22.06
 
-* Compatibility with NVDA 2024.1.
+* Vaatii NVDA 2021.3:n tai uudemman.
 
-## Version 23.05
+## Versio 21.04
 
-* To reflect the maintainer change, the manifest has been updated to indicate as such.
+* Edellyttää NVDA 2020.1:tä tai uudempaa.
 
-## Version 23.02
+## Versio 20.01
 
-* NVDA 2022.4 or later is required.
-* Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
+* Vaatii NVDA 2019.3:n tai uudemman.
 
-## Version 23.01
+## Versio 18.12
 
-* NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
+* Sisäisiä muutoksia tulevien NVDA-versioiden tukemiseksi.
 
-## Version 22.06
+## Versio 18.09
 
-* Requires NVDA 2021.3 or later.
+* Lokalisointeja lisätty.
+* Tavallista ja laskinnäppäimistön Enter-näppäintä voi käyttää objektien
+  aktivoimiseen.
 
-## Version 21.04
+## Versio 18.03
 
-* Requires NVDA 2020.1 or later.
+* Parempi yhteensopivuus NVDA 2018.1:n kanssa.
 
-## Version 20.01
+## Versio 16.12
 
-* Requires NVDA 2019.3 or later.
+* Lisätty verkkotila.
 
-## Version 18.12
+## Versio 16.10
 
-* Internal changes to support future NVDA releases.
+* Ensimmäinen vakaa versio.
 
-## Version 18.09
-
-* Added localizations.
-* Enter key (regular and Numpad) can be used to activate objects.
-
-## Version 18.03
-
-* Better compatibility with NVDA 2018.1.
-
-## Version 16.12
-
-* Added web mode.
-
-## Version 16.10
-
-* Initial stable version.
+[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad

@@ -1,113 +1,89 @@
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Zvonimir Stanečić <zvonimirek222@yandex.com>, 2018.
+# Milo Ivir <mail@milotype.de>, 2019.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: nvdaaddons\n"
+"Project-Id-Version: objPad 18.03\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-02-23 03:54+0000\n"
-"PO-Revision-Date: 2026-04-06 01:44\n"
-"Last-Translator: \n"
-"Language-Team: Croatian\n"
-"Language: hr_HR\n"
+"POT-Creation-Date: 2018-08-25 15:05+1000\n"
+"PO-Revision-Date: 2022-06-03 13:58+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: hr <zvonimirek222@yandex.com>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Crowdin-Project: nvdaaddons\n"
-"X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: hr\n"
-"X-Crowdin-File: objPad.pot\n"
-"X-Crowdin-File-ID: 356\n"
-
-#. Translators: input help mode message for ObjPad toggle command.
-#: addon/globalPlugins/objPad.py:39
-msgid "Toggles ObjPad mode between normal, object nav and scan modes"
-msgstr "Prebacuje moduse upravljanja strelicama između normalnog modusa, modusa kretanja po objektima i modusa skeniranja"
+"X-Generator: Poedit 3.0\n"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:47
 msgid "Object nav mode"
 msgstr "Modus kretanja po objektima"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:51
-msgid "Browse mode"
-msgstr ""
+msgid "Web mode"
+msgstr "Web modus"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:55
 msgid "Scan mode"
 msgstr "Modus skeniranja"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:59
 msgid "Normal mode"
 msgstr "Normalni modus"
 
-#: addon/globalPlugins/objPad.py:85
-msgid "Default (all elements)"
+#. Translators: input help mode message for ObjPad toggle command.
+msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr ""
+"Prebacuje moduse upravljanja strelicama između normalnog modusa, "
+"modusa kretanja po objektima i modusa skeniranja"
 
-#: addon/globalPlugins/objPad.py:86
-msgid "Links"
-msgstr ""
+#. Web navigation:
+#. Web elements list:
+msgid "normal"
+msgstr "normalno"
 
-#: addon/globalPlugins/objPad.py:87
-msgid "Form fields"
-msgstr ""
+msgid "Link"
+msgstr "Poveznica"
 
-#: addon/globalPlugins/objPad.py:88
-msgid "Headings"
-msgstr ""
+msgid "Form field"
+msgstr "Polje obrasca"
 
-#: addon/globalPlugins/objPad.py:89
-msgid "Frames"
-msgstr ""
+msgid "Heading"
+msgstr "Naslov"
 
-#: addon/globalPlugins/objPad.py:90
-msgid "Tables"
-msgstr ""
+msgid "Frame"
+msgstr "Okvir"
 
-#: addon/globalPlugins/objPad.py:91
-msgid "Lists"
-msgstr ""
+msgid "Table"
+msgstr "Tablica"
 
-#: addon/globalPlugins/objPad.py:92
-msgid "Landmarks"
-msgstr ""
+msgid "List"
+msgstr "Popis"
 
-#: addon/globalPlugins/objPad.py:93
-msgid "Embedded objects"
-msgstr ""
-
-#: addon/globalPlugins/objPad.py:94
-msgid "Text paragraphs"
-msgstr ""
+msgid "Landmark"
+msgstr "Orijentir"
 
 #. Translators: a message when there is no next object when navigating
-#: addon/globalPlugins/objPad.py:180
 msgid "No next"
 msgstr "Nema sljedećeg"
 
 #. Translators: a message when there is no previous object when navigating
-#: addon/globalPlugins/objPad.py:214
 msgid "No previous"
 msgstr "Nema prethodnog"
 
-#. Add-on summary/title, usually the user visible name of the add-on
-#. Translators: Summary/title for this add-on
-#. to be shown on installation and add-on information found in add-on store
-#: buildVars.py:21
+#. Add-on summary, usually the user visible name of the addon.
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 msgid "ObjPad"
 msgstr "Upravljaj objektima"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-on store
-#: buildVars.py:24
-msgid "Perform various object commands by pressing a single key, including navigation and more"
-msgstr "Izvodi razne naredbe nad objektima pritiskom jedne tipke, uključujući kretanje i razne druge radnje"
-
-#. Brief changelog for this version
-#. Translators: what's new content for the add-on version to be shown in the add-on store
-#: buildVars.py:29
-msgid "* Renamed \"web mode\" to \"browse mode\" as this mode will cover additional situations including browse mode in Word 365."
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Perform various object commands by pressing a single key, including "
+"navigation and more"
 msgstr ""
-
+"Izvodi razne naredbe nad objektima pritiskom jedne tipke, "
+"uključujući kretanje i razne druge radnje"

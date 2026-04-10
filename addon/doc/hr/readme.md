@@ -1,109 +1,107 @@
-# ObjPad
+# Upravljaj objektima (ObjPad) #
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
+* Autori: Christopher Duffley <nvda@chrisduffley.com>, izvorno od Joseph
+  Lee, Cleverson Uliana i drugih
+* Preuzmi [stabilnu verziju][1]
+* NVDA kompatibilnost: 2022.4 i novije verzije
 
-This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
+Ovaj dodatak pruža brze naredbe za upravljanje objektima na ekranu,
+uključujući kretanje i druge mogućnosti.
 
-## Commands
+## Naredbe
 
-* Control+NVDA+TAB: Steps through arrow key modes (see below for details).
+* Kontrol+NVDA+TAB: Prolazi kroz različite moduse za upotrebu tipki sa
+  strelicama (vidi dolje za detalje).
 
-## Arrow key modes
+## Modusi za upotrebu tipki sa strelicama
 
-The add-on provides four ways to use arrow keys:
+Dodatak nudi četiri modusa za upotrebu tipki sa strelicama:
 
-* Classic (or normal mode): use arrow keys to move cursor.
-* Object nav: use arrow keys to move to next/previous/parent/first child objects.
-* Browse mode: use arrow keys to cycle through browse mode elements (web included) and move between them.
-* Scan mode: use arrow keys to move through objects on screen regardless of hierarchy.
+* Klasični (ili uobičajeni modus): koristite tipke sa strelicama za
+  premještanje kursora.
+* Kretanje po objektima: koristite tipke sa strelicama za premještanje na
+  prethodne, sljedeće, nadređene i podređene objekte.
+* Web: Pomoću tipki sa strelicama kružite kroz elemente i krećite se između
+  njih.
+* Modus skeniranja: koristite tipke sa strelicama za kretanje između
+  objekata na ekranu bez obzira na hijerarhiju.
 
-The following commands are available with arrow keys set to object nav:
+Sljedeće naredbe su dostupne, ako su tipke sa strelicama postavljene na
+kretanje po objektima:
 
-* Right arrow: next object.
-* Left arrow: previous object.
-* Up arrow: parent object.
-* Down arrow: first child object.
-* SPACE or ENTER: activate.
+* Strelica desno: sljedeći objekt.
+* Strelica lijevo: prethodni objekt.
+* Strelica gore: nadređeni objekt.
+* Strelica dolje: podređeni objekt.
+* RAZMAKNICA ili ENTER: aktiviranje.
 
-With browse mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):
+Kad je web modus aktivan (elementi su uobičajeni ili se kreću po objektu,
+poveznici, polju obrasca, naslovu, okviru, tablici, popisu, orijentiru):
 
-* Right arrow: next element.
-* Left arrow: previous element.
-* Up arrow: previous element type.
-* Down arrow: next element type.
-* SPACE or ENTER: activate.
+* Strelica desno: sljedeći element.
+* Strelica lijevo: prethodni element.
+* Strelica gore: prethodna vrsta elementa.
+* Strelica dolje: sljedeća vrsta elementa.
+* RAZMAKNICA ili ENTER: aktiviranje.
 
-With scan mode active:
+Kad je modus skeniranja aktivan:
 
-* Down arrow: next object or the next line.
-* Up arrow: previous object or previous line.
-* Right arrow: review next character.
-* Left arrow: previous character.
-* Control+right arrow: next word.
-* Control+left arrow: previous word.
-* SPACE or ENTER: activate.
+* Strelica dolje: sljedeći objekt ili sljedeći redak.
+* Strelica gore: prethodni objekt ili prethodni redak.
+* Strelica desno: pregled sljedećeg znaka.
+* Strelica lijevo: prethodni znak.
+* Kontrol+Strelica desno: sljedeća riječ.
+* Kontrol+Strelica lijevo: prethodna riječ.
+* RAZMAKNICA ili ENTER: aktiviranje.
 
-## Version 26.03
+## Verzija 23.05
 
-* Renamed "web mode" to "browse mode" as this mode will cover additional situations including browse mode in Word 365.
+* To reflect the maintainer change, the manifest has been updated to
+  indicate as such.
 
-## Version 26.02
+## Verzija 23.02
 
-* NVDA 2025.3.2 or later is required.
-* Added embedded object and text paragraph navigation to web mode.
-
-## Version 25.06
-
-* Compatible with NVDA 2025.1
-* The link to download the add-on is no longer present to encourage usage of the Add-On Store.
-
-## Version 24.04
-
-* Compatibility with NVDA 2024.1.
-
-## Version 23.05
-
-* To reflect the maintainer change, the manifest has been updated to indicate as such.
-
-## Version 23.02
-
-* NVDA 2022.4 or later is required.
+* Zahtijeva NVDA 2022.4 ili noviju verziju.
 * Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
 
-## Version 23.01
+## Verzija 23.01
 
-* NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
+* Zahtijeva NVDA 2022.3 ili noviju verziju.
+* Zahtijeva Windows 10 ili noviju verziju, jer od siječnja 2023. Microsoft
+  više ne pordržava Windows 7, 8 i 8.1.
 
-## Version 22.06
+## Verzija 22.06
 
-* Requires NVDA 2021.3 or later.
+* Zahtijeva NVDA 2021.3 ili noviju verziju.
 
-## Version 21.04
+## Verzija 21.04
 
-* Requires NVDA 2020.1 or later.
+* Zahtijeva NVDA verziju 2020.1 ili noviju.
 
-## Version 20.01
+## Verzija 20.01
 
-* Requires NVDA 2019.3 or later.
+* Zahtijeva NVDA verziju 2019.3 ili noviju.
 
-## Version 18.12
+## Verzija 18.12
 
-* Internal changes to support future NVDA releases.
+* Unutarnje promjene, kako bi se podržala buduća NVDA izdanja.
 
-## Version 18.09
+## Verzija 18.09
 
-* Added localizations.
-* Enter key (regular and Numpad) can be used to activate objects.
+* Dodane lokalizacije.
+* Tipka enter (obična i numerička tipkovnica) se može koristiti za
+  aktiviranje objekata.
 
-## Version 18.03
+## Verzija 18.03
 
-* Better compatibility with NVDA 2018.1.
+* Bolja kompatibilnost s NVDA verzijom 2018.1.
 
-## Version 16.12
+## Verzija 16.12
 
-* Added web mode.
+* Dodan web modus.
 
-## Version 16.10
+## Verzija 16.10
 
-* Initial stable version.
+* Inicijalna stabilna verzija.
+
+[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad
