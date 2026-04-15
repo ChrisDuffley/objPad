@@ -1,33 +1,23 @@
-# Upravljaj objektima (ObjPad) #
+# Upravljaj objektima (ObjPad)
 
-* Autori: Christopher Duffley <nvda@chrisduffley.com>, izvorno od Joseph
-  Lee, Cleverson Uliana i drugih
-* Preuzmi [stabilnu verziju][1]
-* NVDA kompatibilnost: 2022.4 i novije verzije
+* Autori: Christopher Duffley <nvda@chrisduffley.com>, izvorno od Joseph Lee, Cleverson Uliana i drugih
 
-Ovaj dodatak pruža brze naredbe za upravljanje objektima na ekranu,
-uključujući kretanje i druge mogućnosti.
+Ovaj dodatak pruža brze naredbe za upravljanje objektima na ekranu, uključujući kretanje i druge mogućnosti.
 
 ## Naredbe
 
-* Kontrol+NVDA+TAB: Prolazi kroz različite moduse za upotrebu tipki sa
-  strelicama (vidi dolje za detalje).
+* Kontrol+NVDA+TAB: Prolazi kroz različite moduse za upotrebu tipki sa strelicama (vidi dolje za detalje).
 
 ## Modusi za upotrebu tipki sa strelicama
 
 Dodatak nudi četiri modusa za upotrebu tipki sa strelicama:
 
-* Klasični (ili uobičajeni modus): koristite tipke sa strelicama za
-  premještanje kursora.
-* Kretanje po objektima: koristite tipke sa strelicama za premještanje na
-  prethodne, sljedeće, nadređene i podređene objekte.
-* Web: Pomoću tipki sa strelicama kružite kroz elemente i krećite se između
-  njih.
-* Modus skeniranja: koristite tipke sa strelicama za kretanje između
-  objekata na ekranu bez obzira na hijerarhiju.
+* Klasični (ili uobičajeni modus): koristite tipke sa strelicama za premještanje kursora.
+* Kretanje po objektima: koristite tipke sa strelicama za premještanje na prethodne, sljedeće, nadređene i podređene objekte.
+* Web: Pomoću tipki sa strelicama kružite kroz elemente i krećite se između njih.
+* Modus skeniranja: koristite tipke sa strelicama za kretanje između objekata na ekranu bez obzira na hijerarhiju.
 
-Sljedeće naredbe su dostupne, ako su tipke sa strelicama postavljene na
-kretanje po objektima:
+Sljedeće naredbe su dostupne, ako su tipke sa strelicama postavljene na kretanje po objektima:
 
 * Strelica desno: sljedeći objekt.
 * Strelica lijevo: prethodni objekt.
@@ -35,8 +25,7 @@ kretanje po objektima:
 * Strelica dolje: podređeni objekt.
 * RAZMAKNICA ili ENTER: aktiviranje.
 
-Kad je web modus aktivan (elementi su uobičajeni ili se kreću po objektu,
-poveznici, polju obrasca, naslovu, okviru, tablici, popisu, orijentiru):
+Kad je web modus aktivan (elementi su uobičajeni ili se kreću po objektu, poveznici, polju obrasca, naslovu, okviru, tablici, popisu, orijentiru):
 
 * Strelica desno: sljedeći element.
 * Strelica lijevo: prethodni element.
@@ -56,8 +45,7 @@ Kad je modus skeniranja aktivan:
 
 ## Verzija 23.05
 
-* To reflect the maintainer change, the manifest has been updated to
-  indicate as such.
+* To reflect the maintainer change, the manifest has been updated to indicate as such.
 
 ## Verzija 23.02
 
@@ -67,8 +55,7 @@ Kad je modus skeniranja aktivan:
 ## Verzija 23.01
 
 * Zahtijeva NVDA 2022.3 ili noviju verziju.
-* Zahtijeva Windows 10 ili noviju verziju, jer od siječnja 2023. Microsoft
-  više ne pordržava Windows 7, 8 i 8.1.
+* Zahtijeva Windows 10 ili noviju verziju, jer od siječnja 2023. Microsoft više ne pordržava Windows 7, 8 i 8.1.
 
 ## Verzija 22.06
 
@@ -89,8 +76,7 @@ Kad je modus skeniranja aktivan:
 ## Verzija 18.09
 
 * Dodane lokalizacije.
-* Tipka enter (obična i numerička tipkovnica) se može koristiti za
-  aktiviranje objekata.
+* Tipka enter (obična i numerička tipkovnica) se može koristiti za aktiviranje objekata.
 
 ## Verzija 18.03
 
@@ -103,5 +89,3 @@ Kad je modus skeniranja aktivan:
 ## Verzija 16.10
 
 * Inicijalna stabilna verzija.
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad

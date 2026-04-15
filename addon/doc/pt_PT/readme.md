@@ -1,31 +1,23 @@
-# ObjPad #
+# ObjPad
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
-  Lee, Cleverson Uliana and others
-* Baixar [versão estável][1]
-* NVDA compatibility: 2022.4 and later
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
 
-Este extra fornece comandos rápidos para gerir objetos no ecrã, incluindo
-navegação e outras possibilidades.
+Este extra fornece comandos rápidos para gerir objetos no ecrã, incluindo navegação e outras possibilidades.
 
 ## Comandos:
 
-* Control+NVDA+TAB: deslocamentos através dos modos de tecla de seta (veja
-  abaixo detalhes).
+* Control+NVDA+TAB: deslocamentos através dos modos de tecla de seta (veja abaixo detalhes).
 
 ## Modos das teclas de setas:
 
 O extra apresenta quatro maneiras para usar as teclas de setas:
 
 * Clássico (ou modo normal): usa as teclas de seta para mover o cursor.
-* Navegação por objectos: usa as teclas de seta para mover para os objetos
-  seguintes / anteriores / pai / primeiro filho.
+* Navegação por objectos: usa as teclas de seta para mover para os objetos seguintes / anteriores / pai / primeiro filho.
 * Web: use as setas para percorrer os elementos e mover-se entre eles.
-* Modo de varredura: use as setas para se mover entre os objetos no ecrã,
-  independentemente da hierarquia.
+* Modo de varredura: use as setas para se mover entre os objetos no ecrã, independentemente da hierarquia.
 
-Os seguintes comandos estão disponíveis com as teclas de seta definidas para
-a navegação por objectos:
+Os seguintes comandos estão disponíveis com as teclas de seta definidas para a navegação por objectos:
 
 * Seta para a direita: próximo objecto.
 * Seta para a esquerda: objecto anterior.
@@ -33,8 +25,7 @@ a navegação por objectos:
 * Seta para baixo: primeiro objecto filho.
 * ESPAÇO ou enter: activar.
 
-Com o modo web activo (os elementos são normais ou em movimento por objecto,
-link, campo do formulário, título, quadro, tabela, lista, marcador):
+Com o modo web activo (os elementos são normais ou em movimento por objecto, link, campo do formulário, título, quadro, tabela, lista, marcador):
 
 * Seta para a direita: próximo elemento.
 * Seta para a esquerda: elemento anterior.
@@ -54,8 +45,7 @@ Com o modo de varredura activo:
 
 ## Version 23.05
 
-* To reflect the maintainer change, the manifest has been updated to
-  indicate as such.
+* To reflect the maintainer change, the manifest has been updated to indicate as such.
 
 ## Version 23.02
 
@@ -65,8 +55,7 @@ Com o modo de varredura activo:
 ## Version 23.01
 
 * NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
-  supported by Microsoft as of January 2023.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
 
 ## Version 22.06
 
@@ -87,8 +76,7 @@ Com o modo de varredura activo:
 ## Versão 18.09
 
 * Adicionado localizações.
-* A tecla Enter (regular e bloco numérico) pode ser usada para activar
-  objectos.
+* A tecla Enter (regular e bloco numérico) pode ser usada para activar objectos.
 
 ## Versão 18.03
 
@@ -101,5 +89,3 @@ Com o modo de varredura activo:
 ## Versão 16.10:
 
 * Versão inicial estável.
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad

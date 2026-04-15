@@ -1,29 +1,21 @@
-# ObjPad #
+# ObjPad
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
-  Lee, Cleverson Uliana and others
-* Pobierz [wersja stabilna][1]
-* NVDA compatibility: 2022.4 and later
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
 
-Ta wtyczka dodaje szybkie komendy służące do zarządzania obiektami na
-ekranie, między innymi nawigację i inne udogodnienia.
+Ta wtyczka dodaje szybkie komendy służące do zarządzania obiektami na ekranie, między innymi nawigację i inne udogodnienia.
 
 ## Komendy
 
-* Control+NVDA+TAB: przełącza między trybami nawigacji (Szczegóły znajdziesz
-  poniżej).
+* Control+NVDA+TAB: przełącza między trybami nawigacji (Szczegóły znajdziesz poniżej).
 
 ## Tryby nawigacji
 
 Dodatek pozwala używać klawiszy strzałek w czterech różnych trybach:
 
 * Tryb klasyczny lub standardowy: Klawisze strzałek przemieszczają kursor.
-* Tryb nawigacji obiektowej: klawisze strzałek przemieszczają do
-  następnego/poprzedniego/nadrzędnego/pierwszego obiektu podrzędnego.
-* Tryb sieciowy: klawisze strzałek przełączają cyklicznie między elementami
-  lub służą do przemieszczania się między nimi.
-* Tryb skanowania: klawisze strzałek służą do przemieszczania się między
-  obiektami na ekranie, niezależnie od ich hierarchii.
+* Tryb nawigacji obiektowej: klawisze strzałek przemieszczają do następnego/poprzedniego/nadrzędnego/pierwszego obiektu podrzędnego.
+* Tryb sieciowy: klawisze strzałek przełączają cyklicznie między elementami lub służą do przemieszczania się między nimi.
+* Tryb skanowania: klawisze strzałek służą do przemieszczania się między obiektami na ekranie, niezależnie od ich hierarchii.
 
 Komendy trybu nawigacji:
 
@@ -33,9 +25,7 @@ Komendy trybu nawigacji:
 * Strzałka w dół: pierwszy obiekt podrzędny.
 * SPACJA lub ENTER: aktywuj.
 
-W aktywnym trybie sieciowym, można przemieszczać się po elementach
-standardowo lub poruszać się po obiektach, linkach, polach formularza,
-nagłówkach, ramkach, tabelach, listach, punktach orientacyjnych:
+W aktywnym trybie sieciowym, można przemieszczać się po elementach standardowo lub poruszać się po obiektach, linkach, polach formularza, nagłówkach, ramkach, tabelach, listach, punktach orientacyjnych:
 
 * Strzałka w prawo: następny element.
 * Strzałka w lewo: poprzedni element.
@@ -55,8 +45,7 @@ W aktywnym trybie skanowania:
 
 ## Version 23.05
 
-* To reflect the maintainer change, the manifest has been updated to
-  indicate as such.
+* To reflect the maintainer change, the manifest has been updated to indicate as such.
 
 ## Version 23.02
 
@@ -66,8 +55,7 @@ W aktywnym trybie skanowania:
 ## Version 23.01
 
 * NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
-  supported by Microsoft as of January 2023.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
 
 ## Version 22.06
 
@@ -88,8 +76,7 @@ W aktywnym trybie skanowania:
 ## Wersja 18.09
 
 * Dodano tłumaczenia.
-* Normalny klawisz enter lub numeryczny może być użyty do aktywownia
-  obiektu.
+* Normalny klawisz enter lub numeryczny może być użyty do aktywownia obiektu.
 
 ## Wersja 18.03
 
@@ -102,5 +89,3 @@ W aktywnym trybie skanowania:
 ## Wersja 16.10
 
 * Pierwsza wersja stabilna.
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad

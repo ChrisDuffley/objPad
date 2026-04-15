@@ -1,32 +1,23 @@
-# ObjPad #
+# ObjPad
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
-  Lee, Cleverson Uliana and others
-* Descargar [versión estable][1]
-* Compatibilidade con NVDA: 2022.4 e posterior
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
 
-Este complemento proporciona ordes rápidas para xestionar obxectos na
-pantalla, incluindo a navegación e outras posibilidades.
+Este complemento proporciona ordes rápidas para xestionar obxectos na pantalla, incluindo a navegación e outras posibilidades.
 
 ## Ordes
 
-* Control+NVDA+TAB: pasos a través dos modos de teclas de frechas (consulta
-  abaixo para detalles).
+* Control+NVDA+TAB: pasos a través dos modos de teclas de frechas (consulta abaixo para detalles).
 
 ## Modos de teclas de frechas
 
 O complemento proporciona catro xeitos de usar as frechas:
 
 * Clássico (ou modo normal): usa as frechas para mover o cursor.
-* Navegación de obxectos: usa as frechas para mover cara os obxectos
-  seguinte/anterior/pai/primeiro fillo.
-* Web: usa as teclas de frechas para percorrer os elementos e moverse entre
-  eles.
-* Modo escanear: usa as frechas para moverte a través dos obxectos na
-  pantalla independentemente da xerarquía.
+* Navegación de obxectos: usa as frechas para mover cara os obxectos seguinte/anterior/pai/primeiro fillo.
+* Web: usa as teclas de frechas para percorrer os elementos e moverse entre eles.
+* Modo escanear: usa as frechas para moverte a través dos obxectos na pantalla independentemente da xerarquía.
 
-As seguintes ordes están dispoñibles coas frechas postas en Navegación de
-obxectos:
+As seguintes ordes están dispoñibles coas frechas postas en Navegación de obxectos:
 
 * Frecha dereita: obxecto seguinte.
 * Frecha esquerda: obxecto anterior.
@@ -34,8 +25,7 @@ obxectos:
 * Frecha abaixo: primeiro obxecto fillo.
 * Espazo ou intro: activar.
 
-Co modo web activo (os elementos son normal ou mover por obxecto, liga,
-campo de formulario, cabeceira, marco, táboa, lista, ponto de referencia):
+Co modo web activo (os elementos son normal ou mover por obxecto, liga, campo de formulario, cabeceira, marco, táboa, lista, ponto de referencia):
 
 * Frecha dereita: elemento seguinte.
 * Frecha esquerda: elemento anterior.
@@ -55,20 +45,17 @@ Co modo escanear activo:
 
 ## Version 23.05
 
-* To reflect the maintainer change, the manifest has been updated to
-  indicate as such.
+* To reflect the maintainer change, the manifest has been updated to indicate as such.
 
 ## Versión 23.02
 
 * Require NVDA 2022.4 ou posterior.
-* Requírese Windows 10 21H2 (Actualización de novembro de 2021/compilación
-  19044) ou posterior.
+* Requírese Windows 10 21H2 (Actualización de novembro de 2021/compilación 19044) ou posterior.
 
 ## Versión 23.01
 
 * Require NVDA 2022.3 ou posterior.
-* Requírese Windows 10 ou posterior xa que Windows 7, 8, e 8.1 xa non se
-  soportan dende Microsoft dende xaneiro do 2023.
+* Requírese Windows 10 ou posterior xa que Windows 7, 8, e 8.1 xa non se soportan dende Microsoft dende xaneiro do 2023.
 
 ## Versión 22.06
 
@@ -102,5 +89,3 @@ Co modo escanear activo:
 ## Versión 16.10
 
 * Versión estable inicial.
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad

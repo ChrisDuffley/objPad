@@ -1,4 +1,4 @@
-# ObjPad-NVDA简易导航器 #
+# ObjPad-NVDA简易导航器
 
 * 作者：Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
 

@@ -1,9 +1,6 @@
-# ObjPad #
+# ObjPad
 
-* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph
-  Lee, Cleverson Uliana and others
-* Stiahnuť [stabilnú verziu][1]
-* NVDA compatibility: 2022.4 and later
+* Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
 
 Pridáva klávesové skratky  na navigáciu a prácu s prvkami.
 
@@ -16,8 +13,7 @@ Pridáva klávesové skratky  na navigáciu a prácu s prvkami.
 Dostupné sú 4 režimi:
 
 * Predvolený: Šípky pohybujú kurzorom tak, ako ste zvyknutí.
-* Objektový: Šípky prechádzajú na nasledujúci alebo predchádzajúci objekt
-  resp. na rodiča alebo potomka objektu.
+* Objektový: Šípky prechádzajú na nasledujúci alebo predchádzajúci objekt resp. na rodiča alebo potomka objektu.
 * Webový: Šípky prechádzajú medzi prvkami v režime prehliadania.
 * skenovací: prechádza medzi objektmi, pričom ignoruje hierarchiu objektov.
 
@@ -29,8 +25,7 @@ V objektovom režime sú dostupné tieto príkazy:
 * Šípka dole: Potomok (podradený objekt).
 * Medzera alebo enter: Aktivovať.
 
-Webový režim (môžete sa pohybovať po prvkoch ako oblasti, prvky formulára,
-nadpisy, rámce, tabuľky a zoznamy).
+Webový režim (môžete sa pohybovať po prvkoch ako oblasti, prvky formulára, nadpisy, rámce, tabuľky a zoznamy).
 
 * Pravá šípka: Nasledujúci prvok.
 * Ľavá šípka: Predchádzajúci prvok.
@@ -50,8 +45,7 @@ Skenovací režím:
 
 ## Version 23.05
 
-* To reflect the maintainer change, the manifest has been updated to
-  indicate as such.
+* To reflect the maintainer change, the manifest has been updated to indicate as such.
 
 ## Version 23.02
 
@@ -61,8 +55,7 @@ Skenovací režím:
 ## Version 23.01
 
 * NVDA 2022.3 or later is required.
-* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer
-  supported by Microsoft as of January 2023.
+* Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
 
 ## Version 22.06
 
@@ -96,5 +89,3 @@ Skenovací režím:
 ## Verzia 16.10
 
 * Prvé vydanie.
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad

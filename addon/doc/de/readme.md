@@ -1,34 +1,23 @@
-# ObjPad #
+# ObjPad
 
-* Autor: Christopher Duffley <nvda@chrisduffley.com> (ursprünglich
-  geschrieben von Joseph Lee, Cleverson Uliana und weitere Entwickler)
-* [Stabile Version herunterladen][1]
-* NVDA-Kompatibilität: 2022.4 und neuer
+* Autor: Christopher Duffley <nvda@chrisduffley.com> (ursprünglich geschrieben von Joseph Lee, Cleverson Uliana und weitere Entwickler)
 
-Dieses Add-on bietet schnelle Befehle zur Verwaltung von Objekten auf dem
-Bildschirm, einschließlich Navigation und anderer Möglichkeiten.
+Dieses Add-on bietet schnelle Befehle zur Verwaltung von Objekten auf dem Bildschirm, einschließlich Navigation und anderer Möglichkeiten.
 
 ## Befehle
 
-* Strg+NVDA+Tab: Wechselt zwischen den Navigationsarten auf dem Bildschirm
-  (Details siehe unten).
+* Strg+NVDA+Tab: Wechselt zwischen den Navigationsarten auf dem Bildschirm (Details siehe unten).
 
 ## Navigationsarten
 
 Die Erweiterung bietet vier Möglichkeiten der Navigation mit Pfeiltasten:
 
-* Klassisch (oder Normalmodus): Verwenden Sie die Pfeiltasten, um den Cursor
-  zu steuern.
-* Objektnavigation: Benutzen Sie die Pfeiltasten, um zu den
-  nächsten/vorherigen Hauptobjekten bzw. ersten/vorherigen/nächsten
-  Unterobjekten zu gelangen.
-* Web: Benutzen Sie die Pfeiltasten, um durch die Elementtypen zu blättern
-  und sich zwischen elementen zu bewegen.
-* Erkundungsmodus: Benutzen Sie die Pfeiltasten, um unabhängig von der
-  Hierarchie durch die Objekte auf dem Bildschirm zu navigieren.
+* Klassisch (oder Normalmodus): Verwenden Sie die Pfeiltasten, um den Cursor zu steuern.
+* Objektnavigation: Benutzen Sie die Pfeiltasten, um zu den nächsten/vorherigen Hauptobjekten bzw. ersten/vorherigen/nächsten Unterobjekten zu gelangen.
+* Web: Benutzen Sie die Pfeiltasten, um durch die Elementtypen zu blättern und sich zwischen elementen zu bewegen.
+* Erkundungsmodus: Benutzen Sie die Pfeiltasten, um unabhängig von der Hierarchie durch die Objekte auf dem Bildschirm zu navigieren.
 
-Die folgenden Befehle sind verfügbar, wenn die Pfeiltasten auf
-Objektnavigation eingestellt sind:
+Die folgenden Befehle sind verfügbar, wenn die Pfeiltasten auf Objektnavigation eingestellt sind:
 
 * Pfeiltaste nach rechts: Nächstes Objekt.
 * Pfeiltaste nach links: Vorheriges Objekt.
@@ -36,9 +25,7 @@ Objektnavigation eingestellt sind:
 * Pfeiltaste nach unten: Erstes Unterobjekt des Hauptobjekts.
 * Leertaste or Eingabetaste: Aktivieren.
 
-Elemente können im Webmodus normal eingestellt werden. Sie können aber auch
-zwischen den Elementtypen Objekte, Links, Formularfelder, Überschriften,
-Rahmen, Tabellen, Listen, Sprungmarken navigieren:
+Elemente können im Webmodus normal eingestellt werden. Sie können aber auch zwischen den Elementtypen Objekte, Links, Formularfelder, Überschriften, Rahmen, Tabellen, Listen, Sprungmarken navigieren:
 
 * Pfeiltaste nach rechts: Nächstes Element.
 * Pfeiltaste nach links: Vorheriges Element.
@@ -58,20 +45,17 @@ Bei aktiviertem Scan-Modus:
 
 ## Version 23.05
 
-* Um die Änderung zur Wartung zu berücksichtigen, wurde das Manifest
-  aktualisiert, um dies anzuzeigen.
+* Um die Änderung zur Wartung zu berücksichtigen, wurde das Manifest aktualisiert, um dies anzuzeigen.
 
 ## Version 23.02
 
 * NVDA 2022.4 oder neuer wird benötigt.
-* Windows 10 Version 21H2 (November 2021 Update / Build 19044) oder neuer
-  wird benötigt.
+* Windows 10 Version 21H2 (November 2021 Update / Build 19044) oder neuer wird benötigt.
 
 ## Version 23.01
 
 * NVDA 2022.3 oder neuer ist erforderlich.
-* Windows 10 oder neuer ist erforderlich, da Windows 7, 8 und 8.1 ab Januar
-  2023 nicht mehr von Microsoft unterstützt werden.
+* Windows 10 oder neuer ist erforderlich, da Windows 7, 8 und 8.1 ab Januar 2023 nicht mehr von Microsoft unterstützt werden.
 
 ## Version 22.06
 
@@ -92,8 +76,7 @@ Bei aktiviertem Scan-Modus:
 ## Version 18.09
 
 * Lokalisierungen wurden hinzugefügt.
-* Eingabetaste (normal und Numpad) kann zum Aktivieren von Objekten
-  verwendet werden.
+* Eingabetaste (normal und Numpad) kann zum Aktivieren von Objekten verwendet werden.
 
 ## Version 18.03
 
@@ -106,5 +89,3 @@ Bei aktiviertem Scan-Modus:
 ## Version 16.10
 
 * Erstveröffentlichung.
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad
