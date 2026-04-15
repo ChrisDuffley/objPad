@@ -5,7 +5,7 @@
 # Allows obj nav commands via arrow keys.
 # Arrow key handling comes from Easy Table Navigator.
 # Scan mode comes from ideas in Narrator in Windows 10 Version 1607 and later.
-# Web mode comes from Enhanced Touch Gestures.
+# Browse mode comes from Enhanced Touch Gestures.
 # Parts of source code are enhanced implementations of NVDA Core commands (copyright NV Access).
 
 from typing import NamedTuple
