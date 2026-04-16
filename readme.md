@@ -43,6 +43,10 @@ With scan mode active:
 * Control+left arrow: previous word.
 * SPACE or ENTER: activate.
 
+## Version 26.05
+
+* NVDA 2025.3.3 or later is required.
+
 ## Version 26.03
 
 * Renamed "web mode" to "browse mode" as this mode will cover additional situations including browse mode in Word 365.
