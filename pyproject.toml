@@ -153,7 +153,7 @@ reportMissingParameterType = false  # Mostly NVDA Core/gestures/classes
 reportUndefinedVariable = false  # _ = gettext.gettext call
 reportUnknownArgumentType = false  # Mostly Python types
 reportUnknownMemberType = false  # NVDA Core attributes
-reportUnknownParameterType = false  # Mostly NVDA Core and unknown Python parameter types
+reportUnknownParameterType = true  # Mostly NVDA Core and unknown Python parameter types
 reportUnknownVariableType = false  # Mostly NVDA Core content
 reportUntypedBaseClass = false  # NVDA Core classes
 reportUntypedFunctionDecorator = false  # Script decorator
