@@ -100,6 +100,7 @@ reportInvalidTypeForm = true
 reportInvalidTypeVarUse = true
 reportMatchNotExhaustive = true
 reportMissingModuleSource = true
+reportMissingParameterType = true
 reportMissingSuperCall = true
 reportMissingTypeArgument = true
 reportNoOverloadImplementation = true
@@ -149,7 +150,6 @@ reportMissingTypeStubs = false
 # These are sorted alphabetically and should be enabled and moved to compliant rules section when resolved.
 reportImplicitStringConcatenation = false  # Long text split into multiple lines to keep them under line length limit
 reportMissingImports = false  # wxPython and NVDA Core modules
-reportMissingParameterType = false  # Mostly NVDA Core/gestures/classes
 reportUndefinedVariable = false  # _ = gettext.gettext call
 reportUnknownArgumentType = false  # Mostly Python types
 reportUnknownMemberType = false  # NVDA Core attributes
