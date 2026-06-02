@@ -86,6 +86,7 @@ reportDuplicateImport = true
 reportFunctionMemberAccess = true
 reportGeneralTypeIssues = true
 reportImplicitOverride = true
+reportImplicitStringConcatenation = true
 reportImportCycles = true
 reportIncompatibleMethodOverride = true
 reportIncompatibleVariableOverride = true
@@ -148,10 +149,9 @@ reportMissingTypeStubs = false
 
 # Bad rules
 # These are sorted alphabetically and should be enabled and moved to compliant rules section when resolved.
-reportImplicitStringConcatenation = false  # Long text split into multiple lines to keep them under line length limit
 reportMissingImports = false  # wxPython and NVDA Core modules
 reportUndefinedVariable = false  # _ = gettext.gettext call
-reportUnknownArgumentType = false  # Mostly Python types
+reportUnknownArgumentType = false  # Object script getter in browse mode
 reportUnknownMemberType = false  # NVDA Core attributes
 reportUnknownParameterType = false  # Mostly NVDA Core and unknown Python parameter types
 reportUnknownVariableType = false  # Mostly NVDA Core content
