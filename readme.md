@@ -42,3 +42,7 @@ With scan mode active:
 * Control+right arrow: next word.
 * Control+left arrow: previous word.
 * SPACE or ENTER: activate.
+
+For a list of changes made between each add-on releases, refer to [changelogs for add-on releases][1] document.
+
+[1]: https://github.com/ChrisDuffley/objPad/blob/master/changes.md
