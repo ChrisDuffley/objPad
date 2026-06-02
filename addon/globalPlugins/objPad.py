@@ -90,6 +90,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		WebBrowseElement("FormField", _("Form fields")),
 		WebBrowseElement("List", _("Lists")),
 		WebBrowseElement("Frame", _("Frames")),
+		WebBrowseElement("Graphic", "Graphics"),
 		WebBrowseElement("Landmark", _("Landmarks")),
 		WebBrowseElement("EmbeddedObject", _("Embedded objects")),
 		WebBrowseElement("TextParagraph", _("Text paragraphs")),
