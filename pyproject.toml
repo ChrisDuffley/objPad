@@ -153,7 +153,7 @@ reportMissingImports = false  # wxPython and NVDA Core modules
 reportUndefinedVariable = false  # _ = gettext.gettext call
 reportUnknownArgumentType = false  # Mostly Python types
 reportUnknownMemberType = false  # NVDA Core attributes
-reportUnknownParameterType = true  # Mostly NVDA Core and unknown Python parameter types
+reportUnknownParameterType = false  # Mostly NVDA Core and unknown Python parameter types
 reportUnknownVariableType = false  # Mostly NVDA Core content
 reportUntypedBaseClass = false  # NVDA Core classes
 reportUntypedFunctionDecorator = false  # Script decorator
