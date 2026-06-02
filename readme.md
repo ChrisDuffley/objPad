@@ -25,7 +25,7 @@ The following commands are available with arrow keys set to object nav:
 * Down arrow: first child object.
 * SPACE or ENTER: activate.
 
-With browse mode active (elements are default (moving by object/all elements), heading, table, link, form field, list, frame, landmark, embedded object, text paragraph):
+With browse mode active (elements are default (moving by object/all elements), heading, table, link, form field, list, frame, graphic, landmark, embedded object, text paragraph):
 
 * Right arrow: next element.
 * Left arrow: previous element.
