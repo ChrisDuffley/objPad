@@ -5,6 +5,7 @@ This page lists the complete changelog for ObjPad add-on releases.
 ## Version 26.07
 
 * Removed add-on changelog from add-on help (readme) file.
+* Added graphics navigation to browse mode.
 
 ## Version 26.06
 
