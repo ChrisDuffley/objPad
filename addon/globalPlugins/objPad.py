@@ -19,6 +19,7 @@ import speech
 import controlTypes
 import enum
 from scriptHandler import script
+import inputCore
 import addonHandler
 addonHandler.initTranslation()
 
@@ -40,7 +41,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		category=SCRCAT_OBJECTNAVIGATION,
 		gesture="kb:control+NvDA+tab"
 	)
-	def script_toggleObjPad(self, gesture):
+	def script_toggleObjPad(self, gesture: inputCore.InputGesture):
 		if self.objArrowMode == ObjPadMode.NORMAL:
 			self.objArrowMode = ObjPadMode.OBJNAV
 			# Translators: one of the object arrow modes.
@@ -95,7 +96,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	)
 	webBrowseMode = 0
 
-	def script_rightArrow(self, gesture):
+	def script_rightArrow(self, gesture: inputCore.InputGesture):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_next(gesture)
 		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
@@ -114,7 +115,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		elif self.objArrowMode == ObjPadMode.SCANMODE:
 			commands.script_review_nextCharacter(gesture)
 
-	def script_leftArrow(self, gesture):
+	def script_leftArrow(self, gesture: inputCore.InputGesture):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_previous(gesture)
 		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
@@ -133,15 +134,15 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		elif self.objArrowMode == ObjPadMode.SCANMODE:
 			commands.script_review_previousCharacter(gesture)
 
-	def script_controlRightArrow(self, gesture):
+	def script_controlRightArrow(self, gesture: inputCore.InputGesture):
 		commands.script_review_nextWord(gesture)
 
-	def script_controlLeftArrow(self, gesture):
+	def script_controlLeftArrow(self, gesture: inputCore.InputGesture):
 		commands.script_review_previousWord(gesture)
 
 	# Modified global commands implementation to restrict movement to foreground elements.
 
-	def script_downArrow(self, gesture):
+	def script_downArrow(self, gesture: inputCore.InputGesture):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_firstChild(gesture)
 		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
@@ -179,7 +180,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					# Translators: a message when there is no next object when navigating
 					ui.reviewMessage(_("No next"))
 
-	def script_upArrow(self, gesture):
+	def script_upArrow(self, gesture: inputCore.InputGesture):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_parent(gesture)
 		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
@@ -213,5 +214,5 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					# Translators: a message when there is no previous object when navigating
 					ui.reviewMessage(_("No previous"))
 
-	def script_objActivate(self, gesture):
+	def script_objActivate(self, gesture: inputCore.InputGesture):
 		commands.script_review_activate(gesture)
