@@ -101,6 +101,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_next(gesture)
 		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
+			# If running on NVDA 2026.2, perform built-in browse touch mode commands.
+			if (
+				api.getNavigatorObject().treeInterceptor
+				and hasattr(browseMode.BrowseModeTreeInterceptor, "script_nextSelectedElement")
+			):
+				api.getNavigatorObject().treeInterceptor.script_nextSelectedElement(gesture)
+				return
 			if (
 				isinstance(
 					(obj := api.getNavigatorObject().treeInterceptor),
@@ -120,6 +127,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_previous(gesture)
 		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
+			# If running on NVDA 2026.2, perform built-in browse touch mode commands.
+			if (
+				api.getNavigatorObject().treeInterceptor
+				and hasattr(browseMode.BrowseModeTreeInterceptor, "script_prevSelectedElement")
+			):
+				api.getNavigatorObject().treeInterceptor.script_prevSelectedElement(gesture)
+				return
 			if (
 				isinstance(
 					(obj := api.getNavigatorObject().treeInterceptor),
@@ -147,6 +161,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_firstChild(gesture)
 		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
+			# If running on NVDA 2026.2, perform built-in browse touch mode commands.
+			if (
+				api.getNavigatorObject().treeInterceptor
+				and hasattr(browseMode.BrowseModeTreeInterceptor, "script_nextBrowseElement")
+			):
+				api.getNavigatorObject().treeInterceptor.script_nextBrowseElement(gesture)
+				return
 			self.webBrowseMode = (self.webBrowseMode + 1) % len(self.webBrowseElements)
 			ui.message(self.webBrowseElements[self.webBrowseMode].element)
 		elif self.objArrowMode == ObjPadMode.SCANMODE:
@@ -185,6 +206,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_parent(gesture)
 		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
+			# If running on NVDA 2026.2, perform built-in browse touch mode commands.
+			if (
+				api.getNavigatorObject().treeInterceptor
+				and hasattr(browseMode.BrowseModeTreeInterceptor, "script_prevBrowseElement")
+			):
+				api.getNavigatorObject().treeInterceptor.script_prevBrowseElement(gesture)
+				return
 			self.webBrowseMode = (self.webBrowseMode - 1) % len(self.webBrowseElements)
 			ui.message(self.webBrowseElements[self.webBrowseMode].element)
 		elif self.objArrowMode == ObjPadMode.SCANMODE:
