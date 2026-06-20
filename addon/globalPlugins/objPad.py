@@ -83,17 +83,17 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		]
 	)
 	webBrowseElements = (
-		WebBrowseElement("", _("Default (all elements)")),
-		WebBrowseElement("Heading", _("Headings")),
-		WebBrowseElement("Table", _("Tables")),
-		WebBrowseElement("Link", _("Links")),
-		WebBrowseElement("FormField", _("Form fields")),
-		WebBrowseElement("List", _("Lists")),
-		WebBrowseElement("Frame", _("Frames")),
-		WebBrowseElement("Graphic", "Graphics"),
-		WebBrowseElement("Landmark", _("Landmarks")),
-		WebBrowseElement("EmbeddedObject", _("Embedded objects")),
-		WebBrowseElement("TextParagraph", _("Text paragraphs")),
+		WebBrowseElement("", _("default")),
+		WebBrowseElement("Heading", _("headings")),
+		WebBrowseElement("Table", _("tables")),
+		WebBrowseElement("Link", _("links")),
+		WebBrowseElement("FormField", _("form fields")),
+		WebBrowseElement("List", _("lists")),
+		WebBrowseElement("Frame", _("frames")),
+		WebBrowseElement("Graphic", "graphics"),
+		WebBrowseElement("Landmark", _("landmarks")),
+		WebBrowseElement("EmbeddedObject", _("embedded objects")),
+		WebBrowseElement("TextParagraph", _("text paragraphs")),
 	)
 	webBrowseMode = 0
 
