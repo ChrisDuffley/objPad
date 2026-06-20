@@ -26,7 +26,10 @@ addon_info = AddonInfo(
 	addon_version="26.06",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
-	addon_changelog=_("""* Reordered browse mode elements order to follow NVDA 2026.2 order."""),
+	addon_changelog=_("""* Removed add-on changelog from add-on help (readme) file.
+* If running NVDA 2026.2, add-on browse mode elements will be limited to default (all elements), headings, tables, links, form fields, and lists. On touchscreen computers, additional browse mode elements can be added via NVDA's browse mode settings.
+* The "default (all elements)" mode in browse mode is now called "default" mode to match messaging from NVDA 2026.2's touch browse mode.
+* Added graphics navigation to browse mode (NVDA 2025.3.3 and 2026.1)."""),
 	# Author(s)
 	addon_author="Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee <joseph.lee22590@gmail.com>",
 	# URL for the add-on documentation support
