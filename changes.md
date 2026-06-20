@@ -5,8 +5,9 @@ This page lists the complete changelog for ObjPad add-on releases.
 ## Version 26.07
 
 * Removed add-on changelog from add-on help (readme) file.
+* If running NVDA 2026.2, add-on browse mode elements will be limited to default (all elements), headings, tables, links, form fields, and lists. On touchscreen computers, additional browse mode elements can be added via NVDA's browse mode settings.
 * The "default (all elements)" mode in browse mode is now called "default" mode to match messaging from NVDA 2026.2's touch browse mode.
-* Added graphics navigation to browse mode.
+* Added graphics navigation to browse mode (NVDA 2025.3.3 and 2026.1).
 
 ## Version 26.06
 
