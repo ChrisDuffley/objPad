@@ -1,0 +1,377 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
+<file id="readme.md" original="https://raw.githubusercontent.com/ChrisDuffley/objPad/86d7e8f66d8f2675e0faececd39c10d53d02f421/readme.md">
+<skeleton>
+# $(ID:194da8af-f65e-4ce0-b819-58d0d0345153)
+
+* $(ID:616d1ec9-51c6-433c-835f-3816a3519e25)
+
+$(ID:19b901cd-e490-4998-8c79-241f3f8d2b9e)
+
+## $(ID:8a567dce-837d-4343-a603-cebf48e27fce)
+
+* $(ID:c969c11d-623d-4dfa-90cf-2dd394c37d8a)
+
+## $(ID:7a883ee9-3487-4e6a-bc3e-3923249daf48)
+
+$(ID:72c59c0a-36b2-4712-bd21-ec4f0ffc93c3)
+
+* $(ID:308a1d10-410d-4ed8-b246-649125d35408)
+* $(ID:4db63059-9289-4251-a62d-ddf0fc551ea7)
+* $(ID:2a734881-46ee-4982-92b5-22ce0fe0850f)
+* $(ID:59837278-abf2-471a-9c18-98fb09b61b1d)
+
+$(ID:aa7d48a8-b2ac-456c-81a1-514625b0b5b7)
+
+* $(ID:b2eb2264-dd8c-4477-8a69-6ad425297738)
+* $(ID:60dd2a9a-e30e-43fb-9e4b-191ca4708fd6)
+* $(ID:e2d0fa38-828a-4177-b8d7-4b67909b3789)
+* $(ID:d5870e94-c378-4bd7-b71b-2b13be156c05)
+* $(ID:70c7c859-8a5d-4206-ac2c-ac6e451c56b9)
+
+$(ID:3c094741-3c79-4d02-ba39-73b6fabef8e9)
+
+* $(ID:9321ffe7-a9c8-4f3a-8074-fddac7cb4c5c)
+* $(ID:c6f904fb-ab77-492e-aa25-d601845b1890)
+* $(ID:24f4ef52-2503-4292-8f1d-3877042f1df5)
+* $(ID:24a8929e-3ee8-4454-86d4-c56361f017c2)
+* $(ID:b8ca94ba-57ee-4702-931d-d26347bd68db)
+
+$(ID:4233ad82-2b28-4488-98f1-2524e6f55513)
+
+* $(ID:0a0bfd88-2a59-496f-a947-64e278af4edf)
+* $(ID:5aca8ef2-5445-4da0-9b55-28613a4d7811)
+
+$(ID:258c5b6d-2565-416b-8f77-b5986aaf2fed)
+
+* $(ID:d7d0db8f-95a3-4692-a0c4-9e8ee5482ecf)
+* $(ID:b6cb71f4-7daa-4fe1-9ed4-d45f0bfd8889)
+* $(ID:47144349-6611-4ed9-8db7-20b6f7ac15d1)
+* $(ID:be7c891c-549f-4901-b1b9-3873428c9da0)
+* $(ID:386403f4-29bf-492f-9837-239a41fd8aa0)
+* $(ID:c929b931-08bc-44d3-9606-67c195bcbf89)
+* $(ID:15a518e1-8b61-4386-973f-7e3c8d0e8f06)
+
+$(ID:26d06293-2e30-47fc-8c88-2d6e8dcfbc09)
+
+$(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
+
+</skeleton>
+<unit id="194da8af-f65e-4ce0-b819-58d0d0345153">
+<notes>
+<note appliesTo="source">line: 2</note>
+<note appliesTo="source">prefix: # </note>
+</notes>
+<segment>
+<source>ObjPad</source>
+</segment>
+</unit>
+<unit id="616d1ec9-51c6-433c-835f-3816a3519e25">
+<notes>
+<note appliesTo="source">line: 4</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Author: Christopher Duffley &lt;nvda@chrisduffley.com&gt;, originally by Joseph Lee, Cleverson Uliana and others</source>
+</segment>
+</unit>
+<unit id="19b901cd-e490-4998-8c79-241f3f8d2b9e">
+<notes>
+<note appliesTo="source">line: 6</note>
+</notes>
+<segment>
+<source>This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.</source>
+</segment>
+</unit>
+<unit id="8a567dce-837d-4343-a603-cebf48e27fce">
+<notes>
+<note appliesTo="source">line: 8</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Commands</source>
+</segment>
+</unit>
+<unit id="c969c11d-623d-4dfa-90cf-2dd394c37d8a">
+<notes>
+<note appliesTo="source">line: 10</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Control+NVDA+TAB: Steps through arrow key modes (see below for details).</source>
+</segment>
+</unit>
+<unit id="7a883ee9-3487-4e6a-bc3e-3923249daf48">
+<notes>
+<note appliesTo="source">line: 12</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Arrow key modes</source>
+</segment>
+</unit>
+<unit id="72c59c0a-36b2-4712-bd21-ec4f0ffc93c3">
+<notes>
+<note appliesTo="source">line: 14</note>
+</notes>
+<segment>
+<source>The add-on provides four ways to use arrow keys:</source>
+</segment>
+</unit>
+<unit id="308a1d10-410d-4ed8-b246-649125d35408">
+<notes>
+<note appliesTo="source">line: 16</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Classic (or normal mode): use arrow keys to move cursor.</source>
+</segment>
+</unit>
+<unit id="4db63059-9289-4251-a62d-ddf0fc551ea7">
+<notes>
+<note appliesTo="source">line: 17</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Object nav: use arrow keys to move to next/previous/parent/first child objects.</source>
+</segment>
+</unit>
+<unit id="2a734881-46ee-4982-92b5-22ce0fe0850f">
+<notes>
+<note appliesTo="source">line: 18</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Browse mode: use arrow keys to cycle through browse mode elements (web included) and move between them.</source>
+</segment>
+</unit>
+<unit id="59837278-abf2-471a-9c18-98fb09b61b1d">
+<notes>
+<note appliesTo="source">line: 19</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Scan mode: use arrow keys to move through objects on screen regardless of hierarchy.</source>
+</segment>
+</unit>
+<unit id="aa7d48a8-b2ac-456c-81a1-514625b0b5b7">
+<notes>
+<note appliesTo="source">line: 21</note>
+</notes>
+<segment>
+<source>The following commands are available with arrow keys set to object nav:</source>
+</segment>
+</unit>
+<unit id="b2eb2264-dd8c-4477-8a69-6ad425297738">
+<notes>
+<note appliesTo="source">line: 23</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Right arrow: next object.</source>
+</segment>
+</unit>
+<unit id="60dd2a9a-e30e-43fb-9e4b-191ca4708fd6">
+<notes>
+<note appliesTo="source">line: 24</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Left arrow: previous object.</source>
+</segment>
+</unit>
+<unit id="e2d0fa38-828a-4177-b8d7-4b67909b3789">
+<notes>
+<note appliesTo="source">line: 25</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Up arrow: parent object.</source>
+</segment>
+</unit>
+<unit id="d5870e94-c378-4bd7-b71b-2b13be156c05">
+<notes>
+<note appliesTo="source">line: 26</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Down arrow: first child object.</source>
+</segment>
+</unit>
+<unit id="70c7c859-8a5d-4206-ac2c-ac6e451c56b9">
+<notes>
+<note appliesTo="source">line: 27</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>SPACE or ENTER: activate.</source>
+</segment>
+</unit>
+<unit id="3c094741-3c79-4d02-ba39-73b6fabef8e9">
+<notes>
+<note appliesTo="source">line: 29</note>
+</notes>
+<segment>
+<source>With browse mode active (elements are default (moving by object/all elements), heading, table, link, form field, list):</source>
+</segment>
+</unit>
+<unit id="9321ffe7-a9c8-4f3a-8074-fddac7cb4c5c">
+<notes>
+<note appliesTo="source">line: 31</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Right arrow: next element.</source>
+</segment>
+</unit>
+<unit id="c6f904fb-ab77-492e-aa25-d601845b1890">
+<notes>
+<note appliesTo="source">line: 32</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Left arrow: previous element.</source>
+</segment>
+</unit>
+<unit id="24f4ef52-2503-4292-8f1d-3877042f1df5">
+<notes>
+<note appliesTo="source">line: 33</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Up arrow: previous element type.</source>
+</segment>
+</unit>
+<unit id="24a8929e-3ee8-4454-86d4-c56361f017c2">
+<notes>
+<note appliesTo="source">line: 34</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Down arrow: next element type.</source>
+</segment>
+</unit>
+<unit id="b8ca94ba-57ee-4702-931d-d26347bd68db">
+<notes>
+<note appliesTo="source">line: 35</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>SPACE or ENTER: activate.</source>
+</segment>
+</unit>
+<unit id="4233ad82-2b28-4488-98f1-2524e6f55513">
+<notes>
+<note appliesTo="source">line: 37</note>
+</notes>
+<segment>
+<source>Notes:</source>
+</segment>
+</unit>
+<unit id="0a0bfd88-2a59-496f-a947-64e278af4edf">
+<notes>
+<note appliesTo="source">line: 39</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>In NVDA 2025.3.3 and 2026.1, additional browse mode elements include frame, graphic, landmark, embedded object, and text paragraph.</source>
+</segment>
+</unit>
+<unit id="5aca8ef2-5445-4da0-9b55-28613a4d7811">
+<notes>
+<note appliesTo="source">line: 40</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>In NVDA 2026.2 running on a touchscreen computer, additional browse mode elements can be added via NVDA's browse mode settings.</source>
+</segment>
+</unit>
+<unit id="258c5b6d-2565-416b-8f77-b5986aaf2fed">
+<notes>
+<note appliesTo="source">line: 42</note>
+</notes>
+<segment>
+<source>With scan mode active:</source>
+</segment>
+</unit>
+<unit id="d7d0db8f-95a3-4692-a0c4-9e8ee5482ecf">
+<notes>
+<note appliesTo="source">line: 44</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Down arrow: next object or the next line.</source>
+</segment>
+</unit>
+<unit id="b6cb71f4-7daa-4fe1-9ed4-d45f0bfd8889">
+<notes>
+<note appliesTo="source">line: 45</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Up arrow: previous object or previous line.</source>
+</segment>
+</unit>
+<unit id="47144349-6611-4ed9-8db7-20b6f7ac15d1">
+<notes>
+<note appliesTo="source">line: 46</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Right arrow: review next character.</source>
+</segment>
+</unit>
+<unit id="be7c891c-549f-4901-b1b9-3873428c9da0">
+<notes>
+<note appliesTo="source">line: 47</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Left arrow: previous character.</source>
+</segment>
+</unit>
+<unit id="386403f4-29bf-492f-9837-239a41fd8aa0">
+<notes>
+<note appliesTo="source">line: 48</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Control+right arrow: next word.</source>
+</segment>
+</unit>
+<unit id="c929b931-08bc-44d3-9606-67c195bcbf89">
+<notes>
+<note appliesTo="source">line: 49</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Control+left arrow: previous word.</source>
+</segment>
+</unit>
+<unit id="15a518e1-8b61-4386-973f-7e3c8d0e8f06">
+<notes>
+<note appliesTo="source">line: 50</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>SPACE or ENTER: activate.</source>
+</segment>
+</unit>
+<unit id="26d06293-2e30-47fc-8c88-2d6e8dcfbc09">
+<notes>
+<note appliesTo="source">line: 52</note>
+</notes>
+<segment>
+<source>For a list of changes made between each add-on releases, refer to [changelogs for add-on releases][1] document.</source>
+</segment>
+</unit>
+<unit id="90459eb2-1b81-4c92-9f2d-a848cdea1cdd">
+<notes>
+<note appliesTo="source">line: 54</note>
+</notes>
+<segment>
+<source>[1]: https://github.com/ChrisDuffley/objPad/blob/master/changes.md</source>
+</segment>
+</unit>
+</file>
+</xliff>
