@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-02-23 03:54+0000\n"
-"PO-Revision-Date: 2026-03-30 00:45\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-06-21 05:15+0000\n"
+"PO-Revision-Date: 2026-06-22 00:28\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -18,77 +18,77 @@ msgstr ""
 "X-Crowdin-File-ID: 356\n"
 
 #. Translators: input help mode message for ObjPad toggle command.
-#: addon/globalPlugins/objPad.py:39
+#: addon\globalPlugins\objPad.py:40
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr "简易导航切换（在正常模式、对象导航模式、网页模式和扫描模式之间切换）"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:47
+#: addon\globalPlugins\objPad.py:48
 msgid "Object nav mode"
 msgstr "对象导航模式"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:51
+#: addon\globalPlugins\objPad.py:52
 msgid "Browse mode"
 msgstr "浏览模式"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:55
+#: addon\globalPlugins\objPad.py:56
 msgid "Scan mode"
 msgstr "扫描模式"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:59
+#: addon\globalPlugins\objPad.py:60
 msgid "Normal mode"
 msgstr "正常模式"
 
-#: addon/globalPlugins/objPad.py:85
-msgid "Default (all elements)"
-msgstr "默认（所有元素）"
+#: addon\globalPlugins\objPad.py:86
+msgid "default"
+msgstr "默认"
 
-#: addon/globalPlugins/objPad.py:86
-msgid "Links"
-msgstr "链接"
-
-#: addon/globalPlugins/objPad.py:87
-msgid "Form fields"
-msgstr "表单字段"
-
-#: addon/globalPlugins/objPad.py:88
-msgid "Headings"
+#: addon\globalPlugins\objPad.py:87
+msgid "headings"
 msgstr "标题"
 
-#: addon/globalPlugins/objPad.py:89
-msgid "Frames"
-msgstr "框架"
-
-#: addon/globalPlugins/objPad.py:90
-msgid "Tables"
+#: addon\globalPlugins\objPad.py:88
+msgid "tables"
 msgstr "表格"
 
-#: addon/globalPlugins/objPad.py:91
-msgid "Lists"
+#: addon\globalPlugins\objPad.py:89
+msgid "links"
+msgstr "链接"
+
+#: addon\globalPlugins\objPad.py:90
+msgid "form fields"
+msgstr "表单字段"
+
+#: addon\globalPlugins\objPad.py:91
+msgid "lists"
 msgstr "列表"
 
-#: addon/globalPlugins/objPad.py:92
-msgid "Landmarks"
+#: addon\globalPlugins\objPad.py:92
+msgid "frames"
+msgstr "框架"
+
+#: addon\globalPlugins\objPad.py:94
+msgid "landmarks"
 msgstr "路标"
 
-#: addon/globalPlugins/objPad.py:93
-msgid "Embedded objects"
+#: addon\globalPlugins\objPad.py:95
+msgid "embedded objects"
 msgstr "嵌入式对象"
 
-#: addon/globalPlugins/objPad.py:94
-msgid "Text paragraphs"
+#: addon\globalPlugins\objPad.py:96
+msgid "text paragraphs"
 msgstr "文本段落"
 
 #. Translators: a message when there is no next object when navigating
-#: addon/globalPlugins/objPad.py:180
+#: addon\globalPlugins\objPad.py:203
 msgid "No next"
 msgstr "没有下一项"
 
 #. Translators: a message when there is no previous object when navigating
-#: addon/globalPlugins/objPad.py:214
+#: addon\globalPlugins\objPad.py:244
 msgid "No previous"
 msgstr "没有上一项"
 
@@ -108,6 +108,12 @@ msgstr "一键执行各种对象快捷键，包括导航等"
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid "* Renamed \"web mode\" to \"browse mode\" as this mode will cover additional situations including browse mode in Word 365."
-msgstr "* 将“web 模式”重命名为“浏览模式”，因为此模式将涵盖其他情况，包括 Word 365中的浏览模式。"
+msgid "* Removed add-on changelog from add-on help (readme) file.\n"
+"* If running NVDA 2026.2, add-on browse mode elements will be limited to default (all elements), headings, tables, links, form fields, and lists. On touchscreen computers, additional browse mode elements can be added via NVDA's browse mode settings.\n"
+"* The \"default (all elements)\" mode in browse mode is now called \"default\" mode to match messaging from NVDA 2026.2's touch browse mode.\n"
+"* Added graphics navigation to browse mode (NVDA 2025.3.3 and 2026.1)."
+msgstr "* 已从插件帮助（自述文件）中移除插件更新日志。\n"
+"* 如果运行 NVDA 2026.2，插件的浏览模式元素将仅限于默认（所有元素）、标题、表格、链接、表单字段和列表。可在具有触摸屏的计算机通过 NVDA 的浏览模式设置添加其他浏览模式元素。\n"
+"* 浏览模式下的“默认（所有元素）”模式现已更名为“默认”模式，以匹配 NVDA 2026.2 触摸浏览模式中的表述。\n"
+"* 为浏览模式添加了图形导航（NVDA 2025.3.3 和 2026.1）。"
 
