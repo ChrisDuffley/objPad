@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-02-23 03:54+0000\n"
-"PO-Revision-Date: 2026-03-30 00:45\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-06-21 05:15+0000\n"
+"PO-Revision-Date: 2026-06-23 10:07\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -18,77 +18,77 @@ msgstr ""
 "X-Crowdin-File-ID: 356\n"
 
 #. Translators: input help mode message for ObjPad toggle command.
-#: addon/globalPlugins/objPad.py:39
+#: addon\globalPlugins\objPad.py:40
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr "Nesne dolaşımı, web, tarama ve normal modlar arasında geçiş yapar"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:47
+#: addon\globalPlugins\objPad.py:48
 msgid "Object nav mode"
 msgstr "Nesne dolaşım modu"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:51
+#: addon\globalPlugins\objPad.py:52
 msgid "Browse mode"
 msgstr "Göz atma modu"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:55
+#: addon\globalPlugins\objPad.py:56
 msgid "Scan mode"
 msgstr "Tarama modu"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:59
+#: addon\globalPlugins\objPad.py:60
 msgid "Normal mode"
 msgstr "Normal mod"
 
-#: addon/globalPlugins/objPad.py:85
-msgid "Default (all elements)"
-msgstr "Varsayılan (tüm öğeler)"
+#: addon\globalPlugins\objPad.py:86
+msgid "default"
+msgstr "varsayılan"
 
-#: addon/globalPlugins/objPad.py:86
-msgid "Links"
-msgstr "Bağlantılar"
+#: addon\globalPlugins\objPad.py:87
+msgid "headings"
+msgstr "başlıklar"
 
-#: addon/globalPlugins/objPad.py:87
-msgid "Form fields"
-msgstr "Form alanları"
+#: addon\globalPlugins\objPad.py:88
+msgid "tables"
+msgstr "tablolar"
 
-#: addon/globalPlugins/objPad.py:88
-msgid "Headings"
-msgstr "Başlıklar"
+#: addon\globalPlugins\objPad.py:89
+msgid "links"
+msgstr "linkler"
 
-#: addon/globalPlugins/objPad.py:89
-msgid "Frames"
-msgstr "Çerçeveler"
+#: addon\globalPlugins\objPad.py:90
+msgid "form fields"
+msgstr "form alanları"
 
-#: addon/globalPlugins/objPad.py:90
-msgid "Tables"
-msgstr "Tablolar"
+#: addon\globalPlugins\objPad.py:91
+msgid "lists"
+msgstr "listeler"
 
-#: addon/globalPlugins/objPad.py:91
-msgid "Lists"
-msgstr "Listeler"
+#: addon\globalPlugins\objPad.py:92
+msgid "frames"
+msgstr "çerçeveler"
 
-#: addon/globalPlugins/objPad.py:92
-msgid "Landmarks"
-msgstr "Yer işaretleri"
+#: addon\globalPlugins\objPad.py:94
+msgid "landmarks"
+msgstr "sınırimleri"
 
-#: addon/globalPlugins/objPad.py:93
-msgid "Embedded objects"
-msgstr "Gömülü nesneler"
+#: addon\globalPlugins\objPad.py:95
+msgid "embedded objects"
+msgstr "gömülü nesneler"
 
-#: addon/globalPlugins/objPad.py:94
-msgid "Text paragraphs"
-msgstr "Metin paragrafları"
+#: addon\globalPlugins\objPad.py:96
+msgid "text paragraphs"
+msgstr "metin paragrafları"
 
 #. Translators: a message when there is no next object when navigating
-#: addon/globalPlugins/objPad.py:180
+#: addon\globalPlugins\objPad.py:203
 msgid "No next"
 msgstr "Başka yok"
 
 #. Translators: a message when there is no previous object when navigating
-#: addon/globalPlugins/objPad.py:214
+#: addon\globalPlugins\objPad.py:244
 msgid "No previous"
 msgstr "Başka yok"
 
@@ -108,6 +108,12 @@ msgstr "Bir tuşla çeşitli nesne komutlarını gerçekleştirin"
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid "* Renamed \"web mode\" to \"browse mode\" as this mode will cover additional situations including browse mode in Word 365."
-msgstr "* Bu mod, Word 365'teki göz atma modu da dahil olmak üzere ek durumları kapsayacağı için \"web modu\", \"gözatma modu\" olarak yeniden adlandırıldı."
+msgid "* Removed add-on changelog from add-on help (readme) file.\n"
+"* If running NVDA 2026.2, add-on browse mode elements will be limited to default (all elements), headings, tables, links, form fields, and lists. On touchscreen computers, additional browse mode elements can be added via NVDA's browse mode settings.\n"
+"* The \"default (all elements)\" mode in browse mode is now called \"default\" mode to match messaging from NVDA 2026.2's touch browse mode.\n"
+"* Added graphics navigation to browse mode (NVDA 2025.3.3 and 2026.1)."
+msgstr "* Eklenti değişiklik günlüğü, eklenti yardım (readme) dosyasından kaldırıldı.\n"
+"* NVDA 2026.2 çalıştırılıyorsa, eklenti tarama modu öğeleri varsayılan (tüm öğeler), başlıklar, tablolar, bağlantılar, form alanları ve listelerle sınırlı olacaktır. Dokunmatik ekranlı bilgisayarlarda, NVDA'nın tarama modu ayarları aracılığıyla ek tarama modu öğeleri eklenebilir.\n"
+"* Tarama modundaki \"varsayılan (tüm öğeler)\" modu artık NVDA 2026.2'nin dokunmatik Tarama modundaki mesajlaşmayla eşleşecek şekilde \"varsayılan\" mod olarak adlandırılıyor.\n"
+"* Tarama moduna grafik dolaşımı eklendi (NVDA 2025.3.3 ve 2026.1)."
 

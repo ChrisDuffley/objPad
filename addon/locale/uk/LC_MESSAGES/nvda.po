@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-02-23 03:54+0000\n"
-"PO-Revision-Date: 2026-03-30 00:45\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-06-21 05:15+0000\n"
+"PO-Revision-Date: 2026-06-25 10:33\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -18,77 +18,77 @@ msgstr ""
 "X-Crowdin-File-ID: 356\n"
 
 #. Translators: input help mode message for ObjPad toggle command.
-#: addon/globalPlugins/objPad.py:39
+#: addon\globalPlugins\objPad.py:40
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr "Перемикає режими ObjPad між звичайним, об’єктною навігацією та скануванням"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:47
+#: addon\globalPlugins\objPad.py:48
 msgid "Object nav mode"
 msgstr "Режим об’єктної навігації"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:51
+#: addon\globalPlugins\objPad.py:52
 msgid "Browse mode"
 msgstr "Режим огляду"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:55
+#: addon\globalPlugins\objPad.py:56
 msgid "Scan mode"
 msgstr "Режим сканування"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:59
+#: addon\globalPlugins\objPad.py:60
 msgid "Normal mode"
 msgstr "Звичайний режим"
 
-#: addon/globalPlugins/objPad.py:85
-msgid "Default (all elements)"
-msgstr "Початково (усі елементи)"
+#: addon\globalPlugins\objPad.py:86
+msgid "default"
+msgstr "початково"
 
-#: addon/globalPlugins/objPad.py:86
-msgid "Links"
-msgstr "Посилання"
+#: addon\globalPlugins\objPad.py:87
+msgid "headings"
+msgstr "заголовки"
 
-#: addon/globalPlugins/objPad.py:87
-msgid "Form fields"
-msgstr "Поля форми"
+#: addon\globalPlugins\objPad.py:88
+msgid "tables"
+msgstr "таблиці"
 
-#: addon/globalPlugins/objPad.py:88
-msgid "Headings"
-msgstr "Заголовки"
+#: addon\globalPlugins\objPad.py:89
+msgid "links"
+msgstr "посилання"
 
-#: addon/globalPlugins/objPad.py:89
-msgid "Frames"
-msgstr "Фрейми"
+#: addon\globalPlugins\objPad.py:90
+msgid "form fields"
+msgstr "поля форми"
 
-#: addon/globalPlugins/objPad.py:90
-msgid "Tables"
-msgstr "Таблиці"
+#: addon\globalPlugins\objPad.py:91
+msgid "lists"
+msgstr "списки"
 
-#: addon/globalPlugins/objPad.py:91
-msgid "Lists"
-msgstr "Списки"
+#: addon\globalPlugins\objPad.py:92
+msgid "frames"
+msgstr "фрейми"
 
-#: addon/globalPlugins/objPad.py:92
-msgid "Landmarks"
-msgstr "Орієнтири"
+#: addon\globalPlugins\objPad.py:94
+msgid "landmarks"
+msgstr "орієнтири"
 
-#: addon/globalPlugins/objPad.py:93
-msgid "Embedded objects"
-msgstr "Вбудовані об'єкти"
+#: addon\globalPlugins\objPad.py:95
+msgid "embedded objects"
+msgstr "вбудовані об'єкти"
 
-#: addon/globalPlugins/objPad.py:94
-msgid "Text paragraphs"
-msgstr "Текстові абзаци"
+#: addon\globalPlugins\objPad.py:96
+msgid "text paragraphs"
+msgstr "абзаци"
 
 #. Translators: a message when there is no next object when navigating
-#: addon/globalPlugins/objPad.py:180
+#: addon\globalPlugins\objPad.py:203
 msgid "No next"
 msgstr "Немає наступного"
 
 #. Translators: a message when there is no previous object when navigating
-#: addon/globalPlugins/objPad.py:214
+#: addon\globalPlugins\objPad.py:244
 msgid "No previous"
 msgstr "Немає попереднього"
 
@@ -108,6 +108,12 @@ msgstr "Виконуйте різні команди об’єктів нати�
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid "* Renamed \"web mode\" to \"browse mode\" as this mode will cover additional situations including browse mode in Word 365."
-msgstr "* Перейменовано «режим веб» на «режим огляду», оскільки цей режим охоплюватиме додаткові ситуації, зокрема режим огляду в Word 365."
+msgid "* Removed add-on changelog from add-on help (readme) file.\n"
+"* If running NVDA 2026.2, add-on browse mode elements will be limited to default (all elements), headings, tables, links, form fields, and lists. On touchscreen computers, additional browse mode elements can be added via NVDA's browse mode settings.\n"
+"* The \"default (all elements)\" mode in browse mode is now called \"default\" mode to match messaging from NVDA 2026.2's touch browse mode.\n"
+"* Added graphics navigation to browse mode (NVDA 2025.3.3 and 2026.1)."
+msgstr "* Removed add-on changelog from add-on help (readme) file.\n"
+"* If running NVDA 2026.2, add-on browse mode elements will be limited to default (all elements), headings, tables, links, form fields, and lists. On touchscreen computers, additional browse mode elements can be added via NVDA's browse mode settings.\n"
+"* The \"default (all elements)\" mode in browse mode is now called \"default\" mode to match messaging from NVDA 2026.2's touch browse mode.\n"
+"* Added graphics navigation to browse mode (NVDA 2025.3.3 and 2026.1)."
 
