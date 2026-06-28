@@ -36,7 +36,7 @@ With browse mode active (elements are default (moving by object/all elements), h
 Notes:
 
 * In NVDA 2025.3.3 and 2026.1, additional browse mode elements include frame, graphic, landmark, embedded object, and text paragraph.
-* In NVDA 2026.2 running on a touchscreen computer, additional browse mode elements can be added via NVDA's browse mode settings.
+* In NVDA 2026.2, additional browse mode elements can be added via NVDA's browse mode settings or from a dedicated ObjPad settings interface (see below).
 
 With scan mode active:
 
@@ -47,6 +47,10 @@ With scan mode active:
 * Control+right arrow: next word.
 * Control+left arrow: previous word.
 * SPACE or ENTER: activate.
+
+## ObjPad settings
+
+In NVDA 2026.2, a dedicated setting is introduced to configure available browse mode navigation elements for use in touch browse mode. With NVDA installed on a touch capable computer, this setting can be found in browse mode settings. On non-touch devices or portable NVDA versions, ObjPad offers this same setting via ObjPad settings interface (part of NVDA settings screen).
 
 For a list of changes made between each add-on releases, refer to [changelogs for add-on releases][1] document.
 
