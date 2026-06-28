@@ -68,12 +68,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def __init__(self):
 		super().__init__()
-		# Add ObjPad settings if this is NVDA 2026.2 (portable) or later.
-		if hasattr(touchHandler, "TouchMode") and not touchHandler.touchSupported():
+		# Add ObjPad settings if touch is not supported.
+		if not touchHandler.touchSupported():
 			gui.settingsDialogs.NVDASettingsDialog.categoryClasses.append(ObjPadPanel)
 
 	def terminate(self):
-		if hasattr(touchHandler, "TouchMode") and not touchHandler.touchSupported():
+		if not touchHandler.touchSupported():
 			gui.settingsDialogs.NVDASettingsDialog.categoryClasses.remove(ObjPadPanel)
 
 	@script(
