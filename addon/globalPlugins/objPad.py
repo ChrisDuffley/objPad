@@ -115,30 +115,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			self.clearGestureBindings()
 			self.bindGestures(self.__gestures)
 
-	# Web navigation:
-
-	# Web elements and associated scripts list:
-	WebBrowseElement = NamedTuple(
-		"WebBrowseElement", [
-			("script", str),
-			("element", str)
-		]
-	)
-	webBrowseElements = (
-		WebBrowseElement("", _("default")),
-		WebBrowseElement("Heading", _("headings")),
-		WebBrowseElement("Table", _("tables")),
-		WebBrowseElement("Link", _("links")),
-		WebBrowseElement("FormField", _("form fields")),
-		WebBrowseElement("List", _("lists")),
-		WebBrowseElement("Frame", _("frames")),
-		WebBrowseElement("Graphic", "graphics"),
-		WebBrowseElement("Landmark", _("landmarks")),
-		WebBrowseElement("EmbeddedObject", _("embedded objects")),
-		WebBrowseElement("TextParagraph", _("text paragraphs")),
-	)
-	webBrowseMode = 0
-
 	def script_rightArrow(self, gesture: inputCore.InputGesture):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
 			commands.script_navigatorObject_next(gesture)
