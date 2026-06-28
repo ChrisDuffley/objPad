@@ -13,6 +13,7 @@ import globalPluginHandler
 import ui
 from globalCommands import commands, SCRCAT_OBJECTNAVIGATION
 import browseMode
+import touchHandler
 import api
 import textInfos
 import speech
@@ -65,6 +66,16 @@ class ObjPadPanel(gui.settingsDialogs.SettingsPanel):
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# Object navigation arrow key mode (normal mode/object nav by default)
 	objArrowMode = 0
+
+	def __init__(self):
+		super().__init__()
+		# Add ObjPad settings if this is NVDA 2026.2 (portable) or later.
+		if hasattr(touchHandler, "TouchMode") and not touchHandler.touchSupported():
+			gui.settingsDialogs.NVDASettingsDialog.categoryClasses.append(ObjPadPanel)
+
+	def terminate(self):
+		if hasattr(touchHandler, "TouchMode") and not touchHandler.touchSupported():
+			gui.settingsDialogs.NVDASettingsDialog.categoryClasses.remove(ObjPadPanel)
 
 	@script(
 		# Translators: input help mode message for ObjPad toggle command.
