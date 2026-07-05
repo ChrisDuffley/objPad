@@ -36,7 +36,7 @@
 注意：
 
 * 在 NVDA 2025.3.3 和 2026.1 中，新增了下列浏览模式元素：框架、图形、路标、嵌入式对象和文本段落。
-* 在具有触摸屏的计算机运行 NVDA 2026.2 时，还可通过 NVDA 的浏览模式设置添加其他浏览模式元素。
+* In NVDA 2026.2, additional browse mode elements can be added via NVDA's browse mode settings or from a dedicated ObjPad settings interface (see below).
 
 光标键设置为扫描模式时：
 
@@ -47,6 +47,10 @@
 * Ctrl + 右光标: 下一个单词。
 * Ctrl+左光标: 上一个单词。
 * 空格或回车：激活。
+
+## ObjPad settings
+
+In NVDA 2026.2, a dedicated setting is introduced to configure available browse mode navigation elements for use in touch browse mode. With NVDA installed on a touch capable computer, this setting can be found in browse mode settings. On non-touch devices or portable NVDA versions, ObjPad offers this same setting via ObjPad settings interface (part of NVDA settings screen).
 
 有关每个插件版本之间所做的更改，请参阅[插件更新日志（英语）][1]文档。
 

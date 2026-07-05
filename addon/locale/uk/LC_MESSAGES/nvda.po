@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-06-21 05:15+0000\n"
-"PO-Revision-Date: 2026-07-03 08:00\n"
+"POT-Creation-Date: 2026-07-05 20:01+0000\n"
+"PO-Revision-Date: 2026-07-05 20:04\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -17,87 +17,93 @@ msgstr ""
 "X-Crowdin-File: objPad.pot\n"
 "X-Crowdin-File-ID: 356\n"
 
+#. Translators: This is the label for the AudioScreen settings panel.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: addon\globalPlugins\objPad.py:40 buildVars.py:21
+msgid "ObjPad"
+msgstr "ObjPad"
+
+#. Translators: Label for the list of browse mode navigation element types in ObjPad settings.
+#: addon\globalPlugins\objPad.py:50
+msgid "&Browse mode navigation elements:"
+msgstr ""
+
 #. Translators: input help mode message for ObjPad toggle command.
-#: addon\globalPlugins\objPad.py:40
+#: addon\globalPlugins\objPad.py:82
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr "Перемикає режими ObjPad між звичайним, об’єктною навігацією та скануванням"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:48
+#: addon\globalPlugins\objPad.py:90
 msgid "Object nav mode"
 msgstr "Режим об’єктної навігації"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:52
+#: addon\globalPlugins\objPad.py:94
 msgid "Browse mode"
 msgstr "Режим огляду"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:56
+#: addon\globalPlugins\objPad.py:98
 msgid "Scan mode"
 msgstr "Режим сканування"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:60
+#: addon\globalPlugins\objPad.py:102
 msgid "Normal mode"
 msgstr "Звичайний режим"
 
-#: addon\globalPlugins\objPad.py:86
+#: addon\globalPlugins\objPad.py:128
 msgid "default"
 msgstr "початково"
 
-#: addon\globalPlugins\objPad.py:87
+#: addon\globalPlugins\objPad.py:129
 msgid "headings"
 msgstr "заголовки"
 
-#: addon\globalPlugins\objPad.py:88
+#: addon\globalPlugins\objPad.py:130
 msgid "tables"
 msgstr "таблиці"
 
-#: addon\globalPlugins\objPad.py:89
+#: addon\globalPlugins\objPad.py:131
 msgid "links"
 msgstr "посилання"
 
-#: addon\globalPlugins\objPad.py:90
+#: addon\globalPlugins\objPad.py:132
 msgid "form fields"
 msgstr "поля форми"
 
-#: addon\globalPlugins\objPad.py:91
+#: addon\globalPlugins\objPad.py:133
 msgid "lists"
 msgstr "списки"
 
-#: addon\globalPlugins\objPad.py:92
+#: addon\globalPlugins\objPad.py:134
 msgid "frames"
 msgstr "фрейми"
 
-#: addon\globalPlugins\objPad.py:94
+#: addon\globalPlugins\objPad.py:136
 msgid "landmarks"
 msgstr "орієнтири"
 
-#: addon\globalPlugins\objPad.py:95
+#: addon\globalPlugins\objPad.py:137
 msgid "embedded objects"
 msgstr "вбудовані об'єкти"
 
-#: addon\globalPlugins\objPad.py:96
+#: addon\globalPlugins\objPad.py:138
 msgid "text paragraphs"
 msgstr "абзаци"
 
 #. Translators: a message when there is no next object when navigating
-#: addon\globalPlugins\objPad.py:203
+#: addon\globalPlugins\objPad.py:245
 msgid "No next"
 msgstr "Немає наступного"
 
 #. Translators: a message when there is no previous object when navigating
-#: addon\globalPlugins\objPad.py:244
+#: addon\globalPlugins\objPad.py:286
 msgid "No previous"
 msgstr "Немає попереднього"
-
-#. Add-on summary/title, usually the user visible name of the add-on
-#. Translators: Summary/title for this add-on
-#. to be shown on installation and add-on information found in add-on store
-#: buildVars.py:21
-msgid "ObjPad"
-msgstr "ObjPad"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
