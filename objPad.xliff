@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/ChrisDuffley/objPad/294a285c055c76d2e136107607ef176122577fcb/readme.md">
+<file id="readme.md" original="https://raw.githubusercontent.com/ChrisDuffley/objPad/9855134c82183ab945876c601e28a487385b65b8/readme.md">
 <skeleton>
 # $(ID:194da8af-f65e-4ce0-b819-58d0d0345153)
 
@@ -40,7 +40,7 @@ $(ID:3c094741-3c79-4d02-ba39-73b6fabef8e9)
 $(ID:4233ad82-2b28-4488-98f1-2524e6f55513)
 
 * $(ID:0a0bfd88-2a59-496f-a947-64e278af4edf)
-* $(ID:5aca8ef2-5445-4da0-9b55-28613a4d7811)
+* $(ID:3fc28781-e6e1-41ec-ad09-dfe04bda4908)
 
 $(ID:258c5b6d-2565-416b-8f77-b5986aaf2fed)
 
@@ -51,6 +51,10 @@ $(ID:258c5b6d-2565-416b-8f77-b5986aaf2fed)
 * $(ID:386403f4-29bf-492f-9837-239a41fd8aa0)
 * $(ID:c929b931-08bc-44d3-9606-67c195bcbf89)
 * $(ID:15a518e1-8b61-4386-973f-7e3c8d0e8f06)
+
+## $(ID:226a7994-4e1c-484d-b6a5-450f3934fdb7)
+
+$(ID:61ce4a7e-f5a0-4e92-8720-3834fb3a00e7)
 
 $(ID:26d06293-2e30-47fc-8c88-2d6e8dcfbc09)
 
@@ -276,13 +280,13 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 <source>In NVDA 2025.3.3 and 2026.1, additional browse mode elements include frame, graphic, landmark, embedded object, and text paragraph.</source>
 </segment>
 </unit>
-<unit id="5aca8ef2-5445-4da0-9b55-28613a4d7811">
+<unit id="3fc28781-e6e1-41ec-ad09-dfe04bda4908">
 <notes>
 <note appliesTo="source">line: 40</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
-<source>In NVDA 2026.2 running on a touchscreen computer, additional browse mode elements can be added via NVDA's browse mode settings.</source>
+<source>In NVDA 2026.2, additional browse mode elements can be added via NVDA's browse mode settings or from a dedicated ObjPad settings interface (see below).</source>
 </segment>
 </unit>
 <unit id="258c5b6d-2565-416b-8f77-b5986aaf2fed">
@@ -356,9 +360,26 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 <source>SPACE or ENTER: activate.</source>
 </segment>
 </unit>
-<unit id="26d06293-2e30-47fc-8c88-2d6e8dcfbc09">
+<unit id="226a7994-4e1c-484d-b6a5-450f3934fdb7">
 <notes>
 <note appliesTo="source">line: 52</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>ObjPad settings</source>
+</segment>
+</unit>
+<unit id="61ce4a7e-f5a0-4e92-8720-3834fb3a00e7">
+<notes>
+<note appliesTo="source">line: 54</note>
+</notes>
+<segment>
+<source>In NVDA 2026.2, a dedicated setting is introduced to configure available browse mode navigation elements for use in touch browse mode. With NVDA installed on a touch capable computer, this setting can be found in browse mode settings. On non-touch devices or portable NVDA versions, ObjPad offers this same setting via ObjPad settings interface (part of NVDA settings screen).</source>
+</segment>
+</unit>
+<unit id="26d06293-2e30-47fc-8c88-2d6e8dcfbc09">
+<notes>
+<note appliesTo="source">line: 56</note>
 </notes>
 <segment>
 <source>For a list of changes made between each add-on releases, refer to [changelogs for add-on releases][1] document.</source>
@@ -366,7 +387,7 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 </unit>
 <unit id="90459eb2-1b81-4c92-9f2d-a848cdea1cdd">
 <notes>
-<note appliesTo="source">line: 54</note>
+<note appliesTo="source">line: 58</note>
 </notes>
 <segment>
 <source>[1]: https://github.com/ChrisDuffley/objPad/blob/master/changes.md</source>
