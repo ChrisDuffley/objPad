@@ -2,6 +2,10 @@
 
 This page lists the complete changelog for ObjPad add-on releases.
 
+## Version 26.08
+
+* In NVDA 2026.2 running on non-touch devices or portable versions, added ObjPad settings (NVDA settings screen) to configure browse mode navigation elements.
+
 ## Version 26.07
 
 * Removed add-on changelog from add-on help (readme) file.
