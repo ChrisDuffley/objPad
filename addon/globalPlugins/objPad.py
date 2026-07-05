@@ -18,7 +18,10 @@ import textInfos
 import speech
 import controlTypes
 import enum
+import gui
+import wx
 from scriptHandler import script
+import config
 import inputCore
 import addonHandler
 addonHandler.initTranslation()
@@ -29,6 +32,34 @@ class ObjPadMode(enum.IntEnum):
 	OBJNAV = 1  # Arrow keys perform object navigation commands
 	WEBBROWSE = 2  # Arrow keys move by web (browse mode ) elements
 	SCANMODE = 3  # Arrow keys move through text across objects
+
+
+class ObjPadPanel(gui.settingsDialogs.SettingsPanel):
+	# Translators: This is the label for the AudioScreen settings panel.
+	title = _("ObjPad")
+
+	def makeSettings(self, settingsSizer: wx.BoxSizer):
+		objPadHelper = gui.guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
+
+		# Source: NVDA Core (2026.2)
+		# Store element types for use in onSave (excludes the always-active "default" entry).
+		self._browseModeElements = list(browseMode.BrowseModeTreeInterceptor._browseTouchNavRegistry)
+		self._browseModeCheckListBox: gui.nvdaControls.CustomCheckListBox = objPadHelper.addLabeledControl(
+			# Translators: Label for the list of browse mode navigation element types in ObjPad settings.
+			_("&Browse mode navigation elements:"),
+			gui.nvdaControls.CustomCheckListBox,
+			choices=[label for _itemType, label in self._browseModeElements],
+		)
+		enabledTypes = set(config.conf["virtualBuffers"]["browseModeTouchNavigationElements"])
+		for i, (itemType, _label) in enumerate(self._browseModeElements):
+			self._browseModeCheckListBox.Check(i, itemType in enabledTypes)
+
+	def onSave(self):
+		config.conf["virtualBuffers"]["browseModeTouchNavigationElements"] = [
+			itemType
+			for i, (itemType, _label) in enumerate(self._browseModeElements)
+			if self._browseModeCheckListBox.IsChecked(i)
+		]
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
