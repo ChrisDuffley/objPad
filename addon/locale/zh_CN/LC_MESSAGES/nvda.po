@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-07-05 20:01+0000\n"
-"PO-Revision-Date: 2026-07-05 20:03\n"
+"POT-Creation-Date: 2026-07-10 15:51+0000\n"
+"PO-Revision-Date: 2026-07-10 15:53\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -28,7 +28,7 @@ msgstr "简易导航器"
 #. Translators: Label for the list of browse mode navigation element types in ObjPad settings.
 #: addon\globalPlugins\objPad.py:50
 msgid "&Browse mode navigation elements:"
-msgstr ""
+msgstr "浏览模式导航元素(&B)："
 
 #. Translators: input help mode message for ObjPad toggle command.
 #: addon\globalPlugins\objPad.py:82
@@ -114,12 +114,6 @@ msgstr "一键执行各种对象快捷键，包括导航等"
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid "* Removed add-on changelog from add-on help (readme) file.\n"
-"* If running NVDA 2026.2, add-on browse mode elements will be limited to default (all elements), headings, tables, links, form fields, and lists. On touchscreen computers, additional browse mode elements can be added via NVDA's browse mode settings.\n"
-"* The \"default (all elements)\" mode in browse mode is now called \"default\" mode to match messaging from NVDA 2026.2's touch browse mode.\n"
-"* Added graphics navigation to browse mode (NVDA 2025.3.3 and 2026.1)."
-msgstr "* 已从插件帮助（自述文件）中移除插件更新日志。\n"
-"* 如果运行 NVDA 2026.2，插件的浏览模式元素将仅限于默认（所有元素）、标题、表格、链接、表单字段和列表。可在具有触摸屏的计算机通过 NVDA 的浏览模式设置添加其他浏览模式元素。\n"
-"* 浏览模式下的“默认（所有元素）”模式现已更名为“默认”模式，以匹配 NVDA 2026.2 触摸浏览模式中的表述。\n"
-"* 为浏览模式添加了图形导航（NVDA 2025.3.3 和 2026.1）。"
+msgid "* In NVDA 2026.2 running on non-touch devices or portable versions, added ObjPad settings (NVDA settings screen) to configure browse mode navigation elements."
+msgstr ""
 
