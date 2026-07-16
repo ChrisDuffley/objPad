@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-07-05 20:01+0000\n"
-"PO-Revision-Date: 2026-07-05 20:04\n"
+"POT-Creation-Date: 2026-07-10 15:51+0000\n"
+"PO-Revision-Date: 2026-07-16 10:20\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -28,7 +28,7 @@ msgstr "Nesne Dolaşımı"
 #. Translators: Label for the list of browse mode navigation element types in ObjPad settings.
 #: addon\globalPlugins\objPad.py:50
 msgid "&Browse mode navigation elements:"
-msgstr ""
+msgstr "&Göz atma modu dolaşım öğeleri:"
 
 #. Translators: input help mode message for ObjPad toggle command.
 #: addon\globalPlugins\objPad.py:82
@@ -114,12 +114,6 @@ msgstr "Bir tuşla çeşitli nesne komutlarını gerçekleştirin"
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid "* Removed add-on changelog from add-on help (readme) file.\n"
-"* If running NVDA 2026.2, add-on browse mode elements will be limited to default (all elements), headings, tables, links, form fields, and lists. On touchscreen computers, additional browse mode elements can be added via NVDA's browse mode settings.\n"
-"* The \"default (all elements)\" mode in browse mode is now called \"default\" mode to match messaging from NVDA 2026.2's touch browse mode.\n"
-"* Added graphics navigation to browse mode (NVDA 2025.3.3 and 2026.1)."
-msgstr "* Eklenti değişiklik günlüğü, eklenti yardım (readme) dosyasından kaldırıldı.\n"
-"* NVDA 2026.2 çalıştırılıyorsa, eklenti tarama modu öğeleri varsayılan (tüm öğeler), başlıklar, tablolar, bağlantılar, form alanları ve listelerle sınırlı olacaktır. Dokunmatik ekranlı bilgisayarlarda, NVDA'nın tarama modu ayarları aracılığıyla ek tarama modu öğeleri eklenebilir.\n"
-"* Tarama modundaki \"varsayılan (tüm öğeler)\" modu artık NVDA 2026.2'nin dokunmatik Tarama modundaki mesajlaşmayla eşleşecek şekilde \"varsayılan\" mod olarak adlandırılıyor.\n"
-"* Tarama moduna grafik dolaşımı eklendi (NVDA 2025.3.3 ve 2026.1)."
+msgid "* In NVDA 2026.2 running on non-touch devices or portable versions, added ObjPad settings (NVDA settings screen) to configure browse mode navigation elements."
+msgstr "* Dokunmatik olmayan cihazlarda veya taşınabilir sürümlerde çalışan NVDA 2026.2'de, Göz atma modundaki dolaşım öğelerini yapılandırmak için Nesne Dolaşımı ayarları (NVDA ayarlar ekranı) eklendi."
 
