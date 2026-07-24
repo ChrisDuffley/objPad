@@ -79,7 +79,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	@script(
 		# Translators: input help mode message for ObjPad toggle command.
-		description=_("Toggles ObjPad mode between normal, object nav and scan modes"),
+		description=_("Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"),
 		category=SCRCAT_OBJECTNAVIGATION,
 		gesture="kb:control+NvDA+tab"
 	)
