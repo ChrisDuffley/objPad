@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2026-07-24 15:37+0000\n"
-"PO-Revision-Date: 2026-07-24 15:38\n"
+"PO-Revision-Date: 2026-07-31 15:50\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -33,7 +33,7 @@ msgstr "浏览模式导航元素(&B)："
 #. Translators: input help mode message for ObjPad toggle command.
 #: addon\globalPlugins\objPad.py:82
 msgid "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
-msgstr ""
+msgstr "简易导航切换（在正常模式、对象导航模式、浏览模式和扫描模式之间切换）"
 
 #. Translators: one of the object arrow modes.
 #: addon\globalPlugins\objPad.py:90
