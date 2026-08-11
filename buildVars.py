@@ -21,7 +21,7 @@ addon_info = AddonInfo(
 	addon_summary=_("ObjPad"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-on store
-	addon_description=_("""Perform various object commands by pressing a single key, including navigation and more"""),
+	addon_description=_("""Perform various NVDA object commands by pressing a single key, including navigation and more."""),
 	# version
 	addon_version="26.08",
 	# Brief changelog for this version
