@@ -2,7 +2,7 @@
 
 * Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
 
-This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
+Perform various NVDA object commands by pressing a single key, including navigation and more.
 
 ## Commands
 
