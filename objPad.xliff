@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/ChrisDuffley/objPad/cc2ad95671ce2f2322d45305e0c93ecee1793fae/readme.md">
+<file id="readme.md" original="https://raw.githubusercontent.com/ChrisDuffley/objPad/bb04101592eee5898944ad8414b079a03e6a9834/readme.md">
 <skeleton>
 # $(ID:194da8af-f65e-4ce0-b819-58d0d0345153)
 
 * $(ID:616d1ec9-51c6-433c-835f-3816a3519e25)
 
-$(ID:19b901cd-e490-4998-8c79-241f3f8d2b9e)
+$(ID:6c83d934-e235-4af5-af22-f9ff1cc10451)
 
 ## $(ID:8a567dce-837d-4343-a603-cebf48e27fce)
 
@@ -78,12 +78,12 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 <source>Author: Christopher Duffley &lt;nvda@chrisduffley.com&gt;, originally by Joseph Lee, Cleverson Uliana and others</source>
 </segment>
 </unit>
-<unit id="19b901cd-e490-4998-8c79-241f3f8d2b9e">
+<unit id="6c83d934-e235-4af5-af22-f9ff1cc10451">
 <notes>
 <note appliesTo="source">line: 6</note>
 </notes>
 <segment>
-<source>This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.</source>
+<source>Perform various NVDA object commands by pressing a single key, including navigation and more.</source>
 </segment>
 </unit>
 <unit id="8a567dce-837d-4343-a603-cebf48e27fce">
