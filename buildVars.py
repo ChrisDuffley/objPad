@@ -26,7 +26,7 @@ addon_info = AddonInfo(
 	addon_version="26.08",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
-	addon_changelog=_("""* In NVDA 2026.2 running on non-touch devices or portable versions, added ObjPad settings (NVDA settings screen) to configure browse mode navigation elements."""),
+	addon_changelog=_("""* NVDA 2026.2 or later is required."""),
 	# Author(s)
 	addon_author="Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee <joseph.lee22590@gmail.com>",
 	# URL for the add-on documentation support
