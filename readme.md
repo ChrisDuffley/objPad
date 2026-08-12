@@ -25,18 +25,13 @@ The following commands are available with arrow keys set to object nav:
 * Down arrow: first child object.
 * SPACE or ENTER: activate.
 
-With browse mode active (elements are default (moving by object/all elements), heading, table, link, form field, list):
+With browse mode active (elements are default (moving by object/all elements), heading, table, link, form field, list; additional browse mode elements can be added via NVDA's browse mode settings or from a dedicated ObjPad settings interface (see below)):
 
 * Right arrow: next element.
 * Left arrow: previous element.
 * Up arrow: previous element type.
 * Down arrow: next element type.
 * SPACE or ENTER: activate.
-
-Notes:
-
-* In NVDA 2025.3.3 and 2026.1, additional browse mode elements include frame, graphic, landmark, embedded object, and text paragraph.
-* In NVDA 2026.2, additional browse mode elements can be added via NVDA's browse mode settings or from a dedicated ObjPad settings interface (see below).
 
 With scan mode active:
 
