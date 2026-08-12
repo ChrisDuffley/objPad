@@ -2,7 +2,7 @@
 
 * 作者：Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
 
-此插件提供了一组快捷键来处理屏幕上的对象，包括导航和其他可能性。
+Perform various NVDA object commands by pressing a single key, including navigation and more.
 
 ## 快捷键
 
