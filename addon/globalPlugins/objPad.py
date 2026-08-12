@@ -8,7 +8,6 @@
 # Browse mode comes from Enhanced Touch Gestures.
 # Parts of source code are enhanced implementations of NVDA Core commands (copyright NV Access).
 
-from typing import NamedTuple
 import globalPluginHandler
 import ui
 from globalCommands import commands, SCRCAT_OBJECTNAVIGATION
