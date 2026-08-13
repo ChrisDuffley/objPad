@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/ChrisDuffley/objPad/bb04101592eee5898944ad8414b079a03e6a9834/readme.md">
+<file id="readme.md" original="https://raw.githubusercontent.com/ChrisDuffley/objPad/70435d0b7f910b1e9fc6d9d94cff1de4770c8d37/readme.md">
 <skeleton>
 # $(ID:194da8af-f65e-4ce0-b819-58d0d0345153)
 
@@ -29,18 +29,13 @@ $(ID:aa7d48a8-b2ac-456c-81a1-514625b0b5b7)
 * $(ID:d5870e94-c378-4bd7-b71b-2b13be156c05)
 * $(ID:70c7c859-8a5d-4206-ac2c-ac6e451c56b9)
 
-$(ID:3c094741-3c79-4d02-ba39-73b6fabef8e9)
+$(ID:8828f8f1-6e52-4045-809d-9ebc6fe1a027)
 
 * $(ID:9321ffe7-a9c8-4f3a-8074-fddac7cb4c5c)
 * $(ID:c6f904fb-ab77-492e-aa25-d601845b1890)
 * $(ID:24f4ef52-2503-4292-8f1d-3877042f1df5)
 * $(ID:24a8929e-3ee8-4454-86d4-c56361f017c2)
 * $(ID:b8ca94ba-57ee-4702-931d-d26347bd68db)
-
-$(ID:4233ad82-2b28-4488-98f1-2524e6f55513)
-
-* $(ID:0a0bfd88-2a59-496f-a947-64e278af4edf)
-* $(ID:3fc28781-e6e1-41ec-ad09-dfe04bda4908)
 
 $(ID:258c5b6d-2565-416b-8f77-b5986aaf2fed)
 
@@ -210,12 +205,12 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 <source>SPACE or ENTER: activate.</source>
 </segment>
 </unit>
-<unit id="3c094741-3c79-4d02-ba39-73b6fabef8e9">
+<unit id="8828f8f1-6e52-4045-809d-9ebc6fe1a027">
 <notes>
 <note appliesTo="source">line: 29</note>
 </notes>
 <segment>
-<source>With browse mode active (elements are default (moving by object/all elements), heading, table, link, form field, list):</source>
+<source>With browse mode active (elements are default (moving by object/all elements), heading, table, link, form field, list; additional browse mode elements can be added via NVDA's browse mode settings or from a dedicated ObjPad settings interface (see below)):</source>
 </segment>
 </unit>
 <unit id="9321ffe7-a9c8-4f3a-8074-fddac7cb4c5c">
@@ -263,35 +258,9 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 <source>SPACE or ENTER: activate.</source>
 </segment>
 </unit>
-<unit id="4233ad82-2b28-4488-98f1-2524e6f55513">
-<notes>
-<note appliesTo="source">line: 37</note>
-</notes>
-<segment>
-<source>Notes:</source>
-</segment>
-</unit>
-<unit id="0a0bfd88-2a59-496f-a947-64e278af4edf">
-<notes>
-<note appliesTo="source">line: 39</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>In NVDA 2025.3.3 and 2026.1, additional browse mode elements include frame, graphic, landmark, embedded object, and text paragraph.</source>
-</segment>
-</unit>
-<unit id="3fc28781-e6e1-41ec-ad09-dfe04bda4908">
-<notes>
-<note appliesTo="source">line: 40</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>In NVDA 2026.2, additional browse mode elements can be added via NVDA's browse mode settings or from a dedicated ObjPad settings interface (see below).</source>
-</segment>
-</unit>
 <unit id="258c5b6d-2565-416b-8f77-b5986aaf2fed">
 <notes>
-<note appliesTo="source">line: 42</note>
+<note appliesTo="source">line: 37</note>
 </notes>
 <segment>
 <source>With scan mode active:</source>
@@ -299,7 +268,7 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 </unit>
 <unit id="d7d0db8f-95a3-4692-a0c4-9e8ee5482ecf">
 <notes>
-<note appliesTo="source">line: 44</note>
+<note appliesTo="source">line: 39</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -308,7 +277,7 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 </unit>
 <unit id="b6cb71f4-7daa-4fe1-9ed4-d45f0bfd8889">
 <notes>
-<note appliesTo="source">line: 45</note>
+<note appliesTo="source">line: 40</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -317,7 +286,7 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 </unit>
 <unit id="47144349-6611-4ed9-8db7-20b6f7ac15d1">
 <notes>
-<note appliesTo="source">line: 46</note>
+<note appliesTo="source">line: 41</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -326,7 +295,7 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 </unit>
 <unit id="be7c891c-549f-4901-b1b9-3873428c9da0">
 <notes>
-<note appliesTo="source">line: 47</note>
+<note appliesTo="source">line: 42</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -335,7 +304,7 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 </unit>
 <unit id="386403f4-29bf-492f-9837-239a41fd8aa0">
 <notes>
-<note appliesTo="source">line: 48</note>
+<note appliesTo="source">line: 43</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -344,7 +313,7 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 </unit>
 <unit id="c929b931-08bc-44d3-9606-67c195bcbf89">
 <notes>
-<note appliesTo="source">line: 49</note>
+<note appliesTo="source">line: 44</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -353,7 +322,7 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 </unit>
 <unit id="15a518e1-8b61-4386-973f-7e3c8d0e8f06">
 <notes>
-<note appliesTo="source">line: 50</note>
+<note appliesTo="source">line: 45</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -362,7 +331,7 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 </unit>
 <unit id="226a7994-4e1c-484d-b6a5-450f3934fdb7">
 <notes>
-<note appliesTo="source">line: 52</note>
+<note appliesTo="source">line: 47</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -371,7 +340,7 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 </unit>
 <unit id="61ce4a7e-f5a0-4e92-8720-3834fb3a00e7">
 <notes>
-<note appliesTo="source">line: 54</note>
+<note appliesTo="source">line: 49</note>
 </notes>
 <segment>
 <source>In NVDA 2026.2, a dedicated setting is introduced to configure available browse mode navigation elements for use in touch browse mode. With NVDA installed on a touch capable computer, this setting can be found in browse mode settings. On non-touch devices or portable NVDA versions, ObjPad offers this same setting via ObjPad settings interface (part of NVDA settings screen).</source>
@@ -379,7 +348,7 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 </unit>
 <unit id="26d06293-2e30-47fc-8c88-2d6e8dcfbc09">
 <notes>
-<note appliesTo="source">line: 56</note>
+<note appliesTo="source">line: 51</note>
 </notes>
 <segment>
 <source>For a list of changes made between each add-on releases, refer to [changelogs for add-on releases][1] document.</source>
@@ -387,7 +356,7 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 </unit>
 <unit id="90459eb2-1b81-4c92-9f2d-a848cdea1cdd">
 <notes>
-<note appliesTo="source">line: 58</note>
+<note appliesTo="source">line: 53</note>
 </notes>
 <segment>
 <source>[1]: https://github.com/ChrisDuffley/objPad/blob/master/changes.md</source>
