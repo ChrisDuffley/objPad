@@ -2,7 +2,7 @@
 
 * 作者：Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
 
-Perform various NVDA object commands by pressing a single key, including navigation and more.
+通过按单键执行各种 NVDA 对象命令，包括导航等操作。
 
 ## 快捷键
 
@@ -25,18 +25,13 @@ Perform various NVDA object commands by pressing a single key, including navigat
 * 下光标：第一个子对象。
 * 空格或回车：激活。
 
-光标键设置为浏览模式时（可按默认元素（按对象或所有元素）、标题、表格、链接、表单字段、列表移动）：
+With browse mode active (elements are default (moving by object/all elements), heading, table, link, form field, list; additional browse mode elements can be added via NVDA's browse mode settings or from a dedicated ObjPad settings interface (see below)):
 
 * 右光标：下一个元素。
 * 左光标：上一个元素。
 * 上光标：上一个元素类型。
 * 下光标：下一个元素类型。
 * 空格或回车：激活。
-
-注意：
-
-* 在 NVDA 2025.3.3 和 2026.1 中，新增了下列浏览模式元素：框架、图形、路标、嵌入式对象和文本段落。
-* 在 NVDA 2026.2 中，可通过 NVDA 的浏览模式设置或从专用的 ObjPad 设置界面（见下文）添加其他浏览模式元素。
 
 光标键设置为扫描模式时：
 

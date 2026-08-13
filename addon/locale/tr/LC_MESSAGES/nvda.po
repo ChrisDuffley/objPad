@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-08-12 00:21+0000\n"
-"PO-Revision-Date: 2026-08-12 00:24\n"
+"POT-Creation-Date: 2026-08-13 14:09+0000\n"
+"PO-Revision-Date: 2026-08-13 14:12\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -21,87 +21,47 @@ msgstr ""
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
-#: addon\globalPlugins\objPad.py:40 buildVars.py:21
+#: addon\globalPlugins\objPad.py:39 buildVars.py:21
 msgid "ObjPad"
 msgstr "Nesne Dolaşımı"
 
 #. Translators: Label for the list of browse mode navigation element types in ObjPad settings.
-#: addon\globalPlugins\objPad.py:50
+#: addon\globalPlugins\objPad.py:49
 msgid "&Browse mode navigation elements:"
 msgstr "&Göz atma modu dolaşım öğeleri:"
 
 #. Translators: input help mode message for ObjPad toggle command.
-#: addon\globalPlugins\objPad.py:82
+#: addon\globalPlugins\objPad.py:81
 msgid "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
 msgstr "Nesne Dolaşımı modu normal, nesne dolaşımı, Tarama modu öğeleri ve tarama modları arasında değiştirir"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:90
+#: addon\globalPlugins\objPad.py:89
 msgid "Object nav mode"
 msgstr "Nesne dolaşım modu"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:94
+#: addon\globalPlugins\objPad.py:93
 msgid "Browse mode"
 msgstr "Göz atma modu"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:98
+#: addon\globalPlugins\objPad.py:97
 msgid "Scan mode"
 msgstr "Tarama modu"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:102
+#: addon\globalPlugins\objPad.py:101
 msgid "Normal mode"
 msgstr "Normal mod"
 
-#: addon\globalPlugins\objPad.py:128
-msgid "default"
-msgstr "varsayılan"
-
-#: addon\globalPlugins\objPad.py:129
-msgid "headings"
-msgstr "başlıklar"
-
-#: addon\globalPlugins\objPad.py:130
-msgid "tables"
-msgstr "tablolar"
-
-#: addon\globalPlugins\objPad.py:131
-msgid "links"
-msgstr "linkler"
-
-#: addon\globalPlugins\objPad.py:132
-msgid "form fields"
-msgstr "form alanları"
-
-#: addon\globalPlugins\objPad.py:133
-msgid "lists"
-msgstr "listeler"
-
-#: addon\globalPlugins\objPad.py:134
-msgid "frames"
-msgstr "çerçeveler"
-
-#: addon\globalPlugins\objPad.py:136
-msgid "landmarks"
-msgstr "sınırimleri"
-
-#: addon\globalPlugins\objPad.py:137
-msgid "embedded objects"
-msgstr "gömülü nesneler"
-
-#: addon\globalPlugins\objPad.py:138
-msgid "text paragraphs"
-msgstr "metin paragrafları"
-
 #. Translators: a message when there is no next object when navigating
-#: addon\globalPlugins\objPad.py:245
+#: addon\globalPlugins\objPad.py:179
 msgid "No next"
 msgstr "Başka yok"
 
 #. Translators: a message when there is no previous object when navigating
-#: addon\globalPlugins\objPad.py:286
+#: addon\globalPlugins\objPad.py:213
 msgid "No previous"
 msgstr "Başka yok"
 
@@ -109,11 +69,11 @@ msgstr "Başka yok"
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
 #: buildVars.py:24
 msgid "Perform various NVDA object commands by pressing a single key, including navigation and more."
-msgstr ""
+msgstr "Dolaşım ve daha fazlasını içeren çeşitli NVDA nesne komutlarını tek bir tuşa basarak gerçekleştirir."
 
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid "* In NVDA 2026.2 running on non-touch devices or portable versions, added ObjPad settings (NVDA settings screen) to configure browse mode navigation elements."
-msgstr "* Dokunmatik olmayan cihazlarda veya taşınabilir sürümlerde çalışan NVDA 2026.2'de, Göz atma modundaki dolaşım öğelerini yapılandırmak için Nesne Dolaşımı ayarları (NVDA ayarlar ekranı) eklendi."
+msgid "* NVDA 2026.2 or later is required."
+msgstr ""
 
