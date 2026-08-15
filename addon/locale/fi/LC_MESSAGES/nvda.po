@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-09-14 17:50+0000\n"
-"PO-Revision-Date: 2025-12-01 01:10\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-08-13 14:09+0000\n"
+"PO-Revision-Date: 2026-08-15 00:46\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
@@ -17,83 +17,63 @@ msgstr ""
 "X-Crowdin-File: objPad.pot\n"
 "X-Crowdin-File-ID: 356\n"
 
+#. Translators: This is the label for the AudioScreen settings panel.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: addon\globalPlugins\objPad.py:39 buildVars.py:21
+msgid "ObjPad"
+msgstr "ObjPad"
+
+#. Translators: Label for the list of browse mode navigation element types in ObjPad settings.
+#: addon\globalPlugins\objPad.py:49
+msgid "&Browse mode navigation elements:"
+msgstr "&Browse mode navigation elements:"
+
 #. Translators: input help mode message for ObjPad toggle command.
-#: addon/globalPlugins/objPad.py:35
-msgid "Toggles ObjPad mode between normal, object nav and scan modes"
-msgstr "Vaihtaa normaalin, objektinavigointi- ja skannaustilan välillä."
+#: addon\globalPlugins\objPad.py:81
+msgid "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
+msgstr "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:43
+#: addon\globalPlugins\objPad.py:89
 msgid "Object nav mode"
 msgstr "Objektinavigointitila"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:47
-msgid "Web mode"
-msgstr "Verkkotila"
+#: addon\globalPlugins\objPad.py:93
+msgid "Browse mode"
+msgstr "Selaustila"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:51
+#: addon\globalPlugins\objPad.py:97
 msgid "Scan mode"
 msgstr "Skannaustila"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:55
+#: addon\globalPlugins\objPad.py:101
 msgid "Normal mode"
 msgstr "Normaali tila"
 
-#: addon/globalPlugins/objPad.py:75
-msgid "normal"
-msgstr "normaali"
-
-#: addon/globalPlugins/objPad.py:75
-msgid "Link"
-msgstr "Linkki"
-
-#: addon/globalPlugins/objPad.py:75
-msgid "Form field"
-msgstr "Lomakekenttä"
-
-#: addon/globalPlugins/objPad.py:75
-msgid "Heading"
-msgstr "Otsikko"
-
-#: addon/globalPlugins/objPad.py:75
-msgid "Frame"
-msgstr "Kehys"
-
-#: addon/globalPlugins/objPad.py:75
-msgid "Table"
-msgstr "Taulukko"
-
-#: addon/globalPlugins/objPad.py:75
-msgid "List"
-msgstr "Luettelo"
-
-#: addon/globalPlugins/objPad.py:75
-msgid "Landmark"
-msgstr "Kiintopiste"
-
 #. Translators: a message when there is no next object when navigating
-#: addon/globalPlugins/objPad.py:186
+#: addon\globalPlugins\objPad.py:179
 msgid "No next"
 msgstr "Ei seuraavaa"
 
 #. Translators: a message when there is no previous object when navigating
-#: addon/globalPlugins/objPad.py:220
+#: addon\globalPlugins\objPad.py:213
 msgid "No previous"
 msgstr "Ei edellistä"
 
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on
-#. to be shown on installation and add-on information.
-#: buildVars.py:23
-msgid "ObjPad"
-msgstr "ObjPad"
-
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#: buildVars.py:26
-msgid "Perform various object commands by pressing a single key, including navigation and more"
-msgstr "Suorittaa objektille eri komentoja yksittäistä näppäintä painamalla, mukaan lukien objektinavigointi ja paljon muuta"
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
+msgid "Perform various NVDA object commands by pressing a single key, including navigation and more."
+msgstr "Perform various NVDA object commands by pressing a single key, including navigation and more."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:29
+msgid "* NVDA 2026.2 or later is required."
+msgstr ""
 
