@@ -4,7 +4,7 @@ This page lists the complete changelog for ObjPad add-on releases.
 
 ## Version 26.09
 
-* NVDA 2026.2 or later is required.
+* NVDA 2026.2 (64-bit) or later is required.
 
 ## Version 26.08
 
