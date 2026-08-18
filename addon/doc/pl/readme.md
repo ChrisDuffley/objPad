@@ -23,7 +23,6 @@ Komendy trybu nawigacji:
 * Strzałka w lewo: poprzedni obiekt.
 * Strzałka w górę: obiekt nadrzędny.
 * Strzałka w dół: pierwszy obiekt podrzędny.
-Strzałka w dół: pierwszy obiekt podrzędny.
 * SPACJA lub ENTER: aktywuj.
 
 W aktywnym trybie sieciowym, można przemieszczać się po elementach standardowo lub poruszać się po obiektach, linkach, polach formularza, nagłówkach, ramkach, tabelach, listach, punktach orientacyjnych:
