@@ -25,7 +25,7 @@
 * 下光标：第一个子对象。
 * 空格或回车：激活。
 
-With browse mode active (elements are default (moving by object/all elements), heading, table, link, form field, list; additional browse mode elements can be added via NVDA's browse mode settings or from a dedicated ObjPad settings interface (see below)):
+光标键设置为浏览模式时（可按默认元素（按对象或所有元素）、标题、表格、链接、表单字段、列表移动，可通过 NVDA 的浏览模式设置或从专用的 ObjPad 设置界面（见下文）添加其他浏览模式元素）：
 
 * 右光标：下一个元素。
 * 左光标：上一个元素。

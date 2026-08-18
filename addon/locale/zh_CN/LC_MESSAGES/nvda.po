@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-08-13 14:09+0000\n"
-"PO-Revision-Date: 2026-08-13 14:11\n"
+"POT-Creation-Date: 2026-08-18 07:51+0000\n"
+"PO-Revision-Date: 2026-08-18 07:52\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -74,6 +74,6 @@ msgstr "通过按单键执行各种 NVDA 对象命令，包括导航等操作。
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid "* NVDA 2026.2 or later is required."
+msgid "* NVDA 2026.2 (64-bit) or later is required."
 msgstr ""
 
