@@ -36,7 +36,7 @@ class ObjPadMode(enum.IntEnum):
 
 
 class ObjPadPanel(gui.settingsDialogs.SettingsPanel):
-	# Translators: This is the label for the AudioScreen settings panel.
+	# Translators: This is the label for the ObjPad settings panel.
 	title = _("ObjPad")
 
 	def makeSettings(self, settingsSizer: wx.BoxSizer):
