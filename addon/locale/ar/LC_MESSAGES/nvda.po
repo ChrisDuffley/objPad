@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-08-18 07:51+0000\n"
-"PO-Revision-Date: 2026-08-18 07:52\n"
+"POT-Creation-Date: 2026-08-19 17:14+0000\n"
+"PO-Revision-Date: 2026-08-19 17:15\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Crowdin-File: objPad.pot\n"
 "X-Crowdin-File-ID: 356\n"
 
-#. Translators: This is the label for the AudioScreen settings panel.
+#. Translators: This is the label for the ObjPad settings panel.
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
