@@ -1,35 +1,57 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the objPad package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: objPad 18.03\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2018-08-25 15:05+1000\n"
-"PO-Revision-Date: 2018-11-25 22:11+0100\n"
-"Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: sr\n"
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-08-19 17:14+0000\n"
+"PO-Revision-Date: 2026-08-19 17:16\n"
+"Last-Translator: \n"
+"Language-Team: Serbian (Latin)\n"
+"Language: sr_CS\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: sr-CS\n"
+"X-Crowdin-File: objPad.pot\n"
+"X-Crowdin-File-ID: 356\n"
+
+#. Translators: This is the label for the ObjPad settings panel.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: addon\globalPlugins\objPad.py:39 buildVars.py:21
+msgid "ObjPad"
+msgstr "ObjPad"
+
+#. Translators: Label for the list of browse mode navigation element types in ObjPad settings.
+#: addon\globalPlugins\objPad.py:49
+msgid "&Browse mode navigation elements:"
+msgstr "&Browse mode navigation elements:"
+
+#. Translators: input help mode message for ObjPad toggle command.
+#: addon\globalPlugins\objPad.py:81
+msgid "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
+msgstr "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
 
 #. Translators: one of the object arrow modes.
+#: addon\globalPlugins\objPad.py:89
 msgid "Object nav mode"
 msgstr "Režim objektne navigacije"
 
 #. Translators: one of the object arrow modes.
-msgid "Web mode"
-msgstr "Web režim"
+#: addon\globalPlugins\objPad.py:93
+msgid "Browse mode"
+msgstr "Browse mode"
 
 #. Translators: one of the object arrow modes.
+#: addon\globalPlugins\objPad.py:97
 msgid "Scan mode"
 msgstr "Režim skeniranja"
 
 #. Translators: one of the object arrow modes.
+#: addon\globalPlugins\objPad.py:101
 msgid "Normal mode"
 msgstr "Standardan režim"
 
@@ -66,17 +88,14 @@ msgid "Landmark"
 msgstr "Orjentir"
 
 #. Translators: a message when there is no next object when navigating
+#: addon\globalPlugins\objPad.py:179
 msgid "No next"
 msgstr "Nema sledećeg"
 
 #. Translators: a message when there is no previous object when navigating
+#: addon\globalPlugins\objPad.py:213
 msgid "No previous"
 msgstr "Nema prethodnog"
-
-#. Add-on summary, usually the user visible name of the addon.
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-msgid "ObjPad"
-msgstr "ObjPad"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager

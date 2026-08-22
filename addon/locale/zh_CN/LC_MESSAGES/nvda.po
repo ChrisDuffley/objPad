@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-08-12 00:21+0000\n"
-"PO-Revision-Date: 2026-08-12 00:22\n"
+"POT-Creation-Date: 2026-08-19 17:14+0000\n"
+"PO-Revision-Date: 2026-08-19 17:15\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -17,41 +17,41 @@ msgstr ""
 "X-Crowdin-File: objPad.pot\n"
 "X-Crowdin-File-ID: 356\n"
 
-#. Translators: This is the label for the AudioScreen settings panel.
+#. Translators: This is the label for the ObjPad settings panel.
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
-#: addon\globalPlugins\objPad.py:40 buildVars.py:21
+#: addon\globalPlugins\objPad.py:39 buildVars.py:21
 msgid "ObjPad"
 msgstr "简易导航器"
 
 #. Translators: Label for the list of browse mode navigation element types in ObjPad settings.
-#: addon\globalPlugins\objPad.py:50
+#: addon\globalPlugins\objPad.py:49
 msgid "&Browse mode navigation elements:"
 msgstr "浏览模式导航元素(&B)："
 
 #. Translators: input help mode message for ObjPad toggle command.
-#: addon\globalPlugins\objPad.py:82
+#: addon\globalPlugins\objPad.py:81
 msgid "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
 msgstr "简易导航切换（在正常模式、对象导航模式、浏览模式和扫描模式之间切换）"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:90
+#: addon\globalPlugins\objPad.py:89
 msgid "Object nav mode"
 msgstr "对象导航模式"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:94
+#: addon\globalPlugins\objPad.py:93
 msgid "Browse mode"
 msgstr "浏览模式"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:98
+#: addon\globalPlugins\objPad.py:97
 msgid "Scan mode"
 msgstr "扫描模式"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:102
+#: addon\globalPlugins\objPad.py:101
 msgid "Normal mode"
 msgstr "正常模式"
 
@@ -96,12 +96,12 @@ msgid "text paragraphs"
 msgstr "文本段落"
 
 #. Translators: a message when there is no next object when navigating
-#: addon\globalPlugins\objPad.py:245
+#: addon\globalPlugins\objPad.py:179
 msgid "No next"
 msgstr "没有下一项"
 
 #. Translators: a message when there is no previous object when navigating
-#: addon\globalPlugins\objPad.py:286
+#: addon\globalPlugins\objPad.py:213
 msgid "No previous"
 msgstr "没有上一项"
 
@@ -109,7 +109,7 @@ msgstr "没有上一项"
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
 #: buildVars.py:24
 msgid "Perform various NVDA object commands by pressing a single key, including navigation and more."
-msgstr ""
+msgstr "通过按单键执行各种 NVDA 对象命令，包括导航等操作。"
 
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store

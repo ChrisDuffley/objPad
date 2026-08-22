@@ -42,3 +42,11 @@ Con la modalità scansione attiva:
 * Control+freccia destra: parola successiva.
 * Control+freccia sinistra: parola precedente.
 * Spazio o invio: attiva.
+
+## ObjPad settings
+
+In NVDA 2026.2, a dedicated setting is introduced to configure available browse mode navigation elements for use in touch browse mode. With NVDA installed on a touch capable computer, this setting can be found in browse mode settings. On non-touch devices or portable NVDA versions, ObjPad offers this same setting via ObjPad settings interface (part of NVDA settings screen).
+
+For a list of changes made between each add-on releases, refer to [changelogs for add-on releases][1] document.
+
+[1]: https://github.com/ChrisDuffley/objPad/blob/master/changes.md
