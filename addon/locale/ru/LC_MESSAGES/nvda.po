@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-08-19 17:14+0000\n"
-"PO-Revision-Date: 2026-08-19 17:16\n"
+"POT-Creation-Date: 2026-08-24 03:07+0000\n"
+"PO-Revision-Date: 2026-08-24 03:09\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -21,37 +21,32 @@ msgstr ""
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
-#: addon\globalPlugins\objPad.py:39 buildVars.py:21
+#: addon\globalPlugins\objPad.py:43 buildVars.py:21
 msgid "ObjPad"
 msgstr "ObjPad"
 
-#. Translators: Label for the list of browse mode navigation element types in ObjPad settings.
-#: addon\globalPlugins\objPad.py:49
-msgid "&Browse mode navigation elements:"
-msgstr "&Browse mode navigation elements:"
-
 #. Translators: input help mode message for ObjPad toggle command.
-#: addon\globalPlugins\objPad.py:81
+#: addon\globalPlugins\objPad.py:84
 msgid "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
 msgstr "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:89
+#: addon\globalPlugins\objPad.py:92
 msgid "Object nav mode"
 msgstr "Режим объектной навигации"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:93
+#: addon\globalPlugins\objPad.py:96
 msgid "Browse mode"
 msgstr "Режим обзора"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:97
+#: addon\globalPlugins\objPad.py:100
 msgid "Scan mode"
 msgstr "Режим сканирования"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:101
+#: addon\globalPlugins\objPad.py:104
 msgid "Normal mode"
 msgstr "Нормальный режим"
 
@@ -98,8 +93,8 @@ msgstr "Текстовые абзацы"
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
 #: buildVars.py:24
-msgid "Perform various object commands by pressing a single key, including navigation and more"
-msgstr "Выполняет различные команды объектов с помощью одной клавиши, включая навигацию и многое другое"
+msgid "Perform various NVDA object commands by pressing a single key, including navigation and more."
+msgstr "Perform various NVDA object commands by pressing a single key, including navigation and more."
 
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
