@@ -8,6 +8,7 @@
 # Browse mode comes from Enhanced Touch Gestures.
 # Parts of source code are enhanced implementations of NVDA Core commands (copyright NV Access).
 
+import builtins
 import globalPluginHandler
 import ui
 from globalCommands import commands, SCRCAT_OBJECTNAVIGATION
@@ -24,6 +25,9 @@ from scriptHandler import script
 import config
 import inputCore
 import addonHandler
+
+# Some add-on messages are exact copies of NVDA Core (call the built-in gettext function).
+nvdaMessage = builtins._
 addonHandler.initTranslation()
 
 # Object navigation modes enumeration
@@ -175,8 +179,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					api.setNavigatorObject(newObject)
 					speech.speakObject(newObject, reason=controlTypes.OutputReason.FOCUS)
 				else:
-					# Translators: a message when there is no next object when navigating
-					ui.reviewMessage(_("No next"))
+					ui.reviewMessage(nvdaMessage("No next"))
 
 	def script_upArrow(self, gesture: inputCore.InputGesture):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
@@ -209,8 +212,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					api.setNavigatorObject(newObject)
 					speech.speakObject(newObject, reason=controlTypes.OutputReason.FOCUS)
 				else:
-					# Translators: a message when there is no previous object when navigating
-					ui.reviewMessage(_("No previous"))
+					ui.reviewMessage(nvdaMessage("No previous"))
 
 	def script_objActivate(self, gesture: inputCore.InputGesture):
 		commands.script_review_activate(gesture)
