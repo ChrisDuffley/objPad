@@ -50,8 +50,7 @@ class ObjPadPanel(gui.settingsDialogs.SettingsPanel):
 		# Store element types for use in onSave (excludes the always-active "default" entry).
 		self._browseModeElements = list(browseMode.BrowseModeTreeInterceptor._browseTouchNavRegistry)
 		self._browseModeCheckListBox: gui.nvdaControls.CustomCheckListBox = objPadHelper.addLabeledControl(
-			# Translators: Label for the list of browse mode navigation element types in ObjPad settings.
-			_("&Browse mode navigation elements:"),
+			nvdaMessage("&Browse mode navigation elements:"),
 			gui.nvdaControls.CustomCheckListBox,
 			choices=[label for _itemType, label in self._browseModeElements],
 		)
