@@ -95,16 +95,6 @@ msgstr "вбудовані об'єкти"
 msgid "text paragraphs"
 msgstr "абзаци"
 
-#. Translators: a message when there is no next object when navigating
-#: addon\globalPlugins\objPad.py:179
-msgid "No next"
-msgstr "Немає наступного"
-
-#. Translators: a message when there is no previous object when navigating
-#: addon\globalPlugins\objPad.py:213
-msgid "No previous"
-msgstr "Немає попереднього"
-
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
 #: buildVars.py:24

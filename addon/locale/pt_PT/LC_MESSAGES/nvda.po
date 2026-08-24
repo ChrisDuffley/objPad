@@ -86,16 +86,6 @@ msgstr "Lista"
 msgid "Landmark"
 msgstr "Marcador"
 
-#. Translators: a message when there is no next object when navigating
-#: addon\globalPlugins\objPad.py:179
-msgid "No next"
-msgstr "Sem próximo"
-
-#. Translators: a message when there is no previous object when navigating
-#: addon\globalPlugins\objPad.py:213
-msgid "No previous"
-msgstr "Sem anterior"
-
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""

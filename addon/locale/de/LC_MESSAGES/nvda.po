@@ -85,16 +85,6 @@ msgstr "Liste"
 msgid "Landmark"
 msgstr "Sprungmarke"
 
-#. Translators: a message when there is no next object when navigating
-#: addon\globalPlugins\objPad.py:179
-msgid "No next"
-msgstr "Keine weiteren Objekte"
-
-#. Translators: a message when there is no previous object when navigating
-#: addon\globalPlugins\objPad.py:213
-msgid "No previous"
-msgstr "Keine vorherigen Objekte"
-
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""

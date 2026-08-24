@@ -95,16 +95,6 @@ msgstr "嵌入式对象"
 msgid "text paragraphs"
 msgstr "文本段落"
 
-#. Translators: a message when there is no next object when navigating
-#: addon\globalPlugins\objPad.py:179
-msgid "No next"
-msgstr "没有下一项"
-
-#. Translators: a message when there is no previous object when navigating
-#: addon\globalPlugins\objPad.py:213
-msgid "No previous"
-msgstr "没有上一项"
-
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
 #: buildVars.py:24
