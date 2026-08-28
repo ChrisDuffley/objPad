@@ -28,7 +28,8 @@ import inputCore
 import addonHandler
 
 # Some add-on messages are exact copies of NVDA Core (call the built-in gettext function).
-nvdaMessage = builtins._
+# Pyright: ignore attribute access issue (builtins._ points to Gettext function in NVDA Core).
+nvdaMessage = builtins._  # type: ignore
 addonHandler.initTranslation()
 
 # Object navigation modes enumeration
