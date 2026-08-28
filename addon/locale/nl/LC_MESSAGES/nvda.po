@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-08-24 03:07+0000\n"
-"PO-Revision-Date: 2026-08-24 03:09\n"
+"POT-Creation-Date: 2026-08-28 07:35+0000\n"
+"PO-Revision-Date: 2026-08-28 07:37\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -21,32 +21,32 @@ msgstr ""
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
-#: addon\globalPlugins\objPad.py:43 buildVars.py:21
+#: addon\globalPlugins\objPad.py:44 buildVars.py:21
 msgid "ObjPad"
 msgstr "ObjPad"
 
 #. Translators: input help mode message for ObjPad toggle command.
-#: addon\globalPlugins\objPad.py:84
+#: addon\globalPlugins\objPad.py:85
 msgid "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
 msgstr "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:92
+#: addon\globalPlugins\objPad.py:93
 msgid "Object nav mode"
 msgstr "Object navigatie-modus"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:96
+#: addon\globalPlugins\objPad.py:97
 msgid "Browse mode"
 msgstr "Browse mode"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:100
+#: addon\globalPlugins\objPad.py:101
 msgid "Scan mode"
 msgstr "Scanmodus"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:104
+#: addon\globalPlugins\objPad.py:105
 msgid "Normal mode"
 msgstr "Normale modus"
 

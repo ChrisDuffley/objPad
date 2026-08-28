@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-08-24 03:07+0000\n"
-"PO-Revision-Date: 2026-08-24 03:09\n"
+"POT-Creation-Date: 2026-08-28 07:35+0000\n"
+"PO-Revision-Date: 2026-08-28 07:37\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==2 ? 1 : 2);\n"
 "X-Crowdin-Project: nvdaaddons\n"
 "X-Crowdin-Project-ID: 780748\n"
 "X-Crowdin-Language: he\n"
@@ -21,32 +21,32 @@ msgstr ""
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
-#: addon\globalPlugins\objPad.py:43 buildVars.py:21
+#: addon\globalPlugins\objPad.py:44 buildVars.py:21
 msgid "ObjPad"
 msgstr "ObjPad"
 
 #. Translators: input help mode message for ObjPad toggle command.
-#: addon\globalPlugins\objPad.py:84
+#: addon\globalPlugins\objPad.py:85
 msgid "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
 msgstr "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:92
+#: addon\globalPlugins\objPad.py:93
 msgid "Object nav mode"
 msgstr "מצב ניווט  אוביקטים"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:96
+#: addon\globalPlugins\objPad.py:97
 msgid "Browse mode"
 msgstr "Browse mode"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:100
+#: addon\globalPlugins\objPad.py:101
 msgid "Scan mode"
 msgstr "מצב סריקה"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:104
+#: addon\globalPlugins\objPad.py:105
 msgid "Normal mode"
 msgstr "מצב רגיל"
 
