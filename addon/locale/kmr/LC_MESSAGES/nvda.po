@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2026-08-28 02:51-0600\n"
+"PO-Revision-Date: 2026-08-28 02:52-0600\n"
+"Last-Translator: \n"
+"Language-Team: Kurmanji (Kurdish)\n"
+"Language: kmr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: kmr\n"
+"X-Crowdin-File: objPad.pot\n"
+"X-Crowdin-File-ID: 356\n"
+"X-Generator: Poedit 3.9\n"
+
+#. Translators: This is the label for the ObjPad settings panel.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: addon/globalPlugins/objPad.py:45 buildVars.py:21
+msgid "ObjPad"
+msgstr "ObjPadName"
+
+#. Translators: input help mode message for ObjPad toggle command.
+#: addon/globalPlugins/objPad.py:86
+msgid ""
+"Toggles ObjPad mode between normal, object nav, browse mode elements, and "
+"scan modes"
+msgstr ""
+"Moda ObjPad di navbera modên normal, navîgasyona objektê, hêmanên moda "
+"gerokê, û modên skenkirinê de diguherîne"
+
+#. Translators: one of the object arrow modes.
+#: addon/globalPlugins/objPad.py:94
+msgid "Object nav mode"
+msgstr "Moda navîgasyona tiştan"
+
+#. Translators: one of the object arrow modes.
+#: addon/globalPlugins/objPad.py:98
+msgid "Browse mode"
+msgstr "Moda geroka înternetê"
+
+#. Translators: one of the object arrow modes.
+#: addon/globalPlugins/objPad.py:102
+msgid "Scan mode"
+msgstr "Moda skenkirinê"
+
+#. Translators: one of the object arrow modes.
+#: addon/globalPlugins/objPad.py:106
+msgid "Normal mode"
+msgstr "Moda normal"
+
+#: addon/globalPlugins/objPad.py:132
+msgid "default"
+msgstr "default"
+
+#: addon/globalPlugins/objPad.py:133
+msgid "headings"
+msgstr "headings"
+
+#: addon/globalPlugins/objPad.py:134
+msgid "tables"
+msgstr "tables"
+
+#: addon/globalPlugins/objPad.py:135
+msgid "links"
+msgstr "links"
+
+#: addon/globalPlugins/objPad.py:136
+msgid "form fields"
+msgstr "form fields"
+
+#: addon/globalPlugins/objPad.py:137
+msgid "lists"
+msgstr "lists"
+
+#: addon/globalPlugins/objPad.py:138
+msgid "frames"
+msgstr "frames"
+
+#: addon/globalPlugins/objPad.py:140
+msgid "landmarks"
+msgstr "landmarks"
+
+#: addon/globalPlugins/objPad.py:141
+msgid "embedded objects"
+msgstr "embedded objects"
+
+#: addon/globalPlugins/objPad.py:142
+msgid "text paragraphs"
+msgstr "text paragraphs"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
+msgid ""
+"Perform various NVDA object commands by pressing a single key, including "
+"navigation and more."
+msgstr ""
+"Fermanên cûrbecûr ên objeyên NVDA bi tikandina bişkojkekê pêk bînin, tevî "
+"navîgasyon û hêj bêtir."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:29
+msgid ""
+"* In NVDA 2026.2 running on non-touch devices or portable versions, added "
+"ObjPad settings (NVDA settings screen) to configure browse mode navigation "
+"elements."
+msgstr ""
+"* In NVDA 2026.2 running on non-touch devices or portable versions, added "
+"ObjPad settings (NVDA settings screen) to configure browse mode navigation "
+"elements."
