@@ -1,44 +1,52 @@
 # Nesne Dolaşımı
 
-* Yazar: Christopher Duffley <nvda@chrisduffley.com>, aslen Joseph Lee, Cleverson Uliana ve diğerleri tarafından yazılmıştır
+* Yazar: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
 
-Bu eklenti, gezinme ve diğer olasılıklar da dahil olmak üzere ekrandaki nesneleri yönetmek için hızlı komutlar sağlar.
+Tek bir tuşa basarak çeşitli NVDA nesne komutlarını gerçekleştirin; bunlar arasında dolaşma ve daha fazlası yer alır.
 
 ## Komutlar
 
-* Kontrol+NVDA+TAB: Ok tuşu modlarında adım adım ilerler (ayrıntılar için aşağıya bakın).
+* Kontrol+NVDA+Sekme: Ok tuşu modlarında adım adım ilerler (ayrıntılar için aşağıya bakın).
 
-## Ok tuş modları
+## Ok tuşu kipleri
 
-Eklenti, ok tuşlarını kullanmak için dört yol sağlar:
+Bu eklenti, ok tuşlarını dört farklı yolla kullanabilmeye imkan verir:
 
-* Klasik (veya normal mod): imleci hareket ettirmek için ok tuşlarını kullanın.
-* Nesne Dolaşımı: sonraki/önceki/üst/ilk alt nesneye gitmek için ok tuşlarını kullanın.
-* Gözatma modu: Gözatma modu öğeleri (web dahil) arasında geçiş yapmak ve bunlar arasında geçiş yapmak için ok tuşlarını kullanın.
-* Tarama modu: sıralamadan bağımsız olarak ekrandaki nesneler arasında hareket etmek için ok tuşlarını kullanın.
+* Klasik (veya normal kip): imleci hareket ettirmek için ok tuşlarını kullanın.
+* Nesne Dolaşımı: Sonraki/önceki/üst/ilk alt nesneye gitmek için ok tuşlarını kullanın.
+* Tarama Kipi: Tarama Kipi öğeleri (web dahil) arasında geçiş yapmak ve öğeler arasında gezinmek için ok tuşlarını kullanın.
+* Tarama kipi: Hiyerarşiden bağımsız olarak ekrandaki nesneler arasında dolaşmak için ok tuşlarını kullanın.
 
-Aşağıdaki komutlar, Nesne sunucusu modunda ok tuşlarıyla kullanılabilir:
+Ok tuşları nesne dolaşımına ayarlandığında aşağıdaki komutlar kullanılabilir:
 
 * Sağ ok: sonraki nesne.
 * Sol ok: önceki nesne.
-* Yukarı ok: ana nesne.
+* Yukarı ok: üst nesne.
 * Aşağı ok: ilk alt nesne.
-* Aralık veya ENTER: etkinleştir.
+* Aralık veya ENTER: etkinleştirin.
 
-Gözatma modu etkinken (öğeler varsayılandır (nesneye/tüm öğelere göre hareket eder), bağlantı, form alanı, başlık, çerçeve, tablo, liste, yer işareti, gömülü nesne, metin paragrafı):
+Tarama Kipi etkin olduğunda (öğeler varsayılan olarak (nesneye/tüm öğelere göre hareket etme), başlık, tablo, bağlantı, form alanı, liste; ek Tarama Kipi öğeleri NVDA'nın Tarama Kipi ayarları veya özel bir Nesne Dolaşımı ayarları arayüzü aracılığıyla eklenebilir (aşağıya bakınız)):
 
 * Sağ ok: sonraki öğe.
 * Sol ok: önceki öğe.
 * Yukarı ok: önceki öğe türü.
 * Aşağı ok: sonraki öğe türü.
-* Aralık veya ENTER: etkinleştir.
+* Aralık veya ENTER: etkinleştirin.
 
-Tarama modu etkinken:
+Tarama modu aktifken:
 
 * Aşağı ok: sonraki nesne veya sonraki satır.
 * Yukarı ok: önceki nesne veya önceki satır.
-* Sağ ok: sonraki karakteri gözden geçirin.
+* Sağ ok: Sonraki karakteri incele.
 * Sol ok: önceki karakter.
 * Kontrol+sağ ok: sonraki kelime.
 * Kontrol+sol ok: önceki kelime.
-* Aralık veya ENTER: etkinleştir.
+* Aralık veya ENTER: etkinleştirin.
+
+## Nesne Dolaşımı ayarları
+
+NVDA 2026.2'de, dokunmatik tarama kipinde kullanılmak üzere mevcut tarama kipi Dolaşım öğelerini yapılandırmak için özel bir ayar sunulmuştur. Dokunmatik özellikli bir bilgisayara NVDA yüklendiğinde, bu ayar tarama kipi ayarlarında bulunabilir. Dokunmatik olmayan cihazlarda veya taşınabilir NVDA sürümlerinde, Nesne Dolaşımı bu aynı ayarı Nesne Dolaşımı ayarları arayüzü (NVDA ayarları ekranının bir parçası) aracılığıyla sunar.
+
+Her eklenti sürümü arasında yapılan değişikliklerin listesi için [eklenti sürümlerine ait Sürüm Geçmişi][1] belgesine bakın.
+
+[1]: https://github.com/ChrisDuffley/objPad/blob/master/changes.md

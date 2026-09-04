@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2026-08-28 23:59+0000\n"
-"PO-Revision-Date: 2026-08-29 00:02\n"
+"PO-Revision-Date: 2026-09-04 06:55\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -28,7 +28,7 @@ msgstr "Nesne Dolaşımı"
 #. Translators: input help mode message for ObjPad toggle command.
 #: addon\globalPlugins\objPad.py:85
 msgid "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
-msgstr "Nesne Dolaşımı modu normal, nesne dolaşımı, Tarama modu öğeleri ve tarama modları arasında değiştirir"
+msgstr "Nesne Dolaşımı kipi normal, nesne dolaşımı, Tarama kipi öğeleri ve tarama kipleri arasında değiştirir"
 
 #. Translators: one of the object arrow modes.
 #: addon\globalPlugins\objPad.py:93
