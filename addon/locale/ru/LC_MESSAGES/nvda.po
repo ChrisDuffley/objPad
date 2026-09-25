@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-08-28 23:59+0000\n"
-"PO-Revision-Date: 2026-09-18 15:21\n"
+"POT-Creation-Date: 2026-09-25 15:19+0000\n"
+"PO-Revision-Date: 2026-09-25 15:21\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -28,7 +28,7 @@ msgstr "ObjPad"
 #. Translators: input help mode message for ObjPad toggle command.
 #: addon\globalPlugins\objPad.py:85
 msgid "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
-msgstr "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
+msgstr "Переключает режим ObjPad между нормальным режимом, режимом объектной навигации, режимом обзора элементов и режимом сканирования"
 
 #. Translators: one of the object arrow modes.
 #: addon\globalPlugins\objPad.py:93
@@ -54,11 +54,11 @@ msgstr "Нормальный режим"
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
 #: buildVars.py:24
 msgid "Perform various NVDA object commands by pressing a single key, including navigation and more."
-msgstr "Perform various NVDA object commands by pressing a single key, including navigation and more."
+msgstr "Выполняет различные команды для работы с объектами NVDA одним нажатием клавиши, включая навигацию и многое другое."
 
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
 msgid "* NVDA 2026.2 (64-bit) or later is required."
-msgstr ""
+msgstr "* Требуется NVDA 2026.2 (64-бит) или выше."
 
