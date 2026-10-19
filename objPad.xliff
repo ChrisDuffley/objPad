@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/ChrisDuffley/objPad/8d33596ff935249f29f3165616207ad3e7e8f00f/readme.md">
+<file id="readme.md" original="https://raw.githubusercontent.com/ChrisDuffley/objPad/b11bdeab925ceea597b24af328233b9c07887cd8/readme.md">
 <skeleton>
 # $(ID:194da8af-f65e-4ce0-b819-58d0d0345153)
 
@@ -49,7 +49,7 @@ $(ID:258c5b6d-2565-416b-8f77-b5986aaf2fed)
 
 ## $(ID:226a7994-4e1c-484d-b6a5-450f3934fdb7)
 
-$(ID:61ce4a7e-f5a0-4e92-8720-3834fb3a00e7)
+$(ID:32942f28-1d47-45d6-b65b-9fa5a412a07b)
 
 $(ID:26d06293-2e30-47fc-8c88-2d6e8dcfbc09)
 
@@ -339,12 +339,12 @@ $(ID:90459eb2-1b81-4c92-9f2d-a848cdea1cdd)
 <source>ObjPad settings</source>
 </segment>
 </unit>
-<unit id="61ce4a7e-f5a0-4e92-8720-3834fb3a00e7">
+<unit id="32942f28-1d47-45d6-b65b-9fa5a412a07b">
 <notes>
 <note appliesTo="source">line: 49</note>
 </notes>
 <segment>
-<source>In NVDA 2026.2, a dedicated setting is introduced to configure available browse mode navigation elements for use in touch browse mode. With NVDA installed on a touch capable computer, this setting can be found in browse mode settings. On non-touch devices or portable NVDA versions, ObjPad offers this same setting via ObjPad settings interface (part of NVDA settings screen).</source>
+<source>NVDA includes a dedicated setting to configure available browse mode navigation elements for use in touch browse mode. With NVDA installed on a touch capable computer, this setting can be found in browse mode settings. On non-touch devices or portable NVDA versions, ObjPad offers this same setting via ObjPad settings interface (part of NVDA settings screen).</source>
 </segment>
 </unit>
 <unit id="26d06293-2e30-47fc-8c88-2d6e8dcfbc09">
