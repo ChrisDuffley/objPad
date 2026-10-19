@@ -45,7 +45,7 @@ Dema moda şopandinê çalak e:
 
 ## Mîhengên ObjPad
 
-Di NVDA 2026.2 de, mîhengek taybet hatiye destnîşan kirin da ku hêmanên navîgasyonê yên moda gerokê yên berdest ji bo karanîna di moda geroka destavê de werin mîheng kirin. Dema ku NVDA li ser kompîturek bi kapasîteya destavêtinê hatî saz kirin, ev mîheng dikare di mîhengên moda gerokê de were dîtin. Li ser cîhazên ne-destavêtinê an guhertoyên NVDA yên veguhêzbar, ObjPad heman mîhengê bi rêya navrûya mîhengên ObjPad (beşek ji ekrana mîhengên NVDA) pêşkêş dike.
+NVDA includes a dedicated setting to configure available browse mode navigation elements for use in touch browse mode. With NVDA installed on a touch capable computer, this setting can be found in browse mode settings. On non-touch devices or portable NVDA versions, ObjPad offers this same setting via ObjPad settings interface (part of NVDA settings screen).
 
 Ji bo navnîşek guhertinên ku di navbera her guhertoyên pêvekê de hatine çêkirin, li belgeya [changelogs for add-on releases][1] binêre.
 

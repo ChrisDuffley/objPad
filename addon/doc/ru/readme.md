@@ -45,7 +45,7 @@
 
 ## Настройки ObjPad
 
-В NVDA 2026.2 добавлена специальная настройка для конфигурации доступных элементов навигации в режиме обзора, предназначенных для использования в сенсорном режиме. При установке NVDA на компьютер с сенсорным экраном эту настройку можно найти в параметрах режима обзора. На устройствах без сенсорного экрана или в переносных версиях NVDA ObjPad предлагает ту же настройку через интерфейс настроек ObjPad (часть экрана настроек NVDA).
+NVDA includes a dedicated setting to configure available browse mode navigation elements for use in touch browse mode. With NVDA installed on a touch capable computer, this setting can be found in browse mode settings. On non-touch devices or portable NVDA versions, ObjPad offers this same setting via ObjPad settings interface (part of NVDA settings screen).
 
 Список изменений, вносимых между каждыми выпусками дополнения, смотрите в документе [список изменений для выпусков дополнения][1].
 
