@@ -45,7 +45,7 @@ Tarama modu aktifken:
 
 ## Nesne Dolaşımı ayarları
 
-NVDA includes a dedicated setting to configure available browse mode navigation elements for use in touch browse mode. With NVDA installed on a touch capable computer, this setting can be found in browse mode settings. On non-touch devices or portable NVDA versions, ObjPad offers this same setting via ObjPad settings interface (part of NVDA settings screen).
+NVDA, dokunmatik tarama kipinde kullanılmak üzere mevcut tarama kipi dolaşım öğelerini yapılandırmak için özel bir ayar içerir. Dokunmatik özellikli bir bilgisayara NVDA yüklendiğinde, bu ayar tarama Kipi ayarlarında bulunabilir. Dokunmatik olmayan cihazlarda veya taşınabilir NVDA sürümlerinde, Nesne Dolaşımı bu aynı ayarı Nesne Dolaşımı ayarları arayüzü (NVDA ayarları ekranının bir parçası) aracılığıyla sunar.
 
 Her eklenti sürümü arasında yapılan değişikliklerin listesi için [eklenti sürümlerine ait Sürüm Geçmişi][1] belgesine bakın.
 
