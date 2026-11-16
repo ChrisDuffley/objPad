@@ -20,7 +20,6 @@ import speech
 import controlTypes
 import enum
 import gui
-from gui.message import MessageDialog
 import wx
 from scriptHandler import script
 import config
@@ -84,15 +83,18 @@ class ObjPadPanel(gui.settingsDialogs.SettingsPanel):
 		enabledModes = getEnabledObjPadModes()
 		for i, mode in enumerate(CONFIGURABLE_OBJPAD_MODES):
 			self._modesCheckListBox.Check(i, mode in enabledModes)
+		self._modesCheckListBox.Bind(wx.EVT_CHECKLISTBOX, self._onModesListChange)
 		self._modesCheckListBox.SetSelection(0)
 
-		# On touch capable computers, NVDA offers browse mode navigation elements setting in browse mode settings.
+		# On touch capable computers, NVDA offers browse mode navigation elements setting
+		# in browse mode settings.
 		self._showBrowseModeElements = not touchHandler.touchSupported()
 		if self._showBrowseModeElements:
 			# Source: NVDA Core (2026.2)
 			# Store element types for use in onSave (excludes the always-active "default" entry).
 			self._browseModeElements = list(browseMode.BrowseModeTreeInterceptor._browseTouchNavRegistry)
-			self._browseModeCheckListBox: gui.nvdaControls.CustomCheckListBox = objPadHelper.addLabeledControl(
+			self._browseModeCheckListBox: gui.nvdaControls.CustomCheckListBox
+			self._browseModeCheckListBox = objPadHelper.addLabeledControl(
 				nvdaMessage("&Browse mode navigation elements:"),
 				gui.nvdaControls.CustomCheckListBox,
 				choices=[label for _itemType, label in self._browseModeElements],
@@ -101,17 +103,35 @@ class ObjPadPanel(gui.settingsDialogs.SettingsPanel):
 			for i, (itemType, _label) in enumerate(self._browseModeElements):
 				self._browseModeCheckListBox.Check(i, itemType in enabledTypes)
 
+	def _noModesSelectedMessage(self) -> str:
+		# Translators: message shown when no ObjPad mode is selected in ObjPad settings.
+		return _(
+			"At least one ObjPad mode must be selected in order to switch from normal mode to another mode."
+		)
+
+	def _onModesListChange(self, evt: wx.CommandEvent):
+		# Source: NVDA Core (speech modes list in voice settings)
+		# Continue event propagation so the user is notified about the item being checked or unchecked.
+		evt.Skip()
+		if not self._modesCheckListBox.CheckedItems:
+			gui.messageBox(
+				self._noModesSelectedMessage(),
+				# Translators: title of the warning shown when all ObjPad modes are unchecked
+				# in ObjPad settings.
+				_("Warning"),
+				wx.OK | wx.ICON_WARNING,
+				self,
+			)
+			# Check the mode again so ObjPad can still switch from normal mode to another mode.
+			self._modesCheckListBox.Check(evt.GetInt(), True)
+
 	def isValid(self) -> bool:
-		if not any(self._modesCheckListBox.IsChecked(i) for i in range(len(CONFIGURABLE_OBJPAD_MODES))):
-			MessageDialog.alert(
-				# Translators: message shown when no ObjPad mode is selected in ObjPad settings.
-				_(
-					"At least one ObjPad mode must be selected "
-					"in order to switch from normal mode to another mode."
-				),
-				# Translators: title of the message shown when no ObjPad mode is selected in ObjPad settings.
-				caption=_("ObjPad modes"),
-				parent=self,
+		if not self._modesCheckListBox.CheckedItems:
+			self._validationErrorMessageBox(
+				message=self._noModesSelectedMessage(),
+				# Translators: Same as the label for the list of ObjPad modes in ObjPad settings,
+				# but without keyboard accelerator (& character) nor final colon.
+				option=_("Select navigation modes to cycle through"),
 			)
 			self._modesCheckListBox.SetFocus()
 			return False
