@@ -39,6 +39,18 @@ class ObjPadMode(enum.IntEnum):
 	SCANMODE = 3  # Arrow keys move through text across objects
 
 
+# Mode labels, used for mode change announcements and for the modes list in ObjPad settings.
+OBJPAD_MODE_LABELS: dict[ObjPadMode, str] = {
+	# Translators: one of the object arrow modes.
+	ObjPadMode.NORMAL: _("Normal mode"),
+	# Translators: one of the object arrow modes.
+	ObjPadMode.OBJNAV: _("Object nav mode"),
+	# Translators: one of the object arrow modes.
+	ObjPadMode.WEBBROWSE: _("Browse mode"),
+	# Translators: one of the object arrow modes.
+	ObjPadMode.SCANMODE: _("Scan mode"),
+}
+
 class ObjPadPanel(gui.settingsDialogs.SettingsPanel):
 	# Translators: This is the label for the ObjPad settings panel.
 	title = _("ObjPad")
@@ -68,7 +80,7 @@ class ObjPadPanel(gui.settingsDialogs.SettingsPanel):
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# Object navigation arrow key mode (normal mode/object nav by default)
-	objArrowMode = 0
+	objArrowMode: ObjPadMode = ObjPadMode.NORMAL
 
 	def __init__(self):
 		super().__init__()
@@ -87,36 +99,26 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		gesture="kb:control+NvDA+tab"
 	)
 	def script_toggleObjPad(self, gesture: inputCore.InputGesture):
+		self.objArrowMode = ObjPadMode((self.objArrowMode + 1) % len(ObjPadMode))
+		ui.message(OBJPAD_MODE_LABELS[self.objArrowMode])
+		self._bindObjPadModeGestures()
+
+	def _bindObjPadModeGestures(self):
+		# Start from static gestures so mode-specific gestures (such as scan mode ones) do not linger.
+		self.clearGestureBindings()
+		self.bindGestures(self.__gestures)
 		if self.objArrowMode == ObjPadMode.NORMAL:
-			self.objArrowMode = ObjPadMode.OBJNAV
-			# Translators: one of the object arrow modes.
-			ui.message(_("Object nav mode"))
-		elif self.objArrowMode == ObjPadMode.OBJNAV:
-			self.objArrowMode = ObjPadMode.WEBBROWSE
-			# Translators: one of the object arrow modes.
-			ui.message(_("Browse mode"))
-		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
-			self.objArrowMode = ObjPadMode.SCANMODE
-			# Translators: one of the object arrow modes.
-			ui.message(_("Scan mode"))
-		else:
-			self.objArrowMode = ObjPadMode.NORMAL
-			# Translators: one of the object arrow modes.
-			ui.message(_("Normal mode"))
-		if ObjPadMode.NORMAL < self.objArrowMode <= ObjPadMode.SCANMODE:
-			self.bindGesture("kb:rightarrow", "rightArrow")
-			self.bindGesture("kb:leftarrow", "leftArrow")
-			self.bindGesture("kb:downarrow", "downArrow")
-			self.bindGesture("kb:uparrow", "upArrow")
-			self.bindGesture("kb:space", "objActivate")
-			self.bindGesture("kb:enter", "objActivate")
-			self.bindGesture("kb:numpadEnter", "objActivate")
-			if self.objArrowMode == ObjPadMode.SCANMODE:
-				self.bindGesture("kb:control+rightArrow", "controlRightArrow")
-				self.bindGesture("kb:control+leftArrow", "controlLeftArrow")
-		else:
-			self.clearGestureBindings()
-			self.bindGestures(self.__gestures)
+			return
+		self.bindGesture("kb:rightarrow", "rightArrow")
+		self.bindGesture("kb:leftarrow", "leftArrow")
+		self.bindGesture("kb:downarrow", "downArrow")
+		self.bindGesture("kb:uparrow", "upArrow")
+		self.bindGesture("kb:space", "objActivate")
+		self.bindGesture("kb:enter", "objActivate")
+		self.bindGesture("kb:numpadEnter", "objActivate")
+		if self.objArrowMode == ObjPadMode.SCANMODE:
+			self.bindGesture("kb:control+rightArrow", "controlRightArrow")
+			self.bindGesture("kb:control+leftArrow", "controlLeftArrow")
 
 	def script_rightArrow(self, gesture: inputCore.InputGesture):
 		if self.objArrowMode == ObjPadMode.OBJNAV:
