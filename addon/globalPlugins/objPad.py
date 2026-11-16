@@ -20,6 +20,7 @@ import speech
 import controlTypes
 import enum
 import gui
+from gui.message import MessageDialog
 import wx
 from scriptHandler import script
 import config
@@ -74,24 +75,60 @@ class ObjPadPanel(gui.settingsDialogs.SettingsPanel):
 	def makeSettings(self, settingsSizer: wx.BoxSizer):
 		objPadHelper = gui.guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
 
-		# Source: NVDA Core (2026.2)
-		# Store element types for use in onSave (excludes the always-active "default" entry).
-		self._browseModeElements = list(browseMode.BrowseModeTreeInterceptor._browseTouchNavRegistry)
-		self._browseModeCheckListBox: gui.nvdaControls.CustomCheckListBox = objPadHelper.addLabeledControl(
-			nvdaMessage("&Browse mode navigation elements:"),
+		self._modesCheckListBox: gui.nvdaControls.CustomCheckListBox = objPadHelper.addLabeledControl(
+			# Translators: label for the list of ObjPad modes to switch between in ObjPad settings.
+			_("Select &navigation modes to cycle through:"),
 			gui.nvdaControls.CustomCheckListBox,
-			choices=[label for _itemType, label in self._browseModeElements],
+			choices=[OBJPAD_MODE_LABELS[mode] for mode in CONFIGURABLE_OBJPAD_MODES],
 		)
-		enabledTypes = set(config.conf["virtualBuffers"]["browseModeTouchNavigationElements"])
-		for i, (itemType, _label) in enumerate(self._browseModeElements):
-			self._browseModeCheckListBox.Check(i, itemType in enabledTypes)
+		enabledModes = getEnabledObjPadModes()
+		for i, mode in enumerate(CONFIGURABLE_OBJPAD_MODES):
+			self._modesCheckListBox.Check(i, mode in enabledModes)
+		self._modesCheckListBox.SetSelection(0)
+
+		# On touch capable computers, NVDA offers browse mode navigation elements setting in browse mode settings.
+		self._showBrowseModeElements = not touchHandler.touchSupported()
+		if self._showBrowseModeElements:
+			# Source: NVDA Core (2026.2)
+			# Store element types for use in onSave (excludes the always-active "default" entry).
+			self._browseModeElements = list(browseMode.BrowseModeTreeInterceptor._browseTouchNavRegistry)
+			self._browseModeCheckListBox: gui.nvdaControls.CustomCheckListBox = objPadHelper.addLabeledControl(
+				nvdaMessage("&Browse mode navigation elements:"),
+				gui.nvdaControls.CustomCheckListBox,
+				choices=[label for _itemType, label in self._browseModeElements],
+			)
+			enabledTypes = set(config.conf["virtualBuffers"]["browseModeTouchNavigationElements"])
+			for i, (itemType, _label) in enumerate(self._browseModeElements):
+				self._browseModeCheckListBox.Check(i, itemType in enabledTypes)
+
+	def isValid(self) -> bool:
+		if not any(self._modesCheckListBox.IsChecked(i) for i in range(len(CONFIGURABLE_OBJPAD_MODES))):
+			MessageDialog.alert(
+				# Translators: message shown when no ObjPad mode is selected in ObjPad settings.
+				_(
+					"At least one ObjPad mode must be selected "
+					"in order to switch from normal mode to another mode."
+				),
+				# Translators: title of the message shown when no ObjPad mode is selected in ObjPad settings.
+				caption=_("ObjPad modes"),
+				parent=self,
+			)
+			self._modesCheckListBox.SetFocus()
+			return False
+		return super().isValid()
 
 	def onSave(self):
-		config.conf["virtualBuffers"]["browseModeTouchNavigationElements"] = [
-			itemType
-			for i, (itemType, _label) in enumerate(self._browseModeElements)
-			if self._browseModeCheckListBox.IsChecked(i)
+		config.conf["objPad"]["modes"] = [
+			mode.name
+			for i, mode in enumerate(CONFIGURABLE_OBJPAD_MODES)
+			if self._modesCheckListBox.IsChecked(i)
 		]
+		if self._showBrowseModeElements:
+			config.conf["virtualBuffers"]["browseModeTouchNavigationElements"] = [
+				itemType
+				for i, (itemType, _label) in enumerate(self._browseModeElements)
+				if self._browseModeCheckListBox.IsChecked(i)
+			]
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -100,13 +137,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def __init__(self):
 		super().__init__()
-		# Add ObjPad settings if touch is not supported.
-		if not touchHandler.touchSupported():
-			gui.settingsDialogs.NVDASettingsDialog.categoryClasses.append(ObjPadPanel)
+		gui.settingsDialogs.NVDASettingsDialog.categoryClasses.append(ObjPadPanel)
 
 	def terminate(self):
-		if not touchHandler.touchSupported():
-			gui.settingsDialogs.NVDASettingsDialog.categoryClasses.remove(ObjPadPanel)
+		gui.settingsDialogs.NVDASettingsDialog.categoryClasses.remove(ObjPadPanel)
 
 	@script(
 		# Translators: input help mode message for ObjPad toggle command.
