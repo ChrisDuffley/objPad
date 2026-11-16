@@ -51,6 +51,22 @@ OBJPAD_MODE_LABELS: dict[ObjPadMode, str] = {
 	ObjPadMode.SCANMODE: _("Scan mode"),
 }
 
+# Modes which can be enabled or disabled (normal mode is always available).
+# Modes are stored in config by enumeration member name so additional modes can be added later.
+CONFIGURABLE_OBJPAD_MODES: list[ObjPadMode] = [mode for mode in ObjPadMode if mode != ObjPadMode.NORMAL]
+
+config.conf.spec["objPad"] = {
+	"modes": "string_list(default=list({}))".format(
+		", ".join(f'"{mode.name}"' for mode in CONFIGURABLE_OBJPAD_MODES)
+	),
+}
+
+
+def getEnabledObjPadModes() -> set[ObjPadMode]:
+	enabledModeNames = set(config.conf["objPad"]["modes"])
+	return {mode for mode in CONFIGURABLE_OBJPAD_MODES if mode.name in enabledModeNames}
+
+
 class ObjPadPanel(gui.settingsDialogs.SettingsPanel):
 	# Translators: This is the label for the ObjPad settings panel.
 	title = _("ObjPad")
@@ -94,14 +110,25 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	@script(
 		# Translators: input help mode message for ObjPad toggle command.
-		description=_("Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"),
+		description=_("Switches between normal mode and ObjPad modes selected in ObjPad settings"),
 		category=SCRCAT_OBJECTNAVIGATION,
 		gesture="kb:control+NvDA+tab"
 	)
 	def script_toggleObjPad(self, gesture: inputCore.InputGesture):
-		self.objArrowMode = ObjPadMode((self.objArrowMode + 1) % len(ObjPadMode))
+		self.objArrowMode = self._nextObjPadMode()
 		ui.message(OBJPAD_MODE_LABELS[self.objArrowMode])
 		self._bindObjPadModeGestures()
+
+	def _nextObjPadMode(self) -> ObjPadMode:
+		# Move to the next enabled mode, wrapping around to normal mode (which is always available).
+		modes = list(ObjPadMode)
+		enabledModes = getEnabledObjPadModes()
+		modeIndex = modes.index(ObjPadMode(self.objArrowMode))
+		for offset in range(1, len(modes) + 1):
+			mode = modes[(modeIndex + offset) % len(modes)]
+			if mode == ObjPadMode.NORMAL or mode in enabledModes:
+				return mode
+		return ObjPadMode.NORMAL
 
 	def _bindObjPadModeGestures(self):
 		# Start from static gestures so mode-specific gestures (such as scan mode ones) do not linger.
