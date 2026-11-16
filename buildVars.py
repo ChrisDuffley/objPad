@@ -26,7 +26,7 @@ addon_info = AddonInfo(
 	addon_version="26.11",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
-	addon_changelog=_("""* NVDA 2026.3 or later is required."""),
+	addon_changelog=_("""* Added "Navigation Modes to Cycle Through" setting to ObjPad settings to choose which modes Control+NVDA+Tab cycles through. Normal mode is always included."""),
 	# Author(s)
 	addon_author="Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee <joseph.lee22590@gmail.com>",
 	# URL for the add-on documentation support

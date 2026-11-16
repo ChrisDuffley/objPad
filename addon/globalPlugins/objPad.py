@@ -39,6 +39,34 @@ class ObjPadMode(enum.IntEnum):
 	SCANMODE = 3  # Arrow keys move through text across objects
 
 
+# Mode labels, used for mode change announcements and for the modes list in ObjPad settings.
+OBJPAD_MODE_LABELS: dict[ObjPadMode, str] = {
+	# Translators: one of the object arrow modes.
+	ObjPadMode.NORMAL: _("Normal mode"),
+	# Translators: one of the object arrow modes.
+	ObjPadMode.OBJNAV: _("Object nav mode"),
+	# Translators: one of the object arrow modes.
+	ObjPadMode.WEBBROWSE: _("Browse mode"),
+	# Translators: one of the object arrow modes.
+	ObjPadMode.SCANMODE: _("Scan mode"),
+}
+
+# Modes which can be enabled or disabled (normal mode is always available).
+# Modes are stored in config by enumeration member name so additional modes can be added later.
+CONFIGURABLE_OBJPAD_MODES: list[ObjPadMode] = [mode for mode in ObjPadMode if mode != ObjPadMode.NORMAL]
+
+config.conf.spec["objPad"] = {
+	"modes": "string_list(default=list({}))".format(
+		", ".join(f'"{mode.name}"' for mode in CONFIGURABLE_OBJPAD_MODES)
+	),
+}
+
+
+def getEnabledObjPadModes() -> set[ObjPadMode]:
+	enabledModeNames = set(config.conf["objPad"]["modes"])
+	return {mode for mode in CONFIGURABLE_OBJPAD_MODES if mode.name in enabledModeNames}
+
+
 class ObjPadPanel(gui.settingsDialogs.SettingsPanel):
 	# Translators: This is the label for the ObjPad settings panel.
 	title = _("ObjPad")
@@ -46,77 +74,132 @@ class ObjPadPanel(gui.settingsDialogs.SettingsPanel):
 	def makeSettings(self, settingsSizer: wx.BoxSizer):
 		objPadHelper = gui.guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
 
-		# Source: NVDA Core (2026.2)
-		# Store element types for use in onSave (excludes the always-active "default" entry).
-		self._browseModeElements = list(browseMode.BrowseModeTreeInterceptor._browseTouchNavRegistry)
-		self._browseModeCheckListBox: gui.nvdaControls.CustomCheckListBox = objPadHelper.addLabeledControl(
-			nvdaMessage("&Browse mode navigation elements:"),
+		self._modesCheckListBox: gui.nvdaControls.CustomCheckListBox = objPadHelper.addLabeledControl(
+			# Translators: label for the list of ObjPad modes to switch between in ObjPad settings.
+			_("&Navigation Modes to Cycle Through"),
 			gui.nvdaControls.CustomCheckListBox,
-			choices=[label for _itemType, label in self._browseModeElements],
+			choices=[OBJPAD_MODE_LABELS[mode] for mode in CONFIGURABLE_OBJPAD_MODES],
 		)
-		enabledTypes = set(config.conf["virtualBuffers"]["browseModeTouchNavigationElements"])
-		for i, (itemType, _label) in enumerate(self._browseModeElements):
-			self._browseModeCheckListBox.Check(i, itemType in enabledTypes)
+		enabledModes = getEnabledObjPadModes()
+		for i, mode in enumerate(CONFIGURABLE_OBJPAD_MODES):
+			self._modesCheckListBox.Check(i, mode in enabledModes)
+		self._modesCheckListBox.Bind(wx.EVT_CHECKLISTBOX, self._onModesListChange)
+		self._modesCheckListBox.SetSelection(0)
+
+		# On touch capable computers, NVDA offers browse mode navigation elements setting
+		# in browse mode settings.
+		self._showBrowseModeElements = not touchHandler.touchSupported()
+		if self._showBrowseModeElements:
+			# Source: NVDA Core (2026.2)
+			# Store element types for use in onSave (excludes the always-active "default" entry).
+			self._browseModeElements = list(browseMode.BrowseModeTreeInterceptor._browseTouchNavRegistry)
+			self._browseModeCheckListBox: gui.nvdaControls.CustomCheckListBox
+			self._browseModeCheckListBox = objPadHelper.addLabeledControl(
+				nvdaMessage("&Browse mode navigation elements:"),
+				gui.nvdaControls.CustomCheckListBox,
+				choices=[label for _itemType, label in self._browseModeElements],
+			)
+			enabledTypes = set(config.conf["virtualBuffers"]["browseModeTouchNavigationElements"])
+			for i, (itemType, _label) in enumerate(self._browseModeElements):
+				self._browseModeCheckListBox.Check(i, itemType in enabledTypes)
+
+	def _noModesSelectedMessage(self) -> str:
+		# Translators: message shown when no ObjPad mode is selected in ObjPad settings.
+		return _(
+			"At least one ObjPad mode must be selected in order to switch from normal mode to another mode."
+		)
+
+	def _onModesListChange(self, evt: wx.CommandEvent):
+		# Source: NVDA Core (speech modes list in voice settings)
+		# Continue event propagation so the user is notified about the item being checked or unchecked.
+		evt.Skip()
+		if not self._modesCheckListBox.CheckedItems:
+			gui.messageBox(
+				self._noModesSelectedMessage(),
+				# Translators: title of the warning shown when all ObjPad modes are unchecked
+				# in ObjPad settings.
+				_("Warning"),
+				wx.OK | wx.ICON_WARNING,
+				self,
+			)
+			# Check the mode again so ObjPad can still switch from normal mode to another mode.
+			self._modesCheckListBox.Check(evt.GetInt(), True)
+
+	def isValid(self) -> bool:
+		if not self._modesCheckListBox.CheckedItems:
+			self._validationErrorMessageBox(
+				message=self._noModesSelectedMessage(),
+				# Translators: Same as the label for the list of ObjPad modes in ObjPad settings,
+				# but without keyboard accelerator (& character).
+				option=_("Navigation Modes to Cycle Through"),
+			)
+			self._modesCheckListBox.SetFocus()
+			return False
+		return super().isValid()
 
 	def onSave(self):
-		config.conf["virtualBuffers"]["browseModeTouchNavigationElements"] = [
-			itemType
-			for i, (itemType, _label) in enumerate(self._browseModeElements)
-			if self._browseModeCheckListBox.IsChecked(i)
+		config.conf["objPad"]["modes"] = [
+			mode.name
+			for i, mode in enumerate(CONFIGURABLE_OBJPAD_MODES)
+			if self._modesCheckListBox.IsChecked(i)
 		]
+		if self._showBrowseModeElements:
+			config.conf["virtualBuffers"]["browseModeTouchNavigationElements"] = [
+				itemType
+				for i, (itemType, _label) in enumerate(self._browseModeElements)
+				if self._browseModeCheckListBox.IsChecked(i)
+			]
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# Object navigation arrow key mode (normal mode/object nav by default)
-	objArrowMode = 0
+	objArrowMode: ObjPadMode = ObjPadMode.NORMAL
 
 	def __init__(self):
 		super().__init__()
-		# Add ObjPad settings if touch is not supported.
-		if not touchHandler.touchSupported():
-			gui.settingsDialogs.NVDASettingsDialog.categoryClasses.append(ObjPadPanel)
+		gui.settingsDialogs.NVDASettingsDialog.categoryClasses.append(ObjPadPanel)
 
 	def terminate(self):
-		if not touchHandler.touchSupported():
-			gui.settingsDialogs.NVDASettingsDialog.categoryClasses.remove(ObjPadPanel)
+		gui.settingsDialogs.NVDASettingsDialog.categoryClasses.remove(ObjPadPanel)
 
 	@script(
 		# Translators: input help mode message for ObjPad toggle command.
-		description=_("Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"),
+		description=_("Switches between normal mode and ObjPad modes selected in ObjPad settings"),
 		category=SCRCAT_OBJECTNAVIGATION,
 		gesture="kb:control+NvDA+tab"
 	)
 	def script_toggleObjPad(self, gesture: inputCore.InputGesture):
+		self.objArrowMode = self._nextObjPadMode()
+		ui.message(OBJPAD_MODE_LABELS[self.objArrowMode])
+		self._bindObjPadModeGestures()
+
+	def _nextObjPadMode(self) -> ObjPadMode:
+		# Move to the next enabled mode, wrapping around to normal mode (which is always available).
+		modes = list(ObjPadMode)
+		enabledModes = getEnabledObjPadModes()
+		modeIndex = modes.index(ObjPadMode(self.objArrowMode))
+		for offset in range(1, len(modes) + 1):
+			mode = modes[(modeIndex + offset) % len(modes)]
+			if mode == ObjPadMode.NORMAL or mode in enabledModes:
+				return mode
+		return ObjPadMode.NORMAL
+
+	def _bindObjPadModeGestures(self):
+		# Start from static gestures so mode-specific gestures (such as scan mode ones) do not linger.
+		self.clearGestureBindings()
+		self.bindGestures(self.__gestures)
 		if self.objArrowMode == ObjPadMode.NORMAL:
-			self.objArrowMode = ObjPadMode.OBJNAV
-			# Translators: one of the object arrow modes.
-			ui.message(_("Object nav mode"))
-		elif self.objArrowMode == ObjPadMode.OBJNAV:
-			self.objArrowMode = ObjPadMode.WEBBROWSE
-			# Translators: one of the object arrow modes.
-			ui.message(_("Browse mode"))
-		elif self.objArrowMode == ObjPadMode.WEBBROWSE:
-			self.objArrowMode = ObjPadMode.SCANMODE
-			# Translators: one of the object arrow modes.
-			ui.message(_("Scan mode"))
-		else:
-			self.objArrowMode = ObjPadMode.NORMAL
-			# Translators: one of the object arrow modes.
-			ui.message(_("Normal mode"))
-		if ObjPadMode.NORMAL < self.objArrowMode <= ObjPadMode.SCANMODE:
-			self.bindGesture("kb:rightarrow", "rightArrow")
-			self.bindGesture("kb:leftarrow", "leftArrow")
-			self.bindGesture("kb:downarrow", "downArrow")
-			self.bindGesture("kb:uparrow", "upArrow")
-			self.bindGesture("kb:space", "objActivate")
-			self.bindGesture("kb:enter", "objActivate")
-			self.bindGesture("kb:numpadEnter", "objActivate")
-			if self.objArrowMode == ObjPadMode.SCANMODE:
-				self.bindGesture("kb:control+rightArrow", "controlRightArrow")
-				self.bindGesture("kb:control+leftArrow", "controlLeftArrow")
-		else:
-			self.clearGestureBindings()
-			self.bindGestures(self.__gestures)
+			return
+		self.bindGesture("kb:rightarrow", "rightArrow")
+		self.bindGesture("kb:leftarrow", "leftArrow")
+		self.bindGesture("kb:downarrow", "downArrow")
+		self.bindGesture("kb:uparrow", "upArrow")
+		self.bindGesture("kb:space", "objActivate")
+		self.bindGesture("kb:enter", "objActivate")
+		self.bindGesture("kb:numpadEnter", "objActivate")
+		if self.objArrowMode == ObjPadMode.SCANMODE:
+			self.bindGesture("kb:control+rightArrow", "controlRightArrow")
+			self.bindGesture("kb:control+leftArrow", "controlLeftArrow")
 
 	def script_rightArrow(self, gesture: inputCore.InputGesture):
 		if self.objArrowMode == ObjPadMode.OBJNAV:

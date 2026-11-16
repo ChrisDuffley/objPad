@@ -2,6 +2,10 @@
 
 This page lists the complete changelog for ObjPad add-on releases.
 
+## Version 26.12
+
+* Added "Navigation Modes to Cycle Through" setting to ObjPad settings to choose which modes Control+NVDA+Tab cycles through. Normal mode is always included.
+
 ## Version 26.11
 
 * NVDA 2026.3 or later is required.
