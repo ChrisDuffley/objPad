@@ -6,7 +6,7 @@ Perform various NVDA object commands by pressing a single key, including navigat
 
 ## Commands
 
-* Control+NVDA+TAB: Steps through arrow key modes selected in ObjPad settings (see below for details).
+* Control+NVDA+TAB: cycles through the navigation modes selected in ObjPad settings (see below for details).
 
 ## Arrow key modes
 
@@ -47,10 +47,8 @@ With scan mode active:
 
 ObjPad settings (part of NVDA settings screen) include the following settings:
 
-* Navigation Modes to Cycle Through: choose which arrow key modes (object nav, browse mode, scan mode) Control+NVDA+TAB switches between. Normal mode is always available. By default, all modes are selected. At least one mode must be selected.
-* Browse mode navigation elements (non-touch devices and portable NVDA versions only): see below.
-
-NVDA includes a dedicated setting to configure available browse mode navigation elements for use in touch browse mode. With NVDA installed on a touch capable computer, this setting can be found in browse mode settings. On non-touch devices or portable NVDA versions, ObjPad offers this same setting via ObjPad settings interface (part of NVDA settings screen).
+* Navigation Modes to Cycle Through: choose which modes (object nav, browse mode, scan mode) Control+NVDA+TAB cycles through. Normal mode is always included. All modes are selected by default. At least one mode must stay selected; if you uncheck the last one, ObjPad warns you and keeps it checked.
+* Browse mode navigation elements: choose which elements browse mode moves between. ObjPad shows this setting only on computers without a touchscreen and in portable copies of NVDA; otherwise, it's in NVDA's own browse mode settings.
 
 For a list of changes made between each add-on releases, refer to [changelogs for add-on releases][1] document.
 
