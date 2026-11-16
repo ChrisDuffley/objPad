@@ -55,11 +55,14 @@ OBJPAD_MODE_LABELS: dict[ObjPadMode, str] = {
 # Modes are stored in config by enumeration member name so additional modes can be added later.
 CONFIGURABLE_OBJPAD_MODES: list[ObjPadMode] = [mode for mode in ObjPadMode if mode != ObjPadMode.NORMAL]
 
-config.conf.spec["objPad"] = {
+confspec = {
 	"modes": "string_list(default=list({}))".format(
 		", ".join(f'"{mode.name}"' for mode in CONFIGURABLE_OBJPAD_MODES)
 	),
 }
+if "objPad" not in config.conf.spec:
+	config.configSections.registerSection("objPad", confspec, isBaseOnly=True)
+
 
 
 def getEnabledObjPadModes() -> set[ObjPadMode]:
