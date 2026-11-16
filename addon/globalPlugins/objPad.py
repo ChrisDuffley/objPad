@@ -76,7 +76,7 @@ class ObjPadPanel(gui.settingsDialogs.SettingsPanel):
 
 		self._modesCheckListBox: gui.nvdaControls.CustomCheckListBox = objPadHelper.addLabeledControl(
 			# Translators: label for the list of ObjPad modes to switch between in ObjPad settings.
-			_("Select &navigation modes to cycle through:"),
+			_("&Navigation Modes to Cycle Through"),
 			gui.nvdaControls.CustomCheckListBox,
 			choices=[OBJPAD_MODE_LABELS[mode] for mode in CONFIGURABLE_OBJPAD_MODES],
 		)
@@ -130,8 +130,8 @@ class ObjPadPanel(gui.settingsDialogs.SettingsPanel):
 			self._validationErrorMessageBox(
 				message=self._noModesSelectedMessage(),
 				# Translators: Same as the label for the list of ObjPad modes in ObjPad settings,
-				# but without keyboard accelerator (& character) nor final colon.
-				option=_("Select navigation modes to cycle through"),
+				# but without keyboard accelerator (& character).
+				option=_("Navigation Modes to Cycle Through"),
 			)
 			self._modesCheckListBox.SetFocus()
 			return False
