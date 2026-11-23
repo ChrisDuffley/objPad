@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-11-02 00:11+0000\n"
-"PO-Revision-Date: 2026-11-12 17:46\n"
+"POT-Creation-Date: 2026-11-16 21:57+0000\n"
+"PO-Revision-Date: 2026-11-19 18:31\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -17,38 +17,59 @@ msgstr ""
 "X-Crowdin-File: objPad.pot\n"
 "X-Crowdin-File-ID: 356\n"
 
-#. Translators: This is the label for the ObjPad settings panel.
-#. Add-on summary/title, usually the user visible name of the add-on
-#. Translators: Summary/title for this add-on
-#. to be shown on installation and add-on information found in add-on store
-#: addon\globalPlugins\objPad.py:44 buildVars.py:21
-msgid "ObjPad"
-msgstr "Nesne Dolaşımı"
-
-#. Translators: input help mode message for ObjPad toggle command.
-#: addon\globalPlugins\objPad.py:85
-msgid "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
-msgstr "Nesne Dolaşımı kipi normal, nesne dolaşımı, Tarama kipi öğeleri ve tarama kipleri arasında değiştirir"
+#. Translators: one of the object arrow modes.
+#: addon\globalPlugins\objPad.py:45
+msgid "Normal mode"
+msgstr "Normal mod"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:93
+#: addon\globalPlugins\objPad.py:47
 msgid "Object nav mode"
 msgstr "Nesne dolaşım modu"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:97
+#: addon\globalPlugins\objPad.py:49
 msgid "Browse mode"
 msgstr "Göz atma modu"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:101
+#: addon\globalPlugins\objPad.py:51
 msgid "Scan mode"
 msgstr "Tarama modu"
 
-#. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:105
-msgid "Normal mode"
-msgstr "Normal mod"
+#. Translators: This is the label for the ObjPad settings panel.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: addon\globalPlugins\objPad.py:75 buildVars.py:21
+msgid "ObjPad"
+msgstr "Nesne Dolaşımı"
+
+#. Translators: label for the list of ObjPad modes to switch between in ObjPad settings.
+#: addon\globalPlugins\objPad.py:82
+msgid "&Navigation Modes to Cycle Through"
+msgstr "&Geçiş Yapılabilecek Dolaşım Modları"
+
+#: addon\globalPlugins\objPad.py:112
+msgid "At least one ObjPad mode must be selected in order to switch from normal mode to another mode."
+msgstr "Normal moddan başka bir moda geçmek için en az bir Nesne Dolaşımı modu seçilmelidir."
+
+#. Translators: title of the warning shown when all ObjPad modes are unchecked
+#. in ObjPad settings.
+#: addon\globalPlugins\objPad.py:124
+msgid "Warning"
+msgstr "Uyarı"
+
+#. Translators: Same as the label for the list of ObjPad modes in ObjPad settings,
+#. but without keyboard accelerator (& character).
+#: addon\globalPlugins\objPad.py:137
+msgid "Navigation Modes to Cycle Through"
+msgstr "Geçiş Yapılabilecek Dolaşım Modları"
+
+#. Translators: input help mode message for ObjPad toggle command.
+#: addon\globalPlugins\objPad.py:170
+msgid "Switches between normal mode and ObjPad modes selected in ObjPad settings"
+msgstr "Nesne Dolaşımı ayarlarında seçilen normal mod ve Nesne Dolaşımı modları arasında geçiş yapar"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
@@ -59,6 +80,6 @@ msgstr "Dolaşım ve daha fazlasını içeren çeşitli NVDA nesne komutlarını
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid "* NVDA 2026.3 or later is required."
-msgstr "* NVDA 2026.3 veya daha yeni bir sürüm gerekli."
+msgid "* Added \"Navigation Modes to Cycle Through\" setting to ObjPad settings to choose which modes Control+NVDA+Tab cycles through. Normal mode is always included."
+msgstr "* Nesne Dolaşımı ayarlarına, Control+NVDA+Sekme tuş kombinasyonunun hangi modlar arasında geçiş yapacağını seçme olanağı sağlayan \"Geçiş Yapılacak Dolaşım Modları\" ayarı eklendi. Normal mod her zaman dahildir."
 

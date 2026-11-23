@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-11-02 00:11+0000\n"
-"PO-Revision-Date: 2026-11-02 00:13\n"
+"POT-Creation-Date: 2026-11-16 21:57+0000\n"
+"PO-Revision-Date: 2026-11-22 11:45\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -17,38 +17,59 @@ msgstr ""
 "X-Crowdin-File: objPad.pot\n"
 "X-Crowdin-File-ID: 356\n"
 
-#. Translators: This is the label for the ObjPad settings panel.
-#. Add-on summary/title, usually the user visible name of the add-on
-#. Translators: Summary/title for this add-on
-#. to be shown on installation and add-on information found in add-on store
-#: addon\globalPlugins\objPad.py:44 buildVars.py:21
-msgid "ObjPad"
-msgstr "简易导航器"
-
-#. Translators: input help mode message for ObjPad toggle command.
-#: addon\globalPlugins\objPad.py:85
-msgid "Toggles ObjPad mode between normal, object nav, browse mode elements, and scan modes"
-msgstr "简易导航切换（在正常模式、对象导航模式、浏览模式和扫描模式之间切换）"
+#. Translators: one of the object arrow modes.
+#: addon\globalPlugins\objPad.py:45
+msgid "Normal mode"
+msgstr "正常模式"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:93
+#: addon\globalPlugins\objPad.py:47
 msgid "Object nav mode"
 msgstr "对象导航模式"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:97
+#: addon\globalPlugins\objPad.py:49
 msgid "Browse mode"
 msgstr "浏览模式"
 
 #. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:101
+#: addon\globalPlugins\objPad.py:51
 msgid "Scan mode"
 msgstr "扫描模式"
 
-#. Translators: one of the object arrow modes.
-#: addon\globalPlugins\objPad.py:105
-msgid "Normal mode"
-msgstr "正常模式"
+#. Translators: This is the label for the ObjPad settings panel.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: addon\globalPlugins\objPad.py:75 buildVars.py:21
+msgid "ObjPad"
+msgstr "简易导航器"
+
+#. Translators: label for the list of ObjPad modes to switch between in ObjPad settings.
+#: addon\globalPlugins\objPad.py:82
+msgid "&Navigation Modes to Cycle Through"
+msgstr "循环切换时包含的导航模式(&N)"
+
+#: addon\globalPlugins\objPad.py:112
+msgid "At least one ObjPad mode must be selected in order to switch from normal mode to another mode."
+msgstr "必须至少选择一个导航模式才能从正常模式切换到另一种模式。"
+
+#. Translators: title of the warning shown when all ObjPad modes are unchecked
+#. in ObjPad settings.
+#: addon\globalPlugins\objPad.py:124
+msgid "Warning"
+msgstr "警告"
+
+#. Translators: Same as the label for the list of ObjPad modes in ObjPad settings,
+#. but without keyboard accelerator (& character).
+#: addon\globalPlugins\objPad.py:137
+msgid "Navigation Modes to Cycle Through"
+msgstr "循环切换时包含的导航模式"
+
+#. Translators: input help mode message for ObjPad toggle command.
+#: addon\globalPlugins\objPad.py:170
+msgid "Switches between normal mode and ObjPad modes selected in ObjPad settings"
+msgstr "在正常模式和简易导航器设置中选择的导航模式之间切换"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
@@ -59,6 +80,6 @@ msgstr "通过按单键执行各种 NVDA 对象命令，包括导航等操作。
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid "* NVDA 2026.3 or later is required."
-msgstr "* 需要 NVDA 2026.3 或更高版本。"
+msgid "* Added \"Navigation Modes to Cycle Through\" setting to ObjPad settings to choose which modes Control+NVDA+Tab cycles through. Normal mode is always included."
+msgstr "* 在简易导航器设置中添加了“循环切换时包含的导航模式”设置，以选择Ctrl+NVDA+Tab循环切换的模式。正常模式始终包含在内。"
 

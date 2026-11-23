@@ -6,7 +6,7 @@ Tek bir tuşa basarak çeşitli NVDA nesne komutlarını gerçekleştirin; bunla
 
 ## Komutlar
 
-* Kontrol+NVDA+Sekme: Ok tuşu modlarında adım adım ilerler (ayrıntılar için aşağıya bakın).
+* Control+NVDA+Sekme: Nesne Dolaşımı ayarlarında seçilen Dolaşım modları arasında geçiş yapar (ayrıntılar için aşağıya bakın).
 
 ## Ok tuşu kipleri
 
@@ -45,7 +45,10 @@ Tarama modu aktifken:
 
 ## Nesne Dolaşımı ayarları
 
-NVDA, dokunmatik tarama kipinde kullanılmak üzere mevcut tarama kipi dolaşım öğelerini yapılandırmak için özel bir ayar içerir. Dokunmatik özellikli bir bilgisayara NVDA yüklendiğinde, bu ayar tarama Kipi ayarlarında bulunabilir. Dokunmatik olmayan cihazlarda veya taşınabilir NVDA sürümlerinde, Nesne Dolaşımı bu aynı ayarı Nesne Dolaşımı ayarları arayüzü (NVDA ayarları ekranının bir parçası) aracılığıyla sunar.
+Nesne Dolaşımı ayarları (NVDA ayarları ekranının bir parçası) aşağıdaki ayarları içerir:
+
+* Geçiş Yapılacak Dolaşım Modları: Control+NVDA+Sekme tuş kombinasyonunun hangi modlar arasında geçiş yapacağını seçer (nesne dolaşım, göz atma modu, tarama modu). Normal mod her zaman dahildir. Tüm modlar varsayılan olarak seçilidir. En az bir modun seçili kalması gerekir; sonuncusunun işaretini kaldırırsanız, Nesne Dolaşımı sizi uyarır ve işaretli kalmasını sağlar.
+* Göz atma modu dolaşım öğeleri: Göz atma modunun hangi öğeler arasında geçiş yapacağını seçin. Nesne Dolaşımı bu ayarı yalnızca dokunmatik ekranı olmayan bilgisayarlarda ve NVDA'nın taşınabilir sürümlerinde gösterir; aksi takdirde, bu ayar NVDA'nın kendi Tarama Kipi ayarlarında bulunur.
 
 Her eklenti sürümü arasında yapılan değişikliklerin listesi için [eklenti sürümlerine ait Sürüm Geçmişi][1] belgesine bakın.
 
