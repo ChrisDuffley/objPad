@@ -23,7 +23,7 @@ addon_info = AddonInfo(
 	# Translators: Long description to be shown for this add-on on add-on information from add-on store
 	addon_description=_("""Perform various NVDA object commands by pressing a single key, including navigation and more."""),
 	# version
-	addon_version="26.11",
+	addon_version="26.12",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
 	addon_changelog=_("""* Added "Navigation Modes to Cycle Through" setting to ObjPad settings to choose which modes Control+NVDA+Tab cycles through. Normal mode is always included."""),
